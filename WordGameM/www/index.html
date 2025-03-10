@@ -1,0 +1,41 @@
+<!-- WordGameM\www\index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My English App</title>
+    <!-- Basic styling or link to an external CSS file -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .word-card {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      .hidden {
+        display: none;
+      }
+      .options button {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="word-card">
+      <h1 id="word"></h1>
+      <p id="transcription"></p>
+
+      <!-- Hidden meaning by default -->
+      <div id="meaning" class="hidden"></div>
+      <button id="showMeaningBtn">Show Meaning</button>
+
+      <div id="options" class="options"></div>
+    </div>
+
+    <!-- Your main JS file -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
