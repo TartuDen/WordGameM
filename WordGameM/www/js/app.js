@@ -1,51 +1,6 @@
 // WordGameM\www\js\app.js
-const englishWords = [
-    {
-      id: 1,
-      word: "world",
-      type: "noun",
-      transcription: "/wɜːrld/", // Example phonetic transcription
-      synonyms: ["earth", "globe", "planet", "sphere"],
-      meaning: [
-        "the earth, together with all of its countries and peoples."
-      ],
-      rusTranslations: ["мир"]
-    },
-    {
-      id: 2,
-      word: "happy",
-      type: "adjective",
-      transcription: "/ˈhæpi/",
-      synonyms: ["joyful", "cheerful", "content", "delighted"],
-      meaning: [
-        "feeling or showing pleasure or contentment"
-      ],
-      rusTranslations: ["счастливый"]
-    },
-    {
-      id: 3,
-      word: "love",
-      type: "noun",
-      transcription: "/lʌv/",
-      synonyms: ["affection", "adoration", "fondness", "devotion"],
-      meaning: [
-        "an intense feeling of deep affection",
-        "a great interest and pleasure in something"
-      ],
-      rusTranslations: ["любовь"]
-    },
-    {
-      id: 4,
-      word: "book",
-      type: "noun",
-      transcription: "/bʊk/",
-      synonyms: ["volume", "tome", "publication", "work"],
-      meaning: [
-        "a written or printed work consisting of pages glued or sewn together along one side and bound in covers"
-      ],
-      rusTranslations: ["книга"]
-    }
-  ];
+import { englishList } from "./words.js";
+const englishWords = englishList;
   
 
   let currentIndex = 0;
