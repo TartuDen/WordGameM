@@ -1,4 +1,5 @@
 /* WordGameM\www\css\index.css */
+
 /* Reset or base styles */
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -6,12 +7,13 @@
   }
   
   body {
+    /* Added 'Noto Sans' to help with special characters/IPA */
+    font-family: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
     -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
     background-color: #E4E4E4;
     background-image: linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
-    font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
     font-size: 16px; /* Larger font for kids */
     margin: 0;
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
@@ -51,6 +53,13 @@
     margin-bottom: 20px;
   }
   
+  /* Synonyms text (hidden by default) */
+  #synonyms {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
   /* Show/hide class */
   .hidden {
     display: none;
@@ -69,6 +78,21 @@
   }
   .meaning-btn:hover {
     background-color: #FF9500;
+  }
+  
+  /* A second button style for synonyms, or reuse meaning-btn if you like */
+  .synonyms-btn {
+    background-color: #00B3FF;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .synonyms-btn:hover {
+    background-color: #008CDA;
   }
   
   /* Options container & option buttons */

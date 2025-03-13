@@ -2,10 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <!-- Helps with mobile scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My English App</title>
+
+    <!-- Include a font that supports IPA characters (for transcription) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link to your external CSS -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
+
   <body>
     <div class="word-card">
       <h1 id="word"></h1>
@@ -14,6 +23,10 @@
       <!-- Hidden meaning by default -->
       <div id="meaning" class="hidden"></div>
       <button id="showMeaningBtn" class="meaning-btn">Show Meaning</button>
+
+      <!-- Hidden synonyms by default -->
+      <div id="synonyms" class="hidden"></div>
+      <button id="showSynonymsBtn" class="synonyms-btn">Show Synonyms</button>
 
       <div id="options" class="options"></div>
     </div>

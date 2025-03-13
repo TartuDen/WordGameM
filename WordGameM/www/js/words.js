@@ -1,7 +1,6 @@
 // WordGameM\www\js\words.js
 
 export const englishList = [
-  // 1. Your existing entries:
   {
     id: 1,
     word: "world",

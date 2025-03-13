@@ -3,7 +3,7 @@ import { englishList } from "./words.js";
 const englishWords = englishList;
 
 /**
- * We'll store the current word in a variable (instead of an index).
+ * We'll store the current word in a variable.
  */
 let currentWord = null;
 
@@ -14,13 +14,24 @@ function showWord() {
   currentWord = getRandomWord();
   if (!currentWord) return;
 
+  // Show the main word
   document.getElementById("word").textContent = currentWord.word;
+  // Show the transcription
   document.getElementById("transcription").textContent = currentWord.transcription;
 
-  // Hide the meaning by default
+  // Hide meaning by default
   const meaningEl = document.getElementById("meaning");
   meaningEl.textContent = currentWord.meaning.join("; ");
   meaningEl.classList.add("hidden");
+
+  // Hide synonyms by default
+  const synonymsEl = document.getElementById("synonyms");
+  if (currentWord.synonyms) {
+    synonymsEl.textContent = "Synonyms: " + currentWord.synonyms.join(", ");
+  } else {
+    synonymsEl.textContent = "No synonyms available.";
+  }
+  synonymsEl.classList.add("hidden");
 
   // Generate multiple-choice buttons
   generateOptions(currentWord);
@@ -109,15 +120,44 @@ function shuffleArray(arr) {
 }
 
 /**
- * Show/hide the meaning when the button is clicked.
+ * Show/hide the meaning or synonyms when the corresponding buttons are clicked.
  */
 document.addEventListener("DOMContentLoaded", () => {
+  // Meaning toggle
   document.getElementById("showMeaningBtn").addEventListener("click", () => {
     document.getElementById("meaning").classList.toggle("hidden");
   });
 
+  // Synonyms toggle
+  document.getElementById("showSynonymsBtn").addEventListener("click", () => {
+    document.getElementById("synonyms").classList.toggle("hidden");
+  });
+
   // Start with the first random word
   showWord();
+
+  // Pull-to-refresh logic (simple version)
+  let startY = null;
+  document.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 1) {
+      // Record initial touch
+      startY = e.touches[0].clientY;
+    }
+  });
+
+  document.addEventListener("touchend", (e) => {
+    if (startY !== null && e.changedTouches.length === 1) {
+      const endY = e.changedTouches[0].clientY;
+      const distance = endY - startY;
+
+      // Check if the user pulled down 100px from top of the page
+      if (distance > 100 && window.scrollY === 0) {
+        // Refresh the page
+        window.location.reload();
+      }
+    }
+    startY = null;
+  });
 });
 
 /*============================================================
