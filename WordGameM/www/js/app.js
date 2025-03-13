@@ -1,79 +1,106 @@
 // WordGameM\www\js\app.js
 import { englishList } from "./words.js";
 const englishWords = englishList;
-  
 
-  let currentIndex = 0;
+/**
+ * We'll store the current word in a variable (instead of an index).
+ */
+let currentWord = null;
 
+/**
+ * Displays a new random word from the list.
+ */
 function showWord() {
-  const wordObj = englishWords[currentIndex];
+  currentWord = getRandomWord();
+  if (!currentWord) return;
 
-  document.getElementById('word').textContent = wordObj.word;
-  document.getElementById('transcription').textContent = wordObj.transcription;
-  // Hide the meaning initially
-  document.getElementById('meaning').classList.add('hidden');
-  document.getElementById('meaning').textContent = wordObj.meaning.join('; ');
+  document.getElementById("word").textContent = currentWord.word;
+  document.getElementById("transcription").textContent = currentWord.transcription;
 
-  // Generate random options
-  generateOptions(wordObj);
+  // Hide the meaning by default
+  const meaningEl = document.getElementById("meaning");
+  meaningEl.textContent = currentWord.meaning.join("; ");
+  meaningEl.classList.add("hidden");
+
+  // Generate multiple-choice buttons
+  generateOptions(currentWord);
 }
 
+/**
+ * Generates multiple-choice options for the current word.
+ */
 function generateOptions(wordObj) {
-  const optionsContainer = document.getElementById('options');
-  optionsContainer.innerHTML = '';
+  const optionsContainer = document.getElementById("options");
+  optionsContainer.innerHTML = "";
 
-  // Correct translation
+  // The correct translation is the first in rusTranslations
   const correctAnswer = wordObj.rusTranslations[0];
 
-  // Gather some random translations from other words (same type ideally)
+  // Get random wrong answers from words of the same type
   const wrongAnswers = getRandomTranslations(wordObj.type, correctAnswer);
 
-  // Combine correct answer and wrong answers
+  // Combine and shuffle
   const allAnswers = [correctAnswer, ...wrongAnswers];
-
-  // Shuffle them
   shuffleArray(allAnswers);
 
   // Create buttons
-  allAnswers.forEach(answer => {
-    const btn = document.createElement('button');
+  allAnswers.forEach((answer) => {
+    const btn = document.createElement("button");
     btn.textContent = answer;
-    btn.addEventListener('click', () => checkAnswer(answer, correctAnswer));
+    btn.classList.add("option-btn");
+    btn.addEventListener("click", () => checkAnswer(answer, correctAnswer));
     optionsContainer.appendChild(btn);
   });
 }
 
+/**
+ * Check the player's answer.
+ */
 function checkAnswer(selected, correct) {
   if (selected === correct) {
-    alert('Correct!');
-    // Move to next word
-    currentIndex = (currentIndex + 1) % englishWords.length;
-    showWord();
+    showToast("Correct!");
+    // Hide the toast after 1 second, then show the next random word
+    setTimeout(() => {
+      hideToast();
+      showWord();
+    }, 1000);
   } else {
-    alert('Incorrect. Try again!');
+    alert("Incorrect. Try again!");
   }
 }
 
-// Helper to get random translations from words of the same type
+/**
+ * Returns a random word from the entire englishWords array.
+ */
+function getRandomWord() {
+  const randIndex = Math.floor(Math.random() * englishWords.length);
+  return englishWords[randIndex];
+}
+
+/**
+ * Gets 2 random wrong translations from words of the same 'type'.
+ */
 function getRandomTranslations(type, exclude) {
-  // Filter the words that have the same type
-  const sameTypeWords = englishWords.filter(word => word.type === type);
+  // Filter words by same type
+  const sameTypeWords = englishWords.filter((word) => word.type === type);
 
   // Gather all possible rusTranslations from them
   let possibleTranslations = [];
-  sameTypeWords.forEach(w => {
+  sameTypeWords.forEach((w) => {
     possibleTranslations = possibleTranslations.concat(w.rusTranslations);
   });
 
   // Remove the correct answer
-  possibleTranslations = possibleTranslations.filter(t => t !== exclude);
+  possibleTranslations = possibleTranslations.filter((t) => t !== exclude);
 
-  // Shuffle and pick some random ones (e.g., pick 2 or 3)
+  // Shuffle and pick 2 random
   shuffleArray(possibleTranslations);
-  return possibleTranslations.slice(0, 2); // pick 2 random wrong options
+  return possibleTranslations.slice(0, 2);
 }
 
-// Simple array shuffle function
+/**
+ * Fisher-Yates shuffle
+ */
 function shuffleArray(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -81,10 +108,40 @@ function shuffleArray(arr) {
   }
 }
 
-// Initialize
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('showMeaningBtn').addEventListener('click', () => {
-    document.getElementById('meaning').classList.toggle('hidden');
+/**
+ * Show/hide the meaning when the button is clicked.
+ */
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("showMeaningBtn").addEventListener("click", () => {
+    document.getElementById("meaning").classList.toggle("hidden");
   });
+
+  // Start with the first random word
   showWord();
 });
+
+/*============================================================
+  TOAST FUNCTIONALITY
+============================================================*/
+function showToast(message) {
+  const toast = document.getElementById("resultToast");
+  const toastMessage = document.getElementById("toastMessage");
+
+  toastMessage.textContent = message;
+
+  // Reveal the toast: remove .hidden, add .show (for CSS transitions)
+  toast.classList.remove("hidden");
+  toast.classList.add("show");
+}
+
+function hideToast() {
+  const toast = document.getElementById("resultToast");
+
+  // Remove the .show class to let the transition animate
+  toast.classList.remove("show");
+
+  // After transition completes, add .hidden to remove it from layout
+  setTimeout(() => {
+    toast.classList.add("hidden");
+  }, 300); // match the transition time from CSS
+}
