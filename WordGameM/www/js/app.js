@@ -38,46 +38,69 @@ function showWord() {
 }
 
 /**
- * Generates multiple-choice options for the current word.
+ * Generates multiple-choice options:
+ *  1) One button for the "correct" answer that contains all of the current word's translations.
+ *  2) Two "wrong" buttons, each containing all translations from a different random word (same type).
  */
 function generateOptions(wordObj) {
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
 
-  // The correct translation is the first in rusTranslations
-  const correctAnswer = wordObj.rusTranslations[0];
+  // 1) Create the "correct" option object
+  const correctOption = {
+    translations: wordObj.rusTranslations,  // all correct translations in one button
+    isCorrect: true,
+  };
 
-  // Get random wrong answers from words of the same type
-  const wrongAnswers = getRandomTranslations(wordObj.type, correctAnswer);
+  // 2) Get 2 random "wrong" words and create an option object for each
+  const wrongWordObjects = getRandomWrongWords(wordObj.type, wordObj.id, 2);
+  const wrongOptions = wrongWordObjects.map((w) => ({
+    translations: w.rusTranslations,
+    isCorrect: false,
+  }));
 
-  // Combine and shuffle
-  const allAnswers = [correctAnswer, ...wrongAnswers];
-  shuffleArray(allAnswers);
+  // 3) Combine correct + wrong
+  let allOptions = [correctOption, ...wrongOptions];
 
-  // Create buttons
-  allAnswers.forEach((answer) => {
+  // 4) Shuffle
+  shuffleArray(allOptions);
+
+  // 5) For each option, create a single button
+  allOptions.forEach((option) => {
     const btn = document.createElement("button");
-    btn.textContent = answer;
+    // Join each translation with \n so it appears on separate lines
+    btn.textContent = option.translations.join("\n");
     btn.classList.add("option-btn");
-    btn.addEventListener("click", () => checkAnswer(answer, correctAnswer));
+
+    // When clicked, check correct or not
+    btn.addEventListener("click", () => {
+      if (option.isCorrect) {
+        showToast("Correct!");
+        // Hide the toast after 1 second, then show the next random word
+        setTimeout(() => {
+          hideToast();
+          showWord();
+        }, 1000);
+      } else {
+        alert("Incorrect. Try again!");
+      }
+    });
+
     optionsContainer.appendChild(btn);
   });
 }
 
 /**
- * Check the player's answer.
+ * Finds 'count' random words of the same type, excluding the current word's id.
  */
-function checkAnswer(selected, correct) {
-  if (selected === correct) {
-    showToast("Correct!");
-    // Hide the toast after 1 second, then show the next random word
-    setTimeout(() => {
-      hideToast();
-      showWord();
-    }, 500);
-  } else {
-    alert("Incorrect. Try again!");
-  }
+function getRandomWrongWords(type, excludeId, count) {
+  // Filter out the current word
+  const candidates = englishWords.filter(
+    (word) => word.type === type && word.id !== excludeId
+  );
+
+  shuffleArray(candidates);
+  return candidates.slice(0, count);
 }
 
 /**
@@ -86,27 +109,6 @@ function checkAnswer(selected, correct) {
 function getRandomWord() {
   const randIndex = Math.floor(Math.random() * englishWords.length);
   return englishWords[randIndex];
-}
-
-/**
- * Gets 2 random wrong translations from words of the same 'type'.
- */
-function getRandomTranslations(type, exclude) {
-  // Filter words by same type
-  const sameTypeWords = englishWords.filter((word) => word.type === type);
-
-  // Gather all possible rusTranslations from them
-  let possibleTranslations = [];
-  sameTypeWords.forEach((w) => {
-    possibleTranslations = possibleTranslations.concat(w.rusTranslations);
-  });
-
-  // Remove the correct answer
-  possibleTranslations = possibleTranslations.filter((t) => t !== exclude);
-
-  // Shuffle and pick 2 random
-  shuffleArray(possibleTranslations);
-  return possibleTranslations.slice(0, 2);
 }
 
 /**

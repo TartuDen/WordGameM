@@ -2,175 +2,179 @@
 
 /* Reset or base styles */
 * {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    box-sizing: border-box;
-  }
-  
-  body {
-    /* Added 'Noto Sans' to help with special characters/IPA */
-    font-family: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
-    -webkit-touch-callout: none;
-    -webkit-text-size-adjust: none;
-    -webkit-user-select: none;
-    background-color: #E4E4E4;
-    background-image: linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
-    font-size: 16px; /* Larger font for kids */
-    margin: 0;
-    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
-             env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
-    text-transform: uppercase;
-    width: 100%;
-    height: 100vh;
-  }
-  
-  /* A container/card for the current word */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+
+body {
+  /* Added 'Noto Sans' to help with special characters/IPA */
+  font-family: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  background-color: #E4E4E4;
+  background-image: linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
+  font-size: 16px; /* Larger font for kids */
+  margin: 0;
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+           env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  text-transform: uppercase;
+  width: 100%;
+  height: 100vh;
+}
+
+/* A container/card for the current word */
+.word-card {
+  background: #FFF2C6;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#word {
+  font-size: 2rem;
+  color: #FF5733;
+  margin-bottom: 10px;
+}
+
+#transcription {
+  font-size: 1.2rem;
+  text-transform: none; /* This overrides the uppercase setting */
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Meaning text (hidden by default) */
+#meaning {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Synonyms text (hidden by default) */
+#synonyms {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Show/hide class */
+.hidden {
+  display: none;
+}
+
+/* Button for showing meaning */
+.meaning-btn {
+  background-color: #FFB300;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.meaning-btn:hover {
+  background-color: #FF9500;
+}
+
+/* A second button style for synonyms, or reuse meaning-btn if you like */
+.synonyms-btn {
+  background-color: #00B3FF;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.synonyms-btn:hover {
+  background-color: #008CDA;
+}
+
+/* Options container & option buttons */
+.options {
+  margin-top: 20px;
+}
+
+.option-btn {
+  background-color: #FF5C5C;
+  color: #fff;
+  font-size: 1.5rem;      /* Increase font size */
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 15px 20px;     /* Increase padding for a larger button */
+  cursor: pointer;
+  white-space: pre-line;  /* Ensures newlines (\n) are rendered */
+  width: 70%;             /* Adjusts the button width relative to its container */
+  min-height: 50px;       /* Ensures a minimum height */
+}
+
+.option-btn:hover {
+  background-color: #ff4444;
+}
+
+/* Toast styling (non-blocking) */
+.toast {
+  position: fixed;
+  bottom: 20px; /* near the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+
+  /* Initially hidden, including 0 opacity so user sees fade-in */
+  opacity: 0;
+  pointer-events: none; /* let clicks pass through if desired */
+
+  transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out;
+}
+
+/* When the toast is shown, slide it up slightly and fade in */
+.toast.show {
+  opacity: 1;
+  pointer-events: auto; /* if you want it to catch clicks */
+  bottom: 40px; /* moves upward for a subtle effect */
+}
+
+.toast-content {
+  background-color: #1CB841;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@keyframes fade {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* Example blinking or fade effect if desired */
+.blink {
+  animation: fade 1s infinite;
+}
+
+/* Responsive design for bigger screens */
+@media screen and (min-width: 768px) {
   .word-card {
-    background: #FFF2C6;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 400px;
-    margin: 40px auto;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 600px;
   }
-  
-  #word {
-    font-size: 2rem;
-    color: #FF5733;
-    margin-bottom: 10px;
-  }
-  
-  #transcription {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
-  /* Meaning text (hidden by default) */
-  #meaning {
-    font-size: 1.1rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Synonyms text (hidden by default) */
-  #synonyms {
-    font-size: 1rem;
-    color: #444;
-    margin-bottom: 20px;
-  }
-  
-  /* Show/hide class */
-  .hidden {
-    display: none;
-  }
-  
-  /* Button for showing meaning */
-  .meaning-btn {
-    background-color: #FFB300;
-    color: #fff;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  .meaning-btn:hover {
-    background-color: #FF9500;
-  }
-  
-  /* A second button style for synonyms, or reuse meaning-btn if you like */
-  .synonyms-btn {
-    background-color: #00B3FF;
-    color: #fff;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  .synonyms-btn:hover {
-    background-color: #008CDA;
-  }
-  
-  /* Options container & option buttons */
-  .options {
-    margin-top: 20px;
-  }
-  
-  .option-btn {
-    background-color: #FF5C5C;
-    color: #fff;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    margin: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  .option-btn:hover {
-    background-color: #ff4444;
-  }
-  
-  /* Toast styling (non-blocking) */
-  .toast {
-    position: fixed;
-    bottom: 20px; /* near the bottom */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
-  
-    /* Initially hidden, including 0 opacity so user sees fade-in */
-    opacity: 0;
-    pointer-events: none; /* let clicks pass through if desired */
-  
-    transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out;
-  }
-  
-  /* When the toast is shown, slide it up slightly and fade in */
-  .toast.show {
-    opacity: 1;
-    pointer-events: auto; /* if you want it to catch clicks */
-    bottom: 40px; /* moves upward for a subtle effect */
-  }
-  
   .toast-content {
-    background-color: #1CB841;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1rem;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-size: 1.2rem;
   }
-  
-  @keyframes fade {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+}
+
+/* Dark mode preference */
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
   }
-  
-  /* Example blinking or fade effect if desired */
-  .blink {
-    animation: fade 1s infinite;
-  }
-  
-  /* Responsive design for bigger screens */
-  @media screen and (min-width: 768px) {
-    .word-card {
-      max-width: 600px;
-    }
-    .toast-content {
-      font-size: 1.2rem;
-    }
-  }
-  
-  /* Dark mode preference */
-  @media screen and (prefers-color-scheme: dark) {
-    body {
-      background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
-    }
-  }
-  
+}
