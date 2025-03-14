@@ -10387,7 +10387,7 @@ export const englishList = [
     transcription: "/ˈɛər.pɔːrt/",
     synonyms: ["aerodrome"],
     meaning:
-      "a complex for the arrival, departure, and maintenance of aircraft",
+      ["a complex for the arrival, departure, and maintenance of aircraft"],
     rusTranslations: ["аэропорт"],
     vocabulary:["general"]
   },
@@ -10458,7 +10458,7 @@ export const englishList = [
     transcription: "/ˈæŋ.ɡəl/",
     synonyms: ["corner", "aspect"],
     meaning:
-      "the space (usually measured in degrees) between two intersecting lines",
+      ["the space (usually measured in degrees) between two intersecting lines"],
     rusTranslations: ["угол"],
     vocabulary:["general"]
   },
@@ -10599,7 +10599,7 @@ export const englishList = [
     transcription: "/əˈsaɪn.mənt/",
     synonyms: ["task", "duty"],
     meaning:
-      "a piece of work allocated to someone as part of a job or course of study",
+      ["a piece of work allocated to someone as part of a job or course of study"],
     rusTranslations: ["задание"],
     vocabulary:["general"]
   },
@@ -10690,7 +10690,7 @@ export const englishList = [
     transcription: "/ˈbæl.əns/",
     synonyms: ["equilibrium", "stability"],
     meaning:
-      "an even distribution of weight enabling someone or something to remain upright",
+      ["an even distribution of weight enabling someone or something to remain upright"],
     rusTranslations: ["баланс"],
     vocabulary:["general"]
   },
@@ -10831,7 +10831,7 @@ export const englishList = [
     transcription: "/brɪdʒ/",
     synonyms: ["span", "viaduct"],
     meaning:
-      "a structure built to span a physical obstacle, such as a body of water",
+      ["a structure built to span a physical obstacle, such as a body of water"],
     rusTranslations: ["мост"],
     vocabulary:["general"]
   },
@@ -10932,7 +10932,7 @@ export const englishList = [
     transcription: "/ˈkæp.ɪ.təl.ɪ.zəm/",
     synonyms: ["free enterprise"],
     meaning:
-      "an economic system in which private individuals own property and businesses",
+      ["an economic system in which private individuals own property and businesses"],
     rusTranslations: ["капитализм"],
     vocabulary:["general"]
   },
@@ -11093,7 +11093,7 @@ export const englishList = [
     transcription: "/ˈklaɪ.mət/",
     synonyms: ["weather", "atmosphere"],
     meaning:
-      "the general weather conditions prevailing in an area over a long period",
+      ["the general weather conditions prevailing in an area over a long period"],
     rusTranslations: ["климат"],
     vocabulary:["general"]
   },
@@ -11144,7 +11144,7 @@ export const englishList = [
     transcription: "/klaʊd/",
     synonyms: ["mist", "vapor"],
     meaning:
-      "a visible mass of condensed water vapor floating in the atmosphere",
+      ["a visible mass of condensed water vapor floating in the atmosphere"],
     rusTranslations: ["облако"],
     vocabulary:["general"]
   },
@@ -11165,7 +11165,7 @@ export const englishList = [
     transcription: "/koʊl/",
     synonyms: ["carbon"],
     meaning:
-      "a black or dark brown combustible mineral substance used as a fuel",
+      ["a black or dark brown combustible mineral substance used as a fuel"],
     rusTranslations: ["уголь"],
     vocabulary:["general"]
   },
@@ -11536,7 +11536,7 @@ export const englishList = [
     transcription: "/kəˈnɛk.ʃən/",
     synonyms: ["link", "relation"],
     meaning:
-      "a relationship in which a person or thing is associated with something else",
+      ["a relationship in which a person or thing is associated with something else"],
     rusTranslations: ["связь", "соединение"],
     vocabulary:["general"]
   },
@@ -11747,7 +11747,7 @@ export const englishList = [
     transcription: "/ˌkɔːr.pəˈreɪ.ʃən/",
     synonyms: ["company", "enterprise"],
     meaning:
-      "a large business or group of businesses authorized to act as a single entity",
+      ["a large business or group of businesses authorized to act as a single entity"],
     rusTranslations: ["корпорация"],
     vocabulary:["general"]
   },
@@ -11768,7 +11768,7 @@ export const englishList = [
     transcription: "/ˈkɒs.tjuːm/",
     synonyms: ["attire", "garb"],
     meaning:
-      "a set of clothes in a style typical of a particular period or culture",
+      ["a set of clothes in a style typical of a particular period or culture"],
     rusTranslations: ["костюм"],
     vocabulary:["general"]
   },
@@ -11839,7 +11839,7 @@ export const englishList = [
     transcription: "/ˈkɔːrt.ʃɪp/",
     synonyms: ["wooing", "romance"],
     meaning:
-      "the period during which a couple develops a romantic relationship",
+      ["the period during which a couple develops a romantic relationship"],
     rusTranslations: ["сватовство", "ухаживание"],
     vocabulary:["general"]
   },
@@ -12110,7 +12110,7 @@ export const englishList = [
     transcription: "/dɪˈzaɪn/",
     synonyms: ["plan", "blueprint"],
     meaning:
-      "a plan or drawing produced to show the look and function of something",
+      ["a plan or drawing produced to show the look and function of something"],
     rusTranslations: ["дизайн", "проект"],
     vocabulary:["general"]
   },
@@ -12341,7 +12341,7 @@ export const englishList = [
     transcription: "/ɪkˈʃeɪndʒ/",
     synonyms: ["swap", "trade"],
     meaning:
-      "to give something and receive something of a similar kind in return",
+      ["to give something and receive something of a similar kind in return"],
     rusTranslations: ["обменивать"],
     vocabulary:["general"]
   },
@@ -12642,7 +12642,7 @@ export const englishList = [
     transcription: "/fæn/",
     synonyms: ["admirer", "supporter"],
     meaning:
-      "a person who is very enthusiastic about a particular sport, art, or celebrity",
+      ["a person who is very enthusiastic about a particular sport, art, or celebrity"],
     rusTranslations: ["фанат"],
     vocabulary:["general"]
   },
@@ -12663,7 +12663,7 @@ export const englishList = [
     transcription: "/ˈfæʃ.ən/",
     synonyms: ["style", "trend"],
     meaning:
-      "a popular trend, especially in styles of dress and ornament or manners of behavior",
+      ["a popular trend, especially in styles of dress and ornament or manners of behavior"],
     rusTranslations: ["мода"],
     vocabulary:["general"]
   },
@@ -12744,7 +12744,7 @@ export const englishList = [
     transcription: "/ˈfaɪ.bər/",
     synonyms: ["filament", "thread"],
     meaning:
-      "a thread or filament from which a vegetable tissue, mineral substance, or textile is formed",
+      ["a thread or filament from which a vegetable tissue, mineral substance, or textile is formed"],
     rusTranslations: ["волокно"],
     vocabulary:["general"]
   },
@@ -12795,7 +12795,7 @@ export const englishList = [
     transcription: "/ˈfaɪ.næns/",
     synonyms: ["funding", "investment"],
     meaning:
-      "the management of large amounts of money, especially by governments or large companies",
+      ["the management of large amounts of money, especially by governments or large companies"],
     rusTranslations: ["финансы"],
     vocabulary:["general"]
   },
@@ -12816,7 +12816,7 @@ export const englishList = [
     transcription: "/ˈfɪl.tər/",
     synonyms: ["strain", "sieve"],
     meaning:
-      "to remove impurities by passing a liquid or gas through a porous material",
+      ["to remove impurities by passing a liquid or gas through a porous material"],
     rusTranslations: ["фильтровать"],
     vocabulary:["general"]
   },
@@ -12857,7 +12857,7 @@ export const englishList = [
     transcription: "/fleɪm/",
     synonyms: ["fire", "blaze"],
     meaning:
-      "a hot, glowing body of ignited gas that is generated by something on fire",
+      ["a hot, glowing body of ignited gas that is generated by something on fire"],
     rusTranslations: ["пламя"],
     vocabulary:["general"]
   },
@@ -12928,7 +12928,7 @@ export const englishList = [
     transcription: "/flʌd/",
     synonyms: ["deluge", "inundation"],
     meaning:
-      "an overflowing of a large amount of water beyond its normal confines",
+      ["an overflowing of a large amount of water beyond its normal confines"],
     rusTranslations: ["наводнение"],
     vocabulary:["general"]
   },
@@ -13019,7 +13019,7 @@ export const englishList = [
     transcription: "/ˈfʊt.ɪdʒ/",
     synonyms: ["video", "film"],
     meaning:
-      "recorded film material, especially that which forms part of a movie",
+      ["recorded film material, especially that which forms part of a movie"],
     rusTranslations: ["материал", "съёмка"],
     vocabulary:["general"]
   },
@@ -13050,7 +13050,7 @@ export const englishList = [
     transcription: "/ˈfɔːr.kæst/",
     synonyms: ["prediction", "projection"],
     meaning:
-      "a prediction or estimate of future events, especially coming weather or a financial trend",
+      ["a prediction or estimate of future events, especially coming weather or a financial trend"],
     rusTranslations: ["прогноз"],
     vocabulary:["general"]
   },
@@ -13201,7 +13201,7 @@ export const englishList = [
     transcription: "/ˈfræn.tʃaɪz/",
     synonyms: ["chain", "license"],
     meaning:
-      "an authorization granted by a company to sell its products in a particular area",
+      ["an authorization granted by a company to sell its products in a particular area"],
     rusTranslations: ["франшиза"],
     vocabulary:["general"]
   },
@@ -13292,7 +13292,7 @@ export const englishList = [
     transcription: "/frɒst/",
     synonyms: ["hoar", "ice"],
     meaning:
-      "a deposit of small white ice crystals formed on the ground or other surfaces",
+      ["a deposit of small white ice crystals formed on the ground or other surfaces"],
     rusTranslations: ["иней", "мороз"],
     vocabulary:["general"]
   },
@@ -13313,7 +13313,7 @@ export const englishList = [
     transcription: "/frʌˈstreɪ.ʃən/",
     synonyms: ["discontent", "exasperation"],
     meaning:
-      "the feeling of being upset or annoyed as a result of inability to change or achieve something",
+      ["the feeling of being upset or annoyed as a result of inability to change or achieve something"],
     rusTranslations: ["разочарование"],
     vocabulary:["general"]
   },
@@ -13324,7 +13324,7 @@ export const englishList = [
     transcription: "/fjuːl/",
     synonyms: ["energy", "power"],
     meaning:
-      "a material such as coal, gas, or oil that is burned to produce heat or power",
+      ["a material such as coal, gas, or oil that is burned to produce heat or power"],
     rusTranslations: ["топливо"],
     vocabulary:["general"]
   },
@@ -13345,7 +13345,7 @@ export const englishList = [
     transcription: "/ˈfʌŋk.ʃən/",
     synonyms: ["role", "operation"],
     meaning:
-      "an activity or purpose natural to or intended for a person or thing",
+      ["an activity or purpose natural to or intended for a person or thing"],
     rusTranslations: ["функция"],
     vocabulary:["general"]
   },
@@ -13366,7 +13366,7 @@ export const englishList = [
     transcription: "/ˈfɜː.nɪ.tʃər/",
     synonyms: ["fittings", "household items"],
     meaning:
-      "the movable articles that are used to make a room suitable for living or working",
+      ["the movable articles that are used to make a room suitable for living or working"],
     rusTranslations: ["мебель"],
     vocabulary:["general"]
   },
@@ -13567,7 +13567,7 @@ export const englishList = [
     transcription: "/ɡræs/",
     synonyms: ["sod", "turf"],
     meaning:
-      "vegetation consisting of typically short plants with long, narrow leaves",
+      ["vegetation consisting of typically short plants with long, narrow leaves"],
     rusTranslations: ["трава"],
     vocabulary:["general"]
   },
@@ -13638,7 +13638,7 @@ export const englishList = [
     transcription: "/ˈhæb.ɪt/",
     synonyms: ["routine", "custom"],
     meaning:
-      "a regular tendency or practice, especially one that is hard to give up",
+      ["a regular tendency or practice, especially one that is hard to give up"],
     rusTranslations: ["привычка"],
     vocabulary:["general"]
   },
@@ -13729,7 +13729,7 @@ export const englishList = [
     transcription: "/ˈher.ɪ.tɪdʒ/",
     synonyms: ["legacy", "inheritance"],
     meaning:
-      "valued objects and qualities such as cultural traditions passed down",
+      ["valued objects and qualities such as cultural traditions passed down"],
     rusTranslations: ["наследие"],
     vocabulary:["general"]
   },
@@ -13740,7 +13740,7 @@ export const englishList = [
     transcription: "/ˈhɛz.ɪ.teɪt/",
     synonyms: ["pause", "waver"],
     meaning:
-      "to pause before saying or doing something, especially due to uncertainty",
+      ["to pause before saying or doing something, especially due to uncertainty"],
     rusTranslations: ["колебаться"],
     vocabulary:["general"]
   },
@@ -14031,7 +14031,7 @@ export const englishList = [
     transcription: "/ˌɪm.plɪˈkeɪ.ʃən/",
     synonyms: ["suggestion", "inference"],
     meaning:
-      "a conclusion that can be drawn from something, though not explicitly stated",
+      ["a conclusion that can be drawn from something, though not explicitly stated"],
     rusTranslations: ["подразумеваемое", "следствие"],
     vocabulary:["general"]
   },
@@ -14062,7 +14062,7 @@ export const englishList = [
     transcription: "/ˌɪn.əˈveɪ.ʃən/",
     synonyms: ["invention", "novelty"],
     meaning:
-      "the introduction of something new; a new method, idea, or product",
+      ["the introduction of something new; a new method, idea, or product"],
     rusTranslations: ["инновация"],
     vocabulary:["general"]
   },
@@ -14073,7 +14073,7 @@ export const englishList = [
     transcription: "/ɪmˈpres/",
     synonyms: ["influence", "affect"],
     meaning:
-      "to have a strong effect on someone in a way that makes them admire or respect you",
+      ["to have a strong effect on someone in a way that makes them admire or respect you"],
     rusTranslations: ["впечатлять"],
     vocabulary:["general"]
   },
@@ -14084,7 +14084,7 @@ export const englishList = [
     transcription: "/ɪmˈpreʃ.ən/",
     synonyms: ["impact", "effect"],
     meaning:
-      "an idea, feeling, or opinion about something or someone formed without conscious thought",
+      ["an idea, feeling, or opinion about something or someone formed without conscious thought"],
     rusTranslations: ["впечатление"],
     vocabulary:["general"]
   },
@@ -14115,7 +14115,7 @@ export const englishList = [
     transcription: "/ˈɪn.sɪ.dənt/",
     synonyms: ["event", "occurrence"],
     meaning:
-      "an event or occurrence, especially one that is unusual or unpleasant",
+      ["an event or occurrence, especially one that is unusual or unpleasant"],
     rusTranslations: ["инцидент", "случай"],
     vocabulary:["general"]
   },
@@ -14136,7 +14136,7 @@ export const englishList = [
     transcription: "/ˈɪn.kʌm/",
     synonyms: ["revenue", "earnings"],
     meaning:
-      "money received, especially on a regular basis, for work or through investments",
+      ["money received, especially on a regular basis, for work or through investments"],
     rusTranslations: ["доход"],
     vocabulary:["general"]
   },
@@ -14187,7 +14187,7 @@ export const englishList = [
     transcription: "/ˌɪn.əˈveɪ.ʃən/",
     synonyms: ["invention", "novelty"],
     meaning:
-      "the process of introducing something new; a new idea, method, or product",
+      ["the process of introducing something new; a new idea, method, or product"],
     rusTranslations: ["инновация"],
     vocabulary:["general"]
   },
@@ -14268,7 +14268,7 @@ export const englishList = [
     transcription: "/ˈɪn.stɪ.tjuːt/",
     synonyms: ["organization", "establishment"],
     meaning:
-      "an organization having a particular purpose, especially in education, research, or culture",
+      ["an organization having a particular purpose, especially in education, research, or culture"],
     rusTranslations: ["институт"],
     vocabulary:["general"]
   },

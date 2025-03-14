@@ -22,7 +22,9 @@ body {
   height: 100vh;
 }
 
-/* Profile page container */
+/* ------------------------------------------
+   Profile Page
+------------------------------------------- */
 .profile-page {
   max-width: 400px;
   margin: 40px auto;
@@ -33,7 +35,6 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Section within profile page */
 .existing-profile-section,
 .create-profile-section {
   margin-bottom: 20px;
@@ -43,13 +44,25 @@ body {
 .create-profile-section label {
   display: block;
   margin-bottom: 5px;
-  text-transform: none; /* If you want normal case for labels */
+  text-transform: none;
   color: #444;
 }
 
+/* The vocab checkboxes container */
+.vocab-checkboxes {
+  margin: 10px 0;
+  text-align: left;
+  display: inline-block; 
+}
+
+.vocab-checkboxes label {
+  display: block;
+  margin-bottom: 4px;
+  text-transform: none;
+}
+
 #existingProfilesSelect,
-#newUserName,
-#vocabularySelect {
+#newUserName {
   padding: 8px;
   width: 100%;
   font-size: 1rem;
@@ -74,21 +87,86 @@ button {
   background-color: #008CDA;
 }
 
-#createProfileBtn {
+#createOrUpdateProfileBtn {
   background-color: #FFB300;
   color: #fff;
 }
-#createProfileBtn:hover {
+#createOrUpdateProfileBtn:hover {
   background-color: #FF9500;
 }
 
-/* The main game page is hidden by default; see the .hidden class below. */
+/* ------------------------------------------
+   Main Game Page
+------------------------------------------- */
 #gamePage {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
-/* Word card styles (same as your original) */
+/* Hide with .hidden class if needed */
+.hidden {
+  display: none;
+}
+
+/* Switch Profile button */
+.switch-profile-btn {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 10px;
+  cursor: pointer;
+}
+.switch-profile-btn:hover {
+  background-color: #333;
+}
+
+/* ------------------------------------------
+   User Info Card
+------------------------------------------- */
+.user-info {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center the card horizontally */
+  margin-top: 10px;
+}
+
+.user-info-card {
+  background: #FFF2C6;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%; /* responsive on small screens */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.user-stats {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.user-stats h3 {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#userProgressList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#userProgressList li {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
+
+/* ------------------------------------------
+   Word Card
+------------------------------------------- */
 .word-card {
   background: #FFF2C6;
   padding: 20px;
@@ -124,10 +202,7 @@ button {
   margin-bottom: 20px;
 }
 
-.hidden {
-  display: none;
-}
-
+/* Buttons for meaning and synonyms */
 .meaning-btn {
   background-color: #FFB300;
   color: #fff;
@@ -156,6 +231,7 @@ button {
   background-color: #008CDA;
 }
 
+/* Multiple-choice options */
 .options {
   margin-top: 20px;
 }
@@ -177,7 +253,9 @@ button {
   background-color: #ff4444;
 }
 
-/* Toast styling */
+/* ------------------------------------------
+   Toast styling
+------------------------------------------- */
 .toast {
   position: fixed;
   bottom: 20px;
@@ -217,31 +295,4 @@ button {
   body {
     background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
   }
-}
-
-/* The vocab checkboxes container */
-.vocab-checkboxes {
-  margin: 10px 0;
-  text-align: left; /* or center, if you prefer */
-  display: inline-block; 
-}
-
-.vocab-checkboxes label {
-  display: block;
-  margin-bottom: 4px;
-  text-transform: none;
-}
-
-/* Switch Profile button in the game page */
-.switch-profile-btn {
-  background-color: #444; /* some neutral color */
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 12px;
-  margin: 10px;
-  cursor: pointer;
-}
-.switch-profile-btn:hover {
-  background-color: #333;
 }

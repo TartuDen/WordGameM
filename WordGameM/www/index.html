@@ -5,7 +5,6 @@
     <!-- Helps with mobile scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My English App</title>
-
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
@@ -14,9 +13,9 @@
   </head>
 
   <body>
-    <!-- ==========================================================
-      Profile Page (User Auth/Selection)
-    =========================================================== -->
+    <!-- =======================================
+         PROFILE PAGE (User Auth/Selection)
+    ======================================== -->
     <div id="profilePage" class="profile-page">
       <h2>Select or Create Profile</h2>
 
@@ -65,12 +64,28 @@
       </div>
     </div>
 
-    <!-- ==========================================================
-      Main Word Game Page
-    =========================================================== -->
+    <!-- =======================================
+         MAIN GAME PAGE
+    ======================================== -->
     <div id="gamePage" class="hidden">
+      <!-- Button to switch back to profile page -->
       <button id="switchProfileBtn" class="switch-profile-btn">Switch Profile</button>
 
+      <!-- USER INFO CARD -->
+      <div id="userInfo" class="user-info">
+        <div class="user-info-card">
+          <h2 id="userNameDisplay"></h2>
+          <p id="userRegDateDisplay"></p>
+          <p id="userVocabularyDisplay"></p>
+
+          <div class="user-stats">
+            <h3>User Progress:</h3>
+            <ul id="userProgressList"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORD CARD: The main game content -->
       <div class="word-card">
         <h1 id="word"></h1>
         <p id="transcription"></p>
@@ -92,7 +107,7 @@
       </div>
     </div>
 
-    <!-- Cordova device ready script -->
+    <!-- Cordova device ready script (optional) -->
     <script src="js/index.js"></script>
     <!-- Auth logic script -->
     <script type="module" src="js/auth.js"></script>

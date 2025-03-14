@@ -2,16 +2,16 @@
 import { user_data } from "./mockUser.js";
 
 let userList = [];
-let selectedUserId = null; // Track which user is currently being updated (if any)
+let selectedUserId = null; // track which user we are updating (if any)
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 1) Attempt to load profiles from localStorage
+  // 1) Load profiles from localStorage
   loadUserProfilesFromStorage();
 
-  // 2) Populate existing profiles <select> with userList
+  // 2) Populate the dropdown
   populateExistingProfiles();
 
-  // 3) Event listeners for selecting user, creating/updating user
+  // 3) Set up event listeners
   document
     .getElementById("selectProfileBtn")
     .addEventListener("click", onSelectProfile);
@@ -22,37 +22,33 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * 1) If user selects an existing profile from the dropdown,
- *    store that user as "currentUser", show the game page.
+ * SELECT an existing profile from the dropdown
  */
 function onSelectProfile() {
   const selectEl = document.getElementById("existingProfilesSelect");
-  selectedUserId = selectEl.value; // e.g. "1" or some timestamp
+  selectedUserId = selectEl.value;
 
   if (!selectedUserId) {
     alert("Please select an existing profile or create a new one.");
     return;
   }
 
-  // Find the user
   const user = userList.find((u) => String(u.user_id) === String(selectedUserId));
   if (!user) {
     alert("User not found. Please create a new profile.");
     return;
   }
 
-  // Set current user in localStorage
   setCurrentUser(user);
 }
 
 /**
- * 2) Create a new user OR update an existing one, depending on whether
- *    'selectedUserId' is set from the dropdown selection.
+ * CREATE or UPDATE a profile (depending on whether selectedUserId is set)
  */
 function onCreateOrUpdateProfile() {
   const newUserName = document.getElementById("newUserName").value.trim();
 
-  // Gather the selected vocab checkboxes
+  // gather selected vocab checkboxes
   const checkboxes = document.querySelectorAll('input[name="vocabType"]');
   const selectedVocab = [];
   checkboxes.forEach((box) => {
@@ -66,16 +62,13 @@ function onCreateOrUpdateProfile() {
     return;
   }
 
-  // If we have a 'selectedUserId' from the dropdown, we might update that user
+  // If we have selectedUserId, see if we're updating an existing user
   if (selectedUserId) {
     const existingUser = userList.find((u) => String(u.user_id) === String(selectedUserId));
     if (existingUser) {
-      // Update the user object
       existingUser.user_name = newUserName;
       existingUser.vocabulary = selectedVocab;
-      // Save to storage
       saveUserProfilesToStorage();
-      // Also set this user as current
       setCurrentUser(existingUser);
       return;
     }
@@ -83,7 +76,7 @@ function onCreateOrUpdateProfile() {
 
   // Otherwise, create a brand new user
   const newUser = {
-    user_id: Date.now(), // unique mock ID
+    user_id: Date.now(),
     user_name: newUserName,
     user_reg_data: new Date().toLocaleDateString(),
     vocabulary: selectedVocab,
@@ -95,28 +88,26 @@ function onCreateOrUpdateProfile() {
 }
 
 /**
- * 3) Once we know the current user, we store in localStorage,
- *    hide the profile page and show the game page.
+ * Sets the currentUser in localStorage, then switches to the game page
  */
 function setCurrentUser(user) {
   localStorage.setItem("currentUser", JSON.stringify(user));
 
+  // Hide profile page, show game page
   document.getElementById("profilePage").classList.add("hidden");
   document.getElementById("gamePage").classList.remove("hidden");
 
-  // Clear out the create profile form
+  // Clear the form
   document.getElementById("newUserName").value = "";
   const checkboxes = document.querySelectorAll('input[name="vocabType"]');
   checkboxes.forEach((box) => (box.checked = false));
 
   // Reset selectedUserId
   selectedUserId = null;
-
-  // (Optionally) call a function in app.js to refresh logic if needed
 }
 
 /**
- * Displays all known users in the <select> dropdown.
+ * Populate the <select> with all known users
  */
 function populateExistingProfiles() {
   const selectEl = document.getElementById("existingProfilesSelect");
@@ -131,21 +122,21 @@ function populateExistingProfiles() {
 }
 
 /**
- * Load user profiles from localStorage or fall back to the mock user.
+ * Load existing user profiles from localStorage, or seed with mock user if none
  */
 function loadUserProfilesFromStorage() {
   const data = localStorage.getItem("userList");
   if (data) {
     userList = JSON.parse(data);
   } else {
-    // If no user list in localStorage, start with our mock user "Den"
+    // If none found, start with our mock user "Den"
     userList = [user_data];
     saveUserProfilesToStorage();
   }
 }
 
 /**
- * Save user profiles to localStorage.
+ * Save user profiles to localStorage
  */
 function saveUserProfilesToStorage() {
   localStorage.setItem("userList", JSON.stringify(userList));
