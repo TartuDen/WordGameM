@@ -60,6 +60,4 @@ const user_progress = {
       guessed_wrong: 1,
     }
   ]
-  
-
 }
