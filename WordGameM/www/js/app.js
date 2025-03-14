@@ -74,7 +74,7 @@ function checkAnswer(selected, correct) {
     setTimeout(() => {
       hideToast();
       showWord();
-    }, 1000);
+    }, 500);
   } else {
     alert("Incorrect. Try again!");
   }

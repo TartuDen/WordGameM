@@ -9266,7 +9266,7 @@ export const englishList = [
     type: "verb",
     transcription: "/əˈkʌm.plɪʃ/",
     synonyms: ["achieve", "complete"],
-    meaning: "to successfully complete or bring about",
+    meaning: ["to successfully complete or bring about"],
     rusTranslations: ["достигать", "выполнять"],
   },
   {
@@ -9275,7 +9275,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈtʃiːv.mənt/",
     synonyms: ["accomplishment", "success"],
-    meaning: "something accomplished, especially by superior ability",
+    meaning: ["something accomplished, especially by superior ability"],
     rusTranslations: ["достижение"],
   },
   {
@@ -9284,7 +9284,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈæk.tɪv/",
     synonyms: ["energetic", "lively"],
-    meaning: "engaging or ready to engage in physically energetic pursuits",
+    meaning: ["engaging or ready to engage in physically energetic pursuits"],
     rusTranslations: ["активный"],
   },
   {
@@ -9293,7 +9293,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ədˈven.tʃər/",
     synonyms: ["exploration", "journey"],
-    meaning: "an unusual and exciting, typically hazardous, experience",
+    meaning: ["an unusual and exciting, typically hazardous, experience"],
     rusTranslations: ["приключение"],
   },
   {
@@ -9302,7 +9302,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌæd.vɜːrˈtaɪz.mənt/",
     synonyms: ["ad", "commercial"],
-    meaning: "a public notice or announcement promoting a product or service",
+    meaning: ["a public notice or announcement promoting a product or service"],
     rusTranslations: ["реклама"],
   },
   {
@@ -9311,7 +9311,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ədˈvaɪs/",
     synonyms: ["guidance", "recommendation"],
-    meaning: "suggestions or guidance offered regarding prudent action",
+    meaning: ["suggestions or guidance offered regarding prudent action"],
     rusTranslations: ["совет"],
   },
   {
@@ -9320,7 +9320,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ədˈvæn.tɪdʒ/",
     synonyms: ["benefit", "edge"],
-    meaning: "a condition that puts one in a favorable or superior position",
+    meaning: ["a condition that puts one in a favorable or superior position"],
     rusTranslations: ["преимущество"],
   },
   {
@@ -9329,7 +9329,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈfek.ʃən/",
     synonyms: ["fondness", "love"],
-    meaning: "a gentle feeling of fondness or liking",
+    meaning: ["a gentle feeling of fondness or liking"],
     rusTranslations: ["привязанность"],
   },
   {
@@ -9338,7 +9338,7 @@ export const englishList = [
     type: "verb",
     transcription: "/əˈfɔːrd/",
     synonyms: ["manage", "provide"],
-    meaning: "to have enough money or means to pay for something",
+    meaning: ["to have enough money or means to pay for something"],
     rusTranslations: ["позволять себе"],
   },
   {
@@ -9347,7 +9347,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/əˈfreɪd/",
     synonyms: ["scared", "fearful"],
-    meaning: "feeling fear or anxiety; frightened",
+    meaning: ["feeling fear or anxiety; frightened"],
     rusTranslations: ["бояться"],
   },
   {
@@ -9356,7 +9356,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌæf.təˈnuːn/",
     synonyms: ["noon", "midday"],
-    meaning: "the period of time from noon until evening",
+    meaning: ["the period of time from noon until evening"],
     rusTranslations: ["после полудня"],
   },
   {
@@ -9375,7 +9375,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæl.bəm/",
     synonyms: ["record", "collection"],
-    meaning: "a collection of recordings issued as a single item",
+    meaning: ["a collection of recordings issued as a single item"],
     rusTranslations: ["альбом"],
   },
   {
@@ -9384,7 +9384,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæl.kə.hɒl/",
     synonyms: ["spirits", "booze"],
-    meaning: "a volatile, flammable liquid used as a beverage and solvent",
+    meaning: ["a volatile, flammable liquid used as a beverage and solvent"],
     rusTranslations: ["алкоголь"],
   },
   {
@@ -9393,7 +9393,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/əˈlaɪv/",
     synonyms: ["living", "animate"],
-    meaning: "living; not dead",
+    meaning: ["living; not dead"],
     rusTranslations: ["живой"],
   },
   {
@@ -9402,7 +9402,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈlaʊ.əns/",
     synonyms: ["stipend", "pocket money"],
-    meaning: "a sum of money given regularly for a specific purpose",
+    meaning: ["a sum of money given regularly for a specific purpose"],
     rusTranslations: ["карманные деньги"],
   },
   {
@@ -9411,7 +9411,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/əˈmeɪ.zɪŋ/",
     synonyms: ["astonishing", "incredible"],
-    meaning: "causing great surprise or wonder",
+    meaning: ["causing great surprise or wonder"],
     rusTranslations: ["удивительный"],
   },
   {
@@ -9420,7 +9420,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈeɪn.ʃənt/",
     synonyms: ["old", "antique"],
-    meaning: "belonging to the very distant past",
+    meaning: ["belonging to the very distant past"],
     rusTranslations: ["древний"],
   },
   {
@@ -9439,7 +9439,7 @@ export const englishList = [
     type: "verb",
     transcription: "/əˈnaʊns/",
     synonyms: ["declare", "proclaim"],
-    meaning: "to make a public declaration about something",
+    meaning: ["to make a public declaration about something"],
     rusTranslations: ["объявлять"],
   },
   {
@@ -9448,7 +9448,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈæn.ju.əl/",
     synonyms: ["yearly", "per annum"],
-    meaning: "occurring once every year",
+    meaning: ["occurring once every year"],
     rusTranslations: ["годовой"],
   },
   {
@@ -9457,7 +9457,7 @@ export const englishList = [
     type: "noun",
     transcription: "/æŋˈzaɪ.ə.ti/",
     synonyms: ["worry", "unease"],
-    meaning: "a feeling of worry, nervousness, or unease",
+    meaning: ["a feeling of worry, nervousness, or unease"],
     rusTranslations: ["тревога"],
   },
   {
@@ -9466,7 +9466,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈpɑːrt.mənt/",
     synonyms: ["flat", "condo"],
-    meaning: "a set of rooms for someone to live in on one level of a building",
+    meaning: ["a set of rooms for someone to live in on one level of a building"],
     rusTranslations: ["квартира"],
   },
   {
@@ -9475,7 +9475,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈpɒl.ə.dʒi/",
     synonyms: ["excuse", "regret"],
-    meaning: "an expression of regret for a fault or offense",
+    meaning: ["an expression of regret for a fault or offense"],
     rusTranslations: ["извинение"],
   },
   {
@@ -9484,7 +9484,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈpɔɪnt.mənt/",
     synonyms: ["meeting", "session"],
-    meaning: "an arranged meeting at a specific time and place",
+    meaning: ["an arranged meeting at a specific time and place"],
     rusTranslations: ["встреча", "назначение"],
   },
   {
@@ -9493,7 +9493,7 @@ export const englishList = [
     type: "verb",
     transcription: "/əˈpriː.ʃi.eɪt/",
     synonyms: ["value", "cherish"],
-    meaning: "to recognize the full worth of something",
+    meaning: ["to recognize the full worth of something"],
     rusTranslations: ["ценить"],
   },
   {
@@ -9502,7 +9502,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈpruː.vəl/",
     synonyms: ["acceptance", "endorsement"],
-    meaning: "official permission or sanction",
+    meaning: ["official permission or sanction"],
     rusTranslations: ["одобрение"],
   },
   {
@@ -9511,7 +9511,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɑːrɡ.jə.mənt/",
     synonyms: ["dispute", "debate"],
-    meaning: "a reason or set of reasons given in support of an idea",
+    meaning: ["a reason or set of reasons given in support of an idea"],
     rusTranslations: ["спор"],
   },
   {
@@ -9520,7 +9520,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈreɪndʒ.mənt/",
     synonyms: ["plan", "organization"],
-    meaning: "an organized plan or structure",
+    meaning: ["an organized plan or structure"],
     rusTranslations: ["устроение", "организация"],
   },
   {
@@ -9529,7 +9529,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈraɪ.vəl/",
     synonyms: ["coming", "appearance"],
-    meaning: "the act of arriving",
+    meaning: ["the act of arriving"],
     rusTranslations: ["прибытие"],
   },
   {
@@ -9538,7 +9538,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæs.pekt/",
     synonyms: ["facet", "side"],
-    meaning: "a particular part or feature of something",
+    meaning: ["a particular part or feature of something"],
     rusTranslations: ["аспект", "сторона"],
   },
   {
@@ -9547,7 +9547,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈsem.bli/",
     synonyms: ["gathering", "meeting"],
-    meaning: "a group of people gathered together for a common purpose",
+    meaning: ["a group of people gathered together for a common purpose"],
     rusTranslations: ["собрание"],
   },
   {
@@ -9566,7 +9566,7 @@ export const englishList = [
     type: "verb",
     transcription: "/əˈsɪst/",
     synonyms: ["help", "aid"],
-    meaning: "to give support or help to someone",
+    meaning: ["to give support or help to someone"],
     rusTranslations: ["помогать"],
   },
   {
@@ -9575,7 +9575,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈsɪs.təns/",
     synonyms: ["help", "support"],
-    meaning: "the act of helping or supporting someone",
+    meaning: ["the act of helping or supporting someone"],
     rusTranslations: ["помощь"],
   },
   {
@@ -9584,7 +9584,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˌsoʊ.siˈeɪ.ʃən/",
     synonyms: ["organization", "group"],
-    meaning: "a group of people united for a common purpose",
+    meaning: ["a group of people united for a common purpose"],
     rusTranslations: ["ассоциация"],
   },
   {
@@ -9593,7 +9593,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæt.məs.fɪər/",
     synonyms: ["ambience", "environment"],
-    meaning: "the envelope of gases surrounding the earth or a particular area",
+    meaning: ["the envelope of gases surrounding the earth or a particular area"],
     rusTranslations: ["атмосфера"],
   },
   {
@@ -9602,7 +9602,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæt.ɪ.tjuːd/",
     synonyms: ["mindset", "disposition"],
-    meaning: "a settled way of thinking or feeling about something",
+    meaning: ["a settled way of thinking or feeling about something"],
     rusTranslations: ["отношение"],
   },
   {
@@ -9611,7 +9611,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈæv.rɪdʒ/",
     synonyms: ["mean", "typical"],
-    meaning: "typical or normal; of the usual amount",
+    meaning: ["typical or normal; of the usual amount"],
     rusTranslations: ["средний"],
   },
   {
@@ -9620,7 +9620,7 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈwɔːrd/",
     synonyms: ["prize", "honor"],
-    meaning: "a mark of recognition for an achievement",
+    meaning: ["a mark of recognition for an achievement"],
     rusTranslations: ["награда"],
   },
   {
@@ -9629,7 +9629,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/əˈwɛər/",
     synonyms: ["conscious", "cognizant"],
-    meaning: "having knowledge or perception of a situation",
+    meaning: ["having knowledge or perception of a situation"],
     rusTranslations: ["осведомлённый"],
   },
   {
@@ -9648,7 +9648,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbeɪs.bɔːl/",
     synonyms: ["ballgame"],
-    meaning: "a game played between two teams using a bat and ball",
+    meaning: ["a game played between two teams using a bat and ball"],
     rusTranslations: ["бейсбол"],
   },
   {
@@ -9657,7 +9657,7 @@ export const englishList = [
     type: "noun",
     transcription: "/bɪˈliːf/",
     synonyms: ["faith", "conviction"],
-    meaning: "an acceptance that something is true or exists",
+    meaning: ["an acceptance that something is true or exists"],
     rusTranslations: ["вера", "убеждение"],
   },
   {
@@ -9666,7 +9666,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbaɪ.sɪ.kəl/",
     synonyms: ["bike"],
-    meaning: "a vehicle with two wheels that is powered by pedaling",
+    meaning: ["a vehicle with two wheels that is powered by pedaling"],
     rusTranslations: ["велосипед"],
   },
   {
@@ -9675,7 +9675,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbɜːθ.deɪ/",
     synonyms: ["anniversary"],
-    meaning: "the anniversary of the day on which a person was born",
+    meaning: ["the anniversary of the day on which a person was born"],
     rusTranslations: ["день рождения"],
   },
   {
@@ -9684,7 +9684,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈblæŋ.kɪt/",
     synonyms: ["cover"],
-    meaning: "a large piece of soft material used for warmth",
+    meaning: ["a large piece of soft material used for warmth"],
     rusTranslations: ["одеяло"],
   },
   {
@@ -9693,7 +9693,7 @@ export const englishList = [
     type: "noun",
     transcription: "/blɒk/",
     synonyms: ["cube", "piece"],
-    meaning: "a solid piece of material typically used for building",
+    meaning: ["a solid piece of material typically used for building"],
     rusTranslations: ["блок", "куб"],
   },
   {
@@ -9702,7 +9702,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbluː.prɪnt/",
     synonyms: ["plan", "design"],
-    meaning: "a detailed outline or plan of something",
+    meaning: ["a detailed outline or plan of something"],
     rusTranslations: ["чертёж", "план"],
   },
   {
@@ -9711,7 +9711,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbɔːr.dər/",
     synonyms: ["edge", "boundary"],
-    meaning: "a line separating two areas or territories",
+    meaning: ["a line separating two areas or territories"],
     rusTranslations: ["граница"],
   },
   {
@@ -9720,7 +9720,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈbɒð.ər/",
     synonyms: ["annoy", "disturb"],
-    meaning: "to cause inconvenience or worry",
+    meaning: ["to cause inconvenience or worry"],
     rusTranslations: ["беспокоить"],
   },
   {
@@ -9729,7 +9729,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbɒt.əl/",
     synonyms: ["container", "flask"],
-    meaning: "a container with a narrow neck used for storing liquids",
+    meaning: ["a container with a narrow neck used for storing liquids"],
     rusTranslations: ["бутылка"],
   },
   {
@@ -9738,7 +9738,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbaʊn.dər.i/",
     synonyms: ["limit", "border"],
-    meaning: "a line that marks the limits of an area",
+    meaning: ["a line that marks the limits of an area"],
     rusTranslations: ["граница", "предел"],
   },
   {
@@ -9747,7 +9747,7 @@ export const englishList = [
     type: "noun",
     transcription: "/bræntʃ/",
     synonyms: ["division", "section"],
-    meaning: "a part of a tree that grows out from the trunk",
+    meaning: ["a part of a tree that grows out from the trunk"],
     rusTranslations: ["ветка"],
   },
   {
@@ -9756,7 +9756,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbrɛk.fəst/",
     synonyms: ["morning meal"],
-    meaning: "the first meal of the day",
+    meaning: ["the first meal of the day"],
     rusTranslations: ["завтрак"],
   },
   {
@@ -9775,7 +9775,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/briːf/",
     synonyms: ["short", "concise"],
-    meaning: "lasting only a short period of time",
+    meaning: ["lasting only a short period of time"],
     rusTranslations: ["краткий"],
   },
   {
@@ -9784,7 +9784,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbʊl.ɪt/",
     synonyms: ["projectile"],
-    meaning: "a small metal projectile fired from a gun",
+    meaning: ["a small metal projectile fired from a gun"],
     rusTranslations: ["пуля"],
   },
   {
@@ -9793,7 +9793,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbɪz.nɪs.mæn/",
     synonyms: ["entrepreneur", "executive"],
-    meaning: "a man who works in commerce or business",
+    meaning: ["a man who works in commerce or business"],
     rusTranslations: ["бизнесмен"],
   },
   {
@@ -9802,7 +9802,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈbɪz.i/",
     synonyms: ["occupied", "active"],
-    meaning: "having a lot to do; not free",
+    meaning: ["having a lot to do; not free"],
     rusTranslations: ["занятой"],
   },
   {
@@ -9811,7 +9811,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkeɪ.bəl/",
     synonyms: ["wire", "cord"],
-    meaning: "a thick rope or wire used for structural support",
+    meaning: ["a thick rope or wire used for structural support"],
     rusTranslations: ["кабель"],
   },
   {
@@ -9820,7 +9820,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kæˈfeɪ/",
     synonyms: ["coffee shop"],
-    meaning: "a small restaurant selling light meals and drinks",
+    meaning: ["a small restaurant selling light meals and drinks"],
     rusTranslations: ["кафе"],
   },
   {
@@ -9829,7 +9829,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈkæl.kjʊ.leɪt/",
     synonyms: ["compute", "reckon"],
-    meaning: "to determine mathematically, often by numerical methods",
+    meaning: ["to determine mathematically, often by numerical methods"],
     rusTranslations: ["вычислять"],
   },
   {
@@ -9838,7 +9838,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkæl.ən.dər/",
     synonyms: ["schedule", "planner"],
-    meaning: "a chart showing the days, weeks, and months of a particular year",
+    meaning: ["a chart showing the days, weeks, and months of a particular year"],
     rusTranslations: ["календарь"],
   },
   {
@@ -9847,7 +9847,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈkæn.səl/",
     synonyms: ["abort", "call off"],
-    meaning: "to decide or announce that a planned event will not take place",
+    meaning: ["to decide or announce that a planned event will not take place"],
     rusTranslations: ["отменять"],
   },
   {
@@ -9866,7 +9866,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈkæp.tʃər/",
     synonyms: ["seize", "take"],
-    meaning: "to take possession of or control by force",
+    meaning: ["to take possession of or control by force"],
     rusTranslations: ["захватывать"],
   },
   {
@@ -9875,7 +9875,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈsel.ə.breɪt/",
     synonyms: ["commemorate", "observe"],
-    meaning: "to observe or honor an event or occasion with festivities",
+    meaning: ["to observe or honor an event or occasion with festivities"],
     rusTranslations: ["праздновать"],
   },
   {
@@ -9884,7 +9884,7 @@ export const englishList = [
     type: "noun",
     transcription: "/səˈleb.rə.ti/",
     synonyms: ["star", "famous person"],
-    meaning: "a famous person, especially in entertainment or sports",
+    meaning: ["a famous person, especially in entertainment or sports"],
     rusTranslations: ["знаменитость"],
   },
   {
@@ -9893,7 +9893,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈsel.fəʊn/",
     synonyms: ["mobile", "cell"],
-    meaning: "a portable telephone that uses wireless technology",
+    meaning: ["a portable telephone that uses wireless technology"],
     rusTranslations: ["сотовый телефон"],
   },
   {
@@ -9902,7 +9902,7 @@ export const englishList = [
     type: "noun",
     transcription: "/tʃeɪn/",
     synonyms: ["link", "series"],
-    meaning: "a series of connected metal links used for fastening",
+    meaning: ["a series of connected metal links used for fastening"],
     rusTranslations: ["цепь"],
   },
   {
@@ -9911,7 +9911,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈtʃæm.pi.ən/",
     synonyms: ["winner", "defender"],
-    meaning: "a person who has defeated all rivals in a competition",
+    meaning: ["a person who has defeated all rivals in a competition"],
     rusTranslations: ["чемпион"],
   },
   {
@@ -9920,7 +9920,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˌkær.ək.təˈrɪs.tɪk/",
     synonyms: ["distinctive", "typical"],
-    meaning: "a feature or quality that is typical of someone or something",
+    meaning: ["a feature or quality that is typical of someone or something"],
     rusTranslations: ["характерный"],
   },
   {
@@ -9929,7 +9929,7 @@ export const englishList = [
     type: "noun",
     transcription: "/tʃɑːrm/",
     synonyms: ["allure", "appeal"],
-    meaning: "the power or quality of delighting or attracting",
+    meaning: ["the power or quality of delighting or attracting"],
     rusTranslations: ["обаяние"],
   },
   {
@@ -9938,7 +9938,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/tʃiːp/",
     synonyms: ["inexpensive", "affordable"],
-    meaning: "low in price or cost",
+    meaning: ["low in price or cost"],
     rusTranslations: ["дешёвый"],
   },
   {
@@ -9947,7 +9947,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈtʃɪər.fəl/",
     synonyms: ["happy", "joyful"],
-    meaning: "noticeably happy and optimistic",
+    meaning: ["noticeably happy and optimistic"],
     rusTranslations: ["весёлый"],
   },
   {
@@ -9956,7 +9956,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkɛm.ɪ.kəl/",
     synonyms: ["synthetic", "compound"],
-    meaning: "relating to or produced by chemistry",
+    meaning: ["relating to or produced by chemistry"],
     rusTranslations: ["химический"],
   },
   {
@@ -9965,7 +9965,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈtʃaɪld.hʊd/",
     synonyms: ["youth", "infancy"],
-    meaning: "the state or period of being a child",
+    meaning: ["the state or period of being a child"],
     rusTranslations: ["детство"],
   },
   {
@@ -9974,7 +9974,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈsɜː.kɪt/",
     synonyms: ["loop", "route"],
-    meaning: "a roughly circular line, route, or movement",
+    meaning: ["a roughly circular line, route, or movement"],
     rusTranslations: ["контур", "цепь"],
   },
   {
@@ -9983,7 +9983,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌsɪv.əl.aɪˈzeɪ.ʃən/",
     synonyms: ["culture", "society"],
-    meaning: "the stage of human social and cultural development",
+    meaning: ["the stage of human social and cultural development"],
     rusTranslations: ["цивилизация"],
   },
   {
@@ -9992,7 +9992,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈklæs.ruːm/",
     synonyms: ["schoolroom"],
-    meaning: "a room where teaching and learning take place",
+    meaning: ["a room where teaching and learning take place"],
     rusTranslations: ["классная комната"],
   },
   {
@@ -10011,7 +10011,7 @@ export const englishList = [
     type: "verb",
     transcription: "/klaɪm/",
     synonyms: ["ascend", "scale"],
-    meaning: "to go up or ascend, especially by using the hands and feet",
+    meaning: ["to go up or ascend, especially by using the hands and feet"],
     rusTranslations: ["подниматься"],
   },
   {
@@ -10020,7 +10020,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈklɪn.ɪk/",
     synonyms: ["medical center"],
-    meaning: "a place where outpatients are given medical treatment",
+    meaning: ["a place where outpatients are given medical treatment"],
     rusTranslations: ["клиника"],
   },
   {
@@ -10029,7 +10029,7 @@ export const englishList = [
     type: "noun",
     transcription: "/klɒk/",
     synonyms: ["timepiece"],
-    meaning: "a device used for measuring and indicating time",
+    meaning: ["a device used for measuring and indicating time"],
     rusTranslations: ["часы"],
   },
   {
@@ -10038,7 +10038,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kləʊðz/",
     synonyms: ["apparel", "garments"],
-    meaning: "items worn to cover the body",
+    meaning: ["items worn to cover the body"],
     rusTranslations: ["одежда"],
   },
   {
@@ -10057,7 +10057,7 @@ export const englishList = [
     type: "noun",
     transcription: "/klʌb/",
     synonyms: ["association", "society"],
-    meaning: "an organization or group of people with a common interest",
+    meaning: ["an organization or group of people with a common interest"],
     rusTranslations: ["клуб"],
   },
   {
@@ -10076,7 +10076,7 @@ export const englishList = [
     type: "noun",
     transcription: "/koʊst/",
     synonyms: ["shore", "seaboard"],
-    meaning: "the part of the land near the sea",
+    meaning: ["the part of the land near the sea"],
     rusTranslations: ["побережье"],
   },
   {
@@ -10085,7 +10085,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒf.i/",
     synonyms: ["brew", "java"],
-    meaning: "a drink made from roasted and ground coffee beans",
+    meaning: ["a drink made from roasted and ground coffee beans"],
     rusTranslations: ["кофе"],
   },
   {
@@ -10094,7 +10094,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəˈlæps/",
     synonyms: ["crumble", "fall apart"],
-    meaning: "to fall down or cave in suddenly",
+    meaning: ["to fall down or cave in suddenly"],
     rusTranslations: ["рушиться"],
   },
   {
@@ -10103,7 +10103,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəˈlekt/",
     synonyms: ["gather", "accumulate"],
-    meaning: "to bring or gather together",
+    meaning: ["to bring or gather together"],
     rusTranslations: ["собирать"],
   },
   {
@@ -10112,7 +10112,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒl.iːɡ/",
     synonyms: ["co-worker", "associate"],
-    meaning: "a person with whom one works",
+    meaning: ["a person with whom one works"],
     rusTranslations: ["коллега"],
   },
   {
@@ -10121,7 +10121,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkʌl.ər.fəl/",
     synonyms: ["vivid", "bright"],
-    meaning: "having much or varied color; bright",
+    meaning: ["having much or varied color; bright"],
     rusTranslations: ["яркий", "разноцветный"],
   },
   {
@@ -10130,7 +10130,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒl.əm/",
     synonyms: ["pillar", "post"],
-    meaning: "a vertical pillar supporting a structure",
+    meaning: ["a vertical pillar supporting a structure"],
     rusTranslations: ["колонна"],
   },
   {
@@ -10139,7 +10139,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒm.bæt/",
     synonyms: ["fight", "battle"],
-    meaning: "a fight or conflict between armed forces",
+    meaning: ["a fight or conflict between armed forces"],
     rusTranslations: ["бой", "сражение"],
   },
   {
@@ -10148,7 +10148,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəmˈbaɪn/",
     synonyms: ["merge", "unite"],
-    meaning: "to join or merge to form a single entity",
+    meaning: ["to join or merge to form a single entity"],
     rusTranslations: ["объединять"],
   },
   {
@@ -10157,7 +10157,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkʌm.fə.tə.bəl/",
     synonyms: ["cozy", "snug"],
-    meaning: "providing physical ease and relaxation",
+    meaning: ["providing physical ease and relaxation"],
     rusTranslations: ["удобный"],
   },
   {
@@ -10166,7 +10166,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəˈmɑːnd/",
     synonyms: ["order", "instruct"],
-    meaning: "to give an authoritative order",
+    meaning: ["to give an authoritative order"],
     rusTranslations: ["приказывать"],
   },
   {
@@ -10175,7 +10175,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒm.ent/",
     synonyms: ["remark", "observation"],
-    meaning: "a verbal or written remark expressing an opinion",
+    meaning: ["a verbal or written remark expressing an opinion"],
     rusTranslations: ["комментарий"],
   },
   {
@@ -10184,7 +10184,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kəˈmɪt.i/",
     synonyms: ["panel", "board"],
-    meaning: "a group of people appointed for a specific function",
+    meaning: ["a group of people appointed for a specific function"],
     rusTranslations: ["комитет"],
   },
   {
@@ -10193,7 +10193,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kəˌmjuː.nɪˈkeɪ.ʃən/",
     synonyms: ["interaction", "conversation"],
-    meaning: "the act of conveying information or meaning",
+    meaning: ["the act of conveying information or meaning"],
     rusTranslations: ["общение", "связь"],
   },
   {
@@ -10202,7 +10202,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəmˈpiːt/",
     synonyms: ["vie", "contend"],
-    meaning: "to strive to gain or win something by defeating others",
+    meaning: ["to strive to gain or win something by defeating others"],
     rusTranslations: ["соревноваться"],
   },
   {
@@ -10211,7 +10211,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəmˈpleɪn/",
     synonyms: ["grumble", "whine"],
-    meaning: "to express dissatisfaction or annoyance",
+    meaning: ["to express dissatisfaction or annoyance"],
     rusTranslations: ["жаловаться"],
   },
   {
@@ -10220,7 +10220,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/kəmˈpliːt/",
     synonyms: ["finished", "entire"],
-    meaning: "having all necessary parts; whole",
+    meaning: ["having all necessary parts; whole"],
     rusTranslations: ["полный", "завершённый"],
   },
   {
@@ -10229,7 +10229,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkɒm.pleks/",
     synonyms: ["complicated", "intricate"],
-    meaning: "consisting of many different and connected parts",
+    meaning: ["consisting of many different and connected parts"],
     rusTranslations: ["сложный"],
   },
   {
@@ -10238,7 +10238,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈkɒm.plɪ.keɪt/",
     synonyms: ["confuse", "entangle"],
-    meaning: "to make something more difficult or confusing",
+    meaning: ["to make something more difficult or confusing"],
     rusTranslations: ["усложнять"],
   },
   {
@@ -10247,7 +10247,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəmˈpoʊz/",
     synonyms: ["create", "write"],
-    meaning: "to write or create (a work of art, especially music or poetry)",
+    meaning: ["to write or create (a work of art, especially music or poetry)"],
     rusTranslations: ["составлять", "писать"],
   },
   {
@@ -10256,7 +10256,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌkɒm.pəˈzɪʃ.ən/",
     synonyms: ["work", "piece"],
-    meaning: "the way in which a whole or mixture is made up",
+    meaning: ["the way in which a whole or mixture is made up"],
     rusTranslations: ["состав", "композиция"],
   },
   {
@@ -10265,7 +10265,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˌkɒm.prɪˈhɛn.sɪv/",
     synonyms: ["complete", "thorough"],
-    meaning: "including all or nearly all elements or aspects of something",
+    meaning: ["including all or nearly all elements or aspects of something"],
     rusTranslations: ["всеобъемлющий"],
   },
   {
@@ -10274,7 +10274,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈkɒn.sən.treɪt/",
     synonyms: ["focus", "direct"],
-    meaning: "to give all your attention to something",
+    meaning: ["to give all your attention to something"],
     rusTranslations: ["сосредотачиваться"],
   },
   {
@@ -10283,7 +10283,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.sept/",
     synonyms: ["idea", "notion"],
-    meaning: "an abstract idea or general notion",
+    meaning: ["an abstract idea or general notion"],
     rusTranslations: ["понятие"],
   },
   {
@@ -10292,7 +10292,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/kənˈsɜːrnd/",
     synonyms: ["worried", "anxious"],
-    meaning: "feeling or showing worry",
+    meaning: ["feeling or showing worry"],
     rusTranslations: ["озабоченный"],
   },
   {
@@ -10301,7 +10301,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.sɜːrt/",
     synonyms: ["performance", "show"],
-    meaning: "a public musical performance",
+    meaning: ["a public musical performance"],
     rusTranslations: ["концерт"],
   },
   {
@@ -10310,7 +10310,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈkluːd/",
     synonyms: ["finish", "decide"],
-    meaning: "to bring something to an end",
+    meaning: ["to bring something to an end"],
     rusTranslations: ["заключать"],
   },
   {
@@ -10319,7 +10319,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkɒŋ.kriːt/",
     synonyms: ["specific", "definite"],
-    meaning: "existing in a material or physical form",
+    meaning: ["existing in a material or physical form"],
     rusTranslations: ["конкретный"],
   },
   {
@@ -10328,7 +10328,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈdʌkt/",
     synonyms: ["carry out", "manage"],
-    meaning: "to organize and carry out",
+    meaning: ["to organize and carry out"],
     rusTranslations: ["проводить", "руководить"],
   },
   {
@@ -10337,7 +10337,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.fɪ.dəns/",
     synonyms: ["assurance", "self-reliance"],
-    meaning: "a feeling of trust in one's abilities",
+    meaning: ["a feeling of trust in one's abilities"],
     rusTranslations: ["уверенность"],
   },
   {
@@ -10346,7 +10346,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkɒn.fɪ.dənt/",
     synonyms: ["self-assured", "certain"],
-    meaning: "feeling or showing certainty",
+    meaning: ["feeling or showing certainty"],
     rusTranslations: ["уверенный"],
   },
   {
@@ -10355,7 +10355,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈfɜːrm/",
     synonyms: ["verify", "validate"],
-    meaning: "to establish the truth or correctness of something",
+    meaning: ["to establish the truth or correctness of something"],
     rusTranslations: ["подтверждать"],
   },
   {
@@ -10364,7 +10364,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.flɪkt/",
     synonyms: ["dispute", "clash"],
-    meaning: "a serious disagreement or argument",
+    meaning: ["a serious disagreement or argument"],
     rusTranslations: ["конфликт"],
   },
   {
@@ -10373,7 +10373,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈfrʌnt/",
     synonyms: ["face", "oppose"],
-    meaning: "to face up to and deal with a problem",
+    meaning: ["to face up to and deal with a problem"],
     rusTranslations: ["сталкиваться", "противостоять"],
   },
   {
@@ -10382,7 +10382,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈfjuːz/",
     synonyms: ["perplex", "bewilder"],
-    meaning: "to make someone unable to think clearly",
+    meaning: ["to make someone unable to think clearly"],
     rusTranslations: ["смущать", "запутывать"],
   },
   {
@@ -10391,7 +10391,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kəˈnɛkt/",
     synonyms: ["link", "join"],
-    meaning: "to join together so as to provide access or communication",
+    meaning: ["to join together so as to provide access or communication"],
     rusTranslations: ["соединять"],
   },
   {
@@ -10410,7 +10410,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkɒn.ʃəs/",
     synonyms: ["aware", "mindful"],
-    meaning: "aware of and responsive to one's surroundings",
+    meaning: ["aware of and responsive to one's surroundings"],
     rusTranslations: ["сознательный", "осознанный"],
   },
   {
@@ -10419,7 +10419,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.sɪ.kwəns/",
     synonyms: ["result", "effect"],
-    meaning: "a result or effect of an action or condition",
+    meaning: ["a result or effect of an action or condition"],
     rusTranslations: ["последствие"],
   },
   {
@@ -10428,7 +10428,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kənˌsɪd.əˈreɪ.ʃən/",
     synonyms: ["thought", "regard"],
-    meaning: "careful thought, typically over a period of time",
+    meaning: ["careful thought, typically over a period of time"],
     rusTranslations: ["рассмотрение", "учёт"],
   },
   {
@@ -10437,7 +10437,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈsɪst/",
     synonyms: ["comprise", "be made up of"],
-    meaning: "to be composed or made up of",
+    meaning: ["to be composed or made up of"],
     rusTranslations: ["состоять"],
   },
   {
@@ -10446,7 +10446,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkɒn.stənt/",
     synonyms: ["continuous", "unremitting"],
-    meaning: "occurring continuously over a period of time",
+    meaning: ["occurring continuously over a period of time"],
     rusTranslations: ["постоянный"],
   },
   {
@@ -10455,7 +10455,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈstrʌkt/",
     synonyms: ["build", "erect"],
-    meaning: "to build or form by putting together parts",
+    meaning: ["to build or form by putting together parts"],
     rusTranslations: ["строить"],
   },
   {
@@ -10464,7 +10464,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kənˈstrʌk.ʃən/",
     synonyms: ["building", "erection"],
-    meaning: "the process of building something",
+    meaning: ["the process of building something"],
     rusTranslations: ["строительство"],
   },
   {
@@ -10473,7 +10473,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈsʌlt/",
     synonyms: ["seek advice", "confer"],
-    meaning: "to seek information or advice from someone",
+    meaning: ["to seek information or advice from someone"],
     rusTranslations: ["консультироваться"],
   },
   {
@@ -10482,7 +10482,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.tækt/",
     synonyms: ["connection", "communication"],
-    meaning: "the state of physical touching or communication",
+    meaning: ["the state of physical touching or communication"],
     rusTranslations: ["контакт"],
   },
   {
@@ -10491,7 +10491,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kənˈteɪn.mənt/",
     synonyms: ["control", "restraint"],
-    meaning: "the action of keeping something harmful under control",
+    meaning: ["the action of keeping something harmful under control"],
     rusTranslations: ["сдерживание"],
   },
   {
@@ -10500,7 +10500,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.trækt/",
     synonyms: ["agreement", "pact"],
-    meaning: "a written or spoken agreement, especially concerning employment",
+    meaning: ["a written or spoken agreement, especially concerning employment"],
     rusTranslations: ["контракт", "договор"],
   },
   {
@@ -10509,7 +10509,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.træst/",
     synonyms: ["difference", "dissimilarity"],
-    meaning: "the state of being strikingly different from something else",
+    meaning: ["the state of being strikingly different from something else"],
     rusTranslations: ["контраст"],
   },
   {
@@ -10518,7 +10518,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈtrɪb.juːt/",
     synonyms: ["donate", "give"],
-    meaning: "to help to cause or bring about",
+    meaning: ["to help to cause or bring about"],
     rusTranslations: ["вносить вклад", "способствовать"],
   },
   {
@@ -10527,7 +10527,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈvɜːrt/",
     synonyms: ["change", "transform"],
-    meaning: "to change something into a different form or properties",
+    meaning: ["to change something into a different form or properties"],
     rusTranslations: ["преобразовывать"],
   },
   {
@@ -10536,7 +10536,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kənˈvɪns/",
     synonyms: ["persuade", "assure"],
-    meaning: "to cause someone to believe firmly in the truth of something",
+    meaning: ["to cause someone to believe firmly in the truth of something"],
     rusTranslations: ["убеждать"],
   },
   {
@@ -10545,7 +10545,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kʊk/",
     synonyms: ["prepare", "make"],
-    meaning: "to prepare food by heating ingredients",
+    meaning: ["to prepare food by heating ingredients"],
     rusTranslations: ["готовить"],
   },
   {
@@ -10554,7 +10554,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkʊk.ɪŋ/",
     synonyms: ["culinary art", "preparing food"],
-    meaning: "the practice or skill of preparing food",
+    meaning: ["the practice or skill of preparing food"],
     rusTranslations: ["приготовление пищи"],
   },
   {
@@ -10563,7 +10563,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/kuːl/",
     synonyms: ["chilly", "awesome"],
-    meaning: "of a fairly low temperature; fashionable or impressive",
+    meaning: ["of a fairly low temperature; fashionable or impressive"],
     rusTranslations: ["прохладный", "классный"],
   },
   {
@@ -10572,7 +10572,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈkɒp.i/",
     synonyms: ["duplicate", "replicate"],
-    meaning: "to make an identical version of something",
+    meaning: ["to make an identical version of something"],
     rusTranslations: ["копировать"],
   },
   {
@@ -10581,7 +10581,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɔː.nər/",
     synonyms: ["angle", "edge"],
-    meaning: "the place where two lines or surfaces meet",
+    meaning: ["the place where two lines or surfaces meet"],
     rusTranslations: ["угол"],
   },
   {
@@ -10600,7 +10600,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/kəˈrɛkt/",
     synonyms: ["right", "accurate"],
-    meaning: "free from error; in accordance with fact",
+    meaning: ["free from error; in accordance with fact"],
     rusTranslations: ["правильный", "точный"],
   },
   {
@@ -10619,7 +10619,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒt.ɪdʒ/",
     synonyms: ["cabin", "hut"],
-    meaning: "a small house, typically in the countryside",
+    meaning: ["a small house, typically in the countryside"],
     rusTranslations: ["коттедж", "хижина"],
   },
   {
@@ -10628,7 +10628,7 @@ export const englishList = [
     type: "verb",
     transcription: "/kɒf/",
     synonyms: ["hack"],
-    meaning: "to expel air from the lungs suddenly with a harsh sound",
+    meaning: ["to expel air from the lungs suddenly with a harsh sound"],
     rusTranslations: ["кашлять"],
   },
   {
@@ -10637,7 +10637,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkaʊn.səl/",
     synonyms: ["assembly", "board"],
-    meaning: "an advisory or deliberative body of people",
+    meaning: ["an advisory or deliberative body of people"],
     rusTranslations: ["совет"],
   },
   {
@@ -10646,7 +10646,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkaʊn.səl/",
     synonyms: ["advice", "guidance"],
-    meaning: "advice given formally",
+    meaning: ["advice given formally"],
     rusTranslations: ["совет", "консультация"],
   },
   {
@@ -10655,7 +10655,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkaʊn.tər/",
     synonyms: ["bar", "desk"],
-    meaning: "a flat surface on which business is conducted",
+    meaning: ["a flat surface on which business is conducted"],
     rusTranslations: ["прилавок", "стол"],
   },
   {
@@ -10664,7 +10664,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkʌr.ɪdʒ/",
     synonyms: ["bravery", "valor"],
-    meaning: "the ability to do something that frightens one",
+    meaning: ["the ability to do something that frightens one"],
     rusTranslations: ["храбрость", "смелость"],
   },
   {
@@ -10683,7 +10683,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkʌv.ər.ɪŋ/",
     synonyms: ["layer", "coating"],
-    meaning: "something that covers, conceals, or protects",
+    meaning: ["something that covers, conceals, or protects"],
     rusTranslations: ["покрытие"],
   },
   {
@@ -10692,7 +10692,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kræʃ/",
     synonyms: ["collision", "wreck"],
-    meaning: "a violent collision or fall",
+    meaning: ["a violent collision or fall"],
     rusTranslations: ["авария", "столкновение"],
   },
   {
@@ -10701,7 +10701,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/kriˈeɪ.tɪv/",
     synonyms: ["inventive", "imaginative"],
-    meaning: "having the ability to create or invent something new",
+    meaning: ["having the ability to create or invent something new"],
     rusTranslations: ["творческий"],
   },
   {
@@ -10710,7 +10710,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkriː.tʃər/",
     synonyms: ["being", "organism"],
-    meaning: "an animal, as distinct from a human being",
+    meaning: ["an animal, as distinct from a human being"],
     rusTranslations: ["существо"],
   },
   {
@@ -10719,7 +10719,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkrɛd.ɪt/",
     synonyms: ["recognition", "acclaim"],
-    meaning: "acknowledgment of a person's responsibility for something",
+    meaning: ["acknowledgment of a person's responsibility for something"],
     rusTranslations: ["кредит", "заслуга"],
   },
   {
@@ -10728,7 +10728,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kraɪm/",
     synonyms: ["offense", "felony"],
-    meaning: "an illegal act punishable by law",
+    meaning: ["an illegal act punishable by law"],
     rusTranslations: ["преступление"],
   },
   {
@@ -10737,7 +10737,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkʌl.tʃər.əl/",
     synonyms: ["artistic", "civilized"],
-    meaning: "relating to the ideas, customs, and social behavior of a society",
+    meaning: ["relating to the ideas, customs, and social behavior of a society"],
     rusTranslations: ["культурный"],
   },
   {
@@ -10746,7 +10746,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkʌl.tʃər/",
     synonyms: ["civilization", "society"],
-    meaning: "the social behavior and norms found in human societies",
+    meaning: ["the social behavior and norms found in human societies"],
     rusTranslations: ["культура"],
   },
   {
@@ -10755,7 +10755,7 @@ export const englishList = [
     type: "noun",
     transcription: "/kʌp/",
     synonyms: ["mug", "goblet"],
-    meaning: "a small bowl-shaped container used for drinking",
+    meaning: ["a small bowl-shaped container used for drinking"],
     rusTranslations: ["чашка"],
   },
   {
@@ -10764,7 +10764,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkʌr.ənt/",
     synonyms: ["present", "existing"],
-    meaning: "happening or existing now",
+    meaning: ["happening or existing now"],
     rusTranslations: ["текущий", "современный"],
   },
   {
@@ -10773,7 +10773,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkʌs.tə.mər/",
     synonyms: ["client", "buyer"],
-    meaning: "a person who purchases goods or services",
+    meaning: ["a person who purchases goods or services"],
     rusTranslations: ["клиент", "покупатель"],
   },
   {
@@ -10782,7 +10782,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdɑːrk.nəs/",
     synonyms: ["gloom", "dimness"],
-    meaning: "the absence of light; a state of being dark",
+    meaning: ["the absence of light; a state of being dark"],
     rusTranslations: ["темнота", "тьма"],
   },
   {
@@ -10791,7 +10791,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdeɪ.tə/",
     synonyms: ["information", "facts"],
-    meaning: "facts and statistics collected together for analysis",
+    meaning: ["facts and statistics collected together for analysis"],
     rusTranslations: ["данные"],
   },
   {
@@ -10800,7 +10800,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdɔː.tər/",
     synonyms: ["child"],
-    meaning: "a girl or woman in relation to her parents",
+    meaning: ["a girl or woman in relation to her parents"],
     rusTranslations: ["дочь"],
   },
   {
@@ -10809,7 +10809,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/dɛd/",
     synonyms: ["deceased", "lifeless"],
-    meaning: "no longer alive",
+    meaning: ["no longer alive"],
     rusTranslations: ["мертвый"],
   },
   {
@@ -10818,7 +10818,7 @@ export const englishList = [
     type: "verb",
     transcription: "/diːl/",
     synonyms: ["handle", "manage"],
-    meaning: "to take measures concerning; to handle or manage",
+    meaning: ["to take measures concerning; to handle or manage"],
     rusTranslations: ["иметь дело"],
   },
   {
@@ -10827,7 +10827,7 @@ export const englishList = [
     type: "noun",
     transcription: "/deθ/",
     synonyms: ["demise", "end"],
-    meaning: "the permanent end of life",
+    meaning: ["the permanent end of life"],
     rusTranslations: ["смерть"],
   },
   {
@@ -10836,7 +10836,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈbeɪt/",
     synonyms: ["discussion", "argument"],
-    meaning: "a formal discussion on a particular topic",
+    meaning: ["a formal discussion on a particular topic"],
     rusTranslations: ["дебаты"],
   },
   {
@@ -10845,7 +10845,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdekeɪd/",
     synonyms: ["ten years"],
-    meaning: "a period of ten years",
+    meaning: ["a period of ten years"],
     rusTranslations: ["десятилетие"],
   },
   {
@@ -10854,7 +10854,7 @@ export const englishList = [
     type: "verb",
     transcription: "/dɪˈsaɪd/",
     synonyms: ["determine", "choose"],
-    meaning: "to come to a resolution or conclusion",
+    meaning: ["to come to a resolution or conclusion"],
     rusTranslations: ["решать"],
   },
   {
@@ -10863,7 +10863,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈsɪʒ.ən/",
     synonyms: ["choice", "conclusion"],
-    meaning: "a conclusion reached after consideration",
+    meaning: ["a conclusion reached after consideration"],
     rusTranslations: ["решение"],
   },
   {
@@ -10872,7 +10872,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/diːp/",
     synonyms: ["profound", "intense"],
-    meaning: "extending far down from the top or surface",
+    meaning: ["extending far down from the top or surface"],
     rusTranslations: ["глубокий"],
   },
   {
@@ -10881,7 +10881,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈfens/",
     synonyms: ["protection", "guard"],
-    meaning: "the act of defending from or resisting attack",
+    meaning: ["the act of defending from or resisting attack"],
     rusTranslations: ["защита"],
   },
   {
@@ -10890,7 +10890,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈɡriː/",
     synonyms: ["level", "extent"],
-    meaning: "a unit of measurement, such as for angles or temperature",
+    meaning: ["a unit of measurement, such as for angles or temperature"],
     rusTranslations: ["степень"],
   },
   {
@@ -10899,7 +10899,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˌdem.əˈkræt.ɪk/",
     synonyms: ["republican", "representative"],
-    meaning: "relating to or supporting democracy",
+    meaning: ["relating to or supporting democracy"],
     rusTranslations: ["демократический"],
   },
   {
@@ -10908,7 +10908,7 @@ export const englishList = [
     type: "verb",
     transcription: "/dɪˈskraɪb/",
     synonyms: ["detail", "explain"],
-    meaning: "to give a detailed account or picture of something",
+    meaning: ["to give a detailed account or picture of something"],
     rusTranslations: ["описывать"],
   },
   {
@@ -10927,7 +10927,7 @@ export const englishList = [
     type: "preposition",
     transcription: "/dɪˈspaɪt/",
     synonyms: ["in spite of", "regardless of"],
-    meaning: "without being affected by something",
+    meaning: ["without being affected by something"],
     rusTranslations: ["несмотря на"],
   },
   {
@@ -10936,7 +10936,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdiː.teɪl/",
     synonyms: ["particular", "element"],
-    meaning: "an individual feature or item",
+    meaning: ["an individual feature or item"],
     rusTranslations: ["деталь"],
   },
   {
@@ -10945,7 +10945,7 @@ export const englishList = [
     type: "verb",
     transcription: "/dɪˈtɜːrmɪn/",
     synonyms: ["ascertain", "decide"],
-    meaning: "to establish exactly, typically by research or calculation",
+    meaning: ["to establish exactly, typically by research or calculation"],
     rusTranslations: ["определять"],
   },
   {
@@ -10954,7 +10954,7 @@ export const englishList = [
     type: "verb",
     transcription: "/dɪˈvɛl.əp/",
     synonyms: ["evolve", "grow"],
-    meaning: "to grow or cause to grow and become more mature",
+    meaning: ["to grow or cause to grow and become more mature"],
     rusTranslations: ["развивать"],
   },
   {
@@ -10963,7 +10963,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈvɛl.əp.mənt/",
     synonyms: ["growth", "evolution"],
-    meaning: "the process of developing or being developed",
+    meaning: ["the process of developing or being developed"],
     rusTranslations: ["развитие"],
   },
   {
@@ -10972,7 +10972,7 @@ export const englishList = [
     type: "verb",
     transcription: "/daɪ/",
     synonyms: ["pass away", "expire"],
-    meaning: "to cease living",
+    meaning: ["to cease living"],
     rusTranslations: ["умирать"],
   },
   {
@@ -10981,7 +10981,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdɪf.ər.əns/",
     synonyms: ["distinction", "variation"],
-    meaning: "a point or way in which people or things are not the same",
+    meaning: ["a point or way in which people or things are not the same"],
     rusTranslations: ["разница"],
   },
   {
@@ -10990,7 +10990,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈdɪf.ər.ənt/",
     synonyms: ["distinct", "diverse"],
-    meaning: "not the same as another or each other",
+    meaning: ["not the same as another or each other"],
     rusTranslations: ["разный", "отличный"],
   },
   {
@@ -10999,7 +10999,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈdɪf.ɪ.kəlt/",
     synonyms: ["hard", "challenging"],
-    meaning: "needing much effort or skill to accomplish",
+    meaning: ["needing much effort or skill to accomplish"],
     rusTranslations: ["трудный"],
   },
   {
@@ -11008,7 +11008,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdɪn.ər/",
     synonyms: ["supper", "meal"],
-    meaning: "the main meal of the day, eaten in the evening",
+    meaning: ["the main meal of the day, eaten in the evening"],
     rusTranslations: ["ужин", "обед"],
   },
   {
@@ -11017,7 +11017,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dəˈrɛk.ʃən/",
     synonyms: ["guidance", "instruction"],
-    meaning: "the course along which someone or something moves",
+    meaning: ["the course along which someone or something moves"],
     rusTranslations: ["направление"],
   },
   {
@@ -11026,7 +11026,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dəˈrɛk.tər/",
     synonyms: ["manager", "administrator"],
-    meaning: "a person who is in charge of an activity or organization",
+    meaning: ["a person who is in charge of an activity or organization"],
     rusTranslations: ["директор"],
   },
   {
@@ -11035,7 +11035,7 @@ export const englishList = [
     type: "verb",
     transcription: "/dɪˈskʌv.ər/",
     synonyms: ["find", "uncover"],
-    meaning: "to find something unexpectedly or in the course of search",
+    meaning: ["to find something unexpectedly or in the course of search"],
     rusTranslations: ["обнаруживать", "открывать"],
   },
   {
@@ -11044,7 +11044,7 @@ export const englishList = [
     type: "verb",
     transcription: "/dɪˈskʌs/",
     synonyms: ["talk over", "debate"],
-    meaning: "to talk about something with others in detail",
+    meaning: ["to talk about something with others in detail"],
     rusTranslations: ["обсуждать"],
   },
   {
@@ -11053,7 +11053,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈskʌʃ.ən/",
     synonyms: ["conversation", "dialogue"],
-    meaning: "a process of talking about something to exchange ideas",
+    meaning: ["a process of talking about something to exchange ideas"],
     rusTranslations: ["обсуждение"],
   },
   {
@@ -11062,7 +11062,7 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈziːz/",
     synonyms: ["illness", "sickness"],
-    meaning: "a disorder of structure or function in a living organism",
+    meaning: ["a disorder of structure or function in a living organism"],
     rusTranslations: ["болезнь"],
   },
   {
@@ -11071,7 +11071,7 @@ export const englishList = [
     type: "verb",
     transcription: "/duː/",
     synonyms: ["perform", "execute"],
-    meaning: "to perform an action or task",
+    meaning: ["to perform an action or task"],
     rusTranslations: ["делать"],
   },
   {
@@ -11080,7 +11080,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈsɛl/",
     synonyms: ["surpass", "outdo"],
-    meaning: "to be exceptionally good at something",
+    meaning: ["to be exceptionally good at something"],
     rusTranslations: ["выделяться", "превосходить"],
   },
   {
@@ -11089,7 +11089,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈɛk.səl.ənt/",
     synonyms: ["outstanding", "superb"],
-    meaning: "extremely good; of the highest quality",
+    meaning: ["extremely good; of the highest quality"],
     rusTranslations: ["отличный", "превосходный"],
   },
   {
@@ -11098,7 +11098,7 @@ export const englishList = [
     type: "preposition",
     transcription: "/ɪkˈsɛpt/",
     synonyms: ["apart from", "other than"],
-    meaning: "not including; other than",
+    meaning: ["not including; other than"],
     rusTranslations: ["кроме", "за исключением"],
   },
   {
@@ -11107,7 +11107,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈsɛp.ʃən/",
     synonyms: ["exclusion", "anomaly"],
-    meaning: "something that does not follow a rule",
+    meaning: ["something that does not follow a rule"],
     rusTranslations: ["исключение"],
   },
   {
@@ -11116,7 +11116,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈsɛs/",
     synonyms: ["surplus", "overflow"],
-    meaning: "an amount that is more than necessary",
+    meaning: ["an amount that is more than necessary"],
     rusTranslations: ["избыток"],
   },
   {
@@ -11135,7 +11135,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈsaɪt/",
     synonyms: ["stimulate", "inspire"],
-    meaning: "to cause strong feelings of enthusiasm",
+    meaning: ["to cause strong feelings of enthusiasm"],
     rusTranslations: ["возбуждать", "волновать"],
   },
   {
@@ -11144,7 +11144,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪkˈsaɪ.tɪŋ/",
     synonyms: ["thrilling", "stirring"],
-    meaning: "causing great enthusiasm and eagerness",
+    meaning: ["causing great enthusiasm and eagerness"],
     rusTranslations: ["волнующий", "захватывающий"],
   },
   {
@@ -11153,7 +11153,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈskluːd/",
     synonyms: ["omit", "leave out"],
-    meaning: "to deliberately leave something out",
+    meaning: ["to deliberately leave something out"],
     rusTranslations: ["исключать"],
   },
   {
@@ -11162,7 +11162,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪkˈskluː.sɪv/",
     synonyms: ["sole", "restricted"],
-    meaning: "limited to only a particular group or person",
+    meaning: ["limited to only a particular group or person"],
     rusTranslations: ["эксклюзивный"],
   },
   {
@@ -11171,7 +11171,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈskjuːz/",
     synonyms: ["justification", "apology"],
-    meaning: "a reason or explanation put forward to defend or justify a fault",
+    meaning: ["a reason or explanation put forward to defend or justify a fault"],
     rusTranslations: ["отговорка", "оправдание"],
   },
   {
@@ -11180,7 +11180,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɛk.sɪ.kjuːt/",
     synonyms: ["perform", "carry out"],
-    meaning: "to put a plan or order into effect",
+    meaning: ["to put a plan or order into effect"],
     rusTranslations: ["выполнять", "осуществлять"],
   },
   {
@@ -11189,7 +11189,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪɡˈzɛm.plər.i/",
     synonyms: ["model", "ideal"],
-    meaning: "serving as a desirable model; commendable",
+    meaning: ["serving as a desirable model; commendable"],
     rusTranslations: ["образцовый"],
   },
   {
@@ -11198,7 +11198,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪɡˈzɪb.ɪt/",
     synonyms: ["display", "showcase"],
-    meaning: "to show or present something publicly",
+    meaning: ["to show or present something publicly"],
     rusTranslations: ["выставлять", "демонстрировать"],
   },
   {
@@ -11207,7 +11207,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪɡˈzɪs.təns/",
     synonyms: ["being", "presence"],
-    meaning: "the state or fact of living or having objective reality",
+    meaning: ["the state or fact of living or having objective reality"],
     rusTranslations: ["существование"],
   },
   {
@@ -11216,7 +11216,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɛksɪt/",
     synonyms: ["departure", "egress"],
-    meaning: "a way out of a place",
+    meaning: ["a way out of a place"],
     rusTranslations: ["выход"],
   },
   {
@@ -11225,7 +11225,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈspænd/",
     synonyms: ["enlarge", "extend"],
-    meaning: "to increase in size, number, or importance",
+    meaning: ["to increase in size, number, or importance"],
     rusTranslations: ["расширять"],
   },
   {
@@ -11234,7 +11234,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈspæn.ʃən/",
     synonyms: ["growth", "extension"],
-    meaning: "the process of increasing in size or volume",
+    meaning: ["the process of increasing in size or volume"],
     rusTranslations: ["расширение"],
   },
   {
@@ -11243,7 +11243,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɛk.spɛkˈteɪ.ʃən/",
     synonyms: ["anticipation", "outlook"],
-    meaning: "a strong belief that something will happen",
+    meaning: ["a strong belief that something will happen"],
     rusTranslations: ["ожидание"],
   },
   {
@@ -11252,7 +11252,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈspɛns/",
     synonyms: ["cost", "expenditure"],
-    meaning: "the cost incurred in or required for something",
+    meaning: ["the cost incurred in or required for something"],
     rusTranslations: ["расходы", "затраты"],
   },
   {
@@ -11261,7 +11261,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪkˈspɛnsɪv/",
     synonyms: ["costly", "high-priced"],
-    meaning: "costing a lot of money",
+    meaning: ["costing a lot of money"],
     rusTranslations: ["дорогой"],
   },
   {
@@ -11270,7 +11270,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɛk.spɜːˈtiːz/",
     synonyms: ["skill", "knowledge"],
-    meaning: "specialized skill or knowledge in a particular field",
+    meaning: ["specialized skill or knowledge in a particular field"],
     rusTranslations: ["экспертиза", "знание"],
   },
   {
@@ -11279,7 +11279,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɛks.pləˈneɪ.ʃən/",
     synonyms: ["clarification", "description"],
-    meaning: "a statement that makes something clear",
+    meaning: ["a statement that makes something clear"],
     rusTranslations: ["объяснение"],
   },
   {
@@ -11288,7 +11288,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈsplɔːr/",
     synonyms: ["investigate", "examine"],
-    meaning: "to travel through or investigate something",
+    meaning: ["to travel through or investigate something"],
     rusTranslations: ["исследовать"],
   },
   {
@@ -11297,7 +11297,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈspləʊ.ʒən/",
     synonyms: ["blast", "detonation"],
-    meaning: "a violent expansion or bursting with noise",
+    meaning: ["a violent expansion or bursting with noise"],
     rusTranslations: ["взрыв"],
   },
   {
@@ -11306,7 +11306,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈspres/",
     synonyms: ["convey", "communicate"],
-    meaning: "to convey (a thought or feeling) in words or by gestures",
+    meaning: ["to convey (a thought or feeling) in words or by gestures"],
     rusTranslations: ["выражать"],
   },
   {
@@ -11315,7 +11315,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈspres.ʃən/",
     synonyms: ["utterance", "phrase"],
-    meaning: "the process of making known one’s thoughts or feelings",
+    meaning: ["the process of making known one’s thoughts or feelings"],
     rusTranslations: ["выражение"],
   },
   {
@@ -11324,7 +11324,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈstɛnd/",
     synonyms: ["lengthen", "stretch"],
-    meaning: "to make something longer or larger",
+    meaning: ["to make something longer or larger"],
     rusTranslations: ["расширять", "протягивать"],
   },
   {
@@ -11333,7 +11333,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈstɛn.ʃən/",
     synonyms: ["expansion", "continuation"],
-    meaning: "a part that is added to something to enlarge or prolong it",
+    meaning: ["a part that is added to something to enlarge or prolong it"],
     rusTranslations: ["расширение"],
   },
   {
@@ -11342,7 +11342,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈɛk.strə/",
     synonyms: ["additional", "supplementary"],
-    meaning: "provided in addition; more than is usual",
+    meaning: ["provided in addition; more than is usual"],
     rusTranslations: ["дополнительный"],
   },
   {
@@ -11351,7 +11351,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈstrækt/",
     synonyms: ["remove", "pull out"],
-    meaning: "to remove or take out, especially by effort or force",
+    meaning: ["to remove or take out, especially by effort or force"],
     rusTranslations: ["извлекать"],
   },
   {
@@ -11360,7 +11360,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪkˈstriːm/",
     synonyms: ["radical", "intense"],
-    meaning: "reaching a high or the highest degree; very great",
+    meaning: ["reaching a high or the highest degree; very great"],
     rusTranslations: ["крайний", "экстремальный"],
   },
   {
@@ -11369,7 +11369,7 @@ export const englishList = [
     type: "adverb",
     transcription: "/ɪkˈstriːmli/",
     synonyms: ["incredibly", "exceptionally"],
-    meaning: "to a very great degree; very",
+    meaning: ["to a very great degree; very"],
     rusTranslations: ["чрезвычайно"],
   },
   {
@@ -11378,7 +11378,7 @@ export const englishList = [
     type: "noun",
     transcription: "/feɪm/",
     synonyms: ["renown", "celebrity"],
-    meaning: "the state of being widely known and recognized",
+    meaning: ["the state of being widely known and recognized"],
     rusTranslations: ["слава"],
   },
   {
@@ -11387,7 +11387,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfeɪ.məs/",
     synonyms: ["renowned", "well-known"],
-    meaning: "known about by many people",
+    meaning: ["known about by many people"],
     rusTranslations: ["знаменитый"],
   },
   {
@@ -11406,7 +11406,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfæn.si/",
     synonyms: ["ornate", "elaborate"],
-    meaning: "decorative or designed in a particularly intricate way",
+    meaning: ["decorative or designed in a particularly intricate way"],
     rusTranslations: ["изысканный", "шикарный"],
   },
   {
@@ -11425,7 +11425,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈfæs.ən/",
     synonyms: ["secure", "attach"],
-    meaning: "to fix or attach something securely",
+    meaning: ["to fix or attach something securely"],
     rusTranslations: ["закреплять", "привязывать"],
   },
   {
@@ -11434,7 +11434,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/fæt/",
     synonyms: ["obese", "chubby"],
-    meaning: "having a large amount of excess flesh; overweight",
+    meaning: ["having a large amount of excess flesh; overweight"],
     rusTranslations: ["толстый"],
   },
   {
@@ -11443,7 +11443,7 @@ export const englishList = [
     type: "noun",
     transcription: "/fɔːlt/",
     synonyms: ["defect", "flaw"],
-    meaning: "a mistake or imperfection",
+    meaning: ["a mistake or imperfection"],
     rusTranslations: ["вина", "недостаток"],
   },
   {
@@ -11452,7 +11452,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfeɪ.vər.ɪt/",
     synonyms: ["preferred", "beloved"],
-    meaning: "preferred before all others of the same kind",
+    meaning: ["preferred before all others of the same kind"],
     rusTranslations: ["любимый"],
   },
   {
@@ -11461,7 +11461,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfiː.tʃər/",
     synonyms: ["characteristic", "trait"],
-    meaning: "a distinctive attribute or aspect of something",
+    meaning: ["a distinctive attribute or aspect of something"],
     rusTranslations: ["особенность"],
   },
   {
@@ -11470,7 +11470,7 @@ export const englishList = [
     type: "noun",
     transcription: "/fiː/",
     synonyms: ["charge", "price"],
-    meaning: "a payment made for a service",
+    meaning: ["a payment made for a service"],
     rusTranslations: ["плата", "гонорар"],
   },
   {
@@ -11479,7 +11479,7 @@ export const englishList = [
     type: "verb",
     transcription: "/fiːd/",
     synonyms: ["nourish", "sustain"],
-    meaning: "to give food to someone or something",
+    meaning: ["to give food to someone or something"],
     rusTranslations: ["кормить"],
   },
   {
@@ -11498,7 +11498,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɪk.ʃən/",
     synonyms: ["novel", "story"],
-    meaning: "literature in the form of prose that describes imaginary events",
+    meaning: ["literature in the form of prose that describes imaginary events"],
     rusTranslations: ["художественная литература"],
   },
   {
@@ -11507,7 +11507,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/fɪəs/",
     synonyms: ["intense", "ferocious"],
-    meaning: "showing a violent or intense aggressiveness",
+    meaning: ["showing a violent or intense aggressiveness"],
     rusTranslations: ["яростный", "свирепый"],
   },
   {
@@ -11516,7 +11516,7 @@ export const englishList = [
     type: "noun",
     transcription: "/faɪl/",
     synonyms: ["document", "record"],
-    meaning: "a collection of documents or data stored together",
+    meaning: ["a collection of documents or data stored together"],
     rusTranslations: ["файл", "папка"],
   },
   {
@@ -11525,7 +11525,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈfɪl.tər/",
     synonyms: ["sift", "strain"],
-    meaning: "to remove impurities or unwanted material from a substance",
+    meaning: ["to remove impurities or unwanted material from a substance"],
     rusTranslations: ["фильтровать"],
   },
   {
@@ -11544,7 +11544,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɪŋ.ɡər.prɪnt/",
     synonyms: ["impression"],
-    meaning: "an impression or mark made on a surface by a finger",
+    meaning: ["an impression or mark made on a surface by a finger"],
     rusTranslations: ["отпечаток пальца"],
   },
   {
@@ -11563,7 +11563,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfɪs.kəl/",
     synonyms: ["financial", "budgetary"],
-    meaning: "relating to government revenue, especially taxes",
+    meaning: ["relating to government revenue, especially taxes"],
     rusTranslations: ["финансовый", "бюджетный"],
   },
   {
@@ -11572,7 +11572,7 @@ export const englishList = [
     type: "verb",
     transcription: "/fɪks/",
     synonyms: ["repair", "mend"],
-    meaning: "to mend or repair something that is broken",
+    meaning: ["to mend or repair something that is broken"],
     rusTranslations: ["чинить", "ремонтировать"],
   },
   {
@@ -11581,7 +11581,7 @@ export const englishList = [
     type: "noun",
     transcription: "/flæɡ/",
     synonyms: ["banner", "ensign"],
-    meaning: "a piece of fabric with a distinctive design used as a symbol",
+    meaning: ["a piece of fabric with a distinctive design used as a symbol"],
     rusTranslations: ["флаг"],
   },
   {
@@ -11600,7 +11600,7 @@ export const englishList = [
     type: "verb",
     transcription: "/flæʃ/",
     synonyms: ["glitter", "sparkle"],
-    meaning: "to shine brightly or suddenly",
+    meaning: ["to shine brightly or suddenly"],
     rusTranslations: ["блестеть", "вспыхивать"],
   },
   {
@@ -11609,7 +11609,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/flæt/",
     synonyms: ["even", "level"],
-    meaning: "smooth and even; without raised areas or indentations",
+    meaning: ["smooth and even; without raised areas or indentations"],
     rusTranslations: ["ровный", "плоский"],
   },
   {
@@ -11618,7 +11618,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈflɛks.ə.bəl/",
     synonyms: ["supple", "pliant"],
-    meaning: "capable of bending easily without breaking",
+    meaning: ["capable of bending easily without breaking"],
     rusTranslations: ["гибкий"],
   },
   {
@@ -11627,7 +11627,7 @@ export const englishList = [
     type: "noun",
     transcription: "/flaɪt/",
     synonyms: ["journey", "trip"],
-    meaning: "the act of flying, especially in an aircraft",
+    meaning: ["the act of flying, especially in an aircraft"],
     rusTranslations: ["полет"],
   },
   {
@@ -11636,7 +11636,7 @@ export const englishList = [
     type: "verb",
     transcription: "/floʊt/",
     synonyms: ["drift", "sail"],
-    meaning: "to rest or move on or near the surface of a liquid",
+    meaning: ["to rest or move on or near the surface of a liquid"],
     rusTranslations: ["плавать", "носиться"],
   },
   {
@@ -11645,7 +11645,7 @@ export const englishList = [
     type: "noun",
     transcription: "/flɒk/",
     synonyms: ["group", "herd"],
-    meaning: "a large number of birds or animals that travel together",
+    meaning: ["a large number of birds or animals that travel together"],
     rusTranslations: ["стадо"],
   },
   {
@@ -11664,7 +11664,7 @@ export const englishList = [
     type: "verb",
     transcription: "/floʊ/",
     synonyms: ["stream", "pour"],
-    meaning: "to move along in a steady, continuous stream",
+    meaning: ["to move along in a steady, continuous stream"],
     rusTranslations: ["течь", "протекать"],
   },
   {
@@ -11673,7 +11673,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈflaʊ.ər/",
     synonyms: ["blossom", "bloom"],
-    meaning: "the seed-bearing part of a plant, often colorful and fragrant",
+    meaning: ["the seed-bearing part of a plant, often colorful and fragrant"],
     rusTranslations: ["цветок"],
   },
   {
@@ -11682,7 +11682,7 @@ export const englishList = [
     type: "noun",
     transcription: "/fluː/",
     synonyms: ["influenza"],
-    meaning: "a common viral infection affecting the respiratory system",
+    meaning: ["a common viral infection affecting the respiratory system"],
     rusTranslations: ["грипп"],
   },
   {
@@ -11691,7 +11691,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfluː.ɪd/",
     synonyms: ["liquid", "flowing"],
-    meaning: "able to flow easily; not fixed in shape",
+    meaning: ["able to flow easily; not fixed in shape"],
     rusTranslations: ["жидкий"],
   },
   {
@@ -11700,7 +11700,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfluː.ənt/",
     synonyms: ["articulate", "eloquent"],
-    meaning: "able to write or speak a language smoothly, easily, or readily",
+    meaning: ["able to write or speak a language smoothly, easily, or readily"],
     rusTranslations: ["беглый", "свободный"],
   },
   {
@@ -11709,7 +11709,7 @@ export const englishList = [
     type: "noun",
     transcription: "/foʊks/",
     synonyms: ["people", "family"],
-    meaning: "informal term for people in general or one’s family",
+    meaning: ["informal term for people in general or one’s family"],
     rusTranslations: ["люди", "семья"],
   },
   {
@@ -11718,7 +11718,7 @@ export const englishList = [
     type: "noun",
     transcription: "/fuːl/",
     synonyms: ["idiot", "simpleton"],
-    meaning: "a person who acts unwisely or imprudently",
+    meaning: ["a person who acts unwisely or imprudently"],
     rusTranslations: ["дурак"],
   },
   {
@@ -11727,7 +11727,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfuː.lɪʃ/",
     synonyms: ["silly", "unwise"],
-    meaning: "lacking good sense or judgment",
+    meaning: ["lacking good sense or judgment"],
     rusTranslations: ["глупый"],
   },
   {
@@ -11746,7 +11746,7 @@ export const englishList = [
     type: "verb",
     transcription: "/fərˈbɪd/",
     synonyms: ["prohibit", "ban"],
-    meaning: "to order someone not to do something",
+    meaning: ["to order someone not to do something"],
     rusTranslations: ["запрещать"],
   },
   {
@@ -11755,7 +11755,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfɔːrs.fəl/",
     synonyms: ["vigorous", "assertive"],
-    meaning: "characterized by or full of force; powerful",
+    meaning: ["characterized by or full of force; powerful"],
     rusTranslations: ["решительный", "энергичный"],
   },
   {
@@ -11774,7 +11774,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɔːr.hed/",
     synonyms: ["brow"],
-    meaning: "the part of the face above the eyebrows",
+    meaning: ["the part of the face above the eyebrows"],
     rusTranslations: ["лоб"],
   },
   {
@@ -11783,7 +11783,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɒr.ɪn.ər/",
     synonyms: ["outsider", "stranger"],
-    meaning: "a person from another country",
+    meaning: ["a person from another country"],
     rusTranslations: ["иностранец"],
   },
   {
@@ -11792,7 +11792,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɒr.ɪst/",
     synonyms: ["woodland", "jungle"],
-    meaning: "a large area covered chiefly with trees and undergrowth",
+    meaning: ["a large area covered chiefly with trees and undergrowth"],
     rusTranslations: ["лес"],
   },
   {
@@ -11801,7 +11801,7 @@ export const englishList = [
     type: "verb",
     transcription: "/fɔːrdʒ/",
     synonyms: ["fabricate", "create"],
-    meaning: "to form or make, especially by concentrated effort",
+    meaning: ["to form or make, especially by concentrated effort"],
     rusTranslations: ["кузница", "ковать"],
   },
   {
@@ -11810,7 +11810,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/fərˈɡɛt.fəl/",
     synonyms: ["absent-minded", "inattentive"],
-    meaning: "apt or likely not to remember",
+    meaning: ["apt or likely not to remember"],
     rusTranslations: ["забывчивый"],
   },
   {
@@ -11819,7 +11819,7 @@ export const englishList = [
     type: "noun",
     transcription: "/fɔːrˈmæl.ɪ.ti/",
     synonyms: ["ceremony", "protocol"],
-    meaning: "the rigid observance of rules or conventional requirements",
+    meaning: ["the rigid observance of rules or conventional requirements"],
     rusTranslations: ["формальность"],
   },
   {
@@ -11828,7 +11828,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɔːr.mjʊ.lə/",
     synonyms: ["recipe", "expression"],
-    meaning: "a set form of words or symbols for expressing information",
+    meaning: ["a set form of words or symbols for expressing information"],
     rusTranslations: ["формула"],
   },
   {
@@ -11837,7 +11837,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈfɔːr.mjʊ.leɪt/",
     synonyms: ["devise", "create"],
-    meaning: "to develop or present a strategy in a systematic way",
+    meaning: ["to develop or present a strategy in a systematic way"],
     rusTranslations: ["формулировать"],
   },
   {
@@ -11846,7 +11846,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɔːrt.naɪt/",
     synonyms: ["two weeks"],
-    meaning: "a period of two weeks",
+    meaning: ["a period of two weeks"],
     rusTranslations: ["две недели"],
   },
   {
@@ -11855,7 +11855,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɔːr.tʃuːn/",
     synonyms: ["wealth", "luck"],
-    meaning: "a large amount of money or assets; luck or chance",
+    meaning: ["a large amount of money or assets; luck or chance"],
     rusTranslations: ["состояние", "удача"],
   },
   {
@@ -11864,7 +11864,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɔːr.wərd.ɪŋ/",
     synonyms: ["sending", "transmission"],
-    meaning: "the act of sending something onward to another destination",
+    meaning: ["the act of sending something onward to another destination"],
     rusTranslations: ["пересылка"],
   },
   {
@@ -11873,7 +11873,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈfɒs.tər/",
     synonyms: ["nurture", "encourage"],
-    meaning: "to encourage or promote the development of something",
+    meaning: ["to encourage or promote the development of something"],
     rusTranslations: ["способствовать", "воспитывать"],
   },
   {
@@ -11882,7 +11882,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfaʊn.dər/",
     synonyms: ["creator", "originator"],
-    meaning: "a person who establishes an institution or settlement",
+    meaning: ["a person who establishes an institution or settlement"],
     rusTranslations: ["основатель"],
   },
   {
@@ -11891,7 +11891,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfreɪm.wɜːrk/",
     synonyms: ["structure", "skeleton"],
-    meaning: "an essential supporting structure underlying a system",
+    meaning: ["an essential supporting structure underlying a system"],
     rusTranslations: ["рамки", "структура"],
   },
   {
@@ -11910,7 +11910,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/fræŋk/",
     synonyms: ["candid", "honest"],
-    meaning: "open, honest, and direct in speech or writing",
+    meaning: ["open, honest, and direct in speech or writing"],
     rusTranslations: ["откровенный"],
   },
   {
@@ -11919,7 +11919,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfriː.dəm/",
     synonyms: ["liberty", "independence"],
-    meaning: "the power or right to act, speak, or think without hindrance",
+    meaning: ["the power or right to act, speak, or think without hindrance"],
     rusTranslations: ["свобода"],
   },
   {
@@ -11928,7 +11928,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfriː.kwən.si/",
     synonyms: ["occurrence", "rate"],
-    meaning: "the rate at which something occurs over a particular period",
+    meaning: ["the rate at which something occurs over a particular period"],
     rusTranslations: ["частота"],
   },
   {
@@ -11937,7 +11937,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfrend.li/",
     synonyms: ["amiable", "cordial"],
-    meaning: "kind and pleasant",
+    meaning: ["kind and pleasant"],
     rusTranslations: ["дружелюбный"],
   },
   {
@@ -11946,7 +11946,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈfraɪ.tən/",
     synonyms: ["scare", "alarm"],
-    meaning: "to cause someone to feel afraid",
+    meaning: ["to cause someone to feel afraid"],
     rusTranslations: ["пугать"],
   },
   {
@@ -11955,7 +11955,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈfraɪ.tənd/",
     synonyms: ["scared", "terrified"],
-    meaning: "feeling fear or anxiety",
+    meaning: ["feeling fear or anxiety"],
     rusTranslations: ["испуганный"],
   },
   {
@@ -11964,7 +11964,7 @@ export const englishList = [
     type: "noun",
     transcription: "/frɪndʒ/",
     synonyms: ["edge", "border"],
-    meaning: "the outer, marginal, or extreme part of an area or group",
+    meaning: ["the outer, marginal, or extreme part of an area or group"],
     rusTranslations: ["край", "окраина"],
   },
   {
@@ -11973,7 +11973,7 @@ export const englishList = [
     type: "noun",
     transcription: "/frʌnˈtɪər/",
     synonyms: ["boundary", "limit"],
-    meaning: "a line or border separating two countries",
+    meaning: ["a line or border separating two countries"],
     rusTranslations: ["граница"],
   },
   {
@@ -11992,7 +11992,7 @@ export const englishList = [
     type: "verb",
     transcription: "/frʌˈstreɪt/",
     synonyms: ["thwart", "discourage"],
-    meaning: "to prevent (a plan, attempt, or desire) from progressing",
+    meaning: ["to prevent (a plan, attempt, or desire) from progressing"],
     rusTranslations: ["расстраивать", "обескураживать"],
   },
   {
@@ -12021,7 +12021,7 @@ export const englishList = [
     type: "verb",
     transcription: "/fʊlˈfɪl/",
     synonyms: ["accomplish", "achieve"],
-    meaning: "to bring to completion; to satisfy a requirement",
+    meaning: ["to bring to completion; to satisfy a requirement"],
     rusTranslations: ["выполнять", "осуществлять"],
   },
   {
@@ -12040,7 +12040,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˌfʌn.dəˈmɛn.təl/",
     synonyms: ["basic", "essential"],
-    meaning: "forming a necessary base or core; of central importance",
+    meaning: ["forming a necessary base or core; of central importance"],
     rusTranslations: ["фундаментальный", "основной"],
   },
   {
@@ -12059,7 +12059,7 @@ export const englishList = [
     type: "adverb",
     transcription: "/ˌfɜːr.ðərˈmɔːr/",
     synonyms: ["moreover", "additionally"],
-    meaning: "in addition; besides",
+    meaning: ["in addition; besides"],
     rusTranslations: ["более того", "к тому же"],
   },
   {
@@ -12068,7 +12068,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɡɑː.bɪdʒ/",
     synonyms: ["trash", "rubbish"],
-    meaning: "waste material; refuse",
+    meaning: ["waste material; refuse"],
     rusTranslations: ["мусор", "отбросы"],
   },
   {
@@ -12077,7 +12077,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɡæs.əˌliːn/",
     synonyms: ["petrol"],
-    meaning: "a liquid fuel used in internal combustion engines",
+    meaning: ["a liquid fuel used in internal combustion engines"],
     rusTranslations: ["бензин"],
   },
   {
@@ -12086,7 +12086,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɡæð.ər/",
     synonyms: ["collect", "assemble"],
-    meaning: "to come together or bring together",
+    meaning: ["to come together or bring together"],
     rusTranslations: ["собирать"],
   },
   {
@@ -12095,7 +12095,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈdʒen.ə.reɪt/",
     synonyms: ["produce", "create"],
-    meaning: "to bring into existence; to produce",
+    meaning: ["to bring into existence; to produce"],
     rusTranslations: ["генерировать", "порождать"],
   },
   {
@@ -12104,7 +12104,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌdʒen.əˈreɪ.ʃən/",
     synonyms: ["cohort", "age group"],
-    meaning: "all the people born and living at about the same time",
+    meaning: ["all the people born and living at about the same time"],
     rusTranslations: ["поколение"],
   },
   {
@@ -12113,7 +12113,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈdʒiː.njəs/",
     synonyms: ["prodigy", "mastermind"],
-    meaning: "exceptional intellectual or creative power",
+    meaning: ["exceptional intellectual or creative power"],
     rusTranslations: ["гений"],
   },
   {
@@ -12122,7 +12122,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈdʒen.təl/",
     synonyms: ["mild", "tender"],
-    meaning: "mild in temperament or behavior; kind",
+    meaning: ["mild in temperament or behavior; kind"],
     rusTranslations: ["нежный", "мягкий"],
   },
   {
@@ -12131,7 +12131,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈdʒen.ju.ɪn/",
     synonyms: ["authentic", "real"],
-    meaning: "truly what something is said to be; authentic",
+    meaning: ["truly what something is said to be; authentic"],
     rusTranslations: ["подлинный", "настоящий"],
   },
   {
@@ -12140,7 +12140,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɡlæns/",
     synonyms: ["peek", "glimpse"],
-    meaning: "to take a brief or hurried look",
+    meaning: ["to take a brief or hurried look"],
     rusTranslations: ["взглянуть мельком"],
   },
   {
@@ -12149,7 +12149,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɡlɛər/",
     synonyms: ["stare", "gaze"],
-    meaning: "to look at someone or something in an angry or fierce way",
+    meaning: ["to look at someone or something in an angry or fierce way"],
     rusTranslations: ["пялицца", "сверкать"],
   },
   {
@@ -12158,7 +12158,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɡlɪmps/",
     synonyms: ["peek", "glance"],
-    meaning: "a momentary or partial view",
+    meaning: ["a momentary or partial view"],
     rusTranslations: ["мельком увидеть"],
   },
   {
@@ -12167,7 +12167,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈɡloʊ.bəl/",
     synonyms: ["worldwide", "universal"],
-    meaning: "relating to the whole world; worldwide",
+    meaning: ["relating to the whole world; worldwide"],
     rusTranslations: ["глобальный"],
   },
   {
@@ -12176,7 +12176,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɡloʊb/",
     synonyms: ["world", "sphere"],
-    meaning: "a spherical representation of the earth",
+    meaning: ["a spherical representation of the earth"],
     rusTranslations: ["глобус"],
   },
   {
@@ -12185,7 +12185,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɡʌv.ərn/",
     synonyms: ["rule", "administer"],
-    meaning: "to control or rule over a state or organization",
+    meaning: ["to control or rule over a state or organization"],
     rusTranslations: ["управлять"],
   },
   {
@@ -12194,7 +12194,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɡreɪd/",
     synonyms: ["mark", "score"],
-    meaning: "a level or rank; an evaluation of performance",
+    meaning: ["a level or rank; an evaluation of performance"],
     rusTranslations: ["оценка", "класс"],
   },
   {
@@ -12203,7 +12203,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɡrænt/",
     synonyms: ["award", "give"],
-    meaning: "to agree to give or allow something requested",
+    meaning: ["to agree to give or allow something requested"],
     rusTranslations: ["предоставлять", "даровать"],
   },
   {
@@ -12212,7 +12212,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɡræf/",
     synonyms: ["chart", "diagram"],
-    meaning: "a diagram showing the relation between variable quantities",
+    meaning: ["a diagram showing the relation between variable quantities"],
     rusTranslations: ["график", "диаграмма"],
   },
   {
@@ -12221,7 +12221,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɡrɑːsp/",
     synonyms: ["understand", "comprehend"],
-    meaning: "to seize and hold firmly; to understand fully",
+    meaning: ["to seize and hold firmly; to understand fully"],
     rusTranslations: ["хватать", "понимать"],
   },
   {
@@ -12240,7 +12240,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈɡreɪt.fəl/",
     synonyms: ["thankful", "appreciative"],
-    meaning: "feeling or showing gratitude",
+    meaning: ["feeling or showing gratitude"],
     rusTranslations: ["благодарный"],
   },
   {
@@ -12249,7 +12249,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɡræv.ɪ.ti/",
     synonyms: ["seriousness", "importance"],
-    meaning: "the force that attracts a body toward the center of the earth",
+    meaning: ["the force that attracts a body toward the center of the earth"],
     rusTranslations: ["гравитация"],
   },
   {
@@ -12258,7 +12258,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɡriːn.haʊs/",
     synonyms: ["conservatory"],
-    meaning: "a glass building in which plants are grown",
+    meaning: ["a glass building in which plants are grown"],
     rusTranslations: ["теплица"],
   },
   {
@@ -12267,7 +12267,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɡroʊ.sər.i/",
     synonyms: ["market", "store"],
-    meaning: "a store that sells food and other household supplies",
+    meaning: ["a store that sells food and other household supplies"],
     rusTranslations: ["продуктовый магазин"],
   },
   {
@@ -12276,7 +12276,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɡær.ənˈtiː/",
     synonyms: ["warranty", "assurance"],
-    meaning: "a formal promise or assurance, typically in writing",
+    meaning: ["a formal promise or assurance, typically in writing"],
     rusTranslations: ["гарантия"],
   },
   {
@@ -12285,7 +12285,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɡaɪd/",
     synonyms: ["lead", "direct"],
-    meaning: "to show or indicate the way",
+    meaning: ["to show or indicate the way"],
     rusTranslations: ["направлять", "руководить"],
   },
   {
@@ -12304,7 +12304,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhænd.fəl/",
     synonyms: ["small amount", "scattering"],
-    meaning: "a small number or amount of something",
+    meaning: ["a small number or amount of something"],
     rusTranslations: ["горсть"],
   },
   {
@@ -12313,7 +12313,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhæn.dl/",
     synonyms: ["grip", "knob"],
-    meaning: "a part by which a thing is held or controlled",
+    meaning: ["a part by which a thing is held or controlled"],
     rusTranslations: ["ручка"],
   },
   {
@@ -12322,7 +12322,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhæp.ənˌstæn(t)s/",
     synonyms: ["coincidence", "chance"],
-    meaning: "a circumstance that is due entirely to chance",
+    meaning: ["a circumstance that is due entirely to chance"],
     rusTranslations: ["случайность"],
   },
   {
@@ -12331,7 +12331,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhɑːr.mə.ni/",
     synonyms: ["accord", "unity"],
-    meaning: "agreement or concord among people or things",
+    meaning: ["agreement or concord among people or things"],
     rusTranslations: ["гармония"],
   },
   {
@@ -12340,7 +12340,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhæz.ərd/",
     synonyms: ["danger", "risk"],
-    meaning: "a potential source of harm or adverse effect",
+    meaning: ["a potential source of harm or adverse effect"],
     rusTranslations: ["опасность"],
   },
   {
@@ -12349,7 +12349,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhɛd.laɪn/",
     synonyms: ["title", "caption"],
-    meaning: "the heading at the top of an article in a newspaper or magazine",
+    meaning: ["the heading at the top of an article in a newspaper or magazine"],
     rusTranslations: ["заголовок"],
   },
   {
@@ -12358,7 +12358,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈhɛl.θi/",
     synonyms: ["well", "robust"],
-    meaning: "in good health; robust",
+    meaning: ["in good health; robust"],
     rusTranslations: ["здоровый"],
   },
   {
@@ -12367,7 +12367,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhɛv.ən/",
     synonyms: ["paradise", "nirvana"],
-    meaning: "a place regarded in various religions as the abode of God",
+    meaning: ["a place regarded in various religions as the abode of God"],
     rusTranslations: ["небеса"],
   },
   {
@@ -12396,7 +12396,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈhaɪ.laɪt/",
     synonyms: ["emphasize", "accentuate"],
-    meaning: "to make something stand out or be more noticeable",
+    meaning: ["to make something stand out or be more noticeable"],
     rusTranslations: ["выделять"],
   },
   {
@@ -12405,7 +12405,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/hɪˈlɛr.i.əs/",
     synonyms: ["funny", "amusing"],
-    meaning: "extremely amusing or comical",
+    meaning: ["extremely amusing or comical"],
     rusTranslations: ["уморительный"],
   },
   {
@@ -12414,7 +12414,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/hɪˈstɒr.ɪ.kəl/",
     synonyms: ["past", "antique"],
-    meaning: "concerning history or past events",
+    meaning: ["concerning history or past events"],
     rusTranslations: ["исторический"],
   },
   {
@@ -12423,7 +12423,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhɒl.ɪ.deɪ/",
     synonyms: ["vacation", "break"],
-    meaning: "an extended period of leisure and recreation, often with travel",
+    meaning: ["an extended period of leisure and recreation, often with travel"],
     rusTranslations: ["отпуск", "праздник"],
   },
   {
@@ -12432,7 +12432,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈɒn.ɪst/",
     synonyms: ["truthful", "sincere"],
-    meaning: "free of deceit; sincere and upright",
+    meaning: ["free of deceit; sincere and upright"],
     rusTranslations: ["честный"],
   },
   {
@@ -12441,7 +12441,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhʌn.i/",
     synonyms: ["sweetener", "nectar"],
-    meaning: "a sweet, sticky substance produced by bees",
+    meaning: ["a sweet, sticky substance produced by bees"],
     rusTranslations: ["мёд"],
   },
   {
@@ -12450,7 +12450,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɒn.ər/",
     synonyms: ["esteem", "regard"],
-    meaning: "high respect or great esteem",
+    meaning: ["high respect or great esteem"],
     rusTranslations: ["честь", "уважение"],
   },
   {
@@ -12459,7 +12459,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈhoʊp.fəl/",
     synonyms: ["optimistic", "confident"],
-    meaning: "feeling or inspiring optimism about a future event",
+    meaning: ["feeling or inspiring optimism about a future event"],
     rusTranslations: ["надеющийся", "оптимистичный"],
   },
   {
@@ -12468,7 +12468,7 @@ export const englishList = [
     type: "noun",
     transcription: "/həˈraɪ.zən/",
     synonyms: ["skyline", "limit"],
-    meaning: "the line at which the earth's surface and the sky appear to meet",
+    meaning: ["the line at which the earth's surface and the sky appear to meet"],
     rusTranslations: ["горизонт"],
   },
   {
@@ -12477,7 +12477,7 @@ export const englishList = [
     type: "noun",
     transcription: "/hoʊst/",
     synonyms: ["presenter", "master of ceremonies"],
-    meaning: "a person who receives or entertains guests",
+    meaning: ["a person who receives or entertains guests"],
     rusTranslations: ["хозяин", "ведущий"],
   },
   {
@@ -12486,7 +12486,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈhɒs.taɪl/",
     synonyms: ["unfriendly", "antagonistic"],
-    meaning: "showing or feeling opposition or dislike",
+    meaning: ["showing or feeling opposition or dislike"],
     rusTranslations: ["враждебный"],
   },
   {
@@ -12495,7 +12495,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈhʌm.bəl/",
     synonyms: ["modest", "unpretentious"],
-    meaning: "having or showing a modest or low view of one's importance",
+    meaning: ["having or showing a modest or low view of one's importance"],
     rusTranslations: ["скромный", "смиренный"],
   },
   {
@@ -12504,7 +12504,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhjuː.mər/",
     synonyms: ["comedy", "amusement"],
-    meaning: "the quality of being amusing or comic",
+    meaning: ["the quality of being amusing or comic"],
     rusTranslations: ["юмор"],
   },
   {
@@ -12513,7 +12513,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈhʌŋ.ɡri/",
     synonyms: ["starving", "famished"],
-    meaning: "feeling the need for food; in need of nourishment",
+    meaning: ["feeling the need for food; in need of nourishment"],
     rusTranslations: ["голодный"],
   },
   {
@@ -12522,7 +12522,7 @@ export const englishList = [
     type: "verb",
     transcription: "/hʌnt/",
     synonyms: ["pursue", "chase"],
-    meaning: "to search for and kill (wild animals) for food or sport",
+    meaning: ["to search for and kill (wild animals) for food or sport"],
     rusTranslations: ["охотиться"],
   },
   {
@@ -12531,7 +12531,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈhʌr.i/",
     synonyms: ["rush", "hasten"],
-    meaning: "to move or act with haste; to be in a hurry",
+    meaning: ["to move or act with haste; to be in a hurry"],
     rusTranslations: ["торопиться"],
   },
   {
@@ -12540,7 +12540,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/aɪˈdiː.əl/",
     synonyms: ["perfect", "optimal"],
-    meaning: "most suitable or desirable",
+    meaning: ["most suitable or desirable"],
     rusTranslations: ["идеальный"],
   },
   {
@@ -12549,7 +12549,7 @@ export const englishList = [
     type: "verb",
     transcription: "/aɪˈdɛn.tɪ.faɪ/",
     synonyms: ["recognize", "determine"],
-    meaning: "to establish or indicate who or what someone or something is",
+    meaning: ["to establish or indicate who or what someone or something is"],
     rusTranslations: ["идентифицировать", "определять"],
   },
   {
@@ -12558,7 +12558,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪˈliː.ɡəl/",
     synonyms: ["unlawful", "illicit"],
-    meaning: "forbidden by law or statute",
+    meaning: ["forbidden by law or statute"],
     rusTranslations: ["незаконный"],
   },
   {
@@ -12567,7 +12567,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪˈluː.mɪ.neɪt/",
     synonyms: ["light", "enlighten"],
-    meaning: "to light up or make something clear",
+    meaning: ["to light up or make something clear"],
     rusTranslations: ["освещать", "прояснять"],
   },
   {
@@ -12576,7 +12576,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪˈluː.ʒən/",
     synonyms: ["mirage", "delusion"],
-    meaning: "a deceptive appearance or impression",
+    meaning: ["a deceptive appearance or impression"],
     rusTranslations: ["иллюзия"],
   },
   {
@@ -12585,7 +12585,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɪl.ə.streɪt/",
     synonyms: ["demonstrate", "exemplify"],
-    meaning: "to explain or decorate a text or idea with pictures",
+    meaning: ["to explain or decorate a text or idea with pictures"],
     rusTranslations: ["иллюстрировать"],
   },
   {
@@ -12594,7 +12594,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪm.ɪdʒ/",
     synonyms: ["picture", "icon"],
-    meaning: "a representation or visual likeness of someone or something",
+    meaning: ["a representation or visual likeness of someone or something"],
     rusTranslations: ["образ", "изображение"],
   },
   {
@@ -12603,7 +12603,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪˌmædʒ.ɪˈneɪ.ʃən/",
     synonyms: ["creativity", "invention"],
-    meaning: "the faculty of forming new ideas or images",
+    meaning: ["the faculty of forming new ideas or images"],
     rusTranslations: ["воображение"],
   },
   {
@@ -12612,7 +12612,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɪm.ɪ.teɪt/",
     synonyms: ["mimic", "copy"],
-    meaning: "to copy the behavior, style, or appearance of",
+    meaning: ["to copy the behavior, style, or appearance of"],
     rusTranslations: ["имитировать"],
   },
   {
@@ -12621,7 +12621,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪˈmens/",
     synonyms: ["huge", "enormous"],
-    meaning: "extremely large or great",
+    meaning: ["extremely large or great"],
     rusTranslations: ["огромный"],
   },
   {
@@ -12630,7 +12630,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪm.pækt/",
     synonyms: ["influence", "effect"],
-    meaning: "the strong effect or influence something has",
+    meaning: ["the strong effect or influence something has"],
     rusTranslations: ["воздействие", "эффект"],
   },
   {
@@ -12639,7 +12639,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɪm.plɪ.ment/",
     synonyms: ["execute", "carry out"],
-    meaning: "to put a decision or plan into effect",
+    meaning: ["to put a decision or plan into effect"],
     rusTranslations: ["внедрять", "осуществлять"],
   },
   {
@@ -12658,7 +12658,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪmˈplaɪ/",
     synonyms: ["suggest", "hint"],
-    meaning: "to indicate or suggest without being explicitly stated",
+    meaning: ["to indicate or suggest without being explicitly stated"],
     rusTranslations: ["подразумевать"],
   },
   {
@@ -12667,7 +12667,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɪm.pɔːrt/",
     synonyms: ["bring in", "introduce"],
-    meaning: "to bring goods or services from one country into another",
+    meaning: ["to bring goods or services from one country into another"],
     rusTranslations: ["импортировать"],
   },
   {
@@ -12706,7 +12706,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪmˈpruːv/",
     synonyms: ["enhance", "better"],
-    meaning: "to make or become better",
+    meaning: ["to make or become better"],
     rusTranslations: ["улучшать"],
   },
   {
@@ -12715,7 +12715,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪnˈsɛn.tɪv/",
     synonyms: ["motivation", "encouragement"],
-    meaning: "something that motivates or encourages someone to do something",
+    meaning: ["something that motivates or encourages someone to do something"],
     rusTranslations: ["стимул"],
   },
   {
@@ -12734,7 +12734,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈkluːd/",
     synonyms: ["comprise", "contain"],
-    meaning: "to contain as part of a whole",
+    meaning: ["to contain as part of a whole"],
     rusTranslations: ["включать"],
   },
   {
@@ -12753,7 +12753,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈkriːs/",
     synonyms: ["raise", "grow"],
-    meaning: "to become or make greater in size, amount, or degree",
+    meaning: ["to become or make greater in size, amount, or degree"],
     rusTranslations: ["увеличивать"],
   },
   {
@@ -12762,7 +12762,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɪn.dɪ.keɪt/",
     synonyms: ["show", "demonstrate"],
-    meaning: "to point out or show something",
+    meaning: ["to point out or show something"],
     rusTranslations: ["указывать"],
   },
   {
@@ -12771,7 +12771,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˌɪn.dɪˈpɛn.dənt/",
     synonyms: ["autonomous", "self-reliant"],
-    meaning: "free from outside control; not depending on another's authority",
+    meaning: ["free from outside control; not depending on another's authority"],
     rusTranslations: ["независимый"],
   },
   {
@@ -12780,7 +12780,7 @@ export const englishList = [
     type: "adjective",
     transcription: "/ɪnˈɛv.ɪ.tə.bəl/",
     synonyms: ["unavoidable", "certain"],
-    meaning: "certain to happen; unavoidable",
+    meaning: ["certain to happen; unavoidable"],
     rusTranslations: ["неизбежный"],
   },
   {
@@ -12799,7 +12799,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈkwaɪər/",
     synonyms: ["ask", "question"],
-    meaning: "to ask for information",
+    meaning: ["to ask for information"],
     rusTranslations: ["расспрашивать", "запрашивать"],
   },
   {
@@ -12808,7 +12808,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪn.saɪt/",
     synonyms: ["understanding", "awareness"],
-    meaning: "an accurate and deep understanding of something",
+    meaning: ["an accurate and deep understanding of something"],
     rusTranslations: ["понимание", "интуиция"],
   },
   {
@@ -12817,7 +12817,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈspɛkt/",
     synonyms: ["examine", "scrutinize"],
-    meaning: "to look at closely in order to assess quality or condition",
+    meaning: ["to look at closely in order to assess quality or condition"],
     rusTranslations: ["осматривать"],
   },
   {
@@ -12826,7 +12826,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈspaɪər/",
     synonyms: ["motivate", "encourage"],
-    meaning: "to fill someone with the urge or ability to do something",
+    meaning: ["to fill someone with the urge or ability to do something"],
     rusTranslations: ["вдохновлять"],
   },
   {
@@ -12835,7 +12835,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈstɔːl/",
     synonyms: ["set up", "fix"],
-    meaning: "to place or fix equipment in position ready for use",
+    meaning: ["to place or fix equipment in position ready for use"],
     rusTranslations: ["устанавливать"],
   },
   {
@@ -12844,7 +12844,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪn.stəns/",
     synonyms: ["example", "case"],
-    meaning: "an example or single occurrence of something",
+    meaning: ["an example or single occurrence of something"],
     rusTranslations: ["пример"],
   },
   {
@@ -12853,7 +12853,7 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪn.stənt/",
     synonyms: ["moment", "second"],
-    meaning: "a very short period of time; immediately",
+    meaning: ["a very short period of time; immediately"],
     rusTranslations: ["мгновение"],
   },
   {
@@ -12872,7 +12872,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪnˈstrʌkt/",
     synonyms: ["teach", "educate"],
-    meaning: "to direct or command someone to do something",
+    meaning: ["to direct or command someone to do something"],
     rusTranslations: ["инструктировать", "обучать"],
   },
   {
@@ -12881,7 +12881,7 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈɪn.tɪ.ɡreɪt/",
     synonyms: ["unify", "combine"],
-    meaning: "to combine one thing with another so that they become a whole",
+    meaning: ["to combine one thing with another so that they become a whole"],
     rusTranslations: ["интегрировать"],
   },
 
