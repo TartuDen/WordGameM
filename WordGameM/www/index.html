@@ -6,39 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My English App</title>
 
-    <!-- Include a font that supports IPA characters (for transcription) -->
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
-    <!-- Link to your external CSS -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
 
   <body>
-    <div class="word-card">
-      <h1 id="word"></h1>
-      <p id="transcription"></p>
+    <!-- ==========================================================
+      Profile Page (User Auth/Selection)
+    =========================================================== -->
+    <div id="profilePage" class="profile-page">
+      <h2>Select or Create Profile</h2>
 
-      <!-- Hidden meaning by default -->
-      <div id="meaning" class="hidden"></div>
-      <button id="showMeaningBtn" class="meaning-btn">Show Meaning</button>
+      <!-- Existing Profiles Section -->
+      <div class="existing-profile-section">
+        <label for="existingProfilesSelect">Choose existing profile:</label>
+        <select id="existingProfilesSelect">
+          <option value="">--No profiles--</option>
+        </select>
+        <button id="selectProfileBtn">Select</button>
+      </div>
 
-      <!-- Hidden synonyms by default -->
-      <div id="synonyms" class="hidden"></div>
-      <button id="showSynonymsBtn" class="synonyms-btn">Show Synonyms</button>
+      <hr />
 
-      <div id="options" class="options"></div>
-    </div>
+      <!-- Create/Update Profile Section -->
+      <div class="create-profile-section">
+        <label for="newUserName">Profile name:</label>
+        <input type="text" id="newUserName" placeholder="Your name..." />
 
-    <!-- Toast container that shows "Correct!" or any short message -->
-    <div id="resultToast" class="toast hidden">
-      <div class="toast-content">
-        <p id="toastMessage"></p>
+        <!-- Multiple checkboxes for vocabulary -->
+        <div class="vocab-checkboxes">
+          <p>Select vocabularies:</p>
+          <label>
+            <input type="checkbox" name="vocabType" value="general" />
+            General
+          </label>
+          <label>
+            <input type="checkbox" name="vocabType" value="gaming" />
+            Gaming
+          </label>
+          <label>
+            <input type="checkbox" name="vocabType" value="technical" />
+            Technical
+          </label>
+          <label>
+            <input type="checkbox" name="vocabType" value="law" />
+            Law
+          </label>
+          <label>
+            <input type="checkbox" name="vocabType" value="slang" />
+            Slang
+          </label>
+        </div>
+
+        <button id="createOrUpdateProfileBtn">Create/Update</button>
       </div>
     </div>
 
-    <!-- Your main JS file -->
+    <!-- ==========================================================
+      Main Word Game Page
+    =========================================================== -->
+    <div id="gamePage" class="hidden">
+      <button id="switchProfileBtn" class="switch-profile-btn">Switch Profile</button>
+
+      <div class="word-card">
+        <h1 id="word"></h1>
+        <p id="transcription"></p>
+
+        <div id="meaning" class="hidden"></div>
+        <button id="showMeaningBtn" class="meaning-btn">Show Meaning</button>
+
+        <div id="synonyms" class="hidden"></div>
+        <button id="showSynonymsBtn" class="synonyms-btn">Show Synonyms</button>
+
+        <div id="options" class="options"></div>
+      </div>
+
+      <!-- Toast container -->
+      <div id="resultToast" class="toast hidden">
+        <div class="toast-content">
+          <p id="toastMessage"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cordova device ready script -->
+    <script src="js/index.js"></script>
+    <!-- Auth logic script -->
+    <script type="module" src="js/auth.js"></script>
+    <!-- Main app game logic script -->
     <script type="module" src="js/app.js"></script>
   </body>
 </html>
