@@ -1,5 +1,7 @@
 // WordGameM\www\js\auth.js
-import { user_data } from "./mockUser.js";
+
+import { userDataList } from "./mockUser.js";
+import { displayUserInfo, showWord } from "./app.js"; // Import these so we can call them after login
 
 let userList = [];
 let selectedUserId = null; // track which user we are updating (if any)
@@ -33,7 +35,9 @@ function onSelectProfile() {
     return;
   }
 
-  const user = userList.find((u) => String(u.user_id) === String(selectedUserId));
+  const user = userList.find(
+    (u) => String(u.user_id) === String(selectedUserId)
+  );
   if (!user) {
     alert("User not found. Please create a new profile.");
     return;
@@ -64,7 +68,9 @@ function onCreateOrUpdateProfile() {
 
   // If we have selectedUserId, see if we're updating an existing user
   if (selectedUserId) {
-    const existingUser = userList.find((u) => String(u.user_id) === String(selectedUserId));
+    const existingUser = userList.find(
+      (u) => String(u.user_id) === String(selectedUserId)
+    );
     if (existingUser) {
       existingUser.user_name = newUserName;
       existingUser.vocabulary = selectedVocab;
@@ -76,7 +82,7 @@ function onCreateOrUpdateProfile() {
 
   // Otherwise, create a brand new user
   const newUser = {
-    user_id: Date.now(),
+    user_id: Date.now(), // or use some other unique ID
     user_name: newUserName,
     user_reg_data: new Date().toLocaleDateString(),
     vocabulary: selectedVocab,
@@ -88,7 +94,8 @@ function onCreateOrUpdateProfile() {
 }
 
 /**
- * Sets the currentUser in localStorage, then switches to the game page
+ * Sets the currentUser in localStorage, then switches to the game page,
+ * and calls displayUserInfo() and showWord() so there's no blank page.
  */
 function setCurrentUser(user) {
   localStorage.setItem("currentUser", JSON.stringify(user));
@@ -96,6 +103,10 @@ function setCurrentUser(user) {
   // Hide profile page, show game page
   document.getElementById("profilePage").classList.add("hidden");
   document.getElementById("gamePage").classList.remove("hidden");
+
+  // Show user data and a random word
+  displayUserInfo();
+  showWord();
 
   // Clear the form
   document.getElementById("newUserName").value = "";
@@ -116,21 +127,23 @@ function populateExistingProfiles() {
   userList.forEach((usr) => {
     const option = document.createElement("option");
     option.value = usr.user_id;
-    option.textContent = `${usr.user_name} (vocab: ${usr.vocabulary.join(",")})`;
+    option.textContent = `${usr.user_name} (vocab: ${usr.vocabulary.join(
+      ","
+    )})`;
     selectEl.appendChild(option);
   });
 }
 
 /**
- * Load existing user profiles from localStorage, or seed with mock user if none
+ * Load existing user profiles from localStorage, or seed with mock user array if none
  */
 function loadUserProfilesFromStorage() {
   const data = localStorage.getItem("userList");
   if (data) {
     userList = JSON.parse(data);
   } else {
-    // If none found, start with our mock user "Den"
-    userList = [user_data];
+    // If none found, start with our mock array
+    userList = userDataList;
     saveUserProfilesToStorage();
   }
 }

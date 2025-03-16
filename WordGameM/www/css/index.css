@@ -134,7 +134,8 @@ button {
 
 .user-info-card {
   background: #FFF2C6;
-  padding: 15px;
+  font-size: 0.9rem;
+  padding: 8px;
   border-radius: 8px;
   max-width: 400px;
   width: 90%; /* responsive on small screens */
@@ -163,6 +164,16 @@ button {
   margin-bottom: 4px;
   font-size: 0.9rem;
 }
+.user-info-card h2 {
+  font-size: 1rem;
+}
+
+.user-stats ul {
+  margin-left: 0; 
+  padding-left: 1.2em; 
+  font-size: 0.85rem;
+}
+
 
 /* ------------------------------------------
    Word Card
@@ -295,4 +306,66 @@ button {
   body {
     background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
   }
+}
+/* index.css */
+
+/* Basic resets or body styles */
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+.profile-page,
+.game-page {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.switch-profile-btn {
+  margin: 10px;
+}
+
+/* The user-info card with a slightly playful style */
+.kids-style {
+  font-size: 1.1rem;
+  background-color: #f9f4d0; /* a light pastel color */
+  border: 2px solid #faa;   /* playful pink border */
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.kids-style h2 {
+  margin-top: 0;
+  color: #444;
+  font-weight: bold;
+}
+
+/* Toast styles */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s, bottom 0.3s;
+}
+
+.toast.show {
+  opacity: 1;
+  bottom: 40px;
+}
+
+.toast-content p {
+  margin: 0;
 }

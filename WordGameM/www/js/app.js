@@ -1,20 +1,33 @@
 // WordGameM\www\js\app.js
+
 import { englishList } from "./words.js";
-import { user_progress } from "./mockUser.js"; // mock progress for demonstration
+import { userProgressList } from "./mockUser.js";
+
+let userProgressInMemory = [];
+
+// Load userProgress from localStorage or from the mock
+function loadUserProgress() {
+  const data = localStorage.getItem("userProgressList");
+  if (data) {
+    userProgressInMemory = JSON.parse(data);
+  } else {
+    userProgressInMemory = userProgressList;
+    localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
+  }
+}
+loadUserProgress();
 
 const englishWords = englishList;
 let currentWord = null;
 
 document.addEventListener("DOMContentLoaded", () => {
-  // If there's a logged-in user, show game page & user info
+  // If a user is logged in from before, show the game page
   const currentUserStr = localStorage.getItem("currentUser");
   if (currentUserStr) {
     document.getElementById("profilePage").classList.add("hidden");
     document.getElementById("gamePage").classList.remove("hidden");
 
-    // Show the user's data
     displayUserInfo();
-    // Start the quiz
     showWord();
   }
 
@@ -24,20 +37,16 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", showProfilePage);
 
   // Toggle meaning
-  document
-    .getElementById("showMeaningBtn")
-    .addEventListener("click", () => {
-      document.getElementById("meaning").classList.toggle("hidden");
-    });
+  document.getElementById("showMeaningBtn").addEventListener("click", () => {
+    document.getElementById("meaning").classList.toggle("hidden");
+  });
 
   // Toggle synonyms
-  document
-    .getElementById("showSynonymsBtn")
-    .addEventListener("click", () => {
-      document.getElementById("synonyms").classList.toggle("hidden");
-    });
+  document.getElementById("showSynonymsBtn").addEventListener("click", () => {
+    document.getElementById("synonyms").classList.toggle("hidden");
+  });
 
-  // Simple pull-to-refresh
+  // Simple pull-to-refresh for mobile
   let startY = null;
   document.addEventListener("touchstart", (e) => {
     if (e.touches.length === 1) {
@@ -57,53 +66,48 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /**
- * Show the profile page, hide the game page
+ * Export so auth.js can call these:
+ *   displayUserInfo()
+ *   showWord()
  */
-function showProfilePage() {
-  document.getElementById("gamePage").classList.add("hidden");
-  document.getElementById("profilePage").classList.remove("hidden");
-}
-
-/**
- * Display the current user’s info (name, date, vocab, progress)
- */
-function displayUserInfo() {
+export function displayUserInfo() {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
 
   const user = JSON.parse(currentUserStr);
 
-  // Basic user data
-  document.getElementById("userNameDisplay").textContent = user.user_name;
+  // Basic user data (kid-friendly style)
+  document.getElementById("userNameDisplay").textContent =
+    "Player: " + user.user_name;
   document.getElementById("userRegDateDisplay").textContent =
     "Registered on: " + user.user_reg_data;
-  document.getElementById("userVocabularyDisplay").textContent =
-    "Vocabularies: " + (user.vocabulary || []).join(", ");
 
-  // Show guessed words if user_progress.user_id matches
-  const progressListEl = document.getElementById("userProgressList");
-  progressListEl.innerHTML = "";
+  // Calculate stats
+  const matchingProgress = userProgressInMemory.find(
+    (up) => parseInt(up.user_id) === parseInt(user.user_id)
+  );
 
-  if (parseInt(user_progress.user_id) === user.user_id) {
-    if (user_progress.guessed_words && user_progress.guessed_words.length > 0) {
-      user_progress.guessed_words.forEach((gw) => {
-        const li = document.createElement("li");
-        li.textContent = `Word ID ${gw.word_id}: correct = ${gw.guess_correctly}, wrong = ${gw.guessed_wrong}`;
-        progressListEl.appendChild(li);
-      });
-    } else {
-      progressListEl.innerHTML = "<li>No guessed words yet.</li>";
-    }
-  } else {
-    // No matching progress
-    progressListEl.innerHTML = "<li>No progress for this user.</li>";
+  let totalCorrect = 0;
+  let totalWrong = 0;
+  if (matchingProgress && matchingProgress.guessed_words) {
+    matchingProgress.guessed_words.forEach((gw) => {
+      totalCorrect += gw.guess_correctly;
+      totalWrong += gw.guessed_wrong;
+    });
   }
+
+  const totalAttempts = totalCorrect + totalWrong;
+  const correctPercent =
+    totalAttempts > 0 ? ((totalCorrect / totalAttempts) * 100).toFixed(0) : 0;
+
+  // Display total attempts & correct% in a simpler style
+  document.getElementById("totalPlayedWordsDisplay").textContent =
+    `Total Attempts: ${totalAttempts}`;
+  document.getElementById("correctPercentageDisplay").textContent =
+    `Correct Guesses: ${correctPercent}%`;
 }
 
-/**
- * Show a random word from our englishWords array
- */
-function showWord() {
+export function showWord() {
   currentWord = getRandomWord();
   if (!currentWord) return;
 
@@ -126,9 +130,53 @@ function showWord() {
   generateOptions(currentWord);
 }
 
+function showProfilePage() {
+  document.getElementById("gamePage").classList.add("hidden");
+  document.getElementById("profilePage").classList.remove("hidden");
+}
+
 /**
- * Generate correct + wrong multiple-choice buttons
+ * Track correct/wrong guesses in userProgressInMemory
  */
+function updateUserProgress(isCorrect, wordId) {
+  const currentUserStr = localStorage.getItem("currentUser");
+  if (!currentUserStr) return;
+  const user = JSON.parse(currentUserStr);
+
+  let progressObj = userProgressInMemory.find(
+    (up) => parseInt(up.user_id) === parseInt(user.user_id)
+  );
+  if (!progressObj) {
+    progressObj = {
+      user_id: user.user_id,
+      guessed_words: [],
+    };
+    userProgressInMemory.push(progressObj);
+  }
+
+  let guessedWord = progressObj.guessed_words.find((gw) => gw.word_id === wordId);
+  if (!guessedWord) {
+    guessedWord = {
+      word_id: wordId,
+      guess_correctly: 0,
+      guessed_wrong: 0,
+    };
+    progressObj.guessed_words.push(guessedWord);
+  }
+
+  if (isCorrect) {
+    guessedWord.guess_correctly++;
+  } else {
+    guessedWord.guessed_wrong++;
+  }
+
+  // Persist changes
+  localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
+
+  // Re-render user info to update stats
+  displayUserInfo();
+}
+
 function generateOptions(wordObj) {
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
@@ -138,6 +186,7 @@ function generateOptions(wordObj) {
     isCorrect: true,
   };
 
+  // Get 2 random “wrong” options
   const wrongWordObjects = getRandomWrongWords(wordObj.type, wordObj.id, 2);
   const wrongOptions = wrongWordObjects.map((w) => ({
     translations: w.rusTranslations,
@@ -155,12 +204,15 @@ function generateOptions(wordObj) {
     btn.addEventListener("click", () => {
       if (option.isCorrect) {
         showToast("Correct!");
+        updateUserProgress(true, wordObj.id);
+
         setTimeout(() => {
           hideToast();
           showWord();
         }, 1000);
       } else {
         alert("Incorrect. Try again!");
+        updateUserProgress(false, wordObj.id);
       }
     });
 
@@ -169,7 +221,7 @@ function generateOptions(wordObj) {
 }
 
 /**
- * Get 'count' random words of same type, excluding current word's ID
+ * Return `count` random words of the same type, excluding the current word's ID
  */
 function getRandomWrongWords(type, excludeId, count) {
   const candidates = englishWords.filter(
@@ -179,15 +231,11 @@ function getRandomWrongWords(type, excludeId, count) {
   return candidates.slice(0, count);
 }
 
-/**
- * Randomly pick a word from the list
- */
 function getRandomWord() {
   const randIndex = Math.floor(Math.random() * englishWords.length);
   return englishWords[randIndex];
 }
 
-/** Shuffle array in-place (Fisher-Yates) */
 function shuffleArray(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));

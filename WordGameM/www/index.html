@@ -69,19 +69,18 @@
     ======================================== -->
     <div id="gamePage" class="hidden">
       <!-- Button to switch back to profile page -->
-      <button id="switchProfileBtn" class="switch-profile-btn">Switch Profile</button>
+      <button id="switchProfileBtn" class="switch-profile-btn">
+        Switch Profile
+      </button>
 
-      <!-- USER INFO CARD -->
+      <!-- USER INFO CARD (kid-friendly) -->
       <div id="userInfo" class="user-info">
-        <div class="user-info-card">
+        <div class="user-info-card kids-style">
           <h2 id="userNameDisplay"></h2>
           <p id="userRegDateDisplay"></p>
-          <p id="userVocabularyDisplay"></p>
-
-          <div class="user-stats">
-            <h3>User Progress:</h3>
-            <ul id="userProgressList"></ul>
-          </div>
+          <!-- New stats (simplified) -->
+          <p id="totalPlayedWordsDisplay"></p>
+          <p id="correctPercentageDisplay"></p>
         </div>
       </div>
 
@@ -107,7 +106,7 @@
       </div>
     </div>
 
-    <!-- Cordova device ready script (optional) -->
+    <!-- (Optional) Cordova script if you're using Cordova -->
     <script src="js/index.js"></script>
     <!-- Auth logic script -->
     <script type="module" src="js/auth.js"></script>
