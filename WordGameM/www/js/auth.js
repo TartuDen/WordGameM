@@ -1,10 +1,10 @@
 // WordGameM\www\js\auth.js
 
 import { userDataList } from "./mockUser.js";
-import { displayUserInfo, showWord } from "./app.js"; // Import these so we can call them after login
+import { displayUserInfo, showWord } from "./app.js"; // So we can call them after login
 
 let userList = [];
-let selectedUserId = null; // track which user we are updating (if any)
+let selectedUserId = null; // which user we are editing (if any)
 
 document.addEventListener("DOMContentLoaded", () => {
   // 1) Load profiles from localStorage
@@ -19,19 +19,24 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", onSelectProfile);
 
   document
+    .getElementById("deleteProfileBtn")
+    .addEventListener("click", onDeleteProfile);
+
+  document
     .getElementById("createOrUpdateProfileBtn")
     .addEventListener("click", onCreateOrUpdateProfile);
 });
 
 /**
- * SELECT an existing profile from the dropdown
+ * SELECT an existing profile from the dropdown,
+ * then fill the form with its data (so you can edit).
  */
 function onSelectProfile() {
   const selectEl = document.getElementById("existingProfilesSelect");
   selectedUserId = selectEl.value;
 
   if (!selectedUserId) {
-    alert("Please select an existing profile or create a new one.");
+    alert("Please select an existing profile to edit.");
     return;
   }
 
@@ -39,15 +44,35 @@ function onSelectProfile() {
     (u) => String(u.user_id) === String(selectedUserId)
   );
   if (!user) {
-    alert("User not found. Please create a new profile.");
+    alert("User not found. Please create a new profile instead.");
     return;
   }
 
-  setCurrentUser(user);
+  // Fill the form fields
+  document.getElementById("newUserName").value = user.user_name;
+
+  // Clear all checkboxes first
+  const checkboxes = document.querySelectorAll('input[name="vocabType"]');
+  checkboxes.forEach((box) => {
+    box.checked = false;
+  });
+
+  // Check the user's existing vocab
+  if (user.vocabulary && user.vocabulary.length > 0) {
+    user.vocabulary.forEach((v) => {
+      const box = document.querySelector(`input[name="vocabType"][value="${v}"]`);
+      if (box) {
+        box.checked = true;
+      }
+    });
+  }
+
+  alert(`Editing profile for "${user.user_name}".\nUpdate fields and click "Create/Update".`);
 }
 
 /**
- * CREATE or UPDATE a profile (depending on whether selectedUserId is set)
+ * CREATE or UPDATE a profile (depending on whether selectedUserId is set).
+ * Then logs in the user.
  */
 function onCreateOrUpdateProfile() {
   const newUserName = document.getElementById("newUserName").value.trim();
@@ -66,7 +91,7 @@ function onCreateOrUpdateProfile() {
     return;
   }
 
-  // If we have selectedUserId, see if we're updating an existing user
+  // If we have selectedUserId, we're updating an existing user
   if (selectedUserId) {
     const existingUser = userList.find(
       (u) => String(u.user_id) === String(selectedUserId)
@@ -74,7 +99,12 @@ function onCreateOrUpdateProfile() {
     if (existingUser) {
       existingUser.user_name = newUserName;
       existingUser.vocabulary = selectedVocab;
+      // Keep existing registration date or set one if missing
+      existingUser.user_reg_data =
+        existingUser.user_reg_data || new Date().toLocaleDateString();
+
       saveUserProfilesToStorage();
+      // Now log in with this user
       setCurrentUser(existingUser);
       return;
     }
@@ -91,6 +121,54 @@ function onCreateOrUpdateProfile() {
   userList.push(newUser);
   saveUserProfilesToStorage();
   setCurrentUser(newUser);
+}
+
+/**
+ * DELETE the selected profile
+ */
+function onDeleteProfile() {
+  if (!selectedUserId) {
+    alert("No profile is selected. Please select a profile to delete.");
+    return;
+  }
+
+  // Confirm with the user
+  if (!confirm("Are you sure you want to delete this profile? This cannot be undone.")) {
+    return;
+  }
+
+  // Remove from userList
+  userList = userList.filter(
+    (u) => String(u.user_id) !== String(selectedUserId)
+  );
+  saveUserProfilesToStorage();
+
+  // Also remove progress from localStorage
+  let storedProgress = localStorage.getItem("userProgressList");
+  if (storedProgress) {
+    let progressList = JSON.parse(storedProgress);
+    progressList = progressList.filter(
+      (up) => String(up.user_id) !== String(selectedUserId)
+    );
+    localStorage.setItem("userProgressList", JSON.stringify(progressList));
+  }
+
+  // Clear selection
+  selectedUserId = null;
+
+  // Hide game page if it was open, show profile page
+  document.getElementById("gamePage").classList.add("hidden");
+  document.getElementById("profilePage").classList.remove("hidden");
+
+  // Re-populate the dropdown
+  populateExistingProfiles();
+
+  // Also clear the form fields
+  document.getElementById("newUserName").value = "";
+  const checkboxes = document.querySelectorAll('input[name="vocabType"]');
+  checkboxes.forEach((box) => (box.checked = false));
+
+  alert("Profile deleted successfully.");
 }
 
 /**
@@ -127,9 +205,7 @@ function populateExistingProfiles() {
   userList.forEach((usr) => {
     const option = document.createElement("option");
     option.value = usr.user_id;
-    option.textContent = `${usr.user_name} (vocab: ${usr.vocabulary.join(
-      ","
-    )})`;
+    option.textContent = `${usr.user_name} (vocab: ${usr.vocabulary.join(",")})`;
     selectEl.appendChild(option);
   });
 }

@@ -9,9 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- Your consolidated CSS file -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
-
   <body>
     <!-- =======================================
          PROFILE PAGE (User Auth/Selection)
@@ -25,7 +25,12 @@
         <select id="existingProfilesSelect">
           <option value="">--No profiles--</option>
         </select>
+
+        <!-- 1) SELECT => Prefills form with user data -->
         <button id="selectProfileBtn">Select</button>
+
+        <!-- 2) DELETE => Remove selected user from storage -->
+        <button id="deleteProfileBtn">Delete Selected Profile</button>
       </div>
 
       <hr />
@@ -60,6 +65,7 @@
           </label>
         </div>
 
+        <!-- 3) CREATE/UPDATE => Saves changes and logs in -->
         <button id="createOrUpdateProfileBtn">Create/Update</button>
       </div>
     </div>
@@ -69,16 +75,13 @@
     ======================================== -->
     <div id="gamePage" class="hidden">
       <!-- Button to switch back to profile page -->
-      <button id="switchProfileBtn" class="switch-profile-btn">
-        Switch Profile
-      </button>
+      <button id="switchProfileBtn" class="switch-profile-btn">Switch Profile</button>
 
-      <!-- USER INFO CARD (kid-friendly) -->
+      <!-- USER INFO CARD (kid-friendly style, optional) -->
       <div id="userInfo" class="user-info">
         <div class="user-info-card kids-style">
           <h2 id="userNameDisplay"></h2>
           <p id="userRegDateDisplay"></p>
-          <!-- New stats (simplified) -->
           <p id="totalPlayedWordsDisplay"></p>
           <p id="correctPercentageDisplay"></p>
         </div>

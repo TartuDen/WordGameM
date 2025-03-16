@@ -5,6 +5,9 @@ import { userProgressList } from "./mockUser.js";
 
 let userProgressInMemory = [];
 
+// Pull-to-refresh sensitivity (in px)
+const PULL_REFRESH_THRESHOLD = 150;
+
 // Load userProgress from localStorage or from the mock
 function loadUserProgress() {
   const data = localStorage.getItem("userProgressList");
@@ -57,7 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (startY !== null && e.changedTouches.length === 1) {
       const endY = e.changedTouches[0].clientY;
       const distance = endY - startY;
-      if (distance > 100 && window.scrollY === 0) {
+      // Adjust the threshold to control sensitivity
+      if (distance > PULL_REFRESH_THRESHOLD && window.scrollY === 0) {
         window.location.reload();
       }
     }
