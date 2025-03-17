@@ -1,10 +1,11 @@
-// WordGameM\www\js\auth.js
+// WordGameM/www/js/auth.js
 
 import { userDataList } from "./mockUser.js";
 import { displayUserInfo, showWord } from "./app.js"; // So we can call them after login
 
 let userList = [];
 let selectedUserId = null; // which user we are editing (if any)
+let selectedAvatar = "";  // holds the chosen avatar filename
 
 document.addEventListener("DOMContentLoaded", () => {
   // 1) Load profiles from localStorage
@@ -25,6 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("createOrUpdateProfileBtn")
     .addEventListener("click", onCreateOrUpdateProfile);
+
+  // Set up avatar selection event listeners
+  const avatarOptions = document.querySelectorAll(".avatar-option");
+  avatarOptions.forEach((img) => {
+    img.addEventListener("click", () => {
+      // Remove selected class from all avatars
+      avatarOptions.forEach((img) => img.classList.remove("selected"));
+      // Add selected class to clicked avatar
+      img.classList.add("selected");
+      // Set the selectedAvatar variable
+      selectedAvatar = img.getAttribute("data-avatar");
+    });
+  });
 });
 
 /**
@@ -50,6 +64,24 @@ function onSelectProfile() {
 
   // Fill the form fields
   document.getElementById("newUserName").value = user.user_name;
+
+  // Set avatar selection if available
+  if (user.avatar) {
+    const avatarOptions = document.querySelectorAll(".avatar-option");
+    avatarOptions.forEach((img) => {
+      if (img.getAttribute("data-avatar") === user.avatar) {
+        img.classList.add("selected");
+        selectedAvatar = user.avatar;
+      } else {
+        img.classList.remove("selected");
+      }
+    });
+  } else {
+    // Clear selection if no avatar in user profile
+    const avatarOptions = document.querySelectorAll(".avatar-option");
+    avatarOptions.forEach((img) => img.classList.remove("selected"));
+    selectedAvatar = "";
+  }
 
   // Clear all checkboxes first
   const checkboxes = document.querySelectorAll('input[name="vocabType"]');
@@ -91,14 +123,16 @@ function onCreateOrUpdateProfile() {
     return;
   }
 
-  // If we have selectedUserId, we're updating an existing user
+  // Create user object with avatar property
   if (selectedUserId) {
+    // Update existing user
     const existingUser = userList.find(
       (u) => String(u.user_id) === String(selectedUserId)
     );
     if (existingUser) {
       existingUser.user_name = newUserName;
       existingUser.vocabulary = selectedVocab;
+      existingUser.avatar = selectedAvatar;
       // Keep existing registration date or set one if missing
       existingUser.user_reg_data =
         existingUser.user_reg_data || new Date().toLocaleDateString();
@@ -116,6 +150,7 @@ function onCreateOrUpdateProfile() {
     user_name: newUserName,
     user_reg_data: new Date().toLocaleDateString(),
     vocabulary: selectedVocab,
+    avatar: selectedAvatar
   };
 
   userList.push(newUser);
@@ -168,6 +203,11 @@ function onDeleteProfile() {
   const checkboxes = document.querySelectorAll('input[name="vocabType"]');
   checkboxes.forEach((box) => (box.checked = false));
 
+  // Clear avatar selection
+  const avatarOptions = document.querySelectorAll(".avatar-option");
+  avatarOptions.forEach((img) => img.classList.remove("selected"));
+  selectedAvatar = "";
+
   alert("Profile deleted successfully.");
 }
 
@@ -190,6 +230,11 @@ function setCurrentUser(user) {
   document.getElementById("newUserName").value = "";
   const checkboxes = document.querySelectorAll('input[name="vocabType"]');
   checkboxes.forEach((box) => (box.checked = false));
+
+  // Clear avatar selection
+  const avatarOptions = document.querySelectorAll(".avatar-option");
+  avatarOptions.forEach((img) => img.classList.remove("selected"));
+  selectedAvatar = "";
 
   // Reset selectedUserId
   selectedUserId = null;

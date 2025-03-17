@@ -1,4 +1,4 @@
-// WordGameM\www\js\app.js
+// WordGameM/www/js/app.js
 
 import { englishList } from "./words.js";
 import { userProgressList } from "./mockUser.js";
@@ -6,7 +6,7 @@ import { userProgressList } from "./mockUser.js";
 let userProgressInMemory = [];
 
 // Pull-to-refresh sensitivity (in px)
-const PULL_REFRESH_THRESHOLD = 150;
+const PULL_REFRESH_THRESHOLD = 400;
 
 // Load userProgress from localStorage or from the mock
 function loadUserProgress() {
@@ -49,6 +49,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("synonyms").classList.toggle("hidden");
   });
 
+  // Pronounce word button event listener
+  document.getElementById("pronounceWordBtn").addEventListener("click", pronounceWord);
+
   // Simple pull-to-refresh for mobile
   let startY = null;
   document.addEventListener("touchstart", (e) => {
@@ -85,6 +88,15 @@ export function displayUserInfo() {
     "Player: " + user.user_name;
   document.getElementById("userRegDateDisplay").textContent =
     "Registered on: " + user.user_reg_data;
+
+  // Display avatar if available
+  const userAvatarEl = document.getElementById("userAvatar");
+  if (user.avatar) {
+    userAvatarEl.src = "img/avatars/" + user.avatar;
+    userAvatarEl.style.display = "block";
+  } else {
+    userAvatarEl.style.display = "none";
+  }
 
   // Calculate stats
   const matchingProgress = userProgressInMemory.find(
@@ -132,6 +144,15 @@ export function showWord() {
 
   // Generate multiple-choice options
   generateOptions(currentWord);
+}
+
+/**
+ * Use Web Speech API to pronounce the current word
+ */
+function pronounceWord() {
+  if (!currentWord || !currentWord.word) return;
+  const utterance = new SpeechSynthesisUtterance(currentWord.word);
+  speechSynthesis.speak(utterance);
 }
 
 function showProfilePage() {
@@ -225,7 +246,7 @@ function generateOptions(wordObj) {
 }
 
 /**
- * Return `count` random words of the same type, excluding the current word's ID
+ * Return count random words of the same type, excluding the current word's ID
  */
 function getRandomWrongWords(type, excludeId, count) {
   const candidates = englishWords.filter(

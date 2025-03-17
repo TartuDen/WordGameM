@@ -40,6 +40,16 @@
         <label for="newUserName">Profile name:</label>
         <input type="text" id="newUserName" placeholder="Your name..." />
 
+        <!-- Avatar Selection Section for Kids -->
+        <div class="avatar-selection">
+          <p>Select your avatar:</p>
+          <div class="avatar-options">
+            <img src="img/avatars/avatar1.png" class="avatar-option" data-avatar="avatar1.png" alt="Avatar 1">
+            <img src="img/avatars/avatar2.png" class="avatar-option" data-avatar="avatar2.png" alt="Avatar 2">
+            <img src="img/avatars/avatar3.png" class="avatar-option" data-avatar="avatar3.png" alt="Avatar 3">
+          </div>
+        </div>
+
         <!-- Multiple checkboxes for vocabulary -->
         <div class="vocab-checkboxes">
           <p>Select vocabularies:</p>
@@ -80,6 +90,8 @@
       <!-- USER INFO CARD (kid-friendly style, optional) -->
       <div id="userInfo" class="user-info">
         <div class="user-info-card kids-style">
+          <!-- Display user avatar -->
+          <img id="userAvatar" src="" alt="Avatar" class="user-avatar" />
           <h2 id="userNameDisplay"></h2>
           <p id="userRegDateDisplay"></p>
           <p id="totalPlayedWordsDisplay"></p>
@@ -91,6 +103,8 @@
       <div class="word-card">
         <h1 id="word"></h1>
         <p id="transcription"></p>
+        <!-- Pronunciation button -->
+        <button id="pronounceWordBtn" class="pronounce-btn">Hear Pronunciation</button>
 
         <div id="meaning" class="hidden"></div>
         <button id="showMeaningBtn" class="meaning-btn">Show Meaning</button>

@@ -1,4 +1,4 @@
-/* WordGameM\www\css\index.css */
+/* WordGameM/www/css/index.css */
 
 /* Reset/base styles */
 * {
@@ -69,6 +69,30 @@ body {
   margin-bottom: 10px;
   border-radius: 4px;
   border: none;
+}
+
+/* Avatar selection styling */
+.avatar-selection {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.avatar-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.avatar-option {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.avatar-option.selected {
+  border-color: #FFB300;
 }
 
 /* Basic button styles */
@@ -154,6 +178,14 @@ button {
   text-align: center;
 }
 
+/* Kid-friendly avatar display in user info */
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
 /* If you apply kids-style for a pastel effect: */
 .kids-style {
   font-size: 1.1rem;
@@ -205,6 +237,20 @@ button {
   text-transform: none;
   color: #555;
   margin-bottom: 10px;
+}
+
+/* Pronounce button styling */
+.pronounce-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pronounce-btn:hover {
+  background-color: #45A049;
 }
 
 #meaning {
