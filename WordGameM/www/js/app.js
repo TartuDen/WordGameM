@@ -6,7 +6,7 @@ import { userProgressList } from "./mockUser.js";
 let userProgressInMemory = [];
 
 // Pull-to-refresh sensitivity (in px)
-const PULL_REFRESH_THRESHOLD = 400;
+const PULL_REFRESH_THRESHOLD = 450;
 
 // Load userProgress from localStorage or from the mock
 function loadUserProgress() {
@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
     showWord();
   }
 
-  // Switch Profile => show profile page
+  // Set up the switch profile functionality using the emoji icon
   document
-    .getElementById("switchProfileBtn")
+    .getElementById("switchProfileIcon")
     .addEventListener("click", showProfilePage);
 
   // Toggle meaning
@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("synonyms").classList.toggle("hidden");
   });
 
-  // Pronounce word button event listener
-  document.getElementById("pronounceWordBtn").addEventListener("click", pronounceWord);
+  // Instead of a pronunciation button, tap the word to hear it.
+  document.getElementById("word").addEventListener("click", pronounceWord);
 
   // Simple pull-to-refresh for mobile
   let startY = null;
@@ -63,7 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (startY !== null && e.changedTouches.length === 1) {
       const endY = e.changedTouches[0].clientY;
       const distance = endY - startY;
-      // Adjust the threshold to control sensitivity
       if (distance > PULL_REFRESH_THRESHOLD && window.scrollY === 0) {
         window.location.reload();
       }
@@ -83,11 +82,8 @@ export function displayUserInfo() {
 
   const user = JSON.parse(currentUserStr);
 
-  // Basic user data (kid-friendly style)
-  document.getElementById("userNameDisplay").textContent =
-    "Player: " + user.user_name;
-  document.getElementById("userRegDateDisplay").textContent =
-    "Registered on: " + user.user_reg_data;
+  // Display user name without the "Player:" prefix
+  document.getElementById("userNameDisplay").textContent = user.user_name;
 
   // Display avatar if available
   const userAvatarEl = document.getElementById("userAvatar");
@@ -116,11 +112,8 @@ export function displayUserInfo() {
   const correctPercent =
     totalAttempts > 0 ? ((totalCorrect / totalAttempts) * 100).toFixed(0) : 0;
 
-  // Display total attempts & correct% in a simpler style
-  document.getElementById("totalPlayedWordsDisplay").textContent =
-    `Total Attempts: ${totalAttempts}`;
-  document.getElementById("correctPercentageDisplay").textContent =
-    `Correct Guesses: ${correctPercent}%`;
+  // Display stats in compact format: "attempts/correct%"
+  document.getElementById("userStats").textContent = `${totalAttempts}/${correctPercent}%`;
 }
 
 export function showWord() {
@@ -147,7 +140,7 @@ export function showWord() {
 }
 
 /**
- * Use Web Speech API to pronounce the current word
+ * Use Web Speech API to pronounce the current word when tapped.
  */
 function pronounceWord() {
   if (!currentWord || !currentWord.word) return;

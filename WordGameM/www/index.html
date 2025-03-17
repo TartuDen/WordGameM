@@ -84,34 +84,34 @@
          MAIN GAME PAGE
     ======================================== -->
     <div id="gamePage" class="hidden">
-      <!-- Button to switch back to profile page -->
-      <button id="switchProfileBtn" class="switch-profile-btn">Switch Profile</button>
-
-      <!-- USER INFO CARD (kid-friendly style, optional) -->
+      <!-- USER INFO CARD (minimized profile card) -->
       <div id="userInfo" class="user-info">
         <div class="user-info-card kids-style">
-          <!-- Display user avatar -->
-          <img id="userAvatar" src="" alt="Avatar" class="user-avatar" />
-          <h2 id="userNameDisplay"></h2>
-          <p id="userRegDateDisplay"></p>
-          <p id="totalPlayedWordsDisplay"></p>
-          <p id="correctPercentageDisplay"></p>
+          <!-- Switch Profile Emoji in top right corner -->
+          <span id="switchProfileIcon" title="Switch Profile">🔄</span>
+          <div class="profile-header">
+            <img id="userAvatar" src="" alt="Avatar" class="user-avatar" />
+            <h2 id="userNameDisplay"></h2>
+          </div>
+          <!-- Compact stats: total attempts / correct percentage -->
+          <div id="userStats" class="user-stats"></div>
         </div>
       </div>
 
       <!-- WORD CARD: The main game content -->
       <div class="word-card">
-        <h1 id="word"></h1>
+        <!-- Tapping on the word itself will pronounce it -->
+        <h1 id="word" title="Tap to hear pronunciation"></h1>
         <p id="transcription"></p>
-        <!-- Pronunciation button -->
-        <button id="pronounceWordBtn" class="pronounce-btn">Hear Pronunciation</button>
+
+        <!-- Emoji buttons for meaning and synonyms -->
+        <div class="emoji-buttons">
+          <button id="showMeaningBtn" class="emoji-btn" title="Show Meaning">📖</button>
+          <button id="showSynonymsBtn" class="emoji-btn" title="Show Synonyms">💬</button>
+        </div>
 
         <div id="meaning" class="hidden"></div>
-        <button id="showMeaningBtn" class="meaning-btn">Show Meaning</button>
-
         <div id="synonyms" class="hidden"></div>
-        <button id="showSynonymsBtn" class="synonyms-btn">Show Synonyms</button>
-
         <div id="options" class="options"></div>
       </div>
 
