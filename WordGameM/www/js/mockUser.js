@@ -1,4 +1,4 @@
-// WordGameM\www\js\mockUser.js
+// WordGameM/www/js/mockUser.js
 
 export const userDataList = [
   {
@@ -42,3 +42,41 @@ export const userProgressList = [
     ],
   },
 ];
+
+/*===================================================
+  NEW: PlayedWords prototype to track session history.
+  This object will hold all played words and the current index.
+=====================================================*/
+export class PlayedWords {
+  constructor() {
+    this.words = [];
+    this.currentIndex = -1;
+  }
+
+  addWord(word) {
+    // If the user has navigated back, trim the "future" history.
+    if (this.currentIndex < this.words.length - 1) {
+      this.words = this.words.slice(0, this.currentIndex + 1);
+    }
+    this.words.push(word);
+    this.currentIndex = this.words.length - 1;
+  }
+
+  nextWord() {
+    // If there is already a “next” word (from a previous backward navigation),
+    // move the pointer forward.
+    if (this.currentIndex < this.words.length - 1) {
+      this.currentIndex++;
+      return this.words[this.currentIndex];
+    }
+    return null;
+  }
+
+  prevWord() {
+    if (this.currentIndex > 0) {
+      this.currentIndex--;
+      return this.words[this.currentIndex];
+    }
+    return null;
+  }
+}
