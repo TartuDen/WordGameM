@@ -15,7 +15,10 @@ function loadUserProgress() {
     userProgressInMemory = JSON.parse(data);
   } else {
     userProgressInMemory = userProgressList;
-    localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
+    localStorage.setItem(
+      "userProgressList",
+      JSON.stringify(userProgressInMemory)
+    );
   }
 }
 loadUserProgress();
@@ -113,7 +116,9 @@ export function displayUserInfo() {
     totalAttempts > 0 ? ((totalCorrect / totalAttempts) * 100).toFixed(0) : 0;
 
   // Display stats in compact format: "attempts/correct%"
-  document.getElementById("userStats").textContent = `${totalAttempts}/${correctPercent}%`;
+  document.getElementById(
+    "userStats"
+  ).textContent = `${totalAttempts}/${correctPercent}%`;
 }
 
 export function showWord() {
@@ -121,7 +126,8 @@ export function showWord() {
   if (!currentWord) return;
 
   document.getElementById("word").textContent = currentWord.word;
-  document.getElementById("transcription").textContent = currentWord.transcription;
+  document.getElementById("transcription").textContent =
+    currentWord.transcription;
 
   // Hide meaning by default
   const meaningEl = document.getElementById("meaning");
@@ -141,11 +147,37 @@ export function showWord() {
 
 /**
  * Use Web Speech API to pronounce the current word when tapped.
+ * Falls back to cordova-plugin-tts if the native SpeechSynthesis is unavailable.
  */
 function pronounceWord() {
   if (!currentWord || !currentWord.word) return;
-  const utterance = new SpeechSynthesisUtterance(currentWord.word);
-  speechSynthesis.speak(utterance);
+
+  // Check if Web Speech API is supported
+  if ("speechSynthesis" in window) {
+    const utterance = new SpeechSynthesisUtterance(currentWord.word);
+    speechSynthesis.speak(utterance);
+  }
+  // If not supported, try using cordova-plugin-tts
+  else if (window.plugins && window.plugins.tts) {
+    window.plugins.tts.speak(
+      {
+        text: currentWord.word,
+        locale: "en-US",
+        rate: 0.75,
+      },
+      () => {
+        console.log("TTS success");
+      },
+      (reason) => {
+        console.error("TTS error: " + reason);
+        alert("Text-to-speech failed: " + reason);
+      }
+    );
+  }
+  // Otherwise, alert the user
+  else {
+    alert("Text-to-speech is not supported on this device.");
+  }
 }
 
 function showProfilePage() {
@@ -172,7 +204,9 @@ function updateUserProgress(isCorrect, wordId) {
     userProgressInMemory.push(progressObj);
   }
 
-  let guessedWord = progressObj.guessed_words.find((gw) => gw.word_id === wordId);
+  let guessedWord = progressObj.guessed_words.find(
+    (gw) => gw.word_id === wordId
+  );
   if (!guessedWord) {
     guessedWord = {
       word_id: wordId,
@@ -189,7 +223,10 @@ function updateUserProgress(isCorrect, wordId) {
   }
 
   // Persist changes
-  localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
+  localStorage.setItem(
+    "userProgressList",
+    JSON.stringify(userProgressInMemory)
+  );
 
   // Re-render user info to update stats
   displayUserInfo();
