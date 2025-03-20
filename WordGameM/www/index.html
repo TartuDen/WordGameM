@@ -44,9 +44,24 @@
         <div class="avatar-selection">
           <p>Select your avatar:</p>
           <div class="avatar-options">
-            <img src="img/avatars/avatar1.png" class="avatar-option" data-avatar="avatar1.png" alt="Avatar 1">
-            <img src="img/avatars/avatar2.png" class="avatar-option" data-avatar="avatar2.png" alt="Avatar 2">
-            <img src="img/avatars/avatar3.png" class="avatar-option" data-avatar="avatar3.png" alt="Avatar 3">
+            <img
+              src="img/avatars/avatar1.png"
+              class="avatar-option"
+              data-avatar="avatar1.png"
+              alt="Avatar 1"
+            />
+            <img
+              src="img/avatars/avatar2.png"
+              class="avatar-option"
+              data-avatar="avatar2.png"
+              alt="Avatar 2"
+            />
+            <img
+              src="img/avatars/avatar3.png"
+              class="avatar-option"
+              data-avatar="avatar3.png"
+              alt="Avatar 3"
+            />
           </div>
         </div>
 
@@ -99,7 +114,12 @@
       </div>
 
       <!-- WORD CARD: The main game content -->
-      <div class="word-card">
+      <div class="word-card" id="wordCard">
+        <!-- Left Arrow for Previous Word -->
+        <button id="prevArrow" class="arrow-button left-arrow" title="Previous Word">
+          ◀
+        </button>
+
         <!-- Tapping on the word itself will pronounce it -->
         <h1 id="word" title="Tap to hear pronunciation"></h1>
         <p id="transcription"></p>
@@ -113,6 +133,11 @@
         <div id="meaning" class="hidden"></div>
         <div id="synonyms" class="hidden"></div>
         <div id="options" class="options"></div>
+
+        <!-- Right Arrow for Next Word -->
+        <button id="nextArrow" class="arrow-button right-arrow" title="Next Word">
+          ▶
+        </button>
       </div>
 
       <!-- Toast container -->

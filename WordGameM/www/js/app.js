@@ -38,41 +38,16 @@ document.addEventListener("DOMContentLoaded", () => {
   // Tap on the word to pronounce it.
   document.getElementById("word").addEventListener("click", pronounceWord);
 
-  // ===== Remove vertical pull-to-refresh code =====
-  // (No longer needed – so it has been removed.)
+  // ===== Remove swipe detection code =====
+  // (Swiping functionality has been removed in favor of arrow navigation.)
 
-  // ===== Add horizontal swipe detection on the word card =====
-  const wordCard = document.querySelector(".word-card");
-  let startX = null;
-  let startY = null;
-
-  wordCard.addEventListener("touchstart", (e) => {
-    if (e.touches.length === 1) {
-      startX = e.touches[0].clientX;
-      startY = e.touches[0].clientY;
-    }
+  // ===== Add arrow button event listeners =====
+  document.getElementById("nextArrow").addEventListener("click", () => {
+    animatePageTurn("forward", loadNextWord);
   });
 
-  wordCard.addEventListener("touchend", (e) => {
-    if (startX === null || startY === null) return;
-    const endX = e.changedTouches[0].clientX;
-    const endY = e.changedTouches[0].clientY;
-    const deltaX = endX - startX;
-    const deltaY = endY - startY;
-    // Only consider horizontal swipes.
-    if (Math.abs(deltaX) > 50 && Math.abs(deltaY) < 30) {
-      const screenWidth = window.innerWidth;
-      // Swipe from right edge to center (start near right edge and swipe left)
-      if (startX > screenWidth * 0.8 && deltaX < 0) {
-        loadNextWord();
-      }
-      // Swipe from left edge to center (start near left edge and swipe right)
-      else if (startX < screenWidth * 0.2 && deltaX > 0) {
-        loadPreviousWord();
-      }
-    }
-    startX = null;
-    startY = null;
+  document.getElementById("prevArrow").addEventListener("click", () => {
+    animatePageTurn("back", loadPreviousWord);
   });
 });
 
@@ -115,10 +90,35 @@ function displayWord(word) {
 
   // Generate multiple-choice options.
   generateOptions(word);
+
+  // Determine if this word is coming from history (i.e. revisited).
+  const isFromHistory = (sessionHistory.currentIndex < sessionHistory.words.length - 1);
+  const currentUserStr = localStorage.getItem("currentUser");
+  if (currentUserStr) {
+    const currentUser = JSON.parse(currentUserStr);
+    // Always re-load the latest progress from storage
+    userProgressInMemory = JSON.parse(localStorage.getItem("userProgressList")) || [];
+    const matchingProgress = userProgressInMemory.find(
+      (up) => parseInt(up.user_id) === parseInt(currentUser.user_id)
+    );
+    let guessedCorrectly = false;
+    if (matchingProgress && matchingProgress.guessed_words) {
+      const guessedWord = matchingProgress.guessed_words.find(
+        (gw) => gw.word_id === word.id
+      );
+      if (guessedWord && guessedWord.guess_correctly > 0) {
+        guessedCorrectly = true;
+      }
+    }
+    // If revisited and guessed correctly, disable guessing.
+    if (isFromHistory && guessedCorrectly) {
+      disableOptions();
+    }
+  }
 }
 
 /**
- * Called externally (and by swipes) to show a new word.
+ * Called externally (and by arrow clicks) to show a new word.
  * It loads the next word into the session history.
  */
 export function showWord() {
@@ -156,11 +156,39 @@ function loadPreviousWord() {
   }
 }
 
+/**
+ * Returns a random word from englishWords.
+ */
 function getRandomWord() {
   const randIndex = Math.floor(Math.random() * englishWords.length);
   return englishWords[randIndex];
 }
 
+/**
+ * Animate the page turn.
+ * @param {string} direction - "forward" for next word, "back" for previous word.
+ * @param {Function} callback - Function to update the word content.
+ */
+function animatePageTurn(direction, callback) {
+  const wordCard = document.getElementById("wordCard");
+  const animationClass = direction === "forward" ? "page-turn-forward" : "page-turn-back";
+  wordCard.classList.add(animationClass);
+
+  // After half the animation duration, update the word.
+  setTimeout(() => {
+    callback();
+  }, 300); // half of 600ms
+
+  // Remove the animation class after the animation completes.
+  setTimeout(() => {
+    wordCard.classList.remove(animationClass);
+  }, 600);
+}
+
+/**
+ * Generates multiple-choice options for a given word.
+ * Each button gets a data attribute indicating if it is correct.
+ */
 function generateOptions(wordObj) {
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
@@ -184,6 +212,8 @@ function generateOptions(wordObj) {
     const btn = document.createElement("button");
     btn.textContent = option.translations.join("\n");
     btn.classList.add("option-btn");
+    // Mark whether this button is the correct answer.
+    btn.setAttribute("data-correct", option.isCorrect);
 
     btn.addEventListener("click", () => {
       if (option.isCorrect) {
@@ -191,7 +221,7 @@ function generateOptions(wordObj) {
         updateUserProgress(true, wordObj.id);
         setTimeout(() => {
           hideToast();
-          loadNextWord();
+          animatePageTurn("forward", loadNextWord);
         }, 1000);
       } else {
         alert("Incorrect. Try again!");
@@ -264,6 +294,9 @@ function updateUserProgress(isCorrect, wordId) {
   if (!currentUserStr) return;
   const user = JSON.parse(currentUserStr);
 
+  // Reload latest progress
+  userProgressInMemory = JSON.parse(localStorage.getItem("userProgressList")) || [];
+
   let progressObj = userProgressInMemory.find(
     (up) => parseInt(up.user_id) === parseInt(user.user_id)
   );
@@ -301,6 +334,20 @@ function updateUserProgress(isCorrect, wordId) {
 }
 
 /**
+ * Disables the answer options and highlights the correct one in green.
+ */
+function disableOptions() {
+  const optionsContainer = document.getElementById("options");
+  const buttons = optionsContainer.querySelectorAll("button");
+  buttons.forEach((btn) => {
+    btn.disabled = true;
+    if (btn.getAttribute("data-correct") === "true") {
+      btn.style.backgroundColor = "green";
+    }
+  });
+}
+
+/**
  * Displays user info and stats.
  */
 export function displayUserInfo() {
@@ -317,6 +364,8 @@ export function displayUserInfo() {
     userAvatarEl.style.display = "none";
   }
 
+  // Always re-load the latest progress from storage
+  userProgressInMemory = JSON.parse(localStorage.getItem("userProgressList")) || [];
   const matchingProgress = userProgressInMemory.find(
     (up) => parseInt(up.user_id) === parseInt(user.user_id)
   );

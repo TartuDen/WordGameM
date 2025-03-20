@@ -312,3 +312,64 @@ button {
     background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
   }
 }
+/* ------------------------------------------
+   Arrow Button Styling & Page-Turn Animation
+-------------------------------------------*/
+.arrow-button {
+  position: absolute;
+  /* Shifted upward to align roughly with the transcription text */
+  top: 35%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 2rem;
+  color: #FF5733;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.left-arrow {
+  left: 5px;
+}
+
+.right-arrow {
+  right: 5px;
+}
+
+/* Page turn animations */
+.page-turn-forward {
+  animation: pageTurnForward 0.6s ease;
+}
+
+@keyframes pageTurnForward {
+  0% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(400px) rotateY(-90deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+}
+
+.page-turn-back {
+  animation: pageTurnBack 0.6s ease;
+}
+
+@keyframes pageTurnBack {
+  0% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(400px) rotateY(90deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+}
+
+/* (Keep your other styles unchanged) */
