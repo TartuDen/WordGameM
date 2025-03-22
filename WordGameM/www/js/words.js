@@ -9,7 +9,7 @@ export const englishList = [
     synonyms: ["earth", "globe", "planet", "sphere"],
     meaning: ["the earth, together with all of its countries and peoples."],
     rusTranslations: ["мир"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const englishList = [
     synonyms: ["joyful", "cheerful", "content", "delighted"],
     meaning: ["feeling or showing pleasure or contentment"],
     rusTranslations: ["счастливый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const englishList = [
       "a great interest and pleasure in something",
     ],
     rusTranslations: ["любовь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const englishList = [
       "a written or printed work consisting of pages glued or sewn together along one side and bound in covers",
     ],
     rusTranslations: ["книга"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export const englishList = [
     synonyms: ["capability", "capacity", "skill", "talent"],
     meaning: ["the power or skill to do something"],
     rusTranslations: ["способность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const englishList = [
     synonyms: ["capable", "competent", "qualified"],
     meaning: ["having the power, skill, or means to do something"],
     rusTranslations: ["способный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const englishList = [
     synonyms: ["regarding", "concerning", "in connection with"],
     meaning: ["on the subject of; in connection with"],
     rusTranslations: ["о", "об", "касательно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 8,
@@ -84,7 +84,7 @@ export const englishList = [
     synonyms: ["over", "higher than"],
     meaning: ["in extended space over and not touching"],
     rusTranslations: ["над", "выше"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 9,
@@ -94,7 +94,7 @@ export const englishList = [
     synonyms: ["agree to", "acknowledge", "approve"],
     meaning: ["consent to receive or undertake something offered"],
     rusTranslations: ["принимать", "соглашаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 10,
@@ -104,7 +104,7 @@ export const englishList = [
     synonyms: ["as stated by", "as reported by"],
     meaning: ["as stated by or in"],
     rusTranslations: ["согласно", "в соответствии"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 11,
@@ -116,7 +116,7 @@ export const englishList = [
       "a record or statement of financial expenditure and receipts or of business transactions",
     ],
     rusTranslations: ["счет", "учетная запись"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 12,
@@ -126,7 +126,7 @@ export const englishList = [
     synonyms: ["over", "through", "crosswise"],
     meaning: ["from one side to the other of (a place, area, etc.)"],
     rusTranslations: ["через", "поперек"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 13,
@@ -136,7 +136,7 @@ export const englishList = [
     synonyms: ["perform", "behave", "operate"],
     meaning: ["take action; do something"],
     rusTranslations: ["действовать", "поступать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 14,
@@ -146,7 +146,7 @@ export const englishList = [
     synonyms: ["deed", "operation", "activity"],
     meaning: ["the fact or process of doing something"],
     rusTranslations: ["действие", "поступок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 16,
@@ -156,7 +156,7 @@ export const englishList = [
     synonyms: ["really", "in fact", "truly"],
     meaning: ["in fact; really"],
     rusTranslations: ["на самом деле", "фактически"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 17,
@@ -166,7 +166,7 @@ export const englishList = [
     synonyms: ["include", "append", "supplement"],
     meaning: ["to join or combine something with something else"],
     rusTranslations: ["добавлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 18,
@@ -178,7 +178,7 @@ export const englishList = [
       "the particulars of the place where someone lives or an organization is situated",
     ],
     rusTranslations: ["адрес", "местонахождение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 19,
@@ -190,7 +190,7 @@ export const englishList = [
       "the process or activity of running a business, organization, etc.",
     ],
     rusTranslations: ["администрация", "управление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 20,
@@ -200,7 +200,7 @@ export const englishList = [
     synonyms: ["confess", "acknowledge", "accept"],
     meaning: ["to allow entrance or to confess something"],
     rusTranslations: ["признавать", "допускать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 21,
@@ -210,7 +210,7 @@ export const englishList = [
     synonyms: ["grown-up", "mature person"],
     meaning: ["a person who is fully grown or developed"],
     rusTranslations: ["взрослый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 22,
@@ -220,7 +220,7 @@ export const englishList = [
     synonyms: ["influence", "alter", "change"],
     meaning: ["to have an influence on or cause a change in something"],
     rusTranslations: ["влиять", "оказывать влияние"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 23,
@@ -230,7 +230,7 @@ export const englishList = [
     synonyms: ["following", "later than"],
     meaning: ["in the time following an event or other period"],
     rusTranslations: ["после", "затем"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 24,
@@ -240,7 +240,7 @@ export const englishList = [
     synonyms: ["once more", "anew", "repeatedly"],
     meaning: ["another time; once more"],
     rusTranslations: ["снова", "еще раз"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 25,
@@ -250,7 +250,7 @@ export const englishList = [
     synonyms: ["opposed to", "contrary to"],
     meaning: ["in opposition to"],
     rusTranslations: ["против", "наперекор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 26,
@@ -262,7 +262,7 @@ export const englishList = [
       "the length of time that a person has lived or a thing has existed",
     ],
     rusTranslations: ["возраст", "эпоха"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 27,
@@ -274,7 +274,7 @@ export const englishList = [
       "a business or organization established to provide a particular service",
     ],
     rusTranslations: ["агентство", "служба"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 28,
@@ -284,7 +284,7 @@ export const englishList = [
     synonyms: ["representative", "delegate", "operative"],
     meaning: ["a person who acts on behalf of another person or group"],
     rusTranslations: ["агент", "представитель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 29,
@@ -294,7 +294,7 @@ export const englishList = [
     synonyms: ["previously", "in the past"],
     meaning: ["used to indicate how much time has passed since an event"],
     rusTranslations: ["назад", "тому назад"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 30,
@@ -304,7 +304,7 @@ export const englishList = [
     synonyms: ["concur", "assent", "acquiesce"],
     meaning: ["to have the same opinion or to consent"],
     rusTranslations: ["соглашаться", "принимать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 31,
@@ -316,7 +316,7 @@ export const englishList = [
       "a negotiated and typically legally binding arrangement between parties",
     ],
     rusTranslations: ["соглашение", "договор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 32,
@@ -326,7 +326,7 @@ export const englishList = [
     synonyms: ["forward", "in front"],
     meaning: ["in or toward the front; further on"],
     rusTranslations: ["вперед", "до"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 33,
@@ -336,7 +336,7 @@ export const englishList = [
     synonyms: ["atmosphere", "breeze", "wind"],
     meaning: ["the invisible gaseous substance surrounding the earth"],
     rusTranslations: ["воздух", "атмосфера"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 34,
@@ -346,7 +346,7 @@ export const englishList = [
     synonyms: ["every", "entire", "total"],
     meaning: ["the whole quantity or extent of a particular group or thing"],
     rusTranslations: ["все", "целый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 35,
@@ -356,7 +356,7 @@ export const englishList = [
     synonyms: ["permit", "authorize", "let"],
     meaning: ["to give permission for something to happen"],
     rusTranslations: ["разрешать", "позволять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 36,
@@ -366,7 +366,7 @@ export const englishList = [
     synonyms: ["nearly", "practically", "virtually"],
     meaning: ["not quite; very nearly"],
     rusTranslations: ["почти", "едва не"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 37,
@@ -376,7 +376,7 @@ export const englishList = [
     synonyms: ["solitary", "only", "isolated"],
     meaning: ["having no one else present; on one’s own"],
     rusTranslations: ["одинокий", "самостоятельный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 38,
@@ -388,7 +388,7 @@ export const englishList = [
       "moving in a constant direction on (a road, path, or any length of surface)",
     ],
     rusTranslations: ["вдоль", "рядом"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 39,
@@ -398,7 +398,7 @@ export const englishList = [
     synonyms: ["previously", "by now"],
     meaning: ["before the time in question; by now"],
     rusTranslations: ["уже", "ранее"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 40,
@@ -408,7 +408,7 @@ export const englishList = [
     synonyms: ["too", "as well", "in addition"],
     meaning: ["in addition; besides"],
     rusTranslations: ["также", "еще"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 41,
@@ -418,7 +418,7 @@ export const englishList = [
     synonyms: ["though", "even though"],
     meaning: ["in spite of the fact that; even though"],
     rusTranslations: ["хотя", "несмотря на"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 42,
@@ -428,7 +428,7 @@ export const englishList = [
     synonyms: ["forever", "constantly"],
     meaning: ["at all times; on all occasions"],
     rusTranslations: ["всегда", "постоянно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 43,
@@ -438,7 +438,7 @@ export const englishList = [
     synonyms: ["US", "United States"],
     meaning: ["relating to the United States or its inhabitants"],
     rusTranslations: ["американский", "американец"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 44,
@@ -448,7 +448,7 @@ export const englishList = [
     synonyms: ["amid", "in the midst of"],
     meaning: ["surrounded by; in the company of"],
     rusTranslations: ["среди", "между"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 45,
@@ -458,7 +458,7 @@ export const englishList = [
     synonyms: ["quantity", "total", "sum"],
     meaning: ["a quantity of something, especially the total of a thing"],
     rusTranslations: ["количество", "сумма"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 46,
@@ -468,7 +468,7 @@ export const englishList = [
     synonyms: ["examination", "study", "investigation"],
     meaning: ["detailed examination of the elements or structure of something"],
     rusTranslations: ["анализ", "разбор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 47,
@@ -478,7 +478,7 @@ export const englishList = [
     synonyms: ["plus", "also"],
     meaning: ["used to connect words or phrases"],
     rusTranslations: ["и", "а также"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 48,
@@ -488,7 +488,7 @@ export const englishList = [
     synonyms: ["creature", "beast"],
     meaning: ["a living organism that feeds on organic matter"],
     rusTranslations: ["животное", "зверь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 49,
@@ -498,7 +498,7 @@ export const englishList = [
     synonyms: ["other", "different"],
     meaning: ["one more person or thing or an alternative"],
     rusTranslations: ["другой", "ещё один"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 50,
@@ -508,7 +508,7 @@ export const englishList = [
     synonyms: ["reply", "response", "solution"],
     meaning: ["a response to a question, letter, or phone call"],
     rusTranslations: ["ответ", "решение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 51,
@@ -520,7 +520,7 @@ export const englishList = [
       "used to refer to one or some of a thing or number of things, no matter how much or how many",
     ],
     rusTranslations: ["любой", "какой-нибудь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 52,
@@ -530,7 +530,7 @@ export const englishList = [
     synonyms: ["anybody", "any person"],
     meaning: ["any person at all"],
     rusTranslations: ["кто-либо", "любой человек"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 53,
@@ -540,7 +540,7 @@ export const englishList = [
     synonyms: ["something", "whatever"],
     meaning: ["used to refer to a thing, no matter what"],
     rusTranslations: ["что-либо", "ничего"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 54,
@@ -550,7 +550,7 @@ export const englishList = [
     synonyms: ["seem", "look", "emerge"],
     meaning: ["to come into sight; become visible or noticeable"],
     rusTranslations: ["появляться", "казаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 55,
@@ -560,7 +560,7 @@ export const englishList = [
     synonyms: ["use", "employ", "utilize"],
     meaning: ["to make a formal request or put to use"],
     rusTranslations: ["применять", "подать заявление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 56,
@@ -570,7 +570,7 @@ export const englishList = [
     synonyms: ["method", "strategy", "path"],
     meaning: ["a way of dealing with something"],
     rusTranslations: ["подход", "метод"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 57,
@@ -580,7 +580,7 @@ export const englishList = [
     synonyms: ["region", "zone", "territory"],
     meaning: ["a region or part of a town, a country, or the world"],
     rusTranslations: ["область", "район"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 58,
@@ -592,7 +592,7 @@ export const englishList = [
       "to give reasons or cite evidence in support of an idea or theory",
     ],
     rusTranslations: ["спорить", "дискутировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 59,
@@ -602,7 +602,7 @@ export const englishList = [
     synonyms: ["limb", "branch"],
     meaning: ["each of the two upper limbs of the human body"],
     rusTranslations: ["рука", "ветвь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 60,
@@ -612,7 +612,7 @@ export const englishList = [
     synonyms: ["approximately", "about"],
     meaning: ["located or situated on every side"],
     rusTranslations: ["вокруг", "около"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 61,
@@ -622,7 +622,7 @@ export const englishList = [
     synonyms: ["reach", "come", "enter"],
     meaning: ["to reach a place at the end of a journey"],
     rusTranslations: ["прибывать", "приходить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 62,
@@ -632,7 +632,7 @@ export const englishList = [
     synonyms: ["craft", "creativity", "work"],
     meaning: ["the expression or application of human creative skill"],
     rusTranslations: ["искусство", "творчество"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 63,
@@ -644,7 +644,7 @@ export const englishList = [
       "a piece of writing included with others in a newspaper or magazine",
     ],
     rusTranslations: ["статья", "артикль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 65,
@@ -654,7 +654,7 @@ export const englishList = [
     synonyms: ["like", "since", "while"],
     meaning: ["used in comparisons to indicate similarity or function"],
     rusTranslations: ["как", "в качестве"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 66,
@@ -664,7 +664,7 @@ export const englishList = [
     synonyms: ["inquire", "question", "request"],
     meaning: ["to request information or an answer"],
     rusTranslations: ["спрашивать", "просить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 67,
@@ -674,7 +674,7 @@ export const englishList = [
     synonyms: ["presume", "suppose", "take for granted"],
     meaning: ["to suppose something is true without proof"],
     rusTranslations: ["предполагать", "принимать за истину"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 68,
@@ -684,7 +684,7 @@ export const englishList = [
     synonyms: ["in", "on", "by"],
     meaning: ["used to indicate a location or time"],
     rusTranslations: ["в", "на", "у"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 69,
@@ -694,7 +694,7 @@ export const englishList = [
     synonyms: ["assault", "strike", "charge"],
     meaning: ["to take aggressive action against someone or something"],
     rusTranslations: ["атаковать", "нападать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 70,
@@ -704,7 +704,7 @@ export const englishList = [
     synonyms: ["notice", "consideration", "regard"],
     meaning: ["the act of focusing one’s mind on something"],
     rusTranslations: ["внимание", "забота"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 71,
@@ -714,7 +714,7 @@ export const englishList = [
     synonyms: ["lawyer", "counsel", "advocate"],
     meaning: ["a person appointed to act for another in legal matters"],
     rusTranslations: ["адвокат", "юрист"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 72,
@@ -724,7 +724,7 @@ export const englishList = [
     synonyms: ["spectators", "viewers", "listeners"],
     meaning: ["the assembled listeners or viewers at an event"],
     rusTranslations: ["аудитория", "зрители"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 73,
@@ -734,7 +734,7 @@ export const englishList = [
     synonyms: ["writer", "creator", "originator"],
     meaning: ["a person who writes books, articles, etc."],
     rusTranslations: ["автор", "писатель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 74,
@@ -744,7 +744,7 @@ export const englishList = [
     synonyms: ["power", "control", "command"],
     meaning: ["the power or right to give orders or make decisions"],
     rusTranslations: ["власть", "авторитет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 75,
@@ -754,7 +754,7 @@ export const englishList = [
     synonyms: ["accessible", "obtainable", "ready"],
     meaning: ["able to be used or obtained"],
     rusTranslations: ["доступный", "имеющийся"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 76,
@@ -764,7 +764,7 @@ export const englishList = [
     synonyms: ["evade", "shun", "dodge"],
     meaning: ["to keep away from or prevent something"],
     rusTranslations: ["избегать", "уклоняться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 77,
@@ -774,7 +774,7 @@ export const englishList = [
     synonyms: ["absent", "afar", "off"],
     meaning: ["at a distance from a particular place"],
     rusTranslations: ["вдали", "прочь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 78,
@@ -784,7 +784,7 @@ export const englishList = [
     synonyms: ["infant", "newborn", "toddler"],
     meaning: ["a very young child"],
     rusTranslations: ["младенец", "ребёнок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 79,
@@ -796,7 +796,7 @@ export const englishList = [
       "the rear surface of the human body, or the part opposite the chest",
     ],
     rusTranslations: ["спина", "назад"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 80,
@@ -806,7 +806,7 @@ export const englishList = [
     synonyms: ["poor", "inferior", "awful"],
     meaning: ["not good in quality or manner"],
     rusTranslations: ["плохой", "некачественный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 81,
@@ -816,7 +816,7 @@ export const englishList = [
     synonyms: ["sack", "pouch", "container"],
     meaning: ["a flexible container with an opening at the top"],
     rusTranslations: ["сумка", "мешок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 82,
@@ -826,7 +826,7 @@ export const englishList = [
     synonyms: ["sphere", "orb", "globe"],
     meaning: ["a round object used in games or sports"],
     rusTranslations: ["мяч", "шар"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 83,
@@ -838,7 +838,7 @@ export const englishList = [
       "a financial establishment that accepts deposits and lends money",
     ],
     rusTranslations: ["банк"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 84,
@@ -848,7 +848,7 @@ export const englishList = [
     synonyms: ["pub", "tavern", "counter"],
     meaning: ["an establishment where alcoholic beverages are served"],
     rusTranslations: ["бар", "паб"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 85,
@@ -858,7 +858,7 @@ export const englishList = [
     synonyms: ["foundation", "basis", "footing"],
     meaning: ["the lowest part or supporting layer of something"],
     rusTranslations: ["база", "основа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 86,
@@ -868,7 +868,7 @@ export const englishList = [
     synonyms: ["exist", "occur", "live"],
     meaning: ["to exist or live"],
     rusTranslations: ["быть", "существовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 87,
@@ -878,7 +878,7 @@ export const englishList = [
     synonyms: ["defeat", "strike", "hit"],
     meaning: ["to strike repeatedly or overcome in competition"],
     rusTranslations: ["бить", "побеждать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 88,
@@ -888,7 +888,7 @@ export const englishList = [
     synonyms: ["pretty", "attractive", "lovely"],
     meaning: ["pleasing the senses or mind aesthetically"],
     rusTranslations: ["красивый", "прекрасный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 89,
@@ -898,7 +898,7 @@ export const englishList = [
     synonyms: ["since", "as", "due to"],
     meaning: ["for the reason that; since"],
     rusTranslations: ["потому что", "так как"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 90,
@@ -908,7 +908,7 @@ export const englishList = [
     synonyms: ["turn into", "grow into", "develop into"],
     meaning: ["to begin to be; to come into existence"],
     rusTranslations: ["становиться", "превращаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 91,
@@ -918,7 +918,7 @@ export const englishList = [
     synonyms: ["cot", "bunk", "berth"],
     meaning: ["a piece of furniture used for sleeping or resting"],
     rusTranslations: ["кровать", "ложе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 92,
@@ -928,7 +928,7 @@ export const englishList = [
     synonyms: ["prior to", "earlier than"],
     meaning: ["at or during a time preceding an event"],
     rusTranslations: ["до", "раньше"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 93,
@@ -938,7 +938,7 @@ export const englishList = [
     synonyms: ["start", "commence", "initiate"],
     meaning: ["to start or set in motion"],
     rusTranslations: ["начинать", "запускать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 94,
@@ -948,7 +948,7 @@ export const englishList = [
     synonyms: ["conduct", "demeanor", "manner"],
     meaning: ["the way in which one acts or conducts oneself"],
     rusTranslations: ["поведение", "манера"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 95,
@@ -958,7 +958,7 @@ export const englishList = [
     synonyms: ["after", "in back of"],
     meaning: ["at or to the far side of something"],
     rusTranslations: ["позади", "за"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 96,
@@ -968,7 +968,7 @@ export const englishList = [
     synonyms: ["trust", "accept", "assume"],
     meaning: ["to accept something as true"],
     rusTranslations: ["верить", "считать правдой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 97,
@@ -978,7 +978,7 @@ export const englishList = [
     synonyms: ["advantage", "profit", "gain"],
     meaning: ["an advantage or profit gained from something"],
     rusTranslations: ["выгода", "польза"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 98,
@@ -988,7 +988,7 @@ export const englishList = [
     synonyms: ["finest", "greatest", "optimal"],
     meaning: ["of the highest quality or excellence"],
     rusTranslations: ["лучший", "наилучший"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 99,
@@ -998,7 +998,7 @@ export const englishList = [
     synonyms: ["improved", "superior", "enhanced"],
     meaning: ["of a more excellent quality or effectiveness"],
     rusTranslations: ["лучше", "более качественный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 100,
@@ -1010,7 +1010,7 @@ export const englishList = [
       "at, into, or across the space separating two objects or regions",
     ],
     rusTranslations: ["между", "среди"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 101,
@@ -1020,7 +1020,7 @@ export const englishList = [
     synonyms: ["further", "past", "exceeding"],
     meaning: ["at or to the further side of; more than"],
     rusTranslations: ["за", "вне"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 102,
@@ -1030,7 +1030,7 @@ export const englishList = [
     synonyms: ["large", "huge", "massive"],
     meaning: ["of considerable size or extent"],
     rusTranslations: ["большой", "огромный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 103,
@@ -1040,7 +1040,7 @@ export const englishList = [
     synonyms: ["invoice", "statement", "check"],
     meaning: ["a written statement of money owed for goods or services"],
     rusTranslations: ["счёт", "накладная"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 104,
@@ -1050,7 +1050,7 @@ export const englishList = [
     synonyms: ["thousand million", "big number"],
     meaning: ["the number equivalent to one thousand million (1,000,000,000)"],
     rusTranslations: ["миллиард"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 105,
@@ -1060,7 +1060,7 @@ export const englishList = [
     synonyms: ["piece", "fragment", "small part"],
     meaning: ["a small piece or portion of something"],
     rusTranslations: ["кусочек", "немного"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 106,
@@ -1070,7 +1070,7 @@ export const englishList = [
     synonyms: ["dark", "ebony", "charcoal"],
     meaning: ["of the darkest color"],
     rusTranslations: ["черный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 107,
@@ -1080,7 +1080,7 @@ export const englishList = [
     synonyms: ["plasma", "hemoglobin", "life fluid"],
     meaning: ["the red liquid circulating in the arteries and veins"],
     rusTranslations: ["кровь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 108,
@@ -1090,7 +1090,7 @@ export const englishList = [
     synonyms: ["azure", "sapphire", "navy"],
     meaning: ["of a color intermediate between green and violet"],
     rusTranslations: ["синий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 109,
@@ -1100,7 +1100,7 @@ export const englishList = [
     synonyms: ["plank", "panel", "sheet"],
     meaning: ["a long, thin, flat piece of wood or other material"],
     rusTranslations: ["доска", "штаб"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 110,
@@ -1110,7 +1110,7 @@ export const englishList = [
     synonyms: ["figure", "corpus", "form"],
     meaning: ["the physical structure of a person or animal"],
     rusTranslations: ["тело", "корпус"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 111,
@@ -1120,7 +1120,7 @@ export const englishList = [
     synonyms: ["delivered", "brought into the world"],
     meaning: ["brought into existence by birth"],
     rusTranslations: ["рожденный", "родившийся"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 112,
@@ -1130,7 +1130,7 @@ export const englishList = [
     synonyms: ["two", "each", "the two"],
     meaning: ["used to refer to two things regarded together"],
     rusTranslations: ["оба"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 113,
@@ -1142,7 +1142,7 @@ export const englishList = [
       "a container typically with a flat base and sides, square or rectangular",
     ],
     rusTranslations: ["коробка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 114,
@@ -1152,7 +1152,7 @@ export const englishList = [
     synonyms: ["lad", "youth"],
     meaning: ["a male child or young man"],
     rusTranslations: ["мальчик"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 115,
@@ -1162,7 +1162,7 @@ export const englishList = [
     synonyms: ["fracture", "snap", "interrupt"],
     meaning: ["to separate into pieces or pause an activity"],
     rusTranslations: ["ломать", "перерыв"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 116,
@@ -1172,7 +1172,7 @@ export const englishList = [
     synonyms: ["carry", "fetch", "deliver"],
     meaning: ["to take or carry something to a place"],
     rusTranslations: ["приносить", "привозить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 117,
@@ -1182,7 +1182,7 @@ export const englishList = [
     synonyms: ["sibling", "kin"],
     meaning: ["a male sibling"],
     rusTranslations: ["брат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 118,
@@ -1192,7 +1192,7 @@ export const englishList = [
     synonyms: ["plan", "estimate", "allowance"],
     meaning: ["an estimate of income and expenditure for a period"],
     rusTranslations: ["бюджет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 119,
@@ -1202,7 +1202,7 @@ export const englishList = [
     synonyms: ["construct", "erect", "assemble"],
     meaning: ["to construct by putting parts together"],
     rusTranslations: ["строить", "собирать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 120,
@@ -1212,7 +1212,7 @@ export const englishList = [
     synonyms: ["structure", "edifice", "construction"],
     meaning: ["a structure with a roof and walls"],
     rusTranslations: ["здание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 121,
@@ -1224,7 +1224,7 @@ export const englishList = [
       "an organization engaged in commercial, industrial, or professional activities",
     ],
     rusTranslations: ["бизнес", "дело"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 122,
@@ -1234,7 +1234,7 @@ export const englishList = [
     synonyms: ["however", "yet", "although"],
     meaning: ["used to introduce a contrast"],
     rusTranslations: ["но", "а"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 123,
@@ -1244,7 +1244,7 @@ export const englishList = [
     synonyms: ["purchase", "acquire", "procure"],
     meaning: ["to acquire in exchange for payment"],
     rusTranslations: ["покупать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 124,
@@ -1256,7 +1256,7 @@ export const englishList = [
       "identifying the agent performing an action or indicating proximity",
     ],
     rusTranslations: ["у", "около"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 125,
@@ -1266,7 +1266,7 @@ export const englishList = [
     synonyms: ["phone", "shout", "summon"],
     meaning: ["to name or refer to someone or something"],
     rusTranslations: ["звонить", "называть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 126,
@@ -1276,7 +1276,7 @@ export const englishList = [
     synonyms: ["photographic device", "recorder"],
     meaning: ["a device for recording visual images"],
     rusTranslations: ["камера", "фотоаппарат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 127,
@@ -1286,7 +1286,7 @@ export const englishList = [
     synonyms: ["drive", "push", "crusade"],
     meaning: ["a series of activities designed to achieve a specific goal"],
     rusTranslations: ["кампания", "акция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 128,
@@ -1296,7 +1296,7 @@ export const englishList = [
     synonyms: ["be able to", "manage", "permit"],
     meaning: ["to be able to; have the ability"],
     rusTranslations: ["мочь", "уметь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 129,
@@ -1306,7 +1306,7 @@ export const englishList = [
     synonyms: ["malignancy"],
     meaning: ["a disease characterized by uncontrolled cell growth"],
     rusTranslations: ["рак"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 130,
@@ -1316,7 +1316,7 @@ export const englishList = [
     synonyms: ["applicant", "contender", "nominee"],
     meaning: ["a person who applies for a job or is nominated for election"],
     rusTranslations: ["кандидат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 131,
@@ -1328,7 +1328,7 @@ export const englishList = [
       "a city where a region's government is located or wealth/resources",
     ],
     rusTranslations: ["столица", "капитал"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 132,
@@ -1340,7 +1340,7 @@ export const englishList = [
       "a road vehicle, typically with four wheels, powered by an engine",
     ],
     rusTranslations: ["машина", "автомобиль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 133,
@@ -1352,7 +1352,7 @@ export const englishList = [
       "a piece of thick paper used for identification or as a means of payment",
     ],
     rusTranslations: ["карточка", "карта"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 134,
@@ -1364,7 +1364,7 @@ export const englishList = [
       "the provision of what is necessary for the health, welfare, or maintenance of someone",
     ],
     rusTranslations: ["забота", "уход"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 135,
@@ -1376,7 +1376,7 @@ export const englishList = [
       "an occupation undertaken for a significant period of a person's life",
     ],
     rusTranslations: ["карьера", "профессия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 136,
@@ -1388,7 +1388,7 @@ export const englishList = [
       "to support and move someone or something from one place to another",
     ],
     rusTranslations: ["нести", "переносить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 137,
@@ -1398,7 +1398,7 @@ export const englishList = [
     synonyms: ["instance", "example", "situation"],
     meaning: ["an instance or occurrence of something"],
     rusTranslations: ["случай", "корпус"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 138,
@@ -1408,7 +1408,7 @@ export const englishList = [
     synonyms: ["capture", "grab", "seize"],
     meaning: ["to intercept and hold something in motion"],
     rusTranslations: ["ловить", "схватывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 139,
@@ -1418,7 +1418,7 @@ export const englishList = [
     synonyms: ["reason", "motive", "source"],
     meaning: ["a person or thing that gives rise to an action or condition"],
     rusTranslations: ["причина", "повод"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 140,
@@ -1428,7 +1428,7 @@ export const englishList = [
     synonyms: ["unit", "compartment", "module"],
     meaning: ["the smallest structural and functional unit of an organism"],
     rusTranslations: ["клетка", "ячейка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 141,
@@ -1438,7 +1438,7 @@ export const englishList = [
     synonyms: ["middle", "core", "hub"],
     meaning: ["the point or part that is equally distant from all sides"],
     rusTranslations: ["центр", "середина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 142,
@@ -1448,7 +1448,7 @@ export const englishList = [
     synonyms: ["middle", "core", "focal"],
     meaning: ["of the center; most important"],
     rusTranslations: ["центральный", "основной"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 143,
@@ -1458,7 +1458,7 @@ export const englishList = [
     synonyms: ["era", "period", "100 years"],
     meaning: ["a period of 100 years"],
     rusTranslations: ["век", "столетие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 144,
@@ -1468,7 +1468,7 @@ export const englishList = [
     synonyms: ["definite", "sure", "particular"],
     meaning: ["known for sure; established beyond doubt"],
     rusTranslations: ["определённый", "уверенный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 145,
@@ -1478,7 +1478,7 @@ export const englishList = [
     synonyms: ["definitely", "surely", "undoubtedly"],
     meaning: ["without any doubt; definitely"],
     rusTranslations: ["безусловно", "конечно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 146,
@@ -1490,7 +1490,7 @@ export const englishList = [
       "a separate seat for one person, typically having a back and four legs",
     ],
     rusTranslations: ["стул", "председатель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 147,
@@ -1500,7 +1500,7 @@ export const englishList = [
     synonyms: ["test", "trial", "difficulty"],
     meaning: ["a call to take part in a contest or competition"],
     rusTranslations: ["вызов", "испытание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 148,
@@ -1510,7 +1510,7 @@ export const englishList = [
     synonyms: ["opportunity", "possibility", "luck"],
     meaning: ["a possibility of something happening"],
     rusTranslations: ["шанс", "возможность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 149,
@@ -1520,7 +1520,7 @@ export const englishList = [
     synonyms: ["alter", "modify", "transform"],
     meaning: ["to make or become different"],
     rusTranslations: ["менять", "изменять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 150,
@@ -1530,7 +1530,7 @@ export const englishList = [
     synonyms: ["personality", "nature", "disposition"],
     meaning: ["the mental and moral qualities distinctive to an individual"],
     rusTranslations: ["характер", "личность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 151,
@@ -1540,7 +1540,7 @@ export const englishList = [
     synonyms: ["impose", "accuse", "demand"],
     meaning: ["to impose a fee or responsibility; to attack"],
     rusTranslations: ["обвинять", "заряжать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 152,
@@ -1552,7 +1552,7 @@ export const englishList = [
       "to examine something in order to determine its accuracy or condition",
     ],
     rusTranslations: ["проверять", "контролировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 153,
@@ -1562,7 +1562,7 @@ export const englishList = [
     synonyms: ["kid", "youngster", "minor"],
     meaning: ["a young human being"],
     rusTranslations: ["ребёнок", "дитя"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 154,
@@ -1574,7 +1574,7 @@ export const englishList = [
       "an act of selecting or making a decision when faced with alternatives",
     ],
     rusTranslations: ["выбор", "опция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 155,
@@ -1584,7 +1584,7 @@ export const englishList = [
     synonyms: ["select", "pick", "decide"],
     meaning: ["to decide on a course of action from a number of alternatives"],
     rusTranslations: ["выбирать", "подбирать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 156,
@@ -1594,7 +1594,7 @@ export const englishList = [
     synonyms: ["chapel", "parish", "cathedral"],
     meaning: ["a building used for public Christian worship"],
     rusTranslations: ["церковь", "храм"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 157,
@@ -1604,7 +1604,7 @@ export const englishList = [
     synonyms: ["inhabitant", "resident", "national"],
     meaning: ["a legally recognized subject or national of a state"],
     rusTranslations: ["гражданин"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 158,
@@ -1614,7 +1614,7 @@ export const englishList = [
     synonyms: ["metropolis", "urban area", "town"],
     meaning: ["a large town"],
     rusTranslations: ["город"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 159,
@@ -1624,7 +1624,7 @@ export const englishList = [
     synonyms: ["polite", "courteous", "non-military"],
     meaning: ["relating to ordinary citizens and their concerns"],
     rusTranslations: ["гражданский", "вежливый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 160,
@@ -1634,7 +1634,7 @@ export const englishList = [
     synonyms: ["assert", "declare", "state"],
     meaning: ["to state something as a fact"],
     rusTranslations: ["утверждать", "заявлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 161,
@@ -1644,7 +1644,7 @@ export const englishList = [
     synonyms: ["category", "group", "set"],
     meaning: ["a set or category of things with a common attribute"],
     rusTranslations: ["класс", "группа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 162,
@@ -1654,7 +1654,7 @@ export const englishList = [
     synonyms: ["evident", "obvious", "transparent"],
     meaning: ["easy to perceive or understand"],
     rusTranslations: ["ясный", "четкий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 163,
@@ -1664,7 +1664,7 @@ export const englishList = [
     synonyms: ["plainly", "obviously", "evidently"],
     meaning: ["in a clear or unambiguous manner"],
     rusTranslations: ["ясно", "четко"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 164,
@@ -1674,7 +1674,7 @@ export const englishList = [
     synonyms: ["near", "intimate", "tight"],
     meaning: ["a short distance away in space or time"],
     rusTranslations: ["близкий", "закрытый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 165,
@@ -1684,7 +1684,7 @@ export const englishList = [
     synonyms: ["trainer", "instructor", "mentor"],
     meaning: ["a person who trains or instructs others in sports or skills"],
     rusTranslations: ["тренер", "инструктор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 166,
@@ -1694,7 +1694,7 @@ export const englishList = [
     synonyms: ["chilly", "cool", "frigid"],
     meaning: ["of or at a low temperature"],
     rusTranslations: ["холодный", "прохладный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 167,
@@ -1704,7 +1704,7 @@ export const englishList = [
     synonyms: ["group", "assemblage", "set"],
     meaning: ["a group of objects gathered together"],
     rusTranslations: ["коллекция", "сбор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 168,
@@ -1714,7 +1714,7 @@ export const englishList = [
     synonyms: ["university", "institute", "academy"],
     meaning: ["an educational institution providing higher education"],
     rusTranslations: ["колледж", "институт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 169,
@@ -1724,7 +1724,7 @@ export const englishList = [
     synonyms: ["hue", "shade", "tint"],
     meaning: ["the property produced by light reflecting off an object"],
     rusTranslations: ["цвет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 170,
@@ -1734,7 +1734,7 @@ export const englishList = [
     synonyms: ["arrive", "approach", "appear"],
     meaning: ["to move toward or reach a place"],
     rusTranslations: ["приходить", "прибывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 171,
@@ -1744,7 +1744,7 @@ export const englishList = [
     synonyms: ["business", "advertising", "trade"],
     meaning: ["relating to commerce or business"],
     rusTranslations: ["коммерческий", "рекламный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 172,
@@ -1754,7 +1754,7 @@ export const englishList = [
     synonyms: ["ordinary", "usual", "frequent"],
     meaning: ["occurring, found, or done often"],
     rusTranslations: ["обычный", "распространённый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 173,
@@ -1766,7 +1766,7 @@ export const englishList = [
       "a group of people living in the same area or having common interests",
     ],
     rusTranslations: ["сообщество", "община"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 174,
@@ -1776,7 +1776,7 @@ export const englishList = [
     synonyms: ["business", "firm", "corporation"],
     meaning: ["a commercial business or enterprise"],
     rusTranslations: ["компания", "фирма"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 175,
@@ -1786,7 +1786,7 @@ export const englishList = [
     synonyms: ["contrast", "evaluate", "examine"],
     meaning: ["to estimate the similarity or dissimilarity between"],
     rusTranslations: ["сравнивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 176,
@@ -1796,7 +1796,7 @@ export const englishList = [
     synonyms: ["PC", "machine", "processor"],
     meaning: ["an electronic device for storing and processing data"],
     rusTranslations: ["компьютер"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 177,
@@ -1806,7 +1806,7 @@ export const englishList = [
     synonyms: ["worry", "care", "anxiety"],
     meaning: ["a matter of interest or importance"],
     rusTranslations: ["забота", "беспокойство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 178,
@@ -1816,7 +1816,7 @@ export const englishList = [
     synonyms: ["state", "situation", "status"],
     meaning: ["the state of something regarding its quality or functioning"],
     rusTranslations: ["состояние", "условие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 179,
@@ -1826,7 +1826,7 @@ export const englishList = [
     synonyms: ["meeting", "convention", "symposium"],
     meaning: ["a formal meeting for discussion"],
     rusTranslations: ["конференция", "съезд"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 180,
@@ -1836,7 +1836,7 @@ export const englishList = [
     synonyms: ["assembly", "parliament", "legislature"],
     meaning: ["the national legislative body of a country"],
     rusTranslations: ["конгресс", "собрание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 181,
@@ -1846,7 +1846,7 @@ export const englishList = [
     synonyms: ["think about", "ponder", "examine"],
     meaning: ["to think carefully about something in order to form an opinion"],
     rusTranslations: ["рассматривать", "обдумывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 182,
@@ -1856,7 +1856,7 @@ export const englishList = [
     synonyms: ["buyer", "client", "purchaser"],
     meaning: ["a person who purchases goods or services"],
     rusTranslations: ["потребитель", "клиент"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 183,
@@ -1866,7 +1866,7 @@ export const englishList = [
     synonyms: ["include", "hold", "encompass"],
     meaning: ["to have or hold within"],
     rusTranslations: ["содержать", "вмещать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 184,
@@ -1876,7 +1876,7 @@ export const englishList = [
     synonyms: ["proceed", "persist", "carry on"],
     meaning: ["to remain in existence or operation"],
     rusTranslations: ["продолжать", "продлевать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 185,
@@ -1886,7 +1886,7 @@ export const englishList = [
     synonyms: ["manage", "regulate", "direct"],
     meaning: ["the power to influence or direct people's behavior or events"],
     rusTranslations: ["контроль", "управление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 186,
@@ -1896,7 +1896,7 @@ export const englishList = [
     synonyms: ["price", "expense", "charge"],
     meaning: ["the amount of money required to purchase something"],
     rusTranslations: ["стоимость", "цена"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 187,
@@ -1906,7 +1906,7 @@ export const englishList = [
     synonyms: ["might", "be able to"],
     meaning: ["used to indicate possibility"],
     rusTranslations: ["мог", "смог бы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 188,
@@ -1916,7 +1916,7 @@ export const englishList = [
     synonyms: ["nation", "state", "land"],
     meaning: ["a nation with its own government"],
     rusTranslations: ["страна"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 189,
@@ -1926,7 +1926,7 @@ export const englishList = [
     synonyms: ["pair", "duo", "twosome"],
     meaning: ["two individuals regarded together"],
     rusTranslations: ["пара", "двое"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 190,
@@ -1936,7 +1936,7 @@ export const englishList = [
     synonyms: ["class", "program", "curriculum"],
     meaning: ["a series of lessons or lectures in a subject"],
     rusTranslations: ["курс", "программа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 191,
@@ -1946,7 +1946,7 @@ export const englishList = [
     synonyms: ["tribunal", "judiciary", "arena"],
     meaning: ["a place where legal matters are adjudicated"],
     rusTranslations: ["суд", "двор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 192,
@@ -1956,7 +1956,7 @@ export const englishList = [
     synonyms: ["encompass", "shield", "protect"],
     meaning: ["to place something over or upon, as for protection"],
     rusTranslations: ["покрывать", "закрывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 193,
@@ -1966,7 +1966,7 @@ export const englishList = [
     synonyms: ["make", "produce", "form"],
     meaning: ["to bring something into existence"],
     rusTranslations: ["создавать", "творить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 194,
@@ -1976,7 +1976,7 @@ export const englishList = [
     synonyms: ["offense", "felony", "misdemeanor"],
     meaning: ["an illegal act punishable by law"],
     rusTranslations: ["преступление", "правонарушение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 195,
@@ -1988,7 +1988,7 @@ export const englishList = [
       "relating to the ideas, customs, and social behavior of a society",
     ],
     rusTranslations: ["культурный", "художественный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 196,
@@ -1998,7 +1998,7 @@ export const englishList = [
     synonyms: ["civilization", "society", "customs"],
     meaning: ["the arts, customs, and social behavior of a society"],
     rusTranslations: ["культура", "цивилизация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 197,
@@ -2008,7 +2008,7 @@ export const englishList = [
     synonyms: ["mug", "trophy", "container"],
     meaning: ["a small bowl-shaped container for drinking"],
     rusTranslations: ["чашка", "кубок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 198,
@@ -2018,7 +2018,7 @@ export const englishList = [
     synonyms: ["present", "modern", "ongoing"],
     meaning: ["belonging to the present time; happening now"],
     rusTranslations: ["текущий", "современный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 199,
@@ -2028,7 +2028,7 @@ export const englishList = [
     synonyms: ["client", "buyer", "consumer"],
     meaning: ["a person who purchases goods or services"],
     rusTranslations: ["покупатель", "клиент"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 200,
@@ -2038,7 +2038,7 @@ export const englishList = [
     synonyms: ["slice", "trim", "chop"],
     meaning: ["to divide or make an incision with a sharp instrument"],
     rusTranslations: ["резать", "отрезать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 201,
@@ -2048,7 +2048,7 @@ export const englishList = [
     synonyms: ["dim", "shadowy", "gloomy"],
     meaning: ["having very little light; not bright"],
     rusTranslations: ["тёмный", "мрачный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 202,
@@ -2058,7 +2058,7 @@ export const englishList = [
     synonyms: ["information", "facts", "figures"],
     meaning: ["facts and statistics collected for analysis"],
     rusTranslations: ["данные", "информация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 203,
@@ -2068,7 +2068,7 @@ export const englishList = [
     synonyms: ["child", "offspring"],
     meaning: ["a female child"],
     rusTranslations: ["дочь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 204,
@@ -2078,7 +2078,7 @@ export const englishList = [
     synonyms: ["24 hours", "period", "morning"],
     meaning: ["a period of 24 hours"],
     rusTranslations: ["день"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 205,
@@ -2088,7 +2088,7 @@ export const englishList = [
     synonyms: ["lifeless", "deceased", "inanimate"],
     meaning: ["no longer alive"],
     rusTranslations: ["мертвый", "умерший"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 206,
@@ -2098,7 +2098,7 @@ export const englishList = [
     synonyms: ["manage", "handle", "distribute"],
     meaning: ["to distribute or handle something"],
     rusTranslations: ["иметь дело", "распределять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 207,
@@ -2108,7 +2108,7 @@ export const englishList = [
     synonyms: ["demise", "passing", "end"],
     meaning: ["the cessation of life"],
     rusTranslations: ["смерть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 208,
@@ -2118,7 +2118,7 @@ export const englishList = [
     synonyms: ["discussion", "argument", "dispute"],
     meaning: ["a formal discussion on a particular topic"],
     rusTranslations: ["дебаты", "дискуссия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 209,
@@ -2128,7 +2128,7 @@ export const englishList = [
     synonyms: ["ten years", "era"],
     meaning: ["a period of ten years"],
     rusTranslations: ["десятилетие", "декада"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 210,
@@ -2138,7 +2138,7 @@ export const englishList = [
     synonyms: ["determine", "choose", "conclude"],
     meaning: ["to come to a resolution after consideration"],
     rusTranslations: ["решать", "определять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 211,
@@ -2148,7 +2148,7 @@ export const englishList = [
     synonyms: ["conclusion", "verdict", "judgment"],
     meaning: ["a conclusion reached after consideration"],
     rusTranslations: ["решение", "вердикт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 212,
@@ -2158,7 +2158,7 @@ export const englishList = [
     synonyms: ["profound", "intense", "extensive"],
     meaning: ["extending far down from the top or surface"],
     rusTranslations: ["глубокий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 213,
@@ -2168,7 +2168,7 @@ export const englishList = [
     synonyms: ["protection", "guard", "security"],
     meaning: ["the action of defending against an attack"],
     rusTranslations: ["защита", "оборона"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 214,
@@ -2178,7 +2178,7 @@ export const englishList = [
     synonyms: ["representative", "popular"],
     meaning: ["relating to or supporting democracy"],
     rusTranslations: ["демократический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 215,
@@ -2188,7 +2188,7 @@ export const englishList = [
     synonyms: ["portray", "explain"],
     meaning: ["to give an account in words"],
     rusTranslations: ["описывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 216,
@@ -2198,7 +2198,7 @@ export const englishList = [
     synonyms: ["plan", "blueprint"],
     meaning: ["a plan or drawing produced to show the look of something"],
     rusTranslations: ["дизайн", "план"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 217,
@@ -2208,7 +2208,7 @@ export const englishList = [
     synonyms: ["in spite of", "regardless of"],
     meaning: ["without being affected by"],
     rusTranslations: ["несмотря на"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 218,
@@ -2218,7 +2218,7 @@ export const englishList = [
     synonyms: ["particular", "minutia"],
     meaning: ["an individual feature, fact, or item"],
     rusTranslations: ["деталь", "подробность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 219,
@@ -2228,7 +2228,7 @@ export const englishList = [
     synonyms: ["decide", "ascertain"],
     meaning: ["to cause to occur in a particular way; to decide"],
     rusTranslations: ["определять", "решать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 220,
@@ -2238,7 +2238,7 @@ export const englishList = [
     synonyms: ["evolve", "grow"],
     meaning: ["to cause to grow or become more mature"],
     rusTranslations: ["развивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 221,
@@ -2248,7 +2248,7 @@ export const englishList = [
     synonyms: ["growth", "evolution"],
     meaning: ["the process of developing or being developed"],
     rusTranslations: ["развитие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 222,
@@ -2258,7 +2258,7 @@ export const englishList = [
     synonyms: ["pass away", "perish"],
     meaning: ["to cease living"],
     rusTranslations: ["умирать", "скончаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 223,
@@ -2268,7 +2268,7 @@ export const englishList = [
     synonyms: ["distinction", "variation"],
     meaning: ["a point or way in which things are not the same"],
     rusTranslations: ["разница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 224,
@@ -2278,7 +2278,7 @@ export const englishList = [
     synonyms: ["distinct", "diverse"],
     meaning: ["not the same as another"],
     rusTranslations: ["разный", "иной"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 225,
@@ -2288,7 +2288,7 @@ export const englishList = [
     synonyms: ["hard", "challenging"],
     meaning: ["needing much effort or skill to accomplish"],
     rusTranslations: ["трудный", "сложный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 226,
@@ -2298,7 +2298,7 @@ export const englishList = [
     synonyms: ["supper", "meal"],
     meaning: ["the main meal of the day, eaten in the evening"],
     rusTranslations: ["ужин", "обед"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 227,
@@ -2308,7 +2308,7 @@ export const englishList = [
     synonyms: ["course", "path"],
     meaning: ["the course along which something moves"],
     rusTranslations: ["направление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 228,
@@ -2318,7 +2318,7 @@ export const englishList = [
     synonyms: ["manager", "supervisor"],
     meaning: ["a person who is in charge of an activity"],
     rusTranslations: ["директор", "руководитель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 229,
@@ -2328,7 +2328,7 @@ export const englishList = [
     synonyms: ["find", "uncover"],
     meaning: ["to find something or someone unexpectedly"],
     rusTranslations: ["обнаруживать", "открывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 230,
@@ -2338,7 +2338,7 @@ export const englishList = [
     synonyms: ["talk over", "debate"],
     meaning: ["to talk about something with others"],
     rusTranslations: ["обсуждать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 231,
@@ -2348,7 +2348,7 @@ export const englishList = [
     synonyms: ["dialogue", "debate"],
     meaning: ["the act of talking about something to reach a decision"],
     rusTranslations: ["обсуждение", "дискуссия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 232,
@@ -2358,7 +2358,7 @@ export const englishList = [
     synonyms: ["illness", "sickness"],
     meaning: ["a disorder of structure or function in a living organism"],
     rusTranslations: ["болезнь", "заболевание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 233,
@@ -2368,7 +2368,7 @@ export const englishList = [
     synonyms: ["perform", "execute"],
     meaning: ["to perform an action or activity"],
     rusTranslations: ["делать", "выполнять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 234,
@@ -2378,7 +2378,7 @@ export const englishList = [
     synonyms: ["physician", "medic"],
     meaning: ["a person qualified to treat the ill"],
     rusTranslations: ["врач", "доктор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 235,
@@ -2388,7 +2388,7 @@ export const englishList = [
     synonyms: ["canine", "puppy"],
     meaning: ["a domesticated carnivorous mammal"],
     rusTranslations: ["собака"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 236,
@@ -2398,7 +2398,7 @@ export const englishList = [
     synonyms: ["entrance", "gate"],
     meaning: ["a hinged or sliding barrier at the entrance to a building"],
     rusTranslations: ["дверь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 237,
@@ -2408,7 +2408,7 @@ export const englishList = [
     synonyms: ["below", "under"],
     meaning: ["toward or in a lower place"],
     rusTranslations: ["вниз", "под"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 238,
@@ -2418,7 +2418,7 @@ export const englishList = [
     synonyms: ["sketch", "pull"],
     meaning: ["to produce a picture or pull something"],
     rusTranslations: ["рисовать", "тянуть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 239,
@@ -2428,7 +2428,7 @@ export const englishList = [
     synonyms: ["vision", "fantasy"],
     meaning: ["a series of thoughts during sleep; a hope or aspiration"],
     rusTranslations: ["мечта", "сон"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 240,
@@ -2438,7 +2438,7 @@ export const englishList = [
     synonyms: ["operate", "propel"],
     meaning: ["to operate and control the direction of a vehicle"],
     rusTranslations: ["водить", "управлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 241,
@@ -2448,7 +2448,7 @@ export const englishList = [
     synonyms: ["fall", "descend"],
     meaning: ["to let or make something fall"],
     rusTranslations: ["падать", "ронять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 242,
@@ -2460,7 +2460,7 @@ export const englishList = [
       "a substance used in the diagnosis, treatment, or prevention of disease",
     ],
     rusTranslations: ["лекарство", "наркотик"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 243,
@@ -2470,7 +2470,7 @@ export const englishList = [
     synonyms: ["throughout", "in the course of"],
     meaning: ["throughout the duration of"],
     rusTranslations: ["во время", "в течение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 244,
@@ -2480,7 +2480,7 @@ export const englishList = [
     synonyms: ["every", "all"],
     meaning: ["used to refer to every one of two or more people or things"],
     rusTranslations: ["каждый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 245,
@@ -2490,7 +2490,7 @@ export const englishList = [
     synonyms: ["premature", "initial"],
     meaning: ["occurring near the beginning"],
     rusTranslations: ["рано", "первоначальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 246,
@@ -2500,7 +2500,7 @@ export const englishList = [
     synonyms: ["orient", "sunrise direction"],
     meaning: ["the direction where the sun rises"],
     rusTranslations: ["восток"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 247,
@@ -2510,7 +2510,7 @@ export const englishList = [
     synonyms: ["simple", "effortless"],
     meaning: ["achieved without great effort"],
     rusTranslations: ["легкий", "простой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 248,
@@ -2520,7 +2520,7 @@ export const englishList = [
     synonyms: ["consume", "ingest"],
     meaning: ["to put food into the mouth and swallow it"],
     rusTranslations: ["есть", "питаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 249,
@@ -2530,7 +2530,7 @@ export const englishList = [
     synonyms: ["financial", "monetary"],
     meaning: ["relating to the economy"],
     rusTranslations: ["экономический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 250,
@@ -2540,7 +2540,7 @@ export const englishList = [
     synonyms: ["market", "trade"],
     meaning: ["the system of production and consumption"],
     rusTranslations: ["экономика"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 251,
@@ -2550,7 +2550,7 @@ export const englishList = [
     synonyms: ["border", "margin"],
     meaning: ["the boundary or outer surface of something"],
     rusTranslations: ["край", "обод"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 252,
@@ -2560,7 +2560,7 @@ export const englishList = [
     synonyms: ["schooling", "instruction"],
     meaning: ["the process of receiving or giving systematic instruction"],
     rusTranslations: ["образование"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 253,
@@ -2570,7 +2570,7 @@ export const englishList = [
     synonyms: ["result", "outcome"],
     meaning: ["a change that is a result or consequence of an action"],
     rusTranslations: ["эффект", "результат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 254,
@@ -2580,7 +2580,7 @@ export const englishList = [
     synonyms: ["attempt", "exertion"],
     meaning: ["a vigorous or determined attempt"],
     rusTranslations: ["усилие", "попытка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 255,
@@ -2590,7 +2590,7 @@ export const englishList = [
     synonyms: ["8"],
     meaning: ["the number equivalent to the product of two and four"],
     rusTranslations: ["восемь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 256,
@@ -2600,7 +2600,7 @@ export const englishList = [
     synonyms: ["any", "each"],
     meaning: ["used before a choice of two alternatives"],
     rusTranslations: ["любой из двух"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 257,
@@ -2610,7 +2610,7 @@ export const englishList = [
     synonyms: ["vote", "poll"],
     meaning: ["a formal decision-making process"],
     rusTranslations: ["выборы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 258,
@@ -2620,7 +2620,7 @@ export const englishList = [
     synonyms: ["otherwise", "besides"],
     meaning: ["in addition; apart from"],
     rusTranslations: ["еще", "иначе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 259,
@@ -2630,7 +2630,7 @@ export const englishList = [
     synonyms: ["worker", "staff"],
     meaning: ["a person employed for wages"],
     rusTranslations: ["сотрудник", "работник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 260,
@@ -2640,7 +2640,7 @@ export const englishList = [
     synonyms: ["conclusion", "finish"],
     meaning: ["a final part or conclusion of something"],
     rusTranslations: ["конец", "завершение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 261,
@@ -2650,7 +2650,7 @@ export const englishList = [
     synonyms: ["vigor", "power"],
     meaning: ["the strength and vitality required for sustained activity"],
     rusTranslations: ["энергия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 262,
@@ -2660,7 +2660,7 @@ export const englishList = [
     synonyms: ["savor", "relish"],
     meaning: ["to take delight or pleasure in"],
     rusTranslations: ["наслаждаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 263,
@@ -2670,7 +2670,7 @@ export const englishList = [
     synonyms: ["sufficient", "adequate"],
     meaning: ["as much or as many as required"],
     rusTranslations: ["достаточно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 264,
@@ -2680,7 +2680,7 @@ export const englishList = [
     synonyms: ["go in", "come in"],
     meaning: ["to go or come into a place"],
     rusTranslations: ["входить", "войти"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 265,
@@ -2690,7 +2690,7 @@ export const englishList = [
     synonyms: ["whole", "complete"],
     meaning: ["with no part left out; whole"],
     rusTranslations: ["целый", "полный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 266,
@@ -2700,7 +2700,7 @@ export const englishList = [
     synonyms: ["surroundings", "milieu"],
     meaning: ["the natural world and conditions in which a person lives"],
     rusTranslations: ["окружающая среда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 267,
@@ -2710,7 +2710,7 @@ export const englishList = [
     synonyms: ["ecological", "green"],
     meaning: ["relating to the environment"],
     rusTranslations: ["экологический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 268,
@@ -2720,7 +2720,7 @@ export const englishList = [
     synonyms: ["particularly", "notably"],
     meaning: ["used to single out one person or thing above all others"],
     rusTranslations: ["особенно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 269,
@@ -2730,7 +2730,7 @@ export const englishList = [
     synonyms: ["set up", "found"],
     meaning: ["to set up on a firm or permanent basis"],
     rusTranslations: ["устанавливать", "основывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 270,
@@ -2740,7 +2740,7 @@ export const englishList = [
     synonyms: ["actually", "really"],
     meaning: ["used to emphasize something surprising"],
     rusTranslations: ["даже", "все-таки"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 271,
@@ -2750,7 +2750,7 @@ export const englishList = [
     synonyms: ["nightfall", "dusk"],
     meaning: ["the period of time at the end of the day"],
     rusTranslations: ["вечер"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 272,
@@ -2760,7 +2760,7 @@ export const englishList = [
     synonyms: ["occasion", "happening"],
     meaning: ["a planned public or social occasion"],
     rusTranslations: ["событие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 273,
@@ -2770,7 +2770,7 @@ export const englishList = [
     synonyms: ["always", "at any time"],
     meaning: ["at any time"],
     rusTranslations: ["когда-либо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 274,
@@ -2780,7 +2780,7 @@ export const englishList = [
     synonyms: ["each", "all"],
     meaning: ["all possible; each one"],
     rusTranslations: ["каждый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 275,
@@ -2790,7 +2790,7 @@ export const englishList = [
     synonyms: ["everyone", "all"],
     meaning: ["every person"],
     rusTranslations: ["все"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 276,
@@ -2800,7 +2800,7 @@ export const englishList = [
     synonyms: ["everybody", "all"],
     meaning: ["all people"],
     rusTranslations: ["каждый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 277,
@@ -2810,7 +2810,7 @@ export const englishList = [
     synonyms: ["all", "the whole lot"],
     meaning: ["all things"],
     rusTranslations: ["всё"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 278,
@@ -2820,7 +2820,7 @@ export const englishList = [
     synonyms: ["proof", "confirmation"],
     meaning: ["information indicating whether something is true"],
     rusTranslations: ["доказательство", "свидетельство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 279,
@@ -2830,7 +2830,7 @@ export const englishList = [
     synonyms: ["precisely", "accurately"],
     meaning: ["in a precise manner"],
     rusTranslations: ["точно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 280,
@@ -2840,7 +2840,7 @@ export const englishList = [
     synonyms: ["instance", "sample"],
     meaning: ["a representative form or pattern"],
     rusTranslations: ["пример"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 281,
@@ -2850,7 +2850,7 @@ export const englishList = [
     synonyms: ["administrative", "managerial"],
     meaning: ["relating to the execution of laws and management"],
     rusTranslations: ["исполнительный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 282,
@@ -2860,7 +2860,7 @@ export const englishList = [
     synonyms: ["occur", "be"],
     meaning: ["to have actual being"],
     rusTranslations: ["существовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 283,
@@ -2870,7 +2870,7 @@ export const englishList = [
     synonyms: ["anticipate", "predict"],
     meaning: ["to regard something as likely to happen"],
     rusTranslations: ["ожидать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 284,
@@ -2880,7 +2880,7 @@ export const englishList = [
     synonyms: ["encounter", "event"],
     meaning: ["practical contact with events or activities"],
     rusTranslations: ["опыт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 285,
@@ -2890,7 +2890,7 @@ export const englishList = [
     synonyms: ["specialist", "authority"],
     meaning: ["a person with extensive knowledge"],
     rusTranslations: ["эксперт", "специалист"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 286,
@@ -2900,7 +2900,7 @@ export const englishList = [
     synonyms: ["clarify", "describe"],
     meaning: ["to make an idea or situation clear"],
     rusTranslations: ["объяснять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 287,
@@ -2910,7 +2910,7 @@ export const englishList = [
     synonyms: ["optic", "sight"],
     meaning: ["the organ of sight"],
     rusTranslations: ["глаз"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 288,
@@ -2920,7 +2920,7 @@ export const englishList = [
     synonyms: ["front", "visage"],
     meaning: ["the front part of a head"],
     rusTranslations: ["лицо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 289,
@@ -2930,7 +2930,7 @@ export const englishList = [
     synonyms: ["reality", "truth"],
     meaning: ["a thing that is known or proved to be true"],
     rusTranslations: ["факт", "истина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 290,
@@ -2940,7 +2940,7 @@ export const englishList = [
     synonyms: ["element", "component"],
     meaning: ["a circumstance that contributes to a result"],
     rusTranslations: ["фактор", "элемент"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 291,
@@ -2950,7 +2950,7 @@ export const englishList = [
     synonyms: ["flunk", "fall short"],
     meaning: ["to be unsuccessful in achieving a goal"],
     rusTranslations: ["провалиться", "не справиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 292,
@@ -2960,7 +2960,7 @@ export const englishList = [
     synonyms: ["drop", "descend"],
     meaning: ["to move downward"],
     rusTranslations: ["падать", "опускаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 293,
@@ -2970,7 +2970,7 @@ export const englishList = [
     synonyms: ["household", "clan"],
     meaning: ["a group consisting of parents and children"],
     rusTranslations: ["семья"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 294,
@@ -2980,7 +2980,7 @@ export const englishList = [
     synonyms: ["distantly", "greatly"],
     meaning: ["at, to, or by a great distance"],
     rusTranslations: ["далеко"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 295,
@@ -2990,7 +2990,7 @@ export const englishList = [
     synonyms: ["quick", "rapid"],
     meaning: ["moving or capable of moving at high speed"],
     rusTranslations: ["быстрый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 296,
@@ -3000,7 +3000,7 @@ export const englishList = [
     synonyms: ["dad", "papa"],
     meaning: ["a male parent"],
     rusTranslations: ["отец"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 297,
@@ -3010,7 +3010,7 @@ export const englishList = [
     synonyms: ["dread", "terror"],
     meaning: ["an unpleasant emotion caused by danger"],
     rusTranslations: ["страх"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 298,
@@ -3020,7 +3020,7 @@ export const englishList = [
     synonyms: ["national", "central"],
     meaning: ["relating to the central government"],
     rusTranslations: ["федеральный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 299,
@@ -3030,7 +3030,7 @@ export const englishList = [
     synonyms: ["sense", "experience"],
     meaning: ["to perceive by touch or emotion"],
     rusTranslations: ["чувствовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 300,
@@ -3040,7 +3040,7 @@ export const englishList = [
     synonyms: ["emotion", "sensation"],
     meaning: ["an emotional state or reaction"],
     rusTranslations: ["чувство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 301,
@@ -3050,7 +3050,7 @@ export const englishList = [
     synonyms: ["scarce", "little"],
     meaning: ["a small number of"],
     rusTranslations: ["немного", "несколько"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 302,
@@ -3060,7 +3060,7 @@ export const englishList = [
     synonyms: ["area", "domain"],
     meaning: ["an area of open land or a particular branch of study"],
     rusTranslations: ["поле", "сфера"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 303,
@@ -3070,7 +3070,7 @@ export const englishList = [
     synonyms: ["battle", "combat"],
     meaning: ["to engage in a struggle or contest"],
     rusTranslations: ["бороться", "драться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 304,
@@ -3080,7 +3080,7 @@ export const englishList = [
     synonyms: ["number", "shape"],
     meaning: ["a numeral or a form/shape"],
     rusTranslations: ["цифра", "фигура"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 305,
@@ -3090,7 +3090,7 @@ export const englishList = [
     synonyms: ["stuff", "pack"],
     meaning: ["to make something full"],
     rusTranslations: ["заполнять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 306,
@@ -3100,7 +3100,7 @@ export const englishList = [
     synonyms: ["movie", "picture"],
     meaning: ["a motion picture"],
     rusTranslations: ["фильм", "кино"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 307,
@@ -3110,7 +3110,7 @@ export const englishList = [
     synonyms: ["last", "ultimate"],
     meaning: ["coming at the end; last"],
     rusTranslations: ["финальный", "окончательный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 308,
@@ -3120,7 +3120,7 @@ export const englishList = [
     synonyms: ["ultimately", "eventually"],
     meaning: ["in the end; after a long time"],
     rusTranslations: ["наконец", "в конце концов"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 309,
@@ -3130,7 +3130,7 @@ export const englishList = [
     synonyms: ["monetary", "fiscal"],
     meaning: ["relating to finance or money matters"],
     rusTranslations: ["финансовый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 310,
@@ -3140,7 +3140,7 @@ export const englishList = [
     synonyms: ["locate", "discover"],
     meaning: ["to discover something or someone"],
     rusTranslations: ["находить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 311,
@@ -3150,7 +3150,7 @@ export const englishList = [
     synonyms: ["good", "excellent"],
     meaning: ["of high quality"],
     rusTranslations: ["хороший", "отличный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 312,
@@ -3160,7 +3160,7 @@ export const englishList = [
     synonyms: ["digit", "appendage"],
     meaning: ["any of the five digits on the hand"],
     rusTranslations: ["палец"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 313,
@@ -3170,7 +3170,7 @@ export const englishList = [
     synonyms: ["complete", "conclude"],
     meaning: ["to bring something to an end"],
     rusTranslations: ["заканчивать", "завершать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 314,
@@ -3180,7 +3180,7 @@ export const englishList = [
     synonyms: ["blaze", "flame"],
     meaning: ["the combustion process giving off heat and light"],
     rusTranslations: ["огонь", "пламя"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 315,
@@ -3190,7 +3190,7 @@ export const englishList = [
     synonyms: ["solid", "strong"],
     meaning: ["having a solid, almost unyielding surface or structure"],
     rusTranslations: ["твердый", "устойчивый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 316,
@@ -3200,7 +3200,7 @@ export const englishList = [
     synonyms: ["initial", "primary"],
     meaning: ["coming before all others in time or order"],
     rusTranslations: ["первый", "начальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 317,
@@ -3210,7 +3210,7 @@ export const englishList = [
     synonyms: ["swimmer", "aquatic animal"],
     meaning: ["a limbless cold-blooded vertebrate animal with gills"],
     rusTranslations: ["рыба"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 318,
@@ -3220,7 +3220,7 @@ export const englishList = [
     synonyms: ["5"],
     meaning: ["the number equivalent to the sum of two and three"],
     rusTranslations: ["пять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 319,
@@ -3230,7 +3230,7 @@ export const englishList = [
     synonyms: ["ground", "base"],
     meaning: ["the lower surface of a room on which one may walk"],
     rusTranslations: ["пол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 320,
@@ -3240,7 +3240,7 @@ export const englishList = [
     synonyms: ["soar", "glide"],
     meaning: ["to move through the air using wings"],
     rusTranslations: ["лететь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 321,
@@ -3250,7 +3250,7 @@ export const englishList = [
     synonyms: ["center", "concentration"],
     meaning: ["the central point of attention or activity"],
     rusTranslations: ["фокус", "сосредоточие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 322,
@@ -3260,7 +3260,7 @@ export const englishList = [
     synonyms: ["pursue", "trail"],
     meaning: ["to come after or go behind"],
     rusTranslations: ["следовать", "идти за"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 323,
@@ -3270,7 +3270,7 @@ export const englishList = [
     synonyms: ["nourishment", "edibles"],
     meaning: ["any nutritious substance that people or animals eat"],
     rusTranslations: ["еда", "пища"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 324,
@@ -3280,7 +3280,7 @@ export const englishList = [
     synonyms: ["base", "lower extremity"],
     meaning: ["the lower extremity of the leg below the ankle"],
     rusTranslations: ["нога", "стопа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 325,
@@ -3290,7 +3290,7 @@ export const englishList = [
     synonyms: ["on behalf of", "in favor of"],
     meaning: ["used to indicate the object or recipient of an action"],
     rusTranslations: ["для", "за"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 326,
@@ -3300,7 +3300,7 @@ export const englishList = [
     synonyms: ["power", "energy"],
     meaning: ["strength or energy as an attribute of physical action"],
     rusTranslations: ["сила", "энергия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 327,
@@ -3312,7 +3312,7 @@ export const englishList = [
       "of, from, in, or characteristic of a country or language other than one's own",
     ],
     rusTranslations: ["иностранный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 328,
@@ -3322,7 +3322,7 @@ export const englishList = [
     synonyms: ["omit", "disregard"],
     meaning: ["to fail to remember"],
     rusTranslations: ["забывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 329,
@@ -3332,7 +3332,7 @@ export const englishList = [
     synonyms: ["shape", "structure"],
     meaning: ["the visible shape or configuration of something"],
     rusTranslations: ["форма", "облик"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 330,
@@ -3342,7 +3342,7 @@ export const englishList = [
     synonyms: ["previous", "earlier"],
     meaning: ["having previously been a particular thing"],
     rusTranslations: ["бывший", "предыдущий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 331,
@@ -3352,7 +3352,7 @@ export const englishList = [
     synonyms: ["ahead", "forth"],
     meaning: ["in the direction that one is facing or moving"],
     rusTranslations: ["вперед", "наперекор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 332,
@@ -3362,7 +3362,7 @@ export const englishList = [
     synonyms: ["4"],
     meaning: ["the number equivalent to two plus two"],
     rusTranslations: ["четыре"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 333,
@@ -3374,7 +3374,7 @@ export const englishList = [
       "not under the control or in the power of another; able to act as one wishes",
     ],
     rusTranslations: ["свободный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 334,
@@ -3386,7 +3386,7 @@ export const englishList = [
       "a person whom one knows and with whom one has a bond of mutual affection",
     ],
     rusTranslations: ["друг"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 335,
@@ -3398,7 +3398,7 @@ export const englishList = [
       "indicating the point in time at which a process, event, or activity starts",
     ],
     rusTranslations: ["от", "с"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 336,
@@ -3410,7 +3410,7 @@ export const englishList = [
       "the side or part of an object that presents itself to view or that is normally seen or used first",
     ],
     rusTranslations: ["фронт", "передняя часть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 337,
@@ -3420,7 +3420,7 @@ export const englishList = [
     synonyms: ["complete", "entire"],
     meaning: ["containing or holding as much as possible"],
     rusTranslations: ["полный", "заполненный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 338,
@@ -3432,7 +3432,7 @@ export const englishList = [
       "a sum of money saved or made available for a particular purpose",
     ],
     rusTranslations: ["фонд", "средства"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 339,
@@ -3442,7 +3442,7 @@ export const englishList = [
     synonyms: ["upcoming", "forthcoming"],
     meaning: ["the time yet to come"],
     rusTranslations: ["будущее"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 340,
@@ -3452,7 +3452,7 @@ export const englishList = [
     synonyms: ["match", "contest"],
     meaning: ["an activity that one engages in for amusement or fun"],
     rusTranslations: ["игра"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 341,
@@ -3462,7 +3462,7 @@ export const englishList = [
     synonyms: ["yard", "park"],
     meaning: ["a piece of ground for growing flowers, fruit, or vegetables"],
     rusTranslations: ["сад"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 342,
@@ -3474,7 +3474,7 @@ export const englishList = [
       "an air-like fluid substance which expands freely to fill any space",
     ],
     rusTranslations: ["газ"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 343,
@@ -3484,7 +3484,7 @@ export const englishList = [
     synonyms: ["common", "broad"],
     meaning: ["widespread; not specific"],
     rusTranslations: ["общий", "универсальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 344,
@@ -3494,7 +3494,7 @@ export const englishList = [
     synonyms: ["age group", "cohort"],
     meaning: ["all of the people born and living at about the same time"],
     rusTranslations: ["поколение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 345,
@@ -3504,7 +3504,7 @@ export const englishList = [
     synonyms: ["obtain", "acquire"],
     meaning: ["to come to have or hold something"],
     rusTranslations: ["получать", "приобретать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 346,
@@ -3514,7 +3514,7 @@ export const englishList = [
     synonyms: ["lass", "female"],
     meaning: ["a female child"],
     rusTranslations: ["девочка", "девушка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 347,
@@ -3524,7 +3524,7 @@ export const englishList = [
     synonyms: ["offer", "present"],
     meaning: ["to freely transfer the possession of something"],
     rusTranslations: ["давать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 348,
@@ -3534,7 +3534,7 @@ export const englishList = [
     synonyms: ["pane", "crystal"],
     meaning: ["a hard, brittle substance typically transparent"],
     rusTranslations: ["стекло", "бокал"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 349,
@@ -3544,7 +3544,7 @@ export const englishList = [
     synonyms: ["move", "proceed"],
     meaning: ["to move or travel from one place to another"],
     rusTranslations: ["идти", "ехать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 350,
@@ -3554,7 +3554,7 @@ export const englishList = [
     synonyms: ["aim", "target"],
     meaning: ["the object of a person's ambition or effort"],
     rusTranslations: ["цель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 351,
@@ -3564,7 +3564,7 @@ export const englishList = [
     synonyms: ["decent", "fine"],
     meaning: ["to be desired or approved of"],
     rusTranslations: ["хороший"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 352,
@@ -3574,7 +3574,7 @@ export const englishList = [
     synonyms: ["administration", "regime"],
     meaning: ["the group of people with the authority to govern a country"],
     rusTranslations: ["правительство", "государство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 353,
@@ -3586,7 +3586,7 @@ export const englishList = [
       "of an extent, amount, or intensity considerably above the normal",
     ],
     rusTranslations: ["великий", "отличный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 354,
@@ -3596,7 +3596,7 @@ export const englishList = [
     synonyms: ["verdant", "eco-friendly"],
     meaning: ["of the color between blue and yellow in the spectrum"],
     rusTranslations: ["зеленый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 355,
@@ -3606,7 +3606,7 @@ export const englishList = [
     synonyms: ["earth", "soil"],
     meaning: ["the solid surface of the earth"],
     rusTranslations: ["земля", "почва"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 356,
@@ -3616,7 +3616,7 @@ export const englishList = [
     synonyms: ["cluster", "assembly"],
     meaning: ["a number of people or things that are located together"],
     rusTranslations: ["группа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 357,
@@ -3626,7 +3626,7 @@ export const englishList = [
     synonyms: ["expand", "develop"],
     meaning: ["to undergo natural development by increasing in size"],
     rusTranslations: ["расти"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 358,
@@ -3636,7 +3636,7 @@ export const englishList = [
     synonyms: ["expansion", "increase"],
     meaning: ["the process of increasing in physical size"],
     rusTranslations: ["рост"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 359,
@@ -3646,7 +3646,7 @@ export const englishList = [
     synonyms: ["estimate", "suppose"],
     meaning: ["to form an opinion without sufficient evidence"],
     rusTranslations: ["угадывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 360,
@@ -3658,7 +3658,7 @@ export const englishList = [
       "a weapon incorporating a metal tube from which bullets are propelled",
     ],
     rusTranslations: ["оружие", "пистолет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 361,
@@ -3668,7 +3668,7 @@ export const englishList = [
     synonyms: ["man", "fellow"],
     meaning: ["an informal term for a man or boy"],
     rusTranslations: ["парень", "мужчина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 362,
@@ -3678,7 +3678,7 @@ export const englishList = [
     synonyms: ["tress", "lock"],
     meaning: ["any of the fine threadlike strands growing from the skin"],
     rusTranslations: ["волосы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 363,
@@ -3688,7 +3688,7 @@ export const englishList = [
     synonyms: ["part", "segment"],
     meaning: ["one of two equal or corresponding parts"],
     rusTranslations: ["половина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 364,
@@ -3698,7 +3698,7 @@ export const englishList = [
     synonyms: ["paw", "mitt"],
     meaning: ["the prehensile, multi-jointed extremity at the end of the arm"],
     rusTranslations: ["рука"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 365,
@@ -3708,7 +3708,7 @@ export const englishList = [
     synonyms: ["suspend", "dangle"],
     meaning: ["to attach or be suspended from above"],
     rusTranslations: ["висеть", "подвешивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 366,
@@ -3718,7 +3718,7 @@ export const englishList = [
     synonyms: ["occur", "transpire"],
     meaning: ["to take place; come about"],
     rusTranslations: ["случаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 367,
@@ -3728,7 +3728,7 @@ export const englishList = [
     synonyms: ["difficult", "challenging"],
     meaning: ["requiring a great deal of effort or endurance"],
     rusTranslations: ["трудный", "жесткий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 368,
@@ -3738,7 +3738,7 @@ export const englishList = [
     synonyms: ["possess", "own"],
     meaning: ["to possess, own, or hold"],
     rusTranslations: ["иметь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 369,
@@ -3748,7 +3748,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a male person or animal"],
     rusTranslations: ["он"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 370,
@@ -3760,7 +3760,7 @@ export const englishList = [
       "the upper part of the human body or the front part of an animal",
     ],
     rusTranslations: ["голова"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 371,
@@ -3770,7 +3770,7 @@ export const englishList = [
     synonyms: ["wellness", "fitness"],
     meaning: ["the state of being free from illness or injury"],
     rusTranslations: ["здоровье"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 372,
@@ -3780,7 +3780,7 @@ export const englishList = [
     synonyms: ["listen", "perceive"],
     meaning: ["to perceive sound by the ear"],
     rusTranslations: ["слышать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 373,
@@ -3790,7 +3790,7 @@ export const englishList = [
     synonyms: ["core", "soul"],
     meaning: ["the central or innermost part of something"],
     rusTranslations: ["сердце"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 374,
@@ -3800,7 +3800,7 @@ export const englishList = [
     synonyms: ["warmth", "temperature"],
     meaning: ["the quality of being hot; high temperature"],
     rusTranslations: ["жара", "тепло"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 375,
@@ -3810,7 +3810,7 @@ export const englishList = [
     synonyms: ["weighty", "massive"],
     meaning: ["of great weight; difficult to lift or move"],
     rusTranslations: ["тяжёлый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 376,
@@ -3820,7 +3820,7 @@ export const englishList = [
     synonyms: ["assist", "aid"],
     meaning: ["to make it easier for someone to do something"],
     rusTranslations: ["помогать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 377,
@@ -3830,7 +3830,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a female person or animal"],
     rusTranslations: ["ее"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 378,
@@ -3840,7 +3840,7 @@ export const englishList = [
     synonyms: ["present", "in this place"],
     meaning: ["in, at, or to this place or position"],
     rusTranslations: ["здесь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 379,
@@ -3850,7 +3850,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a female subject previously mentioned"],
     rusTranslations: ["сама"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 380,
@@ -3860,7 +3860,7 @@ export const englishList = [
     synonyms: ["tall", "elevated"],
     meaning: ["of great vertical extent"],
     rusTranslations: ["высокий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 381,
@@ -3870,7 +3870,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a male person or animal"],
     rusTranslations: ["его"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 382,
@@ -3880,7 +3880,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a male subject previously mentioned"],
     rusTranslations: ["сам"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 383,
@@ -3890,7 +3890,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["belonging to or associated with a male person"],
     rusTranslations: ["его"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 384,
@@ -3900,7 +3900,7 @@ export const englishList = [
     synonyms: ["past", "record"],
     meaning: ["the study of past events"],
     rusTranslations: ["история"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 385,
@@ -3910,7 +3910,7 @@ export const englishList = [
     synonyms: ["strike", "smack"],
     meaning: ["to come into contact with force"],
     rusTranslations: ["удар", "бить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 386,
@@ -3920,7 +3920,7 @@ export const englishList = [
     synonyms: ["grasp", "keep"],
     meaning: ["to grasp, carry, or support with one's hands"],
     rusTranslations: ["держать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 387,
@@ -3930,7 +3930,7 @@ export const englishList = [
     synonyms: ["house", "residence"],
     meaning: ["the place where one lives permanently"],
     rusTranslations: ["дом"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 388,
@@ -3942,7 +3942,7 @@ export const englishList = [
       "a feeling of expectation and desire for a certain thing to happen",
     ],
     rusTranslations: ["надежда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 389,
@@ -3952,7 +3952,7 @@ export const englishList = [
     synonyms: ["clinic", "medical center"],
     meaning: ["an institution providing medical and surgical treatment"],
     rusTranslations: ["больница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 390,
@@ -3962,7 +3962,7 @@ export const englishList = [
     synonyms: ["warm", "heated"],
     meaning: ["having a high temperature"],
     rusTranslations: ["горячий", "жаркий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 391,
@@ -3972,7 +3972,7 @@ export const englishList = [
     synonyms: ["inn", "motel"],
     meaning: ["an establishment providing lodging, meals, and other services"],
     rusTranslations: ["отель", "гостиница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 392,
@@ -3982,7 +3982,7 @@ export const englishList = [
     synonyms: ["sixty minutes"],
     meaning: ["a period of time equal to 60 minutes"],
     rusTranslations: ["час"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 393,
@@ -3992,7 +3992,7 @@ export const englishList = [
     synonyms: ["home", "dwelling"],
     meaning: ["a building for human habitation"],
     rusTranslations: ["дом", "здание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 394,
@@ -4002,7 +4002,7 @@ export const englishList = [
     synonyms: ["in what way", "by what means"],
     meaning: ["in what way or manner; by what means"],
     rusTranslations: ["как"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 395,
@@ -4014,7 +4014,7 @@ export const englishList = [
       "used to introduce a statement that contrasts with or seems to contradict something that has been said previously",
     ],
     rusTranslations: ["однако"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 396,
@@ -4024,7 +4024,7 @@ export const englishList = [
     synonyms: ["enormous", "massive"],
     meaning: ["extremely large; enormous"],
     rusTranslations: ["огромный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 397,
@@ -4034,7 +4034,7 @@ export const englishList = [
     synonyms: ["mortal", "personable"],
     meaning: ["relating to or characteristic of people"],
     rusTranslations: ["человеческий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 398,
@@ -4044,7 +4044,7 @@ export const englishList = [
     synonyms: ["century"],
     meaning: ["the number equivalent to 10 times 10"],
     rusTranslations: ["сто"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 399,
@@ -4054,7 +4054,7 @@ export const englishList = [
     synonyms: ["spouse", "partner"],
     meaning: ["a married man considered in relation to his spouse"],
     rusTranslations: ["муж"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 400,
@@ -4064,7 +4064,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used by a speaker to refer to himself or herself"],
     rusTranslations: ["я"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 401,
@@ -4074,7 +4074,7 @@ export const englishList = [
     synonyms: ["concept", "notion"],
     meaning: ["a thought or suggestion as to a possible course of action"],
     rusTranslations: ["идея"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 402,
@@ -4084,7 +4084,7 @@ export const englishList = [
     synonyms: ["recognize", "determine"],
     meaning: ["to establish or indicate who or what someone or something is"],
     rusTranslations: ["идентифицировать", "распознавать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 403,
@@ -4094,7 +4094,7 @@ export const englishList = [
     synonyms: ["in case", "provided that"],
     meaning: ["introducing a conditional clause"],
     rusTranslations: ["если"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 404,
@@ -4104,7 +4104,7 @@ export const englishList = [
     synonyms: ["picture", "representation"],
     meaning: ["a representation of the external form of a person or thing"],
     rusTranslations: ["образ", "изображение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 405,
@@ -4114,7 +4114,7 @@ export const englishList = [
     synonyms: ["envision", "picture"],
     meaning: ["to form a mental image or concept of something"],
     rusTranslations: ["представлять", "воображать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 406,
@@ -4126,7 +4126,7 @@ export const englishList = [
       "the action of one object coming forcibly into contact with another",
     ],
     rusTranslations: ["воздействие", "влияние"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 407,
@@ -4136,7 +4136,7 @@ export const englishList = [
     synonyms: ["significant", "crucial"],
     meaning: ["of great significance or value"],
     rusTranslations: ["важный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 408,
@@ -4146,7 +4146,7 @@ export const englishList = [
     synonyms: ["enhance", "better"],
     meaning: ["to make or become better"],
     rusTranslations: ["улучшать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 409,
@@ -4158,7 +4158,7 @@ export const englishList = [
       "expressing the situation of something that is or appears to be enclosed or surrounded by something else",
     ],
     rusTranslations: ["в", "внутри"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 410,
@@ -4168,7 +4168,7 @@ export const englishList = [
     synonyms: ["comprise", "contain"],
     meaning: ["to comprise or contain as part of a whole"],
     rusTranslations: ["включать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 411,
@@ -4178,7 +4178,7 @@ export const englishList = [
     synonyms: ["such as", "for example"],
     meaning: ["used to introduce examples that form part of a whole"],
     rusTranslations: ["включая"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 412,
@@ -4188,7 +4188,7 @@ export const englishList = [
     synonyms: ["grow", "rise"],
     meaning: ["to become or make greater in size, amount, or degree"],
     rusTranslations: ["увеличивать", "рост"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 413,
@@ -4198,7 +4198,7 @@ export const englishList = [
     synonyms: ["truly", "really"],
     meaning: ["used to emphasize a statement or response confirming something"],
     rusTranslations: ["действительно", "в самом деле"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 414,
@@ -4208,7 +4208,7 @@ export const englishList = [
     synonyms: ["enhance", "better"],
     meaning: ["to make or become better"],
     rusTranslations: ["улучшать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 415,
@@ -4220,7 +4220,7 @@ export const englishList = [
       "expressing the situation of something that is enclosed or surrounded",
     ],
     rusTranslations: ["в", "внутри"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 416,
@@ -4230,7 +4230,7 @@ export const englishList = [
     synonyms: ["comprise", "contain"],
     meaning: ["to contain as part of a whole"],
     rusTranslations: ["включать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 417,
@@ -4240,7 +4240,7 @@ export const englishList = [
     synonyms: ["such as", "for example"],
     meaning: ["used to introduce examples that form part of a whole"],
     rusTranslations: ["включая"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 418,
@@ -4250,7 +4250,7 @@ export const englishList = [
     synonyms: ["rise", "grow"],
     meaning: ["to become or make greater in size, amount, or degree"],
     rusTranslations: ["увеличивать", "рост"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 419,
@@ -4260,7 +4260,7 @@ export const englishList = [
     synonyms: ["show", "demonstrate"],
     meaning: ["to point out or show something"],
     rusTranslations: ["указывать", "демонстрировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 420,
@@ -4270,7 +4270,7 @@ export const englishList = [
     synonyms: ["personal", "separate"],
     meaning: ["single; separate"],
     rusTranslations: ["индивидуальный", "отдельный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 421,
@@ -4282,7 +4282,7 @@ export const englishList = [
       "economic activity concerned with the processing of raw materials",
     ],
     rusTranslations: ["промышленность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 422,
@@ -4292,7 +4292,7 @@ export const englishList = [
     synonyms: ["data", "facts"],
     meaning: ["knowledge provided about something"],
     rusTranslations: ["информация", "данные"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 423,
@@ -4302,7 +4302,7 @@ export const englishList = [
     synonyms: ["within", "inward"],
     meaning: ["located or occurring in the inner part"],
     rusTranslations: ["внутри", "внутренний"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 424,
@@ -4312,7 +4312,7 @@ export const englishList = [
     synonyms: ["alternatively", "rather"],
     meaning: ["as an alternative or substitute"],
     rusTranslations: ["вместо", "иначе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 425,
@@ -4324,7 +4324,7 @@ export const englishList = [
       "an established organization, especially one dedicated to education or research",
     ],
     rusTranslations: ["институт", "учреждение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 426,
@@ -4334,7 +4334,7 @@ export const englishList = [
     synonyms: ["curiosity", "concern"],
     meaning: ["the feeling of wanting to know or learn about something"],
     rusTranslations: ["интерес", "любознательность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 427,
@@ -4344,7 +4344,7 @@ export const englishList = [
     synonyms: ["engaging", "intriguing"],
     meaning: ["arousing curiosity or holding attention"],
     rusTranslations: ["интересный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 428,
@@ -4354,7 +4354,7 @@ export const englishList = [
     synonyms: ["global", "worldwide"],
     meaning: ["existing, occurring, or carried on between nations"],
     rusTranslations: ["международный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 429,
@@ -4366,7 +4366,7 @@ export const englishList = [
       "a formal meeting in which one asks questions and listens to answers",
     ],
     rusTranslations: ["интервью", "собеседование"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 430,
@@ -4378,7 +4378,7 @@ export const englishList = [
       "expressing movement or action with the result that someone or something becomes enclosed or surrounded by something else",
     ],
     rusTranslations: ["в", "до"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 431,
@@ -4388,7 +4388,7 @@ export const englishList = [
     synonyms: ["expenditure", "asset"],
     meaning: ["the action or process of investing money for profit"],
     rusTranslations: ["инвестиция", "вложение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 432,
@@ -4398,7 +4398,7 @@ export const englishList = [
     synonyms: ["include", "entail"],
     meaning: ["to include something as a necessary part or result"],
     rusTranslations: ["вовлекать", "включать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 433,
@@ -4408,7 +4408,7 @@ export const englishList = [
     synonyms: ["matter", "topic"],
     meaning: ["an important subject or problem for debate or discussion"],
     rusTranslations: ["вопрос", "проблема"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 434,
@@ -4420,7 +4420,7 @@ export const englishList = [
       "used to refer to a thing previously mentioned or easily identified",
     ],
     rusTranslations: ["это", "оно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 435,
@@ -4430,7 +4430,7 @@ export const englishList = [
     synonyms: ["object", "article"],
     meaning: ["an individual article or unit in a collection"],
     rusTranslations: ["предмет", "вещь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 436,
@@ -4440,7 +4440,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["belonging to or associated with a thing previously mentioned"],
     rusTranslations: ["его", "ее"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 437,
@@ -4450,7 +4450,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to emphasize a particular thing"],
     rusTranslations: ["само", "само по себе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 438,
@@ -4460,7 +4460,7 @@ export const englishList = [
     synonyms: ["occupation", "position"],
     meaning: ["a paid position of regular employment"],
     rusTranslations: ["работа", "должность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 439,
@@ -4470,7 +4470,7 @@ export const englishList = [
     synonyms: ["connect", "link"],
     meaning: ["to become a member or part of something"],
     rusTranslations: ["присоединяться", "объединяться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 440,
@@ -4480,7 +4480,7 @@ export const englishList = [
     synonyms: ["merely", "only"],
     meaning: ["exactly or precisely"],
     rusTranslations: ["просто", "ровно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 441,
@@ -4490,7 +4490,7 @@ export const englishList = [
     synonyms: ["retain", "hold"],
     meaning: ["to continue to have or hold something"],
     rusTranslations: ["держать", "сохранять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 442,
@@ -4500,7 +4500,7 @@ export const englishList = [
     synonyms: ["crucial", "essential"],
     meaning: ["of paramount or crucial importance"],
     rusTranslations: ["ключевой", "важный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 443,
@@ -4510,7 +4510,7 @@ export const englishList = [
     synonyms: ["child", "youth"],
     meaning: ["a child or young person"],
     rusTranslations: ["ребёнок", "малыш"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 444,
@@ -4520,7 +4520,7 @@ export const englishList = [
     synonyms: ["murder", "slay"],
     meaning: ["to cause the death of a living organism"],
     rusTranslations: ["убивать", "погибнуть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 445,
@@ -4530,7 +4530,7 @@ export const englishList = [
     synonyms: ["friendly", "caring"],
     meaning: ["having or showing a friendly, generous, and considerate nature"],
     rusTranslations: ["добрый", "вид"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 446,
@@ -4540,7 +4540,7 @@ export const englishList = [
     synonyms: ["cookhouse"],
     meaning: ["a room where food is prepared and cooked"],
     rusTranslations: ["кухня"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 447,
@@ -4550,7 +4550,7 @@ export const englishList = [
     synonyms: ["understand", "comprehend"],
     meaning: ["to be aware of through observation, inquiry, or information"],
     rusTranslations: ["знать", "понимать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 448,
@@ -4560,7 +4560,7 @@ export const englishList = [
     synonyms: ["understanding", "awareness"],
     meaning: ["facts, information, and skills acquired by a person"],
     rusTranslations: ["знание", "осведомлённость"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 449,
@@ -4570,7 +4570,7 @@ export const englishList = [
     synonyms: ["ground", "earth"],
     meaning: ["the part of the earth's surface that is not covered by water"],
     rusTranslations: ["земля", "территория"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 450,
@@ -4580,7 +4580,7 @@ export const englishList = [
     synonyms: ["tongue", "speech"],
     meaning: ["a system of communication used by a particular community"],
     rusTranslations: ["язык"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 451,
@@ -4590,7 +4590,7 @@ export const englishList = [
     synonyms: ["big", "huge"],
     meaning: ["of considerable or relatively great size"],
     rusTranslations: ["большой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 452,
@@ -4600,7 +4600,7 @@ export const englishList = [
     synonyms: ["final", "ultimate"],
     meaning: ["coming after all others in time; final"],
     rusTranslations: ["последний", "окончательный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 453,
@@ -4610,7 +4610,7 @@ export const englishList = [
     synonyms: ["tardy", "delayed"],
     meaning: ["after the expected or usual time"],
     rusTranslations: ["поздний"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 454,
@@ -4620,7 +4620,7 @@ export const englishList = [
     synonyms: ["afterward", "subsequently"],
     meaning: ["at a time in the future; afterward"],
     rusTranslations: ["позже"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 455,
@@ -4632,7 +4632,7 @@ export const englishList = [
       "to make sounds and movements of the face and body that show amusement",
     ],
     rusTranslations: ["смеяться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 456,
@@ -4642,7 +4642,7 @@ export const englishList = [
     synonyms: ["legislation", "statute"],
     meaning: ["a system of rules recognized as regulating behavior"],
     rusTranslations: ["закон"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 457,
@@ -4652,7 +4652,7 @@ export const englishList = [
     synonyms: ["attorney", "counsel"],
     meaning: ["a person who practices or studies law"],
     rusTranslations: ["адвокат", "юрист"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 458,
@@ -4662,7 +4662,7 @@ export const englishList = [
     synonyms: ["place", "set"],
     meaning: ["to put down, especially carefully or gently"],
     rusTranslations: ["класть", "откладывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 459,
@@ -4672,7 +4672,7 @@ export const englishList = [
     synonyms: ["guide", "direct"],
     meaning: ["to go before or with to show the way"],
     rusTranslations: ["вести", "руководить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 460,
@@ -4682,7 +4682,7 @@ export const englishList = [
     synonyms: ["chief", "head"],
     meaning: ["a person who leads or commands a group"],
     rusTranslations: ["лидер", "руководитель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 461,
@@ -4692,7 +4692,7 @@ export const englishList = [
     synonyms: ["study", "acquire"],
     meaning: ["to gain or acquire knowledge or skill"],
     rusTranslations: ["учиться", "изучать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 462,
@@ -4702,7 +4702,7 @@ export const englishList = [
     synonyms: ["minimal", "smallest"],
     meaning: ["smallest in amount or degree"],
     rusTranslations: ["наименьший"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 463,
@@ -4712,7 +4712,7 @@ export const englishList = [
     synonyms: ["depart", "exit"],
     meaning: ["to go away from"],
     rusTranslations: ["покидать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 464,
@@ -4722,7 +4722,7 @@ export const englishList = [
     synonyms: ["remaining", "port"],
     meaning: ["remaining after the rest has been used or removed"],
     rusTranslations: ["оставшийся", "левый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 465,
@@ -4732,7 +4732,7 @@ export const englishList = [
     synonyms: ["limb"],
     meaning: ["a limb on which a person or animal walks or stands"],
     rusTranslations: ["нога"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 466,
@@ -4742,7 +4742,7 @@ export const englishList = [
     synonyms: ["lawful", "legitimate"],
     meaning: ["relating to law or the practice of law"],
     rusTranslations: ["законный", "правовой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 467,
@@ -4752,7 +4752,7 @@ export const englishList = [
     synonyms: ["fewer", "reduced"],
     meaning: ["a smaller amount or degree"],
     rusTranslations: ["меньше"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 468,
@@ -4762,7 +4762,7 @@ export const englishList = [
     synonyms: ["allow", "permit"],
     meaning: ["to allow or permit"],
     rusTranslations: ["позволять", "дать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 469,
@@ -4772,7 +4772,7 @@ export const englishList = [
     synonyms: ["character", "epistle"],
     meaning: ["a written message from one person to another"],
     rusTranslations: ["письмо", "буква"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 470,
@@ -4782,7 +4782,7 @@ export const englishList = [
     synonyms: ["grade", "standard"],
     meaning: ["a specific stage or degree of quality or quantity"],
     rusTranslations: ["уровень"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 471,
@@ -4792,7 +4792,7 @@ export const englishList = [
     synonyms: ["recline", "rest"],
     meaning: ["to be in or assume a horizontal or resting position"],
     rusTranslations: ["лежать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 472,
@@ -4802,7 +4802,7 @@ export const englishList = [
     synonyms: ["existence", "being"],
     meaning: ["the existence of an individual human being or animal"],
     rusTranslations: ["жизнь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 473,
@@ -4814,7 +4814,7 @@ export const englishList = [
       "the natural agent that stimulates sight and makes things visible",
     ],
     rusTranslations: ["свет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 474,
@@ -4824,7 +4824,7 @@ export const englishList = [
     synonyms: ["enjoy", "appreciate"],
     meaning: ["to find agreeable or satisfactory"],
     rusTranslations: ["нравиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 475,
@@ -4834,7 +4834,7 @@ export const englishList = [
     synonyms: ["probable", "expected"],
     meaning: ["such as well might happen or be true"],
     rusTranslations: ["вероятный", "вполне"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 476,
@@ -4844,7 +4844,7 @@ export const englishList = [
     synonyms: ["row", "stripe"],
     meaning: ["a long, narrow mark or band"],
     rusTranslations: ["линия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 477,
@@ -4854,7 +4854,7 @@ export const englishList = [
     synonyms: ["catalog", "inventory"],
     meaning: ["a number of connected items or names written consecutively"],
     rusTranslations: ["список"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 478,
@@ -4864,7 +4864,7 @@ export const englishList = [
     synonyms: ["hear", "attend"],
     meaning: ["to give one's attention to sound"],
     rusTranslations: ["слушать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 479,
@@ -4874,7 +4874,7 @@ export const englishList = [
     synonyms: ["small", "tiny"],
     meaning: ["small in size or amount"],
     rusTranslations: ["маленький", "немного"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 480,
@@ -4884,7 +4884,7 @@ export const englishList = [
     synonyms: ["reside", "exist"],
     meaning: ["to remain alive or to reside"],
     rusTranslations: ["жить", "проживать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 481,
@@ -4894,7 +4894,7 @@ export const englishList = [
     synonyms: ["regional", "nearby"],
     meaning: ["relating or restricted to a particular area"],
     rusTranslations: ["местный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 482,
@@ -4904,7 +4904,7 @@ export const englishList = [
     synonyms: ["lengthy", "extended"],
     meaning: ["measuring a great distance from end to end"],
     rusTranslations: ["длинный", "долгий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 483,
@@ -4914,7 +4914,7 @@ export const englishList = [
     synonyms: ["glance", "gaze"],
     meaning: ["to direct one's eyes in order to see something"],
     rusTranslations: ["смотреть", "глянуть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 484,
@@ -4924,7 +4924,7 @@ export const englishList = [
     synonyms: ["misplace", "forfeit"],
     meaning: ["to be unable to find something"],
     rusTranslations: ["терять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 485,
@@ -4934,7 +4934,7 @@ export const englishList = [
     synonyms: ["deprivation", "deficit"],
     meaning: ["the state of no longer having something"],
     rusTranslations: ["потеря"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 486,
@@ -4944,7 +4944,7 @@ export const englishList = [
     synonyms: ["batch", "group"],
     meaning: ["a large number or amount; a great deal"],
     rusTranslations: ["много", "партия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 487,
@@ -4954,7 +4954,7 @@ export const englishList = [
     synonyms: ["affection", "fondness"],
     meaning: ["an intense feeling of deep affection"],
     rusTranslations: ["любовь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 488,
@@ -4964,7 +4964,7 @@ export const englishList = [
     synonyms: ["short", "small"],
     meaning: ["situated not far above the ground"],
     rusTranslations: ["низкий", "маленький"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 489,
@@ -4974,7 +4974,7 @@ export const englishList = [
     synonyms: ["apparatus", "device"],
     meaning: ["an apparatus using mechanical power and having several parts"],
     rusTranslations: ["машина", "устройство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 490,
@@ -4984,7 +4984,7 @@ export const englishList = [
     synonyms: ["periodical", "journal"],
     meaning: ["a publication with articles and illustrations"],
     rusTranslations: ["журнал", "магазин"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 491,
@@ -4994,7 +4994,7 @@ export const englishList = [
     synonyms: ["primary", "chief"],
     meaning: ["most important; principal"],
     rusTranslations: ["главный", "основной"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 492,
@@ -5004,7 +5004,7 @@ export const englishList = [
     synonyms: ["preserve", "sustain"],
     meaning: ["to keep in an existing state"],
     rusTranslations: ["поддерживать", "сохранять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 493,
@@ -5014,7 +5014,7 @@ export const englishList = [
     synonyms: ["significant", "important"],
     meaning: ["greater than average in size, number, or importance"],
     rusTranslations: ["главный", "основной"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 494,
@@ -5024,7 +5024,7 @@ export const englishList = [
     synonyms: ["bulk", "most"],
     meaning: ["the greater number or part"],
     rusTranslations: ["большинство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 495,
@@ -5034,7 +5034,7 @@ export const englishList = [
     synonyms: ["create", "form"],
     meaning: ["to form by putting parts together"],
     rusTranslations: ["делать", "создавать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 496,
@@ -5044,7 +5044,7 @@ export const englishList = [
     synonyms: ["male", "guy"],
     meaning: ["an adult male human"],
     rusTranslations: ["мужчина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 497,
@@ -5054,7 +5054,7 @@ export const englishList = [
     synonyms: ["handle", "administer"],
     meaning: ["to be in charge of; to succeed in doing something"],
     rusTranslations: ["управлять", "справляться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 498,
@@ -5064,7 +5064,7 @@ export const englishList = [
     synonyms: ["administration", "supervision"],
     meaning: ["the process of dealing with or controlling things or people"],
     rusTranslations: ["менеджмент", "управление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 499,
@@ -5076,7 +5076,7 @@ export const englishList = [
       "a person responsible for controlling or administering an organization",
     ],
     rusTranslations: ["менеджер", "руководитель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 500,
@@ -5086,7 +5086,7 @@ export const englishList = [
     synonyms: ["numerous", "several"],
     meaning: ["a large number of"],
     rusTranslations: ["много", "несколько"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 501,
@@ -5096,7 +5096,7 @@ export const englishList = [
     synonyms: ["bazaar", "exchange"],
     meaning: ["a regular gathering for the purchase and sale of provisions"],
     rusTranslations: ["рынок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 502,
@@ -5106,7 +5106,7 @@ export const englishList = [
     synonyms: ["union", "matrimony"],
     meaning: ["the legally or formally recognized union of two people"],
     rusTranslations: ["брак", "союз"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 503,
@@ -5116,7 +5116,7 @@ export const englishList = [
     synonyms: ["substance", "fabric"],
     meaning: ["the matter from which a thing is or can be made"],
     rusTranslations: ["материал"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 504,
@@ -5126,7 +5126,7 @@ export const englishList = [
     synonyms: ["substance", "material"],
     meaning: ["a subject or situation under consideration"],
     rusTranslations: ["материя", "вопрос"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 505,
@@ -5136,7 +5136,7 @@ export const englishList = [
     synonyms: ["might", "can"],
     meaning: ["used to express possibility"],
     rusTranslations: ["может", "возможно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 506,
@@ -5146,7 +5146,7 @@ export const englishList = [
     synonyms: ["perhaps", "possibly"],
     meaning: ["perhaps; possibly"],
     rusTranslations: ["может быть", "возможно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 507,
@@ -5156,7 +5156,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used by a speaker to refer to himself or herself"],
     rusTranslations: ["меня", "мне"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 508,
@@ -5166,7 +5166,7 @@ export const englishList = [
     synonyms: ["intend", "signify"],
     meaning: ["to intend to convey or express"],
     rusTranslations: ["означать", "иметь в виду"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 509,
@@ -5176,7 +5176,7 @@ export const englishList = [
     synonyms: ["quantify", "assess"],
     meaning: ["to ascertain the size, amount, or degree of something"],
     rusTranslations: ["измерять", "оценивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 510,
@@ -5186,7 +5186,7 @@ export const englishList = [
     synonyms: ["press", "news"],
     meaning: ["the main means of mass communication"],
     rusTranslations: ["СМИ", "медиа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 511,
@@ -5196,7 +5196,7 @@ export const englishList = [
     synonyms: ["healthcare", "clinical"],
     meaning: ["relating to the science or practice of medicine"],
     rusTranslations: ["медицинский"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 512,
@@ -5208,7 +5208,7 @@ export const englishList = [
       "to come into the presence or company of someone by chance or arrangement",
     ],
     rusTranslations: ["встречать", "собираться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 513,
@@ -5218,7 +5218,7 @@ export const englishList = [
     synonyms: ["assembly", "gathering"],
     meaning: ["a gathering of people for a particular purpose"],
     rusTranslations: ["встреча", "заседание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 514,
@@ -5228,7 +5228,7 @@ export const englishList = [
     synonyms: ["part", "component"],
     meaning: ["a person who belongs to a group"],
     rusTranslations: ["участник", "член"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 515,
@@ -5238,7 +5238,7 @@ export const englishList = [
     synonyms: ["recall", "recollection"],
     meaning: ["the ability to store and recall information"],
     rusTranslations: ["память"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 516,
@@ -5248,7 +5248,7 @@ export const englishList = [
     synonyms: ["reference", "allusion"],
     meaning: ["a brief reference to something"],
     rusTranslations: ["упоминание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 517,
@@ -5258,7 +5258,7 @@ export const englishList = [
     synonyms: ["communication", "note"],
     meaning: ["a piece of information conveyed"],
     rusTranslations: ["сообщение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 518,
@@ -5268,7 +5268,7 @@ export const englishList = [
     synonyms: ["technique", "approach"],
     meaning: ["a particular procedure for accomplishing something"],
     rusTranslations: ["метод"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 519,
@@ -5278,7 +5278,7 @@ export const englishList = [
     synonyms: ["center", "midpoint"],
     meaning: ["the central point or part of something"],
     rusTranslations: ["середина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 520,
@@ -5288,7 +5288,7 @@ export const englishList = [
     synonyms: ["power", "strength"],
     meaning: ["great power or strength"],
     rusTranslations: ["мощь", "сила"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 521,
@@ -5298,7 +5298,7 @@ export const englishList = [
     synonyms: ["army", "armed forces"],
     meaning: ["the armed forces of a country"],
     rusTranslations: ["военные", "армия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 522,
@@ -5308,7 +5308,7 @@ export const englishList = [
     synonyms: ["multitude", "numberless"],
     meaning: ["a number equal to 1,000,000"],
     rusTranslations: ["миллион"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 523,
@@ -5318,7 +5318,7 @@ export const englishList = [
     synonyms: ["intellect", "brain"],
     meaning: ["the faculty of thinking and reasoning"],
     rusTranslations: ["ум", "разум"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 524,
@@ -5328,7 +5328,7 @@ export const englishList = [
     synonyms: ["instant", "moment"],
     meaning: ["a period of time equal to 60 seconds"],
     rusTranslations: ["минута"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 525,
@@ -5338,7 +5338,7 @@ export const englishList = [
     synonyms: ["failure", "error"],
     meaning: ["a failure to hit or reach a target"],
     rusTranslations: ["промах"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 526,
@@ -5348,7 +5348,7 @@ export const englishList = [
     synonyms: ["task", "assignment"],
     meaning: ["a specific task or duty assigned to someone"],
     rusTranslations: ["миссия", "задание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 527,
@@ -5358,7 +5358,7 @@ export const englishList = [
     synonyms: ["example", "pattern"],
     meaning: ["a system or thing used as an example to follow"],
     rusTranslations: ["модель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 528,
@@ -5368,7 +5368,7 @@ export const englishList = [
     synonyms: ["contemporary", "current"],
     meaning: ["relating to recent times; up-to-date"],
     rusTranslations: ["современный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 529,
@@ -5378,7 +5378,7 @@ export const englishList = [
     synonyms: ["instant", "second"],
     meaning: ["a very short period of time"],
     rusTranslations: ["момент"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 530,
@@ -5388,7 +5388,7 @@ export const englishList = [
     synonyms: ["cash", "currency"],
     meaning: ["a medium of exchange in the form of coins and banknotes"],
     rusTranslations: ["деньги"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 531,
@@ -5398,7 +5398,7 @@ export const englishList = [
     synonyms: ["period", "interval"],
     meaning: ["a period of approximately 30 days"],
     rusTranslations: ["месяц"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 532,
@@ -5408,7 +5408,7 @@ export const englishList = [
     synonyms: ["additional", "extra"],
     meaning: ["a greater or additional amount"],
     rusTranslations: ["больше"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 533,
@@ -5418,7 +5418,7 @@ export const englishList = [
     synonyms: ["dawn", "sunrise"],
     meaning: ["the early part of the day"],
     rusTranslations: ["утро"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 534,
@@ -5428,7 +5428,7 @@ export const englishList = [
     synonyms: ["majority", "greatest"],
     meaning: ["the greatest in amount or degree"],
     rusTranslations: ["большинство", "наиболее"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 535,
@@ -5438,7 +5438,7 @@ export const englishList = [
     synonyms: ["mom", "parent"],
     meaning: ["a woman in relation to her child"],
     rusTranslations: ["мать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 536,
@@ -5448,7 +5448,7 @@ export const englishList = [
     synonyms: ["oral cavity", "muzzle"],
     meaning: ["the opening in the lower part of the face"],
     rusTranslations: ["рот"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 537,
@@ -5458,7 +5458,7 @@ export const englishList = [
     synonyms: ["shift", "relocate"],
     meaning: ["to change position or location"],
     rusTranslations: ["двигаться", "перемещаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 538,
@@ -5468,7 +5468,7 @@ export const englishList = [
     synonyms: ["motion", "action"],
     meaning: ["an act or process of moving"],
     rusTranslations: ["движение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 539,
@@ -5478,7 +5478,7 @@ export const englishList = [
     synonyms: ["film", "motion picture"],
     meaning: ["a story or event recorded as a set of moving images"],
     rusTranslations: ["фильм"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 540,
@@ -5488,7 +5488,7 @@ export const englishList = [
     synonyms: ["mister"],
     meaning: ["a title used before a surname or full name"],
     rusTranslations: ["господин"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 541,
@@ -5498,7 +5498,7 @@ export const englishList = [
     synonyms: ["missus"],
     meaning: ["a title for a married woman"],
     rusTranslations: ["госпожа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 542,
@@ -5508,7 +5508,7 @@ export const englishList = [
     synonyms: ["a lot", "greatly"],
     meaning: ["a large amount or extent"],
     rusTranslations: ["много"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 543,
@@ -5518,7 +5518,7 @@ export const englishList = [
     synonyms: ["melody", "tune"],
     meaning: ["vocal or instrumental sounds combined to produce harmony"],
     rusTranslations: ["музыка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 544,
@@ -5528,7 +5528,7 @@ export const englishList = [
     synonyms: ["have to", "need to"],
     meaning: ["used to express necessity or obligation"],
     rusTranslations: ["должен", "необходимо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 545,
@@ -5538,7 +5538,7 @@ export const englishList = [
     synonyms: ["mine"],
     meaning: ["belonging to the speaker"],
     rusTranslations: ["мой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 546,
@@ -5548,7 +5548,7 @@ export const englishList = [
     synonyms: ["I", "me"],
     meaning: ["used to emphasize the speaker"],
     rusTranslations: ["себя", "сам"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 547,
@@ -5558,7 +5558,7 @@ export const englishList = [
     synonyms: ["designation", "title"],
     meaning: ["a word by which a person or thing is known"],
     rusTranslations: ["имя"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 548,
@@ -5570,7 +5570,7 @@ export const englishList = [
       "a large body of people united by common descent, history, or culture",
     ],
     rusTranslations: ["нация", "страна"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 549,
@@ -5580,7 +5580,7 @@ export const englishList = [
     synonyms: ["domestic", "state"],
     meaning: ["relating to a nation"],
     rusTranslations: ["национальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 550,
@@ -5590,7 +5590,7 @@ export const englishList = [
     synonyms: ["innate", "inherent"],
     meaning: ["existing in or caused by nature"],
     rusTranslations: ["естественный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 551,
@@ -5600,7 +5600,7 @@ export const englishList = [
     synonyms: ["environment", "wilderness"],
     meaning: ["the phenomena of the physical world collectively"],
     rusTranslations: ["природа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 552,
@@ -5610,7 +5610,7 @@ export const englishList = [
     synonyms: ["close", "adjacent"],
     meaning: ["at a short distance away"],
     rusTranslations: ["рядом", "близко"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 553,
@@ -5620,7 +5620,7 @@ export const englishList = [
     synonyms: ["almost", "practically"],
     meaning: ["almost but not quite"],
     rusTranslations: ["почти"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 554,
@@ -5630,7 +5630,7 @@ export const englishList = [
     synonyms: ["essential", "required"],
     meaning: ["needed to be done or present"],
     rusTranslations: ["необходимый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 555,
@@ -5640,7 +5640,7 @@ export const englishList = [
     synonyms: ["require", "demand"],
     meaning: ["to require something because it is essential"],
     rusTranslations: ["нуждаться", "нужда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 556,
@@ -5650,7 +5650,7 @@ export const englishList = [
     synonyms: ["system", "web"],
     meaning: ["a group or system of interconnected people or things"],
     rusTranslations: ["сеть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 557,
@@ -5660,7 +5660,7 @@ export const englishList = [
     synonyms: ["not ever", "at no time"],
     meaning: ["at no time; not ever"],
     rusTranslations: ["никогда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 558,
@@ -5670,7 +5670,7 @@ export const englishList = [
     synonyms: ["fresh", "novel"],
     meaning: ["not existing before; recently made or discovered"],
     rusTranslations: ["новый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 559,
@@ -5680,7 +5680,7 @@ export const englishList = [
     synonyms: ["information", "reports"],
     meaning: ["newly received or noteworthy information"],
     rusTranslations: ["новости"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 560,
@@ -5690,7 +5690,7 @@ export const englishList = [
     synonyms: ["journal", "periodical"],
     meaning: ["a printed publication containing news"],
     rusTranslations: ["газета"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 561,
@@ -5700,7 +5700,7 @@ export const englishList = [
     synonyms: ["following", "subsequent"],
     meaning: ["coming immediately after the present one"],
     rusTranslations: ["следующий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 562,
@@ -5710,7 +5710,7 @@ export const englishList = [
     synonyms: ["pleasant", "agreeable"],
     meaning: ["pleasant; delightful"],
     rusTranslations: ["хороший", "приятный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 563,
@@ -5720,7 +5720,7 @@ export const englishList = [
     synonyms: ["evening", "darkness"],
     meaning: ["the period of darkness in each 24 hours"],
     rusTranslations: ["ночь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 564,
@@ -5730,7 +5730,7 @@ export const englishList = [
     synonyms: ["not", "negative"],
     meaning: ["used to give a negative response"],
     rusTranslations: ["нет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 565,
@@ -5740,7 +5740,7 @@ export const englishList = [
     synonyms: ["nothing", "not any"],
     meaning: ["not any; no one"],
     rusTranslations: ["ничто", "никто"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 566,
@@ -5750,7 +5750,7 @@ export const englishList = [
     synonyms: ["neither", "and not"],
     meaning: ["used to introduce a further negative statement"],
     rusTranslations: ["также не"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 567,
@@ -5760,7 +5760,7 @@ export const englishList = [
     synonyms: ["up", "northern"],
     meaning: ["the direction in which a compass needle points"],
     rusTranslations: ["север"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 568,
@@ -5770,7 +5770,7 @@ export const englishList = [
     synonyms: ["no", "never"],
     meaning: ["used to make a word or group of words negative"],
     rusTranslations: ["не"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 569,
@@ -5780,7 +5780,7 @@ export const englishList = [
     synonyms: ["remark", "observation"],
     meaning: ["a brief record or written reminder"],
     rusTranslations: ["заметка", "примечание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 570,
@@ -5790,7 +5790,7 @@ export const englishList = [
     synonyms: ["naught", "null"],
     meaning: ["not anything; no single thing"],
     rusTranslations: ["ничего"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 571,
@@ -5800,7 +5800,7 @@ export const englishList = [
     synonyms: ["observation", "announcement"],
     meaning: ["a written or printed statement giving information"],
     rusTranslations: ["уведомление", "замечание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 572,
@@ -5810,7 +5810,7 @@ export const englishList = [
     synonyms: ["currently", "at present"],
     meaning: ["at the present time"],
     rusTranslations: ["сейчас"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 573,
@@ -5820,7 +5820,7 @@ export const englishList = [
     synonyms: ["not"],
     meaning: ["a contraction used to express negation"],
     rusTranslations: ["не"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 574,
@@ -5830,7 +5830,7 @@ export const englishList = [
     synonyms: ["digit", "figure"],
     meaning: ["a quantity or amount"],
     rusTranslations: ["число"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 575,
@@ -5840,7 +5840,7 @@ export const englishList = [
     synonyms: ["happen", "transpire"],
     meaning: ["to take place; to happen"],
     rusTranslations: ["происходить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 576,
@@ -5850,7 +5850,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["expressing relationship between a part and a whole"],
     rusTranslations: ["из", "от"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 577,
@@ -5860,7 +5860,7 @@ export const englishList = [
     synonyms: ["away", "distant"],
     meaning: ["away from the place in question"],
     rusTranslations: ["с", "от"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 578,
@@ -5870,7 +5870,7 @@ export const englishList = [
     synonyms: ["present", "propose"],
     meaning: ["to present something for acceptance or rejection"],
     rusTranslations: ["предлагать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 579,
@@ -5882,7 +5882,7 @@ export const englishList = [
       "a room or building used as a place for commercial or professional purposes",
     ],
     rusTranslations: ["офис", "канцелярия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 580,
@@ -5892,7 +5892,7 @@ export const englishList = [
     synonyms: ["official", "agent"],
     meaning: ["a person holding a position of authority"],
     rusTranslations: ["офицер"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 581,
@@ -5902,7 +5902,7 @@ export const englishList = [
     synonyms: ["formal", "authorized"],
     meaning: ["relating to an authority or public body"],
     rusTranslations: ["официальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 582,
@@ -5912,7 +5912,7 @@ export const englishList = [
     synonyms: ["frequently", "commonly"],
     meaning: ["frequently; many times"],
     rusTranslations: ["часто"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 583,
@@ -5922,7 +5922,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to express a range of emotions"],
     rusTranslations: ["ох", "ой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 584,
@@ -5932,7 +5932,7 @@ export const englishList = [
     synonyms: ["petroleum", "lubricant"],
     meaning: ["a viscous liquid derived from petroleum"],
     rusTranslations: ["нефть", "масло"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 585,
@@ -5942,7 +5942,7 @@ export const englishList = [
     synonyms: ["alright", "acceptable"],
     meaning: ["satisfactory or acceptable"],
     rusTranslations: ["хорошо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 586,
@@ -5952,7 +5952,7 @@ export const englishList = [
     synonyms: ["aged", "ancient"],
     meaning: ["having lived for a long time; no longer young"],
     rusTranslations: ["старый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 587,
@@ -5962,7 +5962,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["physically in contact with and supported by a surface"],
     rusTranslations: ["на"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 588,
@@ -5972,7 +5972,7 @@ export const englishList = [
     synonyms: ["formerly", "previously"],
     meaning: ["one single time; formerly"],
     rusTranslations: ["однажды"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 589,
@@ -5982,7 +5982,7 @@ export const englishList = [
     synonyms: ["single", "unit"],
     meaning: ["the number 1"],
     rusTranslations: ["один"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 590,
@@ -5992,7 +5992,7 @@ export const englishList = [
     synonyms: ["sole", "exclusive"],
     meaning: ["and no one or nothing more besides; solely"],
     rusTranslations: ["только"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 591,
@@ -6002,7 +6002,7 @@ export const englishList = [
     synonyms: ["upon", "on"],
     meaning: ["moving to a position on the surface of"],
     rusTranslations: ["на"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 592,
@@ -6012,7 +6012,7 @@ export const englishList = [
     synonyms: ["unlocked", "accessible"],
     meaning: ["allowing access or passage"],
     rusTranslations: ["открытый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 593,
@@ -6022,7 +6022,7 @@ export const englishList = [
     synonyms: ["procedure", "process"],
     meaning: ["a functioning or active process"],
     rusTranslations: ["операция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 594,
@@ -6032,7 +6032,7 @@ export const englishList = [
     synonyms: ["chance", "possibility"],
     meaning: ["a set of circumstances that makes it possible to do something"],
     rusTranslations: ["возможность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 595,
@@ -6042,7 +6042,7 @@ export const englishList = [
     synonyms: ["choice", "alternative"],
     meaning: ["a thing that may be chosen"],
     rusTranslations: ["вариант"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 596,
@@ -6052,7 +6052,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to link alternatives"],
     rusTranslations: ["или"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 597,
@@ -6062,7 +6062,7 @@ export const englishList = [
     synonyms: ["arrangement", "sequence"],
     meaning: ["the arrangement or sequence of things"],
     rusTranslations: ["порядок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 598,
@@ -6072,7 +6072,7 @@ export const englishList = [
     synonyms: ["group", "association"],
     meaning: ["an organized body of people with a particular purpose"],
     rusTranslations: ["организация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 599,
@@ -6082,7 +6082,7 @@ export const englishList = [
     synonyms: ["alternative", "different"],
     meaning: ["referring to a person or thing that is different or distinct"],
     rusTranslations: ["другой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 600,
@@ -6092,7 +6092,7 @@ export const englishList = [
     synonyms: ["the rest", "remaining"],
     meaning: ["other people or things"],
     rusTranslations: ["другие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 601,
@@ -6102,7 +6102,7 @@ export const englishList = [
     synonyms: ["belonging to us"],
     meaning: ["belonging to or associated with the speaker and others"],
     rusTranslations: ["наш"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 602,
@@ -6112,7 +6112,7 @@ export const englishList = [
     synonyms: ["away", "external"],
     meaning: ["moving or appearing to move away from a place"],
     rusTranslations: ["наружу", "вне"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 603,
@@ -6122,7 +6122,7 @@ export const englishList = [
     synonyms: ["exterior", "outside area"],
     meaning: ["the external side; outer surface"],
     rusTranslations: ["снаружи"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 604,
@@ -6132,7 +6132,7 @@ export const englishList = [
     synonyms: ["above", "beyond"],
     meaning: ["extending directly upward from"],
     rusTranslations: ["над", "через"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 605,
@@ -6142,7 +6142,7 @@ export const englishList = [
     synonyms: ["possess", "have"],
     meaning: ["to have something as one's own"],
     rusTranslations: ["владеть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 606,
@@ -6152,7 +6152,7 @@ export const englishList = [
     synonyms: ["possessor", "holder"],
     meaning: ["a person who owns something"],
     rusTranslations: ["владелец"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 607,
@@ -6162,7 +6162,7 @@ export const englishList = [
     synonyms: ["sheet", "leaf"],
     meaning: ["a piece of paper in a book or newspaper"],
     rusTranslations: ["страница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 608,
@@ -6172,7 +6172,7 @@ export const englishList = [
     synonyms: ["ache", "suffering"],
     meaning: ["physical suffering or discomfort"],
     rusTranslations: ["боль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 609,
@@ -6182,7 +6182,7 @@ export const englishList = [
     synonyms: ["artwork", "picture"],
     meaning: ["the process or art of applying paint"],
     rusTranslations: ["картина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 610,
@@ -6192,7 +6192,7 @@ export const englishList = [
     synonyms: ["document", "newsprint"],
     meaning: ["a material made from cellulose pulp"],
     rusTranslations: ["бумага"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 611,
@@ -6202,7 +6202,7 @@ export const englishList = [
     synonyms: ["guardian", "mother/father"],
     meaning: ["a father or mother"],
     rusTranslations: ["родитель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 612,
@@ -6212,7 +6212,7 @@ export const englishList = [
     synonyms: ["piece", "portion"],
     meaning: ["a segment or section of something"],
     rusTranslations: ["часть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 613,
@@ -6222,7 +6222,7 @@ export const englishList = [
     synonyms: ["attendee", "member"],
     meaning: ["a person who takes part in an activity or event"],
     rusTranslations: ["участник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 614,
@@ -6232,7 +6232,7 @@ export const englishList = [
     synonyms: ["specific", "distinct"],
     meaning: ["used to single out an individual member of a specified group"],
     rusTranslations: ["конкретный", "особенный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 615,
@@ -6242,7 +6242,7 @@ export const englishList = [
     synonyms: ["especially", "notably"],
     meaning: ["to a higher degree than is usual or average"],
     rusTranslations: ["особенно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 616,
@@ -6252,7 +6252,7 @@ export const englishList = [
     synonyms: ["associate", "companion"],
     meaning: ["a person who takes part in an undertaking with another"],
     rusTranslations: ["партнер", "сотрудник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 617,
@@ -6262,7 +6262,7 @@ export const englishList = [
     synonyms: ["group", "celebration"],
     meaning: ["a social gathering of invited guests"],
     rusTranslations: ["вечеринка", "партия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 618,
@@ -6272,7 +6272,7 @@ export const englishList = [
     synonyms: ["succeed", "move"],
     meaning: ["to go past or through something"],
     rusTranslations: ["проходить", "сдать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 619,
@@ -6282,7 +6282,7 @@ export const englishList = [
     synonyms: ["former", "previous"],
     meaning: ["gone by in time; no longer existing"],
     rusTranslations: ["прошлый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 620,
@@ -6292,7 +6292,7 @@ export const englishList = [
     synonyms: ["tolerant", "forbearing"],
     meaning: ["able to accept delays or problems without becoming annoyed"],
     rusTranslations: ["терпеливый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 621,
@@ -6302,7 +6302,7 @@ export const englishList = [
     synonyms: ["model", "design"],
     meaning: ["a repeated decorative design or recurring sequence"],
     rusTranslations: ["образец", "узор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 622,
@@ -6312,7 +6312,7 @@ export const englishList = [
     synonyms: ["compensate", "remunerate"],
     meaning: ["to give money in exchange for goods or services"],
     rusTranslations: ["платить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 623,
@@ -6322,7 +6322,7 @@ export const englishList = [
     synonyms: ["harmony", "tranquility"],
     meaning: ["freedom from disturbance; quiet and calm"],
     rusTranslations: ["мир", "покой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 624,
@@ -6332,7 +6332,7 @@ export const englishList = [
     synonyms: ["individuals", "humans"],
     meaning: ["human beings regarded collectively"],
     rusTranslations: ["люди"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 625,
@@ -6342,7 +6342,7 @@ export const englishList = [
     synonyms: ["for each"],
     meaning: ["for each; according to"],
     rusTranslations: ["на", "по"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 626,
@@ -6352,7 +6352,7 @@ export const englishList = [
     synonyms: ["execute", "carry out"],
     meaning: ["to carry out an action or task"],
     rusTranslations: ["выполнять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 627,
@@ -6362,7 +6362,7 @@ export const englishList = [
     synonyms: ["execution", "show"],
     meaning: ["the act of performing a task or artistic work"],
     rusTranslations: ["выступление", "производительность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 628,
@@ -6372,7 +6372,7 @@ export const englishList = [
     synonyms: ["maybe", "possibly"],
     meaning: ["used to express uncertainty or possibility"],
     rusTranslations: ["возможно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 629,
@@ -6382,7 +6382,7 @@ export const englishList = [
     synonyms: ["era", "interval"],
     meaning: ["a length or portion of time"],
     rusTranslations: ["период", "эпоха"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 630,
@@ -6392,7 +6392,7 @@ export const englishList = [
     synonyms: ["individual", "human"],
     meaning: ["a human being regarded as an individual"],
     rusTranslations: ["человек"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 631,
@@ -6402,7 +6402,7 @@ export const englishList = [
     synonyms: ["private", "individual"],
     meaning: ["relating to a particular person"],
     rusTranslations: ["личный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 632,
@@ -6412,7 +6412,7 @@ export const englishList = [
     synonyms: ["telephone", "mobile"],
     meaning: ["a device for communication by voice"],
     rusTranslations: ["телефон"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 633,
@@ -6422,7 +6422,7 @@ export const englishList = [
     synonyms: ["bodily", "material"],
     meaning: ["relating to the body or material things"],
     rusTranslations: ["физический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 634,
@@ -6432,7 +6432,7 @@ export const englishList = [
     synonyms: ["choose", "select"],
     meaning: ["to choose or select from a group"],
     rusTranslations: ["выбирать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 635,
@@ -6442,7 +6442,7 @@ export const englishList = [
     synonyms: ["image", "photograph"],
     meaning: ["a visual representation produced by photography or drawing"],
     rusTranslations: ["картина", "изображение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 636,
@@ -6452,7 +6452,7 @@ export const englishList = [
     synonyms: ["part", "fragment"],
     meaning: ["a portion or segment of something"],
     rusTranslations: ["кусок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 637,
@@ -6462,7 +6462,7 @@ export const englishList = [
     synonyms: ["location", "site"],
     meaning: ["a particular position or point in space"],
     rusTranslations: ["место"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 638,
@@ -6472,7 +6472,7 @@ export const englishList = [
     synonyms: ["strategy", "scheme"],
     meaning: ["a detailed proposal for doing or achieving something"],
     rusTranslations: ["план"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 639,
@@ -6482,7 +6482,7 @@ export const englishList = [
     synonyms: ["flora", "botanical"],
     meaning: ["a living organism typically growing in a permanent site"],
     rusTranslations: ["растение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 640,
@@ -6492,7 +6492,7 @@ export const englishList = [
     synonyms: ["engage", "perform"],
     meaning: ["to engage in activity for enjoyment or recreation"],
     rusTranslations: ["играть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 641,
@@ -6502,7 +6502,7 @@ export const englishList = [
     synonyms: ["participant", "athlete"],
     meaning: ["a person who takes part in a game or sport"],
     rusTranslations: ["игрок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 642,
@@ -6512,7 +6512,7 @@ export const englishList = [
     synonyms: ["afternoon", "post meridiem"],
     meaning: ["the time period from noon until midnight"],
     rusTranslations: ["после полудня"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 643,
@@ -6522,7 +6522,7 @@ export const englishList = [
     synonyms: ["tip", "dot"],
     meaning: ["a sharp or tapered end; a specific moment or detail"],
     rusTranslations: ["точка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 644,
@@ -6532,7 +6532,7 @@ export const englishList = [
     synonyms: ["law enforcement", "constabulary"],
     meaning: ["the civil force responsible for preventing and detecting crime"],
     rusTranslations: ["полиция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 645,
@@ -6542,7 +6542,7 @@ export const englishList = [
     synonyms: ["rule", "guideline"],
     meaning: ["a course or principle of action adopted by an organization"],
     rusTranslations: ["политика", "правило"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 646,
@@ -6552,7 +6552,7 @@ export const englishList = [
     synonyms: ["governmental", "state"],
     meaning: ["relating to government or public affairs"],
     rusTranslations: ["политический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 647,
@@ -6562,7 +6562,7 @@ export const englishList = [
     synonyms: ["government", "policy"],
     meaning: ["activities associated with governing a country"],
     rusTranslations: ["политика"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 648,
@@ -6572,7 +6572,7 @@ export const englishList = [
     synonyms: ["needy", "impoverished"],
     meaning: ["lacking sufficient money or resources"],
     rusTranslations: ["бедный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 649,
@@ -6582,7 +6582,7 @@ export const englishList = [
     synonyms: ["well-liked", "in demand"],
     meaning: ["liked or admired by many people"],
     rusTranslations: ["популярный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 650,
@@ -6592,7 +6592,7 @@ export const englishList = [
     synonyms: ["inhabitants", "citizens"],
     meaning: ["all the people living in a particular area"],
     rusTranslations: ["население"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 651,
@@ -6602,7 +6602,7 @@ export const englishList = [
     synonyms: ["place", "location"],
     meaning: ["a location or arrangement in space"],
     rusTranslations: ["позиция", "местоположение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 652,
@@ -6612,7 +6612,7 @@ export const englishList = [
     synonyms: ["affirmative", "optimistic"],
     meaning: ["characterized by certainty or affirmation"],
     rusTranslations: ["положительный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 653,
@@ -6622,7 +6622,7 @@ export const englishList = [
     synonyms: ["feasible", "potential"],
     meaning: ["able to be done or achieved"],
     rusTranslations: ["возможный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 654,
@@ -6632,7 +6632,7 @@ export const englishList = [
     synonyms: ["force", "energy"],
     meaning: ["the ability to influence or control events"],
     rusTranslations: ["сила", "мощь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 655,
@@ -6642,7 +6642,7 @@ export const englishList = [
     synonyms: ["rehearsal", "exercise"],
     meaning: ["repeated exercise in or performance of an activity"],
     rusTranslations: ["практика"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 656,
@@ -6652,7 +6652,7 @@ export const englishList = [
     synonyms: ["get ready", "make ready"],
     meaning: ["to make something ready for use or consideration"],
     rusTranslations: ["готовить", "подготавливать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 657,
@@ -6662,7 +6662,7 @@ export const englishList = [
     synonyms: ["current", "now"],
     meaning: ["existing or occurring at this time"],
     rusTranslations: ["настоящий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 658,
@@ -6672,7 +6672,7 @@ export const englishList = [
     synonyms: ["leader", "chief"],
     meaning: ["the elected head of a republic"],
     rusTranslations: ["президент"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 659,
@@ -6682,7 +6682,7 @@ export const englishList = [
     synonyms: ["stress", "tension"],
     meaning: ["the use of persuasion or influence to obtain something"],
     rusTranslations: ["давление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 660,
@@ -6692,7 +6692,7 @@ export const englishList = [
     synonyms: ["attractive", "lovely"],
     meaning: ["pleasing in appearance"],
     rusTranslations: ["красивая", "симпатичная"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 661,
@@ -6702,7 +6702,7 @@ export const englishList = [
     synonyms: ["stop", "hinder"],
     meaning: ["to keep something from happening"],
     rusTranslations: ["предотвращать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 662,
@@ -6712,7 +6712,7 @@ export const englishList = [
     synonyms: ["cost", "value"],
     meaning: ["the amount of money required for something"],
     rusTranslations: ["цена"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 663,
@@ -6722,7 +6722,7 @@ export const englishList = [
     synonyms: ["personal", "confidential"],
     meaning: ["belonging to or for the use of a particular person only"],
     rusTranslations: ["личный", "частный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 664,
@@ -6732,7 +6732,7 @@ export const englishList = [
     synonyms: ["likely", "most likely"],
     meaning: ["almost certainly; as far as one knows"],
     rusTranslations: ["вероятно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 665,
@@ -6742,7 +6742,7 @@ export const englishList = [
     synonyms: ["issue", "difficulty"],
     meaning: ["a matter regarded as unwelcome or harmful"],
     rusTranslations: ["проблема"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 666,
@@ -6752,7 +6752,7 @@ export const englishList = [
     synonyms: ["procedure", "method"],
     meaning: ["a series of actions taken in order to achieve something"],
     rusTranslations: ["процесс"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 667,
@@ -6762,7 +6762,7 @@ export const englishList = [
     synonyms: ["create", "generate"],
     meaning: ["to make or manufacture from components or raw materials"],
     rusTranslations: ["производить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 668,
@@ -6772,7 +6772,7 @@ export const englishList = [
     synonyms: ["item", "merchandise"],
     meaning: ["an article or substance that is manufactured"],
     rusTranslations: ["продукт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 669,
@@ -6782,7 +6782,7 @@ export const englishList = [
     synonyms: ["manufacturing", "creation"],
     meaning: ["the process of producing something"],
     rusTranslations: ["производство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 670,
@@ -6792,7 +6792,7 @@ export const englishList = [
     synonyms: ["expert", "skilled"],
     meaning: ["relating to a paid occupation or business"],
     rusTranslations: ["профессиональный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 671,
@@ -6802,7 +6802,7 @@ export const englishList = [
     synonyms: ["academic", "teacher"],
     meaning: ["a teacher of the highest rank in a college or university"],
     rusTranslations: ["профессор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 672,
@@ -6812,7 +6812,7 @@ export const englishList = [
     synonyms: ["schedule", "agenda"],
     meaning: ["a planned series of events or performances"],
     rusTranslations: ["программа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 673,
@@ -6824,7 +6824,7 @@ export const englishList = [
       "an individual or collaborative enterprise planned to achieve a particular aim",
     ],
     rusTranslations: ["проект"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 674,
@@ -6834,7 +6834,7 @@ export const englishList = [
     synonyms: ["asset", "possession"],
     meaning: ["a thing or things belonging to someone"],
     rusTranslations: ["собственность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 675,
@@ -6844,7 +6844,7 @@ export const englishList = [
     synonyms: ["defend", "safeguard"],
     meaning: ["to keep something safe from harm or injury"],
     rusTranslations: ["защищать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 676,
@@ -6854,7 +6854,7 @@ export const englishList = [
     synonyms: ["demonstrate", "verify"],
     meaning: ["to establish the truth or validity of something"],
     rusTranslations: ["доказывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 677,
@@ -6864,7 +6864,7 @@ export const englishList = [
     synonyms: ["supply", "furnish"],
     meaning: ["to make available for use; supply"],
     rusTranslations: ["предоставлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 678,
@@ -6874,7 +6874,7 @@ export const englishList = [
     synonyms: ["open", "accessible"],
     meaning: ["relating to or concerning the people as a whole"],
     rusTranslations: ["публичный", "общественный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 679,
@@ -6884,7 +6884,7 @@ export const englishList = [
     synonyms: ["drag", "tug"],
     meaning: ["to exert force so as to cause movement toward oneself"],
     rusTranslations: ["тянуть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 680,
@@ -6894,7 +6894,7 @@ export const englishList = [
     synonyms: ["aim", "goal"],
     meaning: ["the reason for which something is done or created"],
     rusTranslations: ["цель", "назначение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 681,
@@ -6904,7 +6904,7 @@ export const englishList = [
     synonyms: ["shove", "propel"],
     meaning: ["to exert force on something to move it away"],
     rusTranslations: ["толкать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 682,
@@ -6914,7 +6914,7 @@ export const englishList = [
     synonyms: ["place", "set"],
     meaning: ["to move or set something in a particular position"],
     rusTranslations: ["класть", "ставить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 683,
@@ -6924,7 +6924,7 @@ export const englishList = [
     synonyms: ["caliber", "standard"],
     meaning: ["an inherent or distinguishing characteristic"],
     rusTranslations: ["качество"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 684,
@@ -6934,7 +6934,7 @@ export const englishList = [
     synonyms: ["inquiry", "query"],
     meaning: ["a sentence or phrase used to find out information"],
     rusTranslations: ["вопрос"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 685,
@@ -6944,7 +6944,7 @@ export const englishList = [
     synonyms: ["rapidly", "swiftly"],
     meaning: ["at a fast speed; rapidly"],
     rusTranslations: ["быстро"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 686,
@@ -6954,7 +6954,7 @@ export const englishList = [
     synonyms: ["fairly", "rather"],
     meaning: ["to a considerable extent or degree"],
     rusTranslations: ["довольно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 687,
@@ -6966,7 +6966,7 @@ export const englishList = [
       "a competition of speed or a group sharing common physical traits",
     ],
     rusTranslations: ["гонка", "раса"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 688,
@@ -6976,7 +6976,7 @@ export const englishList = [
     synonyms: ["broadcast", "transmission"],
     meaning: ["the transmission of signals by modulation"],
     rusTranslations: ["радио"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 689,
@@ -6986,7 +6986,7 @@ export const englishList = [
     synonyms: ["lift", "elevate"],
     meaning: ["to move something to a higher position"],
     rusTranslations: ["поднимать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 690,
@@ -6996,7 +6996,7 @@ export const englishList = [
     synonyms: ["scope", "extent"],
     meaning: ["the area between upper and lower limits"],
     rusTranslations: ["диапазон"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 691,
@@ -7006,7 +7006,7 @@ export const englishList = [
     synonyms: ["speed", "frequency"],
     meaning: ["a measure or quantity in relation to something else"],
     rusTranslations: ["скорость", "уровень"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 692,
@@ -7016,7 +7016,7 @@ export const englishList = [
     synonyms: ["somewhat", "quite"],
     meaning: ["to a certain degree; somewhat"],
     rusTranslations: ["скорее"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 693,
@@ -7026,7 +7026,7 @@ export const englishList = [
     synonyms: ["attain", "extend"],
     meaning: ["to stretch out in order to touch or grasp something"],
     rusTranslations: ["достигать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 694,
@@ -7036,7 +7036,7 @@ export const englishList = [
     synonyms: ["peruse", "examine"],
     meaning: ["to look at and comprehend written material"],
     rusTranslations: ["читать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 695,
@@ -7046,7 +7046,7 @@ export const englishList = [
     synonyms: ["prepared", "set"],
     meaning: ["in a suitable state for an action or situation"],
     rusTranslations: ["готовый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 696,
@@ -7056,7 +7056,7 @@ export const englishList = [
     synonyms: ["genuine", "authentic"],
     meaning: ["actually existing as a thing or occurring in fact"],
     rusTranslations: ["реальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 697,
@@ -7066,7 +7066,7 @@ export const englishList = [
     synonyms: ["actuality", "existence"],
     meaning: ["the state of things as they actually exist"],
     rusTranslations: ["реальность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 698,
@@ -7076,7 +7076,7 @@ export const englishList = [
     synonyms: ["understand", "recognize"],
     meaning: ["to become fully aware of something"],
     rusTranslations: ["осознавать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 699,
@@ -7086,7 +7086,7 @@ export const englishList = [
     synonyms: ["truly", "genuinely"],
     meaning: ["in actual fact; actually"],
     rusTranslations: ["действительно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 700,
@@ -7096,7 +7096,7 @@ export const englishList = [
     synonyms: ["cause", "explanation"],
     meaning: ["a cause or explanation for an action or event"],
     rusTranslations: ["причина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 701,
@@ -7106,7 +7106,7 @@ export const englishList = [
     synonyms: ["obtain", "get"],
     meaning: ["to be given or presented with something"],
     rusTranslations: ["получать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 702,
@@ -7116,7 +7116,7 @@ export const englishList = [
     synonyms: ["new", "fresh"],
     meaning: ["having happened or started only a short time ago"],
     rusTranslations: ["недавний"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 703,
@@ -7126,7 +7126,7 @@ export const englishList = [
     synonyms: ["lately", "newly"],
     meaning: ["at a recent time; not long ago"],
     rusTranslations: ["недавно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 704,
@@ -7136,7 +7136,7 @@ export const englishList = [
     synonyms: ["identify", "acknowledge"],
     meaning: ["to identify someone or something from previous encounters"],
     rusTranslations: ["распознавать", "признавать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 705,
@@ -7146,7 +7146,7 @@ export const englishList = [
     synonyms: ["document", "archive"],
     meaning: ["a thing constituting evidence about the past"],
     rusTranslations: ["запись", "рекорд"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 706,
@@ -7156,7 +7156,7 @@ export const englishList = [
     synonyms: ["crimson", "scarlet"],
     meaning: ["of a color at the end of the spectrum"],
     rusTranslations: ["красный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 707,
@@ -7166,7 +7166,7 @@ export const englishList = [
     synonyms: ["decrease", "lessen"],
     meaning: ["to make smaller or less in amount"],
     rusTranslations: ["уменьшать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 708,
@@ -7176,7 +7176,7 @@ export const englishList = [
     synonyms: ["mirror", "resemble"],
     meaning: ["to throw back light, heat, or sound without absorbing it"],
     rusTranslations: ["отражать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 709,
@@ -7186,7 +7186,7 @@ export const englishList = [
     synonyms: ["area", "zone"],
     meaning: ["an area or division of a country or the world"],
     rusTranslations: ["регион"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 710,
@@ -7196,7 +7196,7 @@ export const englishList = [
     synonyms: ["connect", "associate"],
     meaning: ["to make a connection between two or more things"],
     rusTranslations: ["относиться", "связывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 711,
@@ -7206,7 +7206,7 @@ export const englishList = [
     synonyms: ["connection", "association"],
     meaning: ["the way in which two or more things are connected"],
     rusTranslations: ["отношения"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 712,
@@ -7216,7 +7216,7 @@ export const englishList = [
     synonyms: ["spiritual", "devout"],
     meaning: ["relating to or believing in a religion"],
     rusTranslations: ["религиозный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 713,
@@ -7226,7 +7226,7 @@ export const englishList = [
     synonyms: ["stay", "continue"],
     meaning: ["to continue to exist or stay in the same place"],
     rusTranslations: ["оставаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 714,
@@ -7236,7 +7236,7 @@ export const englishList = [
     synonyms: ["recall", "recollect"],
     meaning: ["to bring to mind or think of again"],
     rusTranslations: ["помнить", "вспоминать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 715,
@@ -7246,7 +7246,7 @@ export const englishList = [
     synonyms: ["delete", "eliminate"],
     meaning: ["to take something away or off from the position occupied"],
     rusTranslations: ["удалять", "снимать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 716,
@@ -7256,7 +7256,7 @@ export const englishList = [
     synonyms: ["account", "statement"],
     meaning: ["an account given of a particular matter"],
     rusTranslations: ["отчет", "доклад"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 717,
@@ -7266,7 +7266,7 @@ export const englishList = [
     synonyms: ["depict", "symbolize"],
     meaning: ["to stand for or symbolize something"],
     rusTranslations: ["представлять", "символизировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 718,
@@ -7276,7 +7276,7 @@ export const englishList = [
     synonyms: ["conservative", "right-wing"],
     meaning: ["relating to a republic or its government"],
     rusTranslations: ["республиканский"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 719,
@@ -7286,7 +7286,7 @@ export const englishList = [
     synonyms: ["demand", "need"],
     meaning: ["to need something for a particular purpose"],
     rusTranslations: ["требовать", "нуждаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 720,
@@ -7298,7 +7298,7 @@ export const englishList = [
       "systematic investigation into and study of materials and sources",
     ],
     rusTranslations: ["исследование"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 721,
@@ -7308,7 +7308,7 @@ export const englishList = [
     synonyms: ["asset", "supply"],
     meaning: ["a stock or supply of materials or assets"],
     rusTranslations: ["ресурс", "источник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 722,
@@ -7318,7 +7318,7 @@ export const englishList = [
     synonyms: ["reply", "answer"],
     meaning: ["to say something in reply"],
     rusTranslations: ["отвечать", "реагировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 723,
@@ -7328,7 +7328,7 @@ export const englishList = [
     synonyms: ["reply", "reaction"],
     meaning: ["an answer or reaction to something"],
     rusTranslations: ["ответ", "реакция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 724,
@@ -7338,7 +7338,7 @@ export const englishList = [
     synonyms: ["duty", "obligation"],
     meaning: ["the state or fact of having a duty to deal with something"],
     rusTranslations: ["ответственность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 725,
@@ -7348,7 +7348,7 @@ export const englishList = [
     synonyms: ["remainder", "relaxation"],
     meaning: ["the remaining part or a period of relaxation"],
     rusTranslations: ["отдых", "остаток"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 726,
@@ -7358,7 +7358,7 @@ export const englishList = [
     synonyms: ["outcome", "consequence"],
     meaning: ["a consequence, effect, or outcome of something"],
     rusTranslations: ["результат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 727,
@@ -7368,7 +7368,7 @@ export const englishList = [
     synonyms: ["come back", "revert"],
     meaning: ["to come or go back to a place or condition"],
     rusTranslations: ["возвращаться", "возврат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 728,
@@ -7378,7 +7378,7 @@ export const englishList = [
     synonyms: ["disclose", "uncover"],
     meaning: ["to make known to others something previously secret or unknown"],
     rusTranslations: ["раскрывать", "обнаруживать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 729,
@@ -7388,7 +7388,7 @@ export const englishList = [
     synonyms: ["wealthy", "affluent"],
     meaning: ["having a great deal of money or assets"],
     rusTranslations: ["богатый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 730,
@@ -7398,7 +7398,7 @@ export const englishList = [
     synonyms: ["correct", "proper"],
     meaning: ["morally good, justified, or acceptable"],
     rusTranslations: ["правильный", "правый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 731,
@@ -7408,7 +7408,7 @@ export const englishList = [
     synonyms: ["ascend", "climb"],
     meaning: ["to move upward, to increase"],
     rusTranslations: ["подниматься", "возрасти"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 732,
@@ -7418,7 +7418,7 @@ export const englishList = [
     synonyms: ["danger", "hazard"],
     meaning: ["a situation involving exposure to danger"],
     rusTranslations: ["риск", "опасность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 733,
@@ -7428,7 +7428,7 @@ export const englishList = [
     synonyms: ["path", "route"],
     meaning: ["a wide way leading from one place to another"],
     rusTranslations: ["дорога"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 734,
@@ -7438,7 +7438,7 @@ export const englishList = [
     synonyms: ["stone", "boulder"],
     meaning: ["a large mass of stone"],
     rusTranslations: ["скала", "камень"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 735,
@@ -7448,7 +7448,7 @@ export const englishList = [
     synonyms: ["function", "part"],
     meaning: ["the function or position that someone or something has"],
     rusTranslations: ["роль", "функция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 736,
@@ -7458,7 +7458,7 @@ export const englishList = [
     synonyms: ["space", "area"],
     meaning: ["a space that can be occupied"],
     rusTranslations: ["комната", "пространство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 737,
@@ -7468,7 +7468,7 @@ export const englishList = [
     synonyms: ["regulation", "law"],
     meaning: ["a prescribed guide for conduct or action"],
     rusTranslations: ["правило", "закон"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 738,
@@ -7478,7 +7478,7 @@ export const englishList = [
     synonyms: ["jog", "sprint"],
     meaning: ["to move swiftly on foot"],
     rusTranslations: ["бегать", "работать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 739,
@@ -7488,7 +7488,7 @@ export const englishList = [
     synonyms: ["secure", "protected"],
     meaning: ["protected from or not exposed to danger"],
     rusTranslations: ["безопасный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 740,
@@ -7498,7 +7498,7 @@ export const englishList = [
     synonyms: ["identical", "equal"],
     meaning: ["not different; identical"],
     rusTranslations: ["тот же", "одинаковый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 741,
@@ -7508,7 +7508,7 @@ export const englishList = [
     synonyms: ["rescue", "store"],
     meaning: ["to keep safe or rescue from harm"],
     rusTranslations: ["сохранять", "спасать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 742,
@@ -7518,7 +7518,7 @@ export const englishList = [
     synonyms: ["speak", "utter"],
     meaning: ["to express in words"],
     rusTranslations: ["говорить", "сказать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 743,
@@ -7528,7 +7528,7 @@ export const englishList = [
     synonyms: ["setting", "situation"],
     meaning: ["the place where an incident occurs"],
     rusTranslations: ["сцена", "место"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 744,
@@ -7538,7 +7538,7 @@ export const englishList = [
     synonyms: ["academy", "institution"],
     meaning: ["an institution for educating children or students"],
     rusTranslations: ["школа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 745,
@@ -7550,7 +7550,7 @@ export const englishList = [
       "the systematic study of the structure and behavior of the physical and natural world",
     ],
     rusTranslations: ["наука"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 746,
@@ -7560,7 +7560,7 @@ export const englishList = [
     synonyms: ["researcher", "experimenter"],
     meaning: ["a person engaged in science"],
     rusTranslations: ["учёный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 747,
@@ -7570,7 +7570,7 @@ export const englishList = [
     synonyms: ["result", "mark"],
     meaning: ["the number of points achieved in a game or test"],
     rusTranslations: ["счёт", "баллы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 748,
@@ -7580,7 +7580,7 @@ export const englishList = [
     synonyms: ["ocean", "waters"],
     meaning: ["the expanse of salt water that covers most of the earth"],
     rusTranslations: ["море"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 749,
@@ -7590,7 +7590,7 @@ export const englishList = [
     synonyms: ["period", "term"],
     meaning: ["one of the four divisions of the year"],
     rusTranslations: ["сезон", "время года"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 750,
@@ -7600,7 +7600,7 @@ export const englishList = [
     synonyms: ["chair", "bench"],
     meaning: ["a place to sit"],
     rusTranslations: ["место", "сиденье"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 751,
@@ -7610,7 +7610,7 @@ export const englishList = [
     synonyms: ["moment", "instant"],
     meaning: ["a unit of time equal to one sixtieth of a minute"],
     rusTranslations: ["секунда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 752,
@@ -7620,7 +7620,7 @@ export const englishList = [
     synonyms: ["segment", "part"],
     meaning: ["a distinct part or subdivision of something"],
     rusTranslations: ["раздел", "сектор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 753,
@@ -7630,7 +7630,7 @@ export const englishList = [
     synonyms: ["safety", "protection"],
     meaning: ["the state of being free from danger or threat"],
     rusTranslations: ["безопасность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 754,
@@ -7640,7 +7640,7 @@ export const englishList = [
     synonyms: ["view", "observe"],
     meaning: ["to perceive with the eyes"],
     rusTranslations: ["видеть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 755,
@@ -7650,7 +7650,7 @@ export const englishList = [
     synonyms: ["look for", "search"],
     meaning: ["to attempt to find or obtain something"],
     rusTranslations: ["искать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 756,
@@ -7660,7 +7660,7 @@ export const englishList = [
     synonyms: ["appear", "look"],
     meaning: ["to give the impression of being something"],
     rusTranslations: ["казаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 757,
@@ -7670,7 +7670,7 @@ export const englishList = [
     synonyms: ["market", "trade"],
     meaning: ["to give or hand over something in exchange for money"],
     rusTranslations: ["продавать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 758,
@@ -7680,7 +7680,7 @@ export const englishList = [
     synonyms: ["dispatch", "transmit"],
     meaning: ["to cause something to go or be taken to a destination"],
     rusTranslations: ["посылать", "отправлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 759,
@@ -7690,7 +7690,7 @@ export const englishList = [
     synonyms: ["elder", "advanced"],
     meaning: ["of a higher rank or older age"],
     rusTranslations: ["старший"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 760,
@@ -7700,7 +7700,7 @@ export const englishList = [
     synonyms: ["feeling", "perception"],
     meaning: ["a faculty by which the body perceives an external stimulus"],
     rusTranslations: ["чувство", "восприятие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 761,
@@ -7710,7 +7710,7 @@ export const englishList = [
     synonyms: ["sequence", "set"],
     meaning: ["a number of things or events of a similar kind"],
     rusTranslations: ["серия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 762,
@@ -7720,7 +7720,7 @@ export const englishList = [
     synonyms: ["grave", "sincere"],
     meaning: ["having important or significant meaning"],
     rusTranslations: ["серьезный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 763,
@@ -7732,7 +7732,7 @@ export const englishList = [
       "to perform duties or services for another person or organization",
     ],
     rusTranslations: ["служить", "обслуживать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 764,
@@ -7742,7 +7742,7 @@ export const englishList = [
     synonyms: ["assistance", "maintenance"],
     meaning: ["the action of helping or doing work for someone"],
     rusTranslations: ["сервис", "обслуживание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 765,
@@ -7752,7 +7752,7 @@ export const englishList = [
     synonyms: ["place", "put"],
     meaning: ["to put something in a specified place or position"],
     rusTranslations: ["устанавливать", "ставить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 766,
@@ -7762,7 +7762,7 @@ export const englishList = [
     synonyms: ["7"],
     meaning: ["the number equivalent to the sum of three and four"],
     rusTranslations: ["семь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 767,
@@ -7772,7 +7772,7 @@ export const englishList = [
     synonyms: ["various", "a few"],
     meaning: ["more than two but not many"],
     rusTranslations: ["несколько"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 768,
@@ -7782,7 +7782,7 @@ export const englishList = [
     synonyms: ["gender", "reproduction"],
     meaning: ["the biological differences between males and females"],
     rusTranslations: ["пол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 769,
@@ -7792,7 +7792,7 @@ export const englishList = [
     synonyms: ["erotic", "amorous"],
     meaning: ["relating to the sexes or sexual activity"],
     rusTranslations: ["сексуальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 770,
@@ -7804,7 +7804,7 @@ export const englishList = [
       "to move back and forth or up and down with quick, forceful movements",
     ],
     rusTranslations: ["трясти", "встряхивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 771,
@@ -7814,7 +7814,7 @@ export const englishList = [
     synonyms: ["divide", "distribute"],
     meaning: ["to use, occupy, or enjoy something jointly with others"],
     rusTranslations: ["делиться", "распространять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 772,
@@ -7824,7 +7824,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a female person or animal"],
     rusTranslations: ["она"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 773,
@@ -7834,7 +7834,7 @@ export const englishList = [
     synonyms: ["fire", "discharge"],
     meaning: ["to fire a bullet or missile from a weapon"],
     rusTranslations: ["стрелять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 774,
@@ -7844,7 +7844,7 @@ export const englishList = [
     synonyms: ["brief", "small"],
     meaning: ["measuring a small distance from end to end"],
     rusTranslations: ["короткий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 775,
@@ -7854,7 +7854,7 @@ export const englishList = [
     synonyms: ["attempt", "try"],
     meaning: ["an attempt or try, especially in sports or film"],
     rusTranslations: ["выстрел", "попытка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 776,
@@ -7864,7 +7864,7 @@ export const englishList = [
     synonyms: ["ought to", "must"],
     meaning: ["used to indicate obligation or duty"],
     rusTranslations: ["следует"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 777,
@@ -7876,7 +7876,7 @@ export const englishList = [
       "the upper joint of the human arm and the part of the body between this and the neck",
     ],
     rusTranslations: ["плечо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 778,
@@ -7886,7 +7886,7 @@ export const englishList = [
     synonyms: ["display", "exhibit"],
     meaning: ["to present or display something to others"],
     rusTranslations: ["показывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 779,
@@ -7896,7 +7896,7 @@ export const englishList = [
     synonyms: ["edge", "flank"],
     meaning: ["a position to the left or right of an object or central point"],
     rusTranslations: ["сторона"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 780,
@@ -7908,7 +7908,7 @@ export const englishList = [
       "an object, quality, or event whose presence indicates the probable existence of something else",
     ],
     rusTranslations: ["знак"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 781,
@@ -7918,7 +7918,7 @@ export const englishList = [
     synonyms: ["important", "notable"],
     meaning: ["sufficiently great or important to be worthy of attention"],
     rusTranslations: ["значительный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 782,
@@ -7928,7 +7928,7 @@ export const englishList = [
     synonyms: ["alike", "comparable"],
     meaning: ["resembling without being identical"],
     rusTranslations: ["похожий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 783,
@@ -7938,7 +7938,7 @@ export const englishList = [
     synonyms: ["easy", "uncomplicated"],
     meaning: ["easily understood or done"],
     rusTranslations: ["простой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 784,
@@ -7948,7 +7948,7 @@ export const englishList = [
     synonyms: ["merely", "just"],
     meaning: ["in a straightforward or plain manner"],
     rusTranslations: ["просто"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 785,
@@ -7958,7 +7958,7 @@ export const englishList = [
     synonyms: ["because", "as"],
     meaning: ["for the reason that; because"],
     rusTranslations: ["так как", "с тех пор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 786,
@@ -7968,7 +7968,7 @@ export const englishList = [
     synonyms: ["chant", "croon"],
     meaning: ["to produce musical sounds with the voice"],
     rusTranslations: ["петь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 787,
@@ -7978,7 +7978,7 @@ export const englishList = [
     synonyms: ["one", "sole"],
     meaning: ["only one; not accompanied by others"],
     rusTranslations: ["один", "одинокий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 788,
@@ -7988,7 +7988,7 @@ export const englishList = [
     synonyms: ["sibling"],
     meaning: ["a female sibling"],
     rusTranslations: ["сестра"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 789,
@@ -7998,7 +7998,7 @@ export const englishList = [
     synonyms: ["settle", "perch"],
     meaning: ["to be seated; to rest on the buttocks"],
     rusTranslations: ["сидеть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 790,
@@ -8008,7 +8008,7 @@ export const englishList = [
     synonyms: ["location", "place"],
     meaning: ["a location or area where something is situated"],
     rusTranslations: ["место", "участок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 791,
@@ -8018,7 +8018,7 @@ export const englishList = [
     synonyms: ["condition", "circumstance"],
     meaning: ["a set of circumstances in which one finds oneself"],
     rusTranslations: ["ситуация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 792,
@@ -8028,7 +8028,7 @@ export const englishList = [
     synonyms: ["6"],
     meaning: ["the number following five"],
     rusTranslations: ["шесть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 793,
@@ -8038,7 +8038,7 @@ export const englishList = [
     synonyms: ["dimension", "magnitude"],
     meaning: ["the relative extent or magnitude of something"],
     rusTranslations: ["размер"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 794,
@@ -8048,7 +8048,7 @@ export const englishList = [
     synonyms: ["ability", "talent"],
     meaning: ["the ability to do something well"],
     rusTranslations: ["навык"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 795,
@@ -8058,7 +8058,7 @@ export const englishList = [
     synonyms: ["hide", "dermis"],
     meaning: ["the thin layer forming the natural outer covering of the body"],
     rusTranslations: ["кожа"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 796,
@@ -8068,7 +8068,7 @@ export const englishList = [
     synonyms: ["little", "tiny"],
     meaning: ["of a size that is less than normal or usual"],
     rusTranslations: ["маленький"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 797,
@@ -8078,7 +8078,7 @@ export const englishList = [
     synonyms: ["grin", "beam"],
     meaning: ["a pleased, kind, or amused facial expression"],
     rusTranslations: ["улыбка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 798,
@@ -8088,7 +8088,7 @@ export const englishList = [
     synonyms: ["thus", "therefore"],
     meaning: ["to such a great extent"],
     rusTranslations: ["так", "таким образом"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 799,
@@ -8098,7 +8098,7 @@ export const englishList = [
     synonyms: ["communal", "public"],
     meaning: ["relating to society or its organization"],
     rusTranslations: ["социальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 800,
@@ -8108,7 +8108,7 @@ export const englishList = [
     synonyms: ["community", "public"],
     meaning: ["an organized group of people associated together"],
     rusTranslations: ["общество"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 801,
@@ -8118,7 +8118,7 @@ export const englishList = [
     synonyms: ["trooper", "warrior"],
     meaning: ["a person who serves in an army"],
     rusTranslations: ["солдат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 802,
@@ -8128,7 +8128,7 @@ export const englishList = [
     synonyms: ["several", "a few"],
     meaning: ["an unspecified amount or number"],
     rusTranslations: ["некоторые", "немного"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 803,
@@ -8138,7 +8138,7 @@ export const englishList = [
     synonyms: ["someone", "person"],
     meaning: ["a person of unspecified identity"],
     rusTranslations: ["кто-то"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 804,
@@ -8148,7 +8148,7 @@ export const englishList = [
     synonyms: ["somebody", "an individual"],
     meaning: ["an unspecified person"],
     rusTranslations: ["кто-нибудь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 805,
@@ -8158,7 +8158,7 @@ export const englishList = [
     synonyms: ["thing", "object"],
     meaning: ["an unspecified object or matter"],
     rusTranslations: ["что-то"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 806,
@@ -8168,7 +8168,7 @@ export const englishList = [
     synonyms: ["occasionally", "at times"],
     meaning: ["occasionally, rather than all of the time"],
     rusTranslations: ["иногда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 807,
@@ -8178,7 +8178,7 @@ export const englishList = [
     synonyms: ["child", "offspring"],
     meaning: ["a male child in relation to his parents"],
     rusTranslations: ["сын"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 808,
@@ -8188,7 +8188,7 @@ export const englishList = [
     synonyms: ["tune", "melody"],
     meaning: ["a short piece of music with words"],
     rusTranslations: ["песня"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 809,
@@ -8198,7 +8198,7 @@ export const englishList = [
     synonyms: ["shortly", "presently"],
     meaning: ["in or after a short time"],
     rusTranslations: ["скоро"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 810,
@@ -8208,7 +8208,7 @@ export const englishList = [
     synonyms: ["type", "kind"],
     meaning: ["a category of things with a common feature"],
     rusTranslations: ["вид", "тип"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 811,
@@ -8218,7 +8218,7 @@ export const englishList = [
     synonyms: ["noise", "tone"],
     meaning: ["vibrations that travel through the air or another medium"],
     rusTranslations: ["звук"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 812,
@@ -8228,7 +8228,7 @@ export const englishList = [
     synonyms: ["origin", "root"],
     meaning: ["a place, person, or thing from which something originates"],
     rusTranslations: ["источник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 813,
@@ -8240,7 +8240,7 @@ export const englishList = [
       "the direction toward the point of the horizon 90° clockwise from east",
     ],
     rusTranslations: ["юг"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 814,
@@ -8250,7 +8250,7 @@ export const englishList = [
     synonyms: ["down south", "southerly"],
     meaning: ["relating to or characteristic of the south"],
     rusTranslations: ["южный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 815,
@@ -8262,7 +8262,7 @@ export const englishList = [
       "a continuous area or expanse that is free, available, or unoccupied",
     ],
     rusTranslations: ["пространство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 816,
@@ -8272,7 +8272,7 @@ export const englishList = [
     synonyms: ["talk", "communicate"],
     meaning: ["to say something in order to convey information"],
     rusTranslations: ["говорить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 817,
@@ -8282,7 +8282,7 @@ export const englishList = [
     synonyms: ["unique", "exceptional"],
     meaning: ["better, greater, or otherwise different from what is usual"],
     rusTranslations: ["особенный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 818,
@@ -8292,7 +8292,7 @@ export const englishList = [
     synonyms: ["particular", "precise"],
     meaning: ["clearly defined or identified"],
     rusTranslations: ["конкретный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 819,
@@ -8302,7 +8302,7 @@ export const englishList = [
     synonyms: ["address", "oration"],
     meaning: ["the expression of thoughts in spoken words"],
     rusTranslations: ["речь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 820,
@@ -8312,7 +8312,7 @@ export const englishList = [
     synonyms: ["expend", "use"],
     meaning: ["to pay out (money or time) in exchange for something"],
     rusTranslations: ["тратить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 821,
@@ -8322,7 +8322,7 @@ export const englishList = [
     synonyms: ["game", "athletics"],
     meaning: ["an activity involving physical exertion and skill"],
     rusTranslations: ["спорт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 822,
@@ -8332,7 +8332,7 @@ export const englishList = [
     synonyms: ["season", "leap"],
     meaning: ["the season after winter and before summer"],
     rusTranslations: ["весна"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 823,
@@ -8342,7 +8342,7 @@ export const englishList = [
     synonyms: ["employees", "personnel"],
     meaning: ["the group of people who work for an organization"],
     rusTranslations: ["персонал"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 824,
@@ -8352,7 +8352,7 @@ export const englishList = [
     synonyms: ["phase", "step"],
     meaning: ["a point or period in a process or development"],
     rusTranslations: ["стадия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 825,
@@ -8362,7 +8362,7 @@ export const englishList = [
     synonyms: ["rise", "remain"],
     meaning: ["to be in an upright position on the feet"],
     rusTranslations: ["стоять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 826,
@@ -8372,7 +8372,7 @@ export const englishList = [
     synonyms: ["normal", "typical"],
     meaning: ["used or accepted as a norm or average"],
     rusTranslations: ["стандартный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 827,
@@ -8382,7 +8382,7 @@ export const englishList = [
     synonyms: ["celestial body", "celebrity"],
     meaning: ["a luminous point in the night sky; also, a famous person"],
     rusTranslations: ["звезда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 828,
@@ -8392,7 +8392,7 @@ export const englishList = [
     synonyms: ["begin", "commence"],
     meaning: ["to begin or set out on an activity or journey"],
     rusTranslations: ["начинать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 829,
@@ -8404,7 +8404,7 @@ export const englishList = [
       "a nation or territory considered as an organized political community",
     ],
     rusTranslations: ["государство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 830,
@@ -8414,7 +8414,7 @@ export const englishList = [
     synonyms: ["declaration", "assertion"],
     meaning: ["a definite or clear expression in speech or writing"],
     rusTranslations: ["заявление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 831,
@@ -8424,7 +8424,7 @@ export const englishList = [
     synonyms: ["depot", "terminal"],
     meaning: ["a regular stopping place on a public transportation route"],
     rusTranslations: ["станция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 832,
@@ -8434,7 +8434,7 @@ export const englishList = [
     synonyms: ["remain", "continue"],
     meaning: ["to remain in the same place"],
     rusTranslations: ["оставаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 833,
@@ -8446,7 +8446,7 @@ export const englishList = [
       "a movement made by lifting the foot and setting it down in a new position",
     ],
     rusTranslations: ["шаг"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 834,
@@ -8456,7 +8456,7 @@ export const englishList = [
     synonyms: ["motionless", "calm"],
     meaning: ["not moving or making a sound"],
     rusTranslations: ["неподвижный", "тихий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 835,
@@ -8466,7 +8466,7 @@ export const englishList = [
     synonyms: ["inventory", "supply"],
     meaning: ["the goods or merchandise kept on the premises of a business"],
     rusTranslations: ["запас", "акция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 836,
@@ -8476,7 +8476,7 @@ export const englishList = [
     synonyms: ["cease", "halt"],
     meaning: ["to come to an end; to make something come to an end"],
     rusTranslations: ["останавливать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 837,
@@ -8486,7 +8486,7 @@ export const englishList = [
     synonyms: ["save", "keep"],
     meaning: ["to keep something for future use"],
     rusTranslations: ["хранить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 838,
@@ -8496,7 +8496,7 @@ export const englishList = [
     synonyms: ["tale", "narrative"],
     meaning: ["an account of imaginary or real events"],
     rusTranslations: ["рассказ", "история"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 839,
@@ -8508,7 +8508,7 @@ export const englishList = [
       "a plan of action designed to achieve a long-term or overall aim",
     ],
     rusTranslations: ["стратегия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 840,
@@ -8518,7 +8518,7 @@ export const englishList = [
     synonyms: ["road", "avenue"],
     meaning: ["a public road in a city or town"],
     rusTranslations: ["улица"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 841,
@@ -8528,7 +8528,7 @@ export const englishList = [
     synonyms: ["powerful", "robust"],
     meaning: ["having great physical power or ability"],
     rusTranslations: ["сильный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 842,
@@ -8538,7 +8538,7 @@ export const englishList = [
     synonyms: ["framework", "construction"],
     meaning: ["the arrangement or organization of parts to form an entity"],
     rusTranslations: ["структура"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 843,
@@ -8548,7 +8548,7 @@ export const englishList = [
     synonyms: ["learner", "pupil"],
     meaning: ["a person who is studying at a school or college"],
     rusTranslations: ["студент", "ученик"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 844,
@@ -8558,7 +8558,7 @@ export const englishList = [
     synonyms: ["research", "learning"],
     meaning: ["the devotion of time and attention to acquiring knowledge"],
     rusTranslations: ["учёба", "изучение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 845,
@@ -8568,7 +8568,7 @@ export const englishList = [
     synonyms: ["materials", "things"],
     meaning: ["an unspecified collection of objects or items"],
     rusTranslations: ["вещи", "штуки"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 846,
@@ -8578,7 +8578,7 @@ export const englishList = [
     synonyms: ["fashion", "manner"],
     meaning: ["a distinctive appearance or design"],
     rusTranslations: ["стиль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 847,
@@ -8588,7 +8588,7 @@ export const englishList = [
     synonyms: ["topic", "matter"],
     meaning: ["a person or thing that is being discussed or described"],
     rusTranslations: ["тема", "предмет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 848,
@@ -8598,7 +8598,7 @@ export const englishList = [
     synonyms: ["achievement", "triumph"],
     meaning: ["the accomplishment of an aim or purpose"],
     rusTranslations: ["успех"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 849,
@@ -8608,7 +8608,7 @@ export const englishList = [
     synonyms: ["accomplished", "effective"],
     meaning: ["accomplishing a desired aim or result"],
     rusTranslations: ["успешный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 850,
@@ -8618,7 +8618,7 @@ export const englishList = [
     synonyms: ["like that", "of that kind"],
     meaning: ["of the type previously mentioned or implied"],
     rusTranslations: ["такой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 851,
@@ -8628,7 +8628,7 @@ export const englishList = [
     synonyms: ["abruptly", "unexpectedly"],
     meaning: ["quickly and without warning"],
     rusTranslations: ["внезапно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 852,
@@ -8638,7 +8638,7 @@ export const englishList = [
     synonyms: ["endure", "experience"],
     meaning: ["to experience or be subjected to something bad or unpleasant"],
     rusTranslations: ["страдать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 853,
@@ -8648,7 +8648,7 @@ export const englishList = [
     synonyms: ["propose", "recommend"],
     meaning: ["to mention or introduce an idea for consideration"],
     rusTranslations: ["предлагать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 854,
@@ -8658,7 +8658,7 @@ export const englishList = [
     synonyms: ["hot season"],
     meaning: ["the warmest season of the year"],
     rusTranslations: ["лето"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 855,
@@ -8668,7 +8668,7 @@ export const englishList = [
     synonyms: ["assist", "back"],
     meaning: ["to give assistance or backing to someone or something"],
     rusTranslations: ["поддерживать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 856,
@@ -8678,7 +8678,7 @@ export const englishList = [
     synonyms: ["certain", "confident"],
     meaning: ["completely confident or convinced"],
     rusTranslations: ["уверенный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 857,
@@ -8688,7 +8688,7 @@ export const englishList = [
     synonyms: ["exterior", "face"],
     meaning: ["the outermost layer or boundary of an object"],
     rusTranslations: ["поверхность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 858,
@@ -8698,7 +8698,7 @@ export const englishList = [
     synonyms: ["network", "structure"],
     meaning: ["a set of connected things or parts forming a complex whole"],
     rusTranslations: ["система"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 859,
@@ -8708,7 +8708,7 @@ export const englishList = [
     synonyms: ["desk", "counter"],
     meaning: ["a piece of furniture with a flat top and one or more legs"],
     rusTranslations: ["стол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 860,
@@ -8718,7 +8718,7 @@ export const englishList = [
     synonyms: ["grab", "seize"],
     meaning: ["to get into one's possession by force, skill, or art"],
     rusTranslations: ["брать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 861,
@@ -8728,7 +8728,7 @@ export const englishList = [
     synonyms: ["speak", "chat"],
     meaning: ["to converse or communicate verbally"],
     rusTranslations: ["разговаривать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 862,
@@ -8738,7 +8738,7 @@ export const englishList = [
     synonyms: ["job", "assignment"],
     meaning: ["a piece of work to be done"],
     rusTranslations: ["задача"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 863,
@@ -8748,7 +8748,7 @@ export const englishList = [
     synonyms: ["levy", "duty"],
     meaning: ["a compulsory contribution to state revenue"],
     rusTranslations: ["налог"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 864,
@@ -8758,7 +8758,7 @@ export const englishList = [
     synonyms: ["instruct", "educate"],
     meaning: ["to impart knowledge or skill to someone"],
     rusTranslations: ["учить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 865,
@@ -8768,7 +8768,7 @@ export const englishList = [
     synonyms: ["educator", "instructor"],
     meaning: ["a person who teaches, especially in a school"],
     rusTranslations: ["учитель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 866,
@@ -8778,7 +8778,7 @@ export const englishList = [
     synonyms: ["group", "squad"],
     meaning: ["a group of players forming one side in a competitive game"],
     rusTranslations: ["команда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 867,
@@ -8788,7 +8788,7 @@ export const englishList = [
     synonyms: ["tech", "innovation"],
     meaning: ["the application of scientific knowledge for practical purposes"],
     rusTranslations: ["технология"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 868,
@@ -8798,7 +8798,7 @@ export const englishList = [
     synonyms: ["TV", "broadcast"],
     meaning: ["a system for transmitting visual images and sound"],
     rusTranslations: ["телевидение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 869,
@@ -8808,7 +8808,7 @@ export const englishList = [
     synonyms: ["inform", "narrate"],
     meaning: ["to communicate information or a story to someone"],
     rusTranslations: ["рассказывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 870,
@@ -8818,7 +8818,7 @@ export const englishList = [
     synonyms: ["10"],
     meaning: ["the number equivalent to the sum of five and five"],
     rusTranslations: ["десять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 871,
@@ -8828,7 +8828,7 @@ export const englishList = [
     synonyms: ["care for", "look after"],
     meaning: ["to regularly or frequently behave in a particular way"],
     rusTranslations: ["склоняться", "ухаживать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 872,
@@ -8838,7 +8838,7 @@ export const englishList = [
     synonyms: ["word", "expression"],
     meaning: ["a word or phrase used to describe something"],
     rusTranslations: ["термин"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 873,
@@ -8850,7 +8850,7 @@ export const englishList = [
       "a procedure intended to establish the quality, performance, or reliability of something",
     ],
     rusTranslations: ["тест", "испытание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 874,
@@ -8860,7 +8860,7 @@ export const englishList = [
     synonyms: ["compared to"],
     meaning: ["used in comparisons"],
     rusTranslations: ["чем"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 875,
@@ -8870,7 +8870,7 @@ export const englishList = [
     synonyms: ["express gratitude"],
     meaning: ["to express gratitude to someone"],
     rusTranslations: ["благодарить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 876,
@@ -8880,7 +8880,7 @@ export const englishList = [
     synonyms: ["this", "those"],
     meaning: ["used to identify a specific person or thing"],
     rusTranslations: ["тот", "то"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 877,
@@ -8890,7 +8890,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to a particular member of a group or class"],
     rusTranslations: ["определённый артикль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 878,
@@ -8902,7 +8902,7 @@ export const englishList = [
       "belonging to or associated with the people or things previously mentioned",
     ],
     rusTranslations: ["их"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 879,
@@ -8914,7 +8914,7 @@ export const englishList = [
       "used as the object of a verb or preposition to refer to two or more people",
     ],
     rusTranslations: ["их", "им"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 880,
@@ -8924,7 +8924,7 @@ export const englishList = [
     synonyms: ["by themselves"],
     meaning: ["used to emphasize the subject previously mentioned"],
     rusTranslations: ["сами"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 881,
@@ -8934,7 +8934,7 @@ export const englishList = [
     synonyms: ["next", "afterwards"],
     meaning: ["at that time; next in order"],
     rusTranslations: ["затем"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 882,
@@ -8944,7 +8944,7 @@ export const englishList = [
     synonyms: ["hypothesis", "idea"],
     meaning: ["a supposition or system of ideas intended to explain something"],
     rusTranslations: ["теория"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 883,
@@ -8954,7 +8954,7 @@ export const englishList = [
     synonyms: ["in that place"],
     meaning: ["in, at, or to that place or position"],
     rusTranslations: ["там"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 884,
@@ -8964,7 +8964,7 @@ export const englishList = [
     synonyms: ["those"],
     meaning: ["used to identify a specific group of things close at hand"],
     rusTranslations: ["эти"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 885,
@@ -8976,7 +8976,7 @@ export const englishList = [
       "used to refer to two or more people or things previously mentioned",
     ],
     rusTranslations: ["они"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 886,
@@ -8988,7 +8988,7 @@ export const englishList = [
       "an object that one need not, cannot, or does not wish to give a specific name to",
     ],
     rusTranslations: ["вещь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 887,
@@ -8998,7 +8998,7 @@ export const englishList = [
     synonyms: ["believe", "consider"],
     meaning: ["to have a particular opinion or idea"],
     rusTranslations: ["думать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 888,
@@ -9008,7 +9008,7 @@ export const englishList = [
     synonyms: ["3rd"],
     meaning: ["coming after the second in position or time"],
     rusTranslations: ["третий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 889,
@@ -9018,7 +9018,7 @@ export const englishList = [
     synonyms: ["these"],
     meaning: ["used to identify a specific person or thing close at hand"],
     rusTranslations: ["этот"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 890,
@@ -9030,7 +9030,7 @@ export const englishList = [
       "used to identify specific people or things observed or heard by the speaker",
     ],
     rusTranslations: ["те"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 891,
@@ -9040,7 +9040,7 @@ export const englishList = [
     synonyms: ["although"],
     meaning: ["despite the fact that"],
     rusTranslations: ["хотя"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 892,
@@ -9050,7 +9050,7 @@ export const englishList = [
     synonyms: ["idea", "notion"],
     meaning: ["an idea or opinion produced by thinking"],
     rusTranslations: ["мысль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 893,
@@ -9060,7 +9060,7 @@ export const englishList = [
     synonyms: ["k"],
     meaning: ["the number equivalent to ten times one hundred"],
     rusTranslations: ["тысяча"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 894,
@@ -9070,7 +9070,7 @@ export const englishList = [
     synonyms: ["menace", "danger"],
     meaning: ["a person or thing likely to cause damage or danger"],
     rusTranslations: ["угроза"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 895,
@@ -9080,7 +9080,7 @@ export const englishList = [
     synonyms: ["3"],
     meaning: ["the number equivalent to one plus two"],
     rusTranslations: ["три"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 896,
@@ -9090,7 +9090,7 @@ export const englishList = [
     synonyms: ["via", "by"],
     meaning: ["moving in one side and out of the other side of"],
     rusTranslations: ["через"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 897,
@@ -9100,7 +9100,7 @@ export const englishList = [
     synonyms: ["all over"],
     meaning: ["in every part of; during the whole time"],
     rusTranslations: ["по всему"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 898,
@@ -9110,7 +9110,7 @@ export const englishList = [
     synonyms: ["toss", "hurl"],
     meaning: ["to propel something with force through the air"],
     rusTranslations: ["бросать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 899,
@@ -9120,7 +9120,7 @@ export const englishList = [
     synonyms: ["therefore", "so"],
     meaning: ["as a result or consequence of this"],
     rusTranslations: ["таким образом"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 900,
@@ -9130,7 +9130,7 @@ export const englishList = [
     synonyms: ["duration", "period"],
     meaning: ["the indefinite continued progress of existence"],
     rusTranslations: ["время"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 901,
@@ -9140,7 +9140,7 @@ export const englishList = [
     synonyms: ["toward", "until"],
     meaning: ["expressing motion in the direction of"],
     rusTranslations: ["к", "до"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 902,
@@ -9150,7 +9150,7 @@ export const englishList = [
     synonyms: ["now", "present"],
     meaning: ["the current day"],
     rusTranslations: ["сегодня"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 903,
@@ -9160,7 +9160,7 @@ export const englishList = [
     synonyms: ["jointly", "in unison"],
     meaning: ["with or in proximity to another person or people"],
     rusTranslations: ["вместе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 904,
@@ -9170,7 +9170,7 @@ export const englishList = [
     synonyms: ["this evening"],
     meaning: ["the evening or night of the current day"],
     rusTranslations: ["сегодня вечером"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 905,
@@ -9180,7 +9180,7 @@ export const englishList = [
     synonyms: ["also", "excessively"],
     meaning: ["in addition; to a higher degree than is desirable"],
     rusTranslations: ["также", "слишком"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 906,
@@ -9190,7 +9190,7 @@ export const englishList = [
     synonyms: ["peak", "summit"],
     meaning: ["the highest or uppermost part of something"],
     rusTranslations: ["верх", "топ"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 907,
@@ -9200,7 +9200,7 @@ export const englishList = [
     synonyms: ["complete", "entire"],
     meaning: ["comprising the whole amount"],
     rusTranslations: ["общий", "тотальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 908,
@@ -9210,7 +9210,7 @@ export const englishList = [
     synonyms: ["strong", "resilient"],
     meaning: ["physically strong; durable or hard to break"],
     rusTranslations: ["жесткий", "крепкий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 909,
@@ -9220,7 +9220,7 @@ export const englishList = [
     synonyms: ["in the direction of"],
     meaning: ["in the direction of"],
     rusTranslations: ["к", "по направлению к"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 910,
@@ -9232,7 +9232,7 @@ export const englishList = [
       "a human settlement smaller than a city but larger than a village",
     ],
     rusTranslations: ["город", "поселок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 911,
@@ -9242,7 +9242,7 @@ export const englishList = [
     synonyms: ["commerce", "business"],
     meaning: ["the action of buying, selling, or exchanging goods or services"],
     rusTranslations: ["торговля"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 912,
@@ -9252,7 +9252,7 @@ export const englishList = [
     synonyms: ["conventional", "customary"],
     meaning: ["existing in or as part of a tradition; long-established"],
     rusTranslations: ["традиционный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 913,
@@ -9264,7 +9264,7 @@ export const englishList = [
       "the process of learning the skills needed for a particular job or activity",
     ],
     rusTranslations: ["обучение", "тренировка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 914,
@@ -9274,7 +9274,7 @@ export const englishList = [
     synonyms: ["journey", "voyage"],
     meaning: ["to go from one place to another"],
     rusTranslations: ["путешествовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 915,
@@ -9284,7 +9284,7 @@ export const englishList = [
     synonyms: ["handle", "deal with"],
     meaning: ["to behave toward or deal with in a specified way"],
     rusTranslations: ["обращаться", "лечить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 916,
@@ -9296,7 +9296,7 @@ export const englishList = [
       "medical care given to a patient; a manner of treating something",
     ],
     rusTranslations: ["лечение", "обработка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 917,
@@ -9306,7 +9306,7 @@ export const englishList = [
     synonyms: ["plant", "wood"],
     meaning: ["a perennial plant with an elongated stem"],
     rusTranslations: ["дерево"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 918,
@@ -9316,7 +9316,7 @@ export const englishList = [
     synonyms: ["test", "experiment"],
     meaning: ["a formal examination of evidence in court; an experiment"],
     rusTranslations: ["испытание", "судебное разбирательство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 919,
@@ -9326,7 +9326,7 @@ export const englishList = [
     synonyms: ["journey", "excursion"],
     meaning: ["a short journey or outing"],
     rusTranslations: ["поездка", "путешествие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 920,
@@ -9336,7 +9336,7 @@ export const englishList = [
     synonyms: ["problem", "difficulty"],
     meaning: ["a state of distress or difficulty"],
     rusTranslations: ["проблема", "беда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 921,
@@ -9346,7 +9346,7 @@ export const englishList = [
     synonyms: ["real", "genuine"],
     meaning: ["in accordance with fact or reality"],
     rusTranslations: ["правдивый", "истинный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 922,
@@ -9356,7 +9356,7 @@ export const englishList = [
     synonyms: ["fact", "reality"],
     meaning: ["the quality or state of being true"],
     rusTranslations: ["правда", "истина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 923,
@@ -9366,7 +9366,7 @@ export const englishList = [
     synonyms: ["attempt", "endeavor"],
     meaning: ["to make an effort to do something"],
     rusTranslations: ["пытаться", "пробовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 924,
@@ -9376,7 +9376,7 @@ export const englishList = [
     synonyms: ["rotate", "spin"],
     meaning: ["to move in a circular direction"],
     rusTranslations: ["поворачивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 925,
@@ -9386,7 +9386,7 @@ export const englishList = [
     synonyms: ["television", "broadcast"],
     meaning: ["a system for transmitting visual images and sound"],
     rusTranslations: ["телевидение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 926,
@@ -9396,7 +9396,7 @@ export const englishList = [
     synonyms: ["2"],
     meaning: ["the number following one"],
     rusTranslations: ["два"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 927,
@@ -9406,7 +9406,7 @@ export const englishList = [
     synonyms: ["kind", "sort"],
     meaning: ["a category of people or things having common characteristics"],
     rusTranslations: ["тип", "вид"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 928,
@@ -9416,7 +9416,7 @@ export const englishList = [
     synonyms: ["beneath", "below"],
     meaning: ["extending directly beneath"],
     rusTranslations: ["под"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 929,
@@ -9426,7 +9426,7 @@ export const englishList = [
     synonyms: ["comprehend", "grasp"],
     meaning: ["to perceive the meaning of something"],
     rusTranslations: ["понимать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 930,
@@ -9436,7 +9436,7 @@ export const englishList = [
     synonyms: ["component", "module"],
     meaning: ["a single, distinct part of a larger whole"],
     rusTranslations: ["единица"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 931,
@@ -9446,7 +9446,7 @@ export const englishList = [
     synonyms: ["up to", "till"],
     meaning: ["up to the point in time or the event mentioned"],
     rusTranslations: ["до"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 932,
@@ -9456,7 +9456,7 @@ export const englishList = [
     synonyms: ["above", "higher"],
     meaning: ["toward a higher position or level"],
     rusTranslations: ["вверх"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 933,
@@ -9466,7 +9466,7 @@ export const englishList = [
     synonyms: ["on", "immediately after"],
     meaning: ["more formal term for 'on'; immediately after"],
     rusTranslations: ["на", "после"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 934,
@@ -9476,7 +9476,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["referring to the speaker and one or more other people"],
     rusTranslations: ["нас"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 935,
@@ -9486,7 +9486,7 @@ export const englishList = [
     synonyms: ["utilize", "employ"],
     meaning: ["to employ something for a particular purpose"],
     rusTranslations: ["использовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 936,
@@ -9496,7 +9496,7 @@ export const englishList = [
     synonyms: ["normally", "typically"],
     meaning: ["commonly; most of the time"],
     rusTranslations: ["обычно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 937,
@@ -9506,7 +9506,7 @@ export const englishList = [
     synonyms: ["worth", "merit"],
     meaning: ["the importance, worth, or usefulness of something"],
     rusTranslations: ["ценность", "стоимость"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 938,
@@ -9516,7 +9516,7 @@ export const englishList = [
     synonyms: ["diverse", "different"],
     meaning: ["of different kinds; several"],
     rusTranslations: ["различный", "разнообразный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 939,
@@ -9526,7 +9526,7 @@ export const englishList = [
     synonyms: ["extremely", "highly"],
     meaning: ["to a high degree"],
     rusTranslations: ["очень"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 940,
@@ -9536,7 +9536,7 @@ export const englishList = [
     synonyms: ["casualty", "sufferer"],
     meaning: ["a person harmed as a result of a crime or accident"],
     rusTranslations: ["жертва"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 941,
@@ -9546,7 +9546,7 @@ export const englishList = [
     synonyms: ["sight", "perspective"],
     meaning: ["a particular way of considering something; a visual scene"],
     rusTranslations: ["вид", "зрелище"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 942,
@@ -9556,7 +9556,7 @@ export const englishList = [
     synonyms: ["force", "brutality"],
     meaning: ["behavior involving physical force intended to hurt someone"],
     rusTranslations: ["насилие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 943,
@@ -9566,7 +9566,7 @@ export const englishList = [
     synonyms: ["call", "drop in"],
     meaning: ["to go to see a person or place"],
     rusTranslations: ["посетить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 944,
@@ -9578,7 +9578,7 @@ export const englishList = [
       "the sound produced in a person's larynx and uttered through the mouth",
     ],
     rusTranslations: ["голос"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 945,
@@ -9588,7 +9588,7 @@ export const englishList = [
     synonyms: ["ballot", "elect"],
     meaning: ["to cast a vote in an election"],
     rusTranslations: ["голосовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 946,
@@ -9598,7 +9598,7 @@ export const englishList = [
     synonyms: ["pause", "linger"],
     meaning: ["to stay where one is until a particular time"],
     rusTranslations: ["ждать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 947,
@@ -9610,7 +9610,7 @@ export const englishList = [
       "to move at a regular pace by lifting and setting down each foot in turn",
     ],
     rusTranslations: ["гулять", "идти пешком"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 948,
@@ -9622,7 +9622,7 @@ export const englishList = [
       "a continuous vertical structure that encloses or divides an area",
     ],
     rusTranslations: ["стена"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 949,
@@ -9632,7 +9632,7 @@ export const englishList = [
     synonyms: ["desire", "wish"],
     meaning: ["to desire something"],
     rusTranslations: ["хотеть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 950,
@@ -9644,7 +9644,7 @@ export const englishList = [
       "a state of armed conflict between different countries or groups",
     ],
     rusTranslations: ["война"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 951,
@@ -9654,7 +9654,7 @@ export const englishList = [
     synonyms: ["observe", "view"],
     meaning: ["to look at or observe attentively"],
     rusTranslations: ["смотреть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 952,
@@ -9664,7 +9664,7 @@ export const englishList = [
     synonyms: ["H₂O", "aqua"],
     meaning: ["a clear, colorless, odorless liquid essential for life"],
     rusTranslations: ["вода"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 953,
@@ -9674,7 +9674,7 @@ export const englishList = [
     synonyms: ["method", "manner"],
     meaning: ["a method or style of doing something"],
     rusTranslations: ["способ", "путь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 954,
@@ -9686,7 +9686,7 @@ export const englishList = [
       "used by a speaker to refer to himself or herself and one or more other people",
     ],
     rusTranslations: ["мы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 955,
@@ -9696,7 +9696,7 @@ export const englishList = [
     synonyms: ["arm", "gun"],
     meaning: ["a thing designed to inflict harm or damage"],
     rusTranslations: ["оружие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 956,
@@ -9706,7 +9706,7 @@ export const englishList = [
     synonyms: ["don", "clothe"],
     meaning: ["to have clothing, jewelry, etc. on one's body"],
     rusTranslations: ["носить (одежду)"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 957,
@@ -9716,7 +9716,7 @@ export const englishList = [
     synonyms: ["seven days"],
     meaning: ["a period of seven days"],
     rusTranslations: ["неделя"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 958,
@@ -9726,7 +9726,7 @@ export const englishList = [
     synonyms: ["mass", "heaviness"],
     meaning: ["a measurement of how heavy something is"],
     rusTranslations: ["вес"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 959,
@@ -9736,7 +9736,7 @@ export const englishList = [
     synonyms: ["properly", "adequately"],
     meaning: ["in a good or satisfactory way"],
     rusTranslations: ["хорошо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 960,
@@ -9746,7 +9746,7 @@ export const englishList = [
     synonyms: ["occident"],
     meaning: ["the direction in which the sun sets"],
     rusTranslations: ["запад"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 961,
@@ -9756,7 +9756,7 @@ export const englishList = [
     synonyms: ["occidental"],
     meaning: ["relating to or characteristic of the west"],
     rusTranslations: ["западный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 962,
@@ -9766,7 +9766,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["asking for information specifying something"],
     rusTranslations: ["что"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 963,
@@ -9776,7 +9776,7 @@ export const englishList = [
     synonyms: ["anything"],
     meaning: ["regardless of what; no matter what"],
     rusTranslations: ["что бы ни", "всё равно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 964,
@@ -9786,7 +9786,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["at what time"],
     rusTranslations: ["когда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 965,
@@ -9796,7 +9796,7 @@ export const englishList = [
     synonyms: ["location", "place"],
     meaning: ["in or at what place or position"],
     rusTranslations: ["где"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 966,
@@ -9806,7 +9806,7 @@ export const englishList = [
     synonyms: ["if"],
     meaning: ["expressing a doubt or choice between alternatives"],
     rusTranslations: ["ли"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 967,
@@ -9818,7 +9818,7 @@ export const englishList = [
       "asking for information specifying one or more people or things from a group",
     ],
     rusTranslations: ["который"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 968,
@@ -9828,7 +9828,7 @@ export const englishList = [
     synonyms: ["period", "interval"],
     meaning: ["a period of time"],
     rusTranslations: ["время", "пока"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 969,
@@ -9838,7 +9838,7 @@ export const englishList = [
     synonyms: ["pale", "colorless"],
     meaning: ["of the color of milk or fresh snow"],
     rusTranslations: ["белый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 970,
@@ -9848,7 +9848,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["which person or people"],
     rusTranslations: ["кто"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 971,
@@ -9858,7 +9858,7 @@ export const englishList = [
     synonyms: ["entire", "complete"],
     meaning: ["all of; entire"],
     rusTranslations: ["целый", "полный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 972,
@@ -9868,7 +9868,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used instead of 'who' as the object of a verb or preposition"],
     rusTranslations: ["кого", "кому"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 973,
@@ -9878,7 +9878,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["of or belonging to which person"],
     rusTranslations: ["чей"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 974,
@@ -9888,7 +9888,7 @@ export const englishList = [
     synonyms: ["for what reason"],
     meaning: ["for what reason or purpose"],
     rusTranslations: ["почему", "зачем"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 975,
@@ -9898,7 +9898,7 @@ export const englishList = [
     synonyms: ["broad", "extensive"],
     meaning: ["of great or more than average width"],
     rusTranslations: ["широкий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 976,
@@ -9908,7 +9908,7 @@ export const englishList = [
     synonyms: ["spouse", "partner"],
     meaning: ["a married woman considered in relation to her spouse"],
     rusTranslations: ["жена"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 977,
@@ -9918,7 +9918,7 @@ export const englishList = [
     synonyms: ["shall", "intend"],
     meaning: ["expressing future tense or determination"],
     rusTranslations: ["будет", "воля"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 978,
@@ -9928,7 +9928,7 @@ export const englishList = [
     synonyms: ["succeed", "prevail"],
     meaning: ["to be successful or victorious in a contest"],
     rusTranslations: ["выигрывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 979,
@@ -9938,7 +9938,7 @@ export const englishList = [
     synonyms: ["breeze", "air"],
     meaning: ["the natural movement of air"],
     rusTranslations: ["ветер"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 980,
@@ -9948,7 +9948,7 @@ export const englishList = [
     synonyms: ["pane", "opening"],
     meaning: ["an opening in the wall or roof of a building"],
     rusTranslations: ["окно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 981,
@@ -9958,7 +9958,7 @@ export const englishList = [
     synonyms: ["desire", "hope"],
     meaning: ["to feel or express a strong desire for something"],
     rusTranslations: ["желать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 982,
@@ -9968,7 +9968,7 @@ export const englishList = [
     synonyms: ["alongside", "accompanied by"],
     meaning: ["in the company or presence of"],
     rusTranslations: ["с"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 983,
@@ -9978,7 +9978,7 @@ export const englishList = [
     synonyms: ["inside", "in"],
     meaning: ["inside or not further than a particular area or period of time"],
     rusTranslations: ["внутри", "в пределах"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 984,
@@ -9988,7 +9988,7 @@ export const englishList = [
     synonyms: ["lacking", "minus"],
     meaning: ["not having the specified thing"],
     rusTranslations: ["без"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 985,
@@ -9998,7 +9998,7 @@ export const englishList = [
     synonyms: ["female", "lady"],
     meaning: ["an adult human female"],
     rusTranslations: ["женщина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 986,
@@ -10008,7 +10008,7 @@ export const englishList = [
     synonyms: ["ponder", "question"],
     meaning: ["to desire to know something; to be curious"],
     rusTranslations: ["удивляться", "задаваться вопросом"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 987,
@@ -10018,7 +10018,7 @@ export const englishList = [
     synonyms: ["term", "expression"],
     meaning: ["a single distinct meaningful element of speech or writing"],
     rusTranslations: ["слово"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 988,
@@ -10028,7 +10028,7 @@ export const englishList = [
     synonyms: ["labor", "operate"],
     meaning: ["to exert effort or perform a task"],
     rusTranslations: ["работать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 989,
@@ -10038,7 +10038,7 @@ export const englishList = [
     synonyms: ["employee", "laborer"],
     meaning: ["a person employed to perform tasks"],
     rusTranslations: ["работник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 990,
@@ -10048,7 +10048,7 @@ export const englishList = [
     synonyms: ["globe", "earth"],
     meaning: ["the earth, together with all of its countries and peoples"],
     rusTranslations: ["мир", "земля"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 991,
@@ -10058,7 +10058,7 @@ export const englishList = [
     synonyms: ["fret", "anxious"],
     meaning: ["to feel anxious or troubled about something"],
     rusTranslations: ["волноваться", "беспокоиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 992,
@@ -10068,7 +10068,7 @@ export const englishList = [
     synonyms: ["should", "might"],
     meaning: ["used to indicate the conditional mood"],
     rusTranslations: ["бы", "хотел бы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 993,
@@ -10078,7 +10078,7 @@ export const englishList = [
     synonyms: ["compose", "record"],
     meaning: ["to mark coherent words on a surface"],
     rusTranslations: ["писать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 994,
@@ -10088,7 +10088,7 @@ export const englishList = [
     synonyms: ["author", "penman"],
     meaning: ["a person who writes books or articles"],
     rusTranslations: ["писатель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 995,
@@ -10098,7 +10098,7 @@ export const englishList = [
     synonyms: ["incorrect", "mistaken"],
     meaning: ["not correct or true; erroneous"],
     rusTranslations: ["неправильный", "ошибочный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 996,
@@ -10108,7 +10108,7 @@ export const englishList = [
     synonyms: ["garden", "courtyard"],
     meaning: ["a unit of measurement or a piece of land adjoining a building"],
     rusTranslations: ["двор", "ярд"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 997,
@@ -10118,7 +10118,7 @@ export const englishList = [
     synonyms: ["yes", "yep"],
     meaning: ["informal affirmative response"],
     rusTranslations: ["ага", "да"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 998,
@@ -10128,7 +10128,7 @@ export const englishList = [
     synonyms: ["twelve months"],
     meaning: ["a period of 365 days or 12 months"],
     rusTranslations: ["год"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 999,
@@ -10138,7 +10138,7 @@ export const englishList = [
     synonyms: ["affirmative"],
     meaning: ["used to give an affirmative response"],
     rusTranslations: ["да"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1000,
@@ -10148,7 +10148,7 @@ export const englishList = [
     synonyms: ["still", "nevertheless"],
     meaning: ["up until now; even so"],
     rusTranslations: ["еще", "все еще"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1001,
@@ -10158,7 +10158,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to refer to the person or people addressed"],
     rusTranslations: ["ты", "вы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1002,
@@ -10168,7 +10168,7 @@ export const englishList = [
     synonyms: ["youthful", "juvenile"],
     meaning: ["having lived or existed for only a short time"],
     rusTranslations: ["молодой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1003,
@@ -10178,7 +10178,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["belonging to or associated with the person addressed"],
     rusTranslations: ["твой", "ваш"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1004,
@@ -10188,7 +10188,7 @@ export const englishList = [
     synonyms: [],
     meaning: ["used to emphasize the person being addressed"],
     rusTranslations: ["себя", "сам"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1005,
@@ -10198,7 +10198,7 @@ export const englishList = [
     synonyms: ["enthusiasm", "eagerness"],
     meaning: ["great energy or enthusiasm in pursuit of a cause"],
     rusTranslations: ["рвение", "энтузиазм"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1006,
@@ -10208,7 +10208,7 @@ export const englishList = [
     synonyms: ["equid"],
     meaning: ["an African wild horse with black-and-white stripes"],
     rusTranslations: ["зебра"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1007,
@@ -10218,7 +10218,7 @@ export const englishList = [
     synonyms: ["naught", "nil"],
     meaning: ["the figure representing no quantity or number"],
     rusTranslations: ["ноль"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1008,
@@ -10228,7 +10228,7 @@ export const englishList = [
     synonyms: ["area", "region"],
     meaning: ["an area or stretch of land having a particular characteristic"],
     rusTranslations: ["зона"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1009,
@@ -10238,7 +10238,7 @@ export const englishList = [
     synonyms: ["biology", "animal science"],
     meaning: ["the scientific study of animals"],
     rusTranslations: ["зоология"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1010,
@@ -10248,7 +10248,7 @@ export const englishList = [
     synonyms: ["swoop", "rush"],
     meaning: ["to move or travel very quickly"],
     rusTranslations: ["мчаться", "быстро приближаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1011,
@@ -10258,7 +10258,7 @@ export const englishList = [
     synonyms: ["breeze", "wind"],
     meaning: ["a gentle, mild breeze"],
     rusTranslations: ["зефир", "легкий ветер"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1012,
@@ -10268,7 +10268,7 @@ export const englishList = [
     synonyms: ["peak", "apex"],
     meaning: ["the highest point reached by a celestial body; the peak"],
     rusTranslations: ["зенит", "высшая точка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1014,
@@ -10278,7 +10278,7 @@ export const englishList = [
     synonyms: ["achieve", "complete"],
     meaning: ["to successfully complete or bring about"],
     rusTranslations: ["достигать", "выполнять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1015,
@@ -10288,7 +10288,7 @@ export const englishList = [
     synonyms: ["accomplishment", "success"],
     meaning: ["something accomplished, especially by superior ability"],
     rusTranslations: ["достижение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1016,
@@ -10298,7 +10298,7 @@ export const englishList = [
     synonyms: ["energetic", "lively"],
     meaning: ["engaging or ready to engage in physically energetic pursuits"],
     rusTranslations: ["активный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1017,
@@ -10308,7 +10308,7 @@ export const englishList = [
     synonyms: ["exploration", "journey"],
     meaning: ["an unusual and exciting, typically hazardous, experience"],
     rusTranslations: ["приключение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1018,
@@ -10318,7 +10318,7 @@ export const englishList = [
     synonyms: ["ad", "commercial"],
     meaning: ["a public notice or announcement promoting a product or service"],
     rusTranslations: ["реклама"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1019,
@@ -10328,7 +10328,7 @@ export const englishList = [
     synonyms: ["guidance", "recommendation"],
     meaning: ["suggestions or guidance offered regarding prudent action"],
     rusTranslations: ["совет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1020,
@@ -10338,7 +10338,7 @@ export const englishList = [
     synonyms: ["benefit", "edge"],
     meaning: ["a condition that puts one in a favorable or superior position"],
     rusTranslations: ["преимущество"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1021,
@@ -10348,7 +10348,7 @@ export const englishList = [
     synonyms: ["fondness", "love"],
     meaning: ["a gentle feeling of fondness or liking"],
     rusTranslations: ["привязанность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1022,
@@ -10358,7 +10358,7 @@ export const englishList = [
     synonyms: ["manage", "provide"],
     meaning: ["to have enough money or means to pay for something"],
     rusTranslations: ["позволять себе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1023,
@@ -10368,7 +10368,7 @@ export const englishList = [
     synonyms: ["scared", "fearful"],
     meaning: ["feeling fear or anxiety; frightened"],
     rusTranslations: ["бояться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1024,
@@ -10378,7 +10378,7 @@ export const englishList = [
     synonyms: ["noon", "midday"],
     meaning: ["the period of time from noon until evening"],
     rusTranslations: ["после полудня"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1025,
@@ -10386,10 +10386,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɛər.pɔːrt/",
     synonyms: ["aerodrome"],
-    meaning:
-      ["a complex for the arrival, departure, and maintenance of aircraft"],
+    meaning: [
+      "a complex for the arrival, departure, and maintenance of aircraft",
+    ],
     rusTranslations: ["аэропорт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1026,
@@ -10399,7 +10400,7 @@ export const englishList = [
     synonyms: ["record", "collection"],
     meaning: ["a collection of recordings issued as a single item"],
     rusTranslations: ["альбом"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1027,
@@ -10409,7 +10410,7 @@ export const englishList = [
     synonyms: ["spirits", "booze"],
     meaning: ["a volatile, flammable liquid used as a beverage and solvent"],
     rusTranslations: ["алкоголь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1028,
@@ -10419,7 +10420,7 @@ export const englishList = [
     synonyms: ["living", "animate"],
     meaning: ["living; not dead"],
     rusTranslations: ["живой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1029,
@@ -10429,7 +10430,7 @@ export const englishList = [
     synonyms: ["stipend", "pocket money"],
     meaning: ["a sum of money given regularly for a specific purpose"],
     rusTranslations: ["карманные деньги"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1030,
@@ -10439,7 +10440,7 @@ export const englishList = [
     synonyms: ["astonishing", "incredible"],
     meaning: ["causing great surprise or wonder"],
     rusTranslations: ["удивительный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1031,
@@ -10449,7 +10450,7 @@ export const englishList = [
     synonyms: ["old", "antique"],
     meaning: ["belonging to the very distant past"],
     rusTranslations: ["древний"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1032,
@@ -10457,10 +10458,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæŋ.ɡəl/",
     synonyms: ["corner", "aspect"],
-    meaning:
-      ["the space (usually measured in degrees) between two intersecting lines"],
+    meaning: [
+      "the space (usually measured in degrees) between two intersecting lines",
+    ],
     rusTranslations: ["угол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1033,
@@ -10470,7 +10472,7 @@ export const englishList = [
     synonyms: ["declare", "proclaim"],
     meaning: ["to make a public declaration about something"],
     rusTranslations: ["объявлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1034,
@@ -10480,7 +10482,7 @@ export const englishList = [
     synonyms: ["yearly", "per annum"],
     meaning: ["occurring once every year"],
     rusTranslations: ["годовой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1035,
@@ -10490,7 +10492,7 @@ export const englishList = [
     synonyms: ["worry", "unease"],
     meaning: ["a feeling of worry, nervousness, or unease"],
     rusTranslations: ["тревога"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1036,
@@ -10498,9 +10500,11 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈpɑːrt.mənt/",
     synonyms: ["flat", "condo"],
-    meaning: ["a set of rooms for someone to live in on one level of a building"],
+    meaning: [
+      "a set of rooms for someone to live in on one level of a building",
+    ],
     rusTranslations: ["квартира"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1037,
@@ -10510,7 +10514,7 @@ export const englishList = [
     synonyms: ["excuse", "regret"],
     meaning: ["an expression of regret for a fault or offense"],
     rusTranslations: ["извинение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1038,
@@ -10520,7 +10524,7 @@ export const englishList = [
     synonyms: ["meeting", "session"],
     meaning: ["an arranged meeting at a specific time and place"],
     rusTranslations: ["встреча", "назначение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1039,
@@ -10530,7 +10534,7 @@ export const englishList = [
     synonyms: ["value", "cherish"],
     meaning: ["to recognize the full worth of something"],
     rusTranslations: ["ценить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1040,
@@ -10540,7 +10544,7 @@ export const englishList = [
     synonyms: ["acceptance", "endorsement"],
     meaning: ["official permission or sanction"],
     rusTranslations: ["одобрение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1041,
@@ -10550,7 +10554,7 @@ export const englishList = [
     synonyms: ["dispute", "debate"],
     meaning: ["a reason or set of reasons given in support of an idea"],
     rusTranslations: ["спор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1042,
@@ -10560,7 +10564,7 @@ export const englishList = [
     synonyms: ["plan", "organization"],
     meaning: ["an organized plan or structure"],
     rusTranslations: ["устроение", "организация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1043,
@@ -10570,7 +10574,7 @@ export const englishList = [
     synonyms: ["coming", "appearance"],
     meaning: ["the act of arriving"],
     rusTranslations: ["прибытие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1044,
@@ -10580,7 +10584,7 @@ export const englishList = [
     synonyms: ["facet", "side"],
     meaning: ["a particular part or feature of something"],
     rusTranslations: ["аспект", "сторона"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1045,
@@ -10590,7 +10594,7 @@ export const englishList = [
     synonyms: ["gathering", "meeting"],
     meaning: ["a group of people gathered together for a common purpose"],
     rusTranslations: ["собрание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1046,
@@ -10598,10 +10602,11 @@ export const englishList = [
     type: "noun",
     transcription: "/əˈsaɪn.mənt/",
     synonyms: ["task", "duty"],
-    meaning:
-      ["a piece of work allocated to someone as part of a job or course of study"],
+    meaning: [
+      "a piece of work allocated to someone as part of a job or course of study",
+    ],
     rusTranslations: ["задание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1047,
@@ -10611,7 +10616,7 @@ export const englishList = [
     synonyms: ["help", "aid"],
     meaning: ["to give support or help to someone"],
     rusTranslations: ["помогать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1048,
@@ -10621,7 +10626,7 @@ export const englishList = [
     synonyms: ["help", "support"],
     meaning: ["the act of helping or supporting someone"],
     rusTranslations: ["помощь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1049,
@@ -10631,7 +10636,7 @@ export const englishList = [
     synonyms: ["organization", "group"],
     meaning: ["a group of people united for a common purpose"],
     rusTranslations: ["ассоциация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1050,
@@ -10639,9 +10644,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈæt.məs.fɪər/",
     synonyms: ["ambience", "environment"],
-    meaning: ["the envelope of gases surrounding the earth or a particular area"],
+    meaning: [
+      "the envelope of gases surrounding the earth or a particular area",
+    ],
     rusTranslations: ["атмосфера"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1051,
@@ -10651,7 +10658,7 @@ export const englishList = [
     synonyms: ["mindset", "disposition"],
     meaning: ["a settled way of thinking or feeling about something"],
     rusTranslations: ["отношение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1052,
@@ -10661,7 +10668,7 @@ export const englishList = [
     synonyms: ["mean", "typical"],
     meaning: ["typical or normal; of the usual amount"],
     rusTranslations: ["средний"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1053,
@@ -10671,7 +10678,7 @@ export const englishList = [
     synonyms: ["prize", "honor"],
     meaning: ["a mark of recognition for an achievement"],
     rusTranslations: ["награда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1054,
@@ -10681,7 +10688,7 @@ export const englishList = [
     synonyms: ["conscious", "cognizant"],
     meaning: ["having knowledge or perception of a situation"],
     rusTranslations: ["осведомлённый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1055,
@@ -10689,10 +10696,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbæl.əns/",
     synonyms: ["equilibrium", "stability"],
-    meaning:
-      ["an even distribution of weight enabling someone or something to remain upright"],
+    meaning: [
+      "an even distribution of weight enabling someone or something to remain upright",
+    ],
     rusTranslations: ["баланс"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1056,
@@ -10702,7 +10710,7 @@ export const englishList = [
     synonyms: ["ballgame"],
     meaning: ["a game played between two teams using a bat and ball"],
     rusTranslations: ["бейсбол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1057,
@@ -10712,7 +10720,7 @@ export const englishList = [
     synonyms: ["faith", "conviction"],
     meaning: ["an acceptance that something is true or exists"],
     rusTranslations: ["вера", "убеждение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1058,
@@ -10722,7 +10730,7 @@ export const englishList = [
     synonyms: ["bike"],
     meaning: ["a vehicle with two wheels that is powered by pedaling"],
     rusTranslations: ["велосипед"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1059,
@@ -10732,7 +10740,7 @@ export const englishList = [
     synonyms: ["anniversary"],
     meaning: ["the anniversary of the day on which a person was born"],
     rusTranslations: ["день рождения"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1060,
@@ -10742,7 +10750,7 @@ export const englishList = [
     synonyms: ["cover"],
     meaning: ["a large piece of soft material used for warmth"],
     rusTranslations: ["одеяло"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1061,
@@ -10752,7 +10760,7 @@ export const englishList = [
     synonyms: ["cube", "piece"],
     meaning: ["a solid piece of material typically used for building"],
     rusTranslations: ["блок", "куб"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1062,
@@ -10762,7 +10770,7 @@ export const englishList = [
     synonyms: ["plan", "design"],
     meaning: ["a detailed outline or plan of something"],
     rusTranslations: ["чертёж", "план"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1063,
@@ -10772,7 +10780,7 @@ export const englishList = [
     synonyms: ["edge", "boundary"],
     meaning: ["a line separating two areas or territories"],
     rusTranslations: ["граница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1064,
@@ -10782,7 +10790,7 @@ export const englishList = [
     synonyms: ["annoy", "disturb"],
     meaning: ["to cause inconvenience or worry"],
     rusTranslations: ["беспокоить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1065,
@@ -10792,7 +10800,7 @@ export const englishList = [
     synonyms: ["container", "flask"],
     meaning: ["a container with a narrow neck used for storing liquids"],
     rusTranslations: ["бутылка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1066,
@@ -10802,7 +10810,7 @@ export const englishList = [
     synonyms: ["limit", "border"],
     meaning: ["a line that marks the limits of an area"],
     rusTranslations: ["граница", "предел"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1067,
@@ -10812,7 +10820,7 @@ export const englishList = [
     synonyms: ["division", "section"],
     meaning: ["a part of a tree that grows out from the trunk"],
     rusTranslations: ["ветка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1068,
@@ -10822,7 +10830,7 @@ export const englishList = [
     synonyms: ["morning meal"],
     meaning: ["the first meal of the day"],
     rusTranslations: ["завтрак"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1069,
@@ -10830,10 +10838,11 @@ export const englishList = [
     type: "noun",
     transcription: "/brɪdʒ/",
     synonyms: ["span", "viaduct"],
-    meaning:
-      ["a structure built to span a physical obstacle, such as a body of water"],
+    meaning: [
+      "a structure built to span a physical obstacle, such as a body of water",
+    ],
     rusTranslations: ["мост"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1070,
@@ -10843,7 +10852,7 @@ export const englishList = [
     synonyms: ["short", "concise"],
     meaning: ["lasting only a short period of time"],
     rusTranslations: ["краткий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1071,
@@ -10853,7 +10862,7 @@ export const englishList = [
     synonyms: ["projectile"],
     meaning: ["a small metal projectile fired from a gun"],
     rusTranslations: ["пуля"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1072,
@@ -10863,7 +10872,7 @@ export const englishList = [
     synonyms: ["entrepreneur", "executive"],
     meaning: ["a man who works in commerce or business"],
     rusTranslations: ["бизнесмен"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1073,
@@ -10873,7 +10882,7 @@ export const englishList = [
     synonyms: ["occupied", "active"],
     meaning: ["having a lot to do; not free"],
     rusTranslations: ["занятой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1074,
@@ -10883,7 +10892,7 @@ export const englishList = [
     synonyms: ["wire", "cord"],
     meaning: ["a thick rope or wire used for structural support"],
     rusTranslations: ["кабель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1075,
@@ -10893,7 +10902,7 @@ export const englishList = [
     synonyms: ["coffee shop"],
     meaning: ["a small restaurant selling light meals and drinks"],
     rusTranslations: ["кафе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1076,
@@ -10903,7 +10912,7 @@ export const englishList = [
     synonyms: ["compute", "reckon"],
     meaning: ["to determine mathematically, often by numerical methods"],
     rusTranslations: ["вычислять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1077,
@@ -10911,9 +10920,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkæl.ən.dər/",
     synonyms: ["schedule", "planner"],
-    meaning: ["a chart showing the days, weeks, and months of a particular year"],
+    meaning: [
+      "a chart showing the days, weeks, and months of a particular year",
+    ],
     rusTranslations: ["календарь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1078,
@@ -10923,7 +10934,7 @@ export const englishList = [
     synonyms: ["abort", "call off"],
     meaning: ["to decide or announce that a planned event will not take place"],
     rusTranslations: ["отменять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1079,
@@ -10931,10 +10942,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkæp.ɪ.təl.ɪ.zəm/",
     synonyms: ["free enterprise"],
-    meaning:
-      ["an economic system in which private individuals own property and businesses"],
+    meaning: [
+      "an economic system in which private individuals own property and businesses",
+    ],
     rusTranslations: ["капитализм"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1080,
@@ -10944,7 +10956,7 @@ export const englishList = [
     synonyms: ["seize", "take"],
     meaning: ["to take possession of or control by force"],
     rusTranslations: ["захватывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1081,
@@ -10954,7 +10966,7 @@ export const englishList = [
     synonyms: ["commemorate", "observe"],
     meaning: ["to observe or honor an event or occasion with festivities"],
     rusTranslations: ["праздновать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1082,
@@ -10964,7 +10976,7 @@ export const englishList = [
     synonyms: ["star", "famous person"],
     meaning: ["a famous person, especially in entertainment or sports"],
     rusTranslations: ["знаменитость"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1083,
@@ -10974,7 +10986,7 @@ export const englishList = [
     synonyms: ["mobile", "cell"],
     meaning: ["a portable telephone that uses wireless technology"],
     rusTranslations: ["сотовый телефон"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1084,
@@ -10984,7 +10996,7 @@ export const englishList = [
     synonyms: ["link", "series"],
     meaning: ["a series of connected metal links used for fastening"],
     rusTranslations: ["цепь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1085,
@@ -10994,7 +11006,7 @@ export const englishList = [
     synonyms: ["winner", "defender"],
     meaning: ["a person who has defeated all rivals in a competition"],
     rusTranslations: ["чемпион"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1086,
@@ -11004,7 +11016,7 @@ export const englishList = [
     synonyms: ["distinctive", "typical"],
     meaning: ["a feature or quality that is typical of someone or something"],
     rusTranslations: ["характерный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1087,
@@ -11014,7 +11026,7 @@ export const englishList = [
     synonyms: ["allure", "appeal"],
     meaning: ["the power or quality of delighting or attracting"],
     rusTranslations: ["обаяние"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1088,
@@ -11024,7 +11036,7 @@ export const englishList = [
     synonyms: ["inexpensive", "affordable"],
     meaning: ["low in price or cost"],
     rusTranslations: ["дешёвый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1089,
@@ -11034,7 +11046,7 @@ export const englishList = [
     synonyms: ["happy", "joyful"],
     meaning: ["noticeably happy and optimistic"],
     rusTranslations: ["весёлый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1090,
@@ -11044,7 +11056,7 @@ export const englishList = [
     synonyms: ["synthetic", "compound"],
     meaning: ["relating to or produced by chemistry"],
     rusTranslations: ["химический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1091,
@@ -11054,7 +11066,7 @@ export const englishList = [
     synonyms: ["youth", "infancy"],
     meaning: ["the state or period of being a child"],
     rusTranslations: ["детство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1092,
@@ -11064,7 +11076,7 @@ export const englishList = [
     synonyms: ["loop", "route"],
     meaning: ["a roughly circular line, route, or movement"],
     rusTranslations: ["контур", "цепь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1093,
@@ -11074,7 +11086,7 @@ export const englishList = [
     synonyms: ["culture", "society"],
     meaning: ["the stage of human social and cultural development"],
     rusTranslations: ["цивилизация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1094,
@@ -11084,7 +11096,7 @@ export const englishList = [
     synonyms: ["schoolroom"],
     meaning: ["a room where teaching and learning take place"],
     rusTranslations: ["классная комната"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1095,
@@ -11092,10 +11104,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈklaɪ.mət/",
     synonyms: ["weather", "atmosphere"],
-    meaning:
-      ["the general weather conditions prevailing in an area over a long period"],
+    meaning: [
+      "the general weather conditions prevailing in an area over a long period",
+    ],
     rusTranslations: ["климат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1096,
@@ -11105,7 +11118,7 @@ export const englishList = [
     synonyms: ["ascend", "scale"],
     meaning: ["to go up or ascend, especially by using the hands and feet"],
     rusTranslations: ["подниматься"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1097,
@@ -11115,7 +11128,7 @@ export const englishList = [
     synonyms: ["medical center"],
     meaning: ["a place where outpatients are given medical treatment"],
     rusTranslations: ["клиника"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1098,
@@ -11125,7 +11138,7 @@ export const englishList = [
     synonyms: ["timepiece"],
     meaning: ["a device used for measuring and indicating time"],
     rusTranslations: ["часы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1099,
@@ -11135,7 +11148,7 @@ export const englishList = [
     synonyms: ["apparel", "garments"],
     meaning: ["items worn to cover the body"],
     rusTranslations: ["одежда"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1100,
@@ -11143,10 +11156,11 @@ export const englishList = [
     type: "noun",
     transcription: "/klaʊd/",
     synonyms: ["mist", "vapor"],
-    meaning:
-      ["a visible mass of condensed water vapor floating in the atmosphere"],
+    meaning: [
+      "a visible mass of condensed water vapor floating in the atmosphere",
+    ],
     rusTranslations: ["облако"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1101,
@@ -11156,7 +11170,7 @@ export const englishList = [
     synonyms: ["association", "society"],
     meaning: ["an organization or group of people with a common interest"],
     rusTranslations: ["клуб"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1102,
@@ -11164,10 +11178,11 @@ export const englishList = [
     type: "noun",
     transcription: "/koʊl/",
     synonyms: ["carbon"],
-    meaning:
-      ["a black or dark brown combustible mineral substance used as a fuel"],
+    meaning: [
+      "a black or dark brown combustible mineral substance used as a fuel",
+    ],
     rusTranslations: ["уголь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1103,
@@ -11177,7 +11192,7 @@ export const englishList = [
     synonyms: ["shore", "seaboard"],
     meaning: ["the part of the land near the sea"],
     rusTranslations: ["побережье"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1104,
@@ -11187,7 +11202,7 @@ export const englishList = [
     synonyms: ["brew", "java"],
     meaning: ["a drink made from roasted and ground coffee beans"],
     rusTranslations: ["кофе"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1105,
@@ -11197,7 +11212,7 @@ export const englishList = [
     synonyms: ["crumble", "fall apart"],
     meaning: ["to fall down or cave in suddenly"],
     rusTranslations: ["рушиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1106,
@@ -11207,7 +11222,7 @@ export const englishList = [
     synonyms: ["gather", "accumulate"],
     meaning: ["to bring or gather together"],
     rusTranslations: ["собирать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1107,
@@ -11217,7 +11232,7 @@ export const englishList = [
     synonyms: ["co-worker", "associate"],
     meaning: ["a person with whom one works"],
     rusTranslations: ["коллега"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1108,
@@ -11227,7 +11242,7 @@ export const englishList = [
     synonyms: ["vivid", "bright"],
     meaning: ["having much or varied color; bright"],
     rusTranslations: ["яркий", "разноцветный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1109,
@@ -11237,7 +11252,7 @@ export const englishList = [
     synonyms: ["pillar", "post"],
     meaning: ["a vertical pillar supporting a structure"],
     rusTranslations: ["колонна"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1110,
@@ -11247,7 +11262,7 @@ export const englishList = [
     synonyms: ["fight", "battle"],
     meaning: ["a fight or conflict between armed forces"],
     rusTranslations: ["бой", "сражение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1111,
@@ -11257,7 +11272,7 @@ export const englishList = [
     synonyms: ["merge", "unite"],
     meaning: ["to join or merge to form a single entity"],
     rusTranslations: ["объединять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1112,
@@ -11267,7 +11282,7 @@ export const englishList = [
     synonyms: ["cozy", "snug"],
     meaning: ["providing physical ease and relaxation"],
     rusTranslations: ["удобный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1113,
@@ -11277,7 +11292,7 @@ export const englishList = [
     synonyms: ["order", "instruct"],
     meaning: ["to give an authoritative order"],
     rusTranslations: ["приказывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1114,
@@ -11287,7 +11302,7 @@ export const englishList = [
     synonyms: ["remark", "observation"],
     meaning: ["a verbal or written remark expressing an opinion"],
     rusTranslations: ["комментарий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1115,
@@ -11297,7 +11312,7 @@ export const englishList = [
     synonyms: ["panel", "board"],
     meaning: ["a group of people appointed for a specific function"],
     rusTranslations: ["комитет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1116,
@@ -11307,7 +11322,7 @@ export const englishList = [
     synonyms: ["interaction", "conversation"],
     meaning: ["the act of conveying information or meaning"],
     rusTranslations: ["общение", "связь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1117,
@@ -11317,7 +11332,7 @@ export const englishList = [
     synonyms: ["vie", "contend"],
     meaning: ["to strive to gain or win something by defeating others"],
     rusTranslations: ["соревноваться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1118,
@@ -11327,7 +11342,7 @@ export const englishList = [
     synonyms: ["grumble", "whine"],
     meaning: ["to express dissatisfaction or annoyance"],
     rusTranslations: ["жаловаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1119,
@@ -11337,7 +11352,7 @@ export const englishList = [
     synonyms: ["finished", "entire"],
     meaning: ["having all necessary parts; whole"],
     rusTranslations: ["полный", "завершённый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1120,
@@ -11347,7 +11362,7 @@ export const englishList = [
     synonyms: ["complicated", "intricate"],
     meaning: ["consisting of many different and connected parts"],
     rusTranslations: ["сложный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1121,
@@ -11357,7 +11372,7 @@ export const englishList = [
     synonyms: ["confuse", "entangle"],
     meaning: ["to make something more difficult or confusing"],
     rusTranslations: ["усложнять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1122,
@@ -11367,7 +11382,7 @@ export const englishList = [
     synonyms: ["create", "write"],
     meaning: ["to write or create (a work of art, especially music or poetry)"],
     rusTranslations: ["составлять", "писать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1123,
@@ -11377,7 +11392,7 @@ export const englishList = [
     synonyms: ["work", "piece"],
     meaning: ["the way in which a whole or mixture is made up"],
     rusTranslations: ["состав", "композиция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1124,
@@ -11387,7 +11402,7 @@ export const englishList = [
     synonyms: ["complete", "thorough"],
     meaning: ["including all or nearly all elements or aspects of something"],
     rusTranslations: ["всеобъемлющий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1125,
@@ -11397,7 +11412,7 @@ export const englishList = [
     synonyms: ["focus", "direct"],
     meaning: ["to give all your attention to something"],
     rusTranslations: ["сосредотачиваться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1126,
@@ -11407,7 +11422,7 @@ export const englishList = [
     synonyms: ["idea", "notion"],
     meaning: ["an abstract idea or general notion"],
     rusTranslations: ["понятие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1127,
@@ -11417,7 +11432,7 @@ export const englishList = [
     synonyms: ["worried", "anxious"],
     meaning: ["feeling or showing worry"],
     rusTranslations: ["озабоченный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1128,
@@ -11427,7 +11442,7 @@ export const englishList = [
     synonyms: ["performance", "show"],
     meaning: ["a public musical performance"],
     rusTranslations: ["концерт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1129,
@@ -11437,7 +11452,7 @@ export const englishList = [
     synonyms: ["finish", "decide"],
     meaning: ["to bring something to an end"],
     rusTranslations: ["заключать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1130,
@@ -11447,7 +11462,7 @@ export const englishList = [
     synonyms: ["specific", "definite"],
     meaning: ["existing in a material or physical form"],
     rusTranslations: ["конкретный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1131,
@@ -11457,7 +11472,7 @@ export const englishList = [
     synonyms: ["carry out", "manage"],
     meaning: ["to organize and carry out"],
     rusTranslations: ["проводить", "руководить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1132,
@@ -11467,7 +11482,7 @@ export const englishList = [
     synonyms: ["assurance", "self-reliance"],
     meaning: ["a feeling of trust in one's abilities"],
     rusTranslations: ["уверенность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1133,
@@ -11477,7 +11492,7 @@ export const englishList = [
     synonyms: ["self-assured", "certain"],
     meaning: ["feeling or showing certainty"],
     rusTranslations: ["уверенный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1134,
@@ -11487,7 +11502,7 @@ export const englishList = [
     synonyms: ["verify", "validate"],
     meaning: ["to establish the truth or correctness of something"],
     rusTranslations: ["подтверждать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1135,
@@ -11497,7 +11512,7 @@ export const englishList = [
     synonyms: ["dispute", "clash"],
     meaning: ["a serious disagreement or argument"],
     rusTranslations: ["конфликт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1136,
@@ -11507,7 +11522,7 @@ export const englishList = [
     synonyms: ["face", "oppose"],
     meaning: ["to face up to and deal with a problem"],
     rusTranslations: ["сталкиваться", "противостоять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1137,
@@ -11517,7 +11532,7 @@ export const englishList = [
     synonyms: ["perplex", "bewilder"],
     meaning: ["to make someone unable to think clearly"],
     rusTranslations: ["смущать", "запутывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1138,
@@ -11527,7 +11542,7 @@ export const englishList = [
     synonyms: ["link", "join"],
     meaning: ["to join together so as to provide access or communication"],
     rusTranslations: ["соединять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1139,
@@ -11535,10 +11550,11 @@ export const englishList = [
     type: "noun",
     transcription: "/kəˈnɛk.ʃən/",
     synonyms: ["link", "relation"],
-    meaning:
-      ["a relationship in which a person or thing is associated with something else"],
+    meaning: [
+      "a relationship in which a person or thing is associated with something else",
+    ],
     rusTranslations: ["связь", "соединение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1140,
@@ -11548,7 +11564,7 @@ export const englishList = [
     synonyms: ["aware", "mindful"],
     meaning: ["aware of and responsive to one's surroundings"],
     rusTranslations: ["сознательный", "осознанный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1141,
@@ -11558,7 +11574,7 @@ export const englishList = [
     synonyms: ["result", "effect"],
     meaning: ["a result or effect of an action or condition"],
     rusTranslations: ["последствие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1142,
@@ -11568,7 +11584,7 @@ export const englishList = [
     synonyms: ["thought", "regard"],
     meaning: ["careful thought, typically over a period of time"],
     rusTranslations: ["рассмотрение", "учёт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1143,
@@ -11578,7 +11594,7 @@ export const englishList = [
     synonyms: ["comprise", "be made up of"],
     meaning: ["to be composed or made up of"],
     rusTranslations: ["состоять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1144,
@@ -11588,7 +11604,7 @@ export const englishList = [
     synonyms: ["continuous", "unremitting"],
     meaning: ["occurring continuously over a period of time"],
     rusTranslations: ["постоянный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1145,
@@ -11598,7 +11614,7 @@ export const englishList = [
     synonyms: ["build", "erect"],
     meaning: ["to build or form by putting together parts"],
     rusTranslations: ["строить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1146,
@@ -11608,7 +11624,7 @@ export const englishList = [
     synonyms: ["building", "erection"],
     meaning: ["the process of building something"],
     rusTranslations: ["строительство"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1147,
@@ -11618,7 +11634,7 @@ export const englishList = [
     synonyms: ["seek advice", "confer"],
     meaning: ["to seek information or advice from someone"],
     rusTranslations: ["консультироваться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1148,
@@ -11628,7 +11644,7 @@ export const englishList = [
     synonyms: ["connection", "communication"],
     meaning: ["the state of physical touching or communication"],
     rusTranslations: ["контакт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1149,
@@ -11638,7 +11654,7 @@ export const englishList = [
     synonyms: ["control", "restraint"],
     meaning: ["the action of keeping something harmful under control"],
     rusTranslations: ["сдерживание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1150,
@@ -11646,9 +11662,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒn.trækt/",
     synonyms: ["agreement", "pact"],
-    meaning: ["a written or spoken agreement, especially concerning employment"],
+    meaning: [
+      "a written or spoken agreement, especially concerning employment",
+    ],
     rusTranslations: ["контракт", "договор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1151,
@@ -11658,7 +11676,7 @@ export const englishList = [
     synonyms: ["difference", "dissimilarity"],
     meaning: ["the state of being strikingly different from something else"],
     rusTranslations: ["контраст"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1152,
@@ -11668,7 +11686,7 @@ export const englishList = [
     synonyms: ["donate", "give"],
     meaning: ["to help to cause or bring about"],
     rusTranslations: ["вносить вклад", "способствовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1153,
@@ -11678,7 +11696,7 @@ export const englishList = [
     synonyms: ["change", "transform"],
     meaning: ["to change something into a different form or properties"],
     rusTranslations: ["преобразовывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1154,
@@ -11688,7 +11706,7 @@ export const englishList = [
     synonyms: ["persuade", "assure"],
     meaning: ["to cause someone to believe firmly in the truth of something"],
     rusTranslations: ["убеждать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1155,
@@ -11698,7 +11716,7 @@ export const englishList = [
     synonyms: ["prepare", "make"],
     meaning: ["to prepare food by heating ingredients"],
     rusTranslations: ["готовить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1156,
@@ -11708,7 +11726,7 @@ export const englishList = [
     synonyms: ["culinary art", "preparing food"],
     meaning: ["the practice or skill of preparing food"],
     rusTranslations: ["приготовление пищи"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1157,
@@ -11718,7 +11736,7 @@ export const englishList = [
     synonyms: ["chilly", "awesome"],
     meaning: ["of a fairly low temperature; fashionable or impressive"],
     rusTranslations: ["прохладный", "классный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1158,
@@ -11728,7 +11746,7 @@ export const englishList = [
     synonyms: ["duplicate", "replicate"],
     meaning: ["to make an identical version of something"],
     rusTranslations: ["копировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1159,
@@ -11738,7 +11756,7 @@ export const englishList = [
     synonyms: ["angle", "edge"],
     meaning: ["the place where two lines or surfaces meet"],
     rusTranslations: ["угол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1160,
@@ -11746,10 +11764,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌkɔːr.pəˈreɪ.ʃən/",
     synonyms: ["company", "enterprise"],
-    meaning:
-      ["a large business or group of businesses authorized to act as a single entity"],
+    meaning: [
+      "a large business or group of businesses authorized to act as a single entity",
+    ],
     rusTranslations: ["корпорация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1161,
@@ -11759,7 +11778,7 @@ export const englishList = [
     synonyms: ["right", "accurate"],
     meaning: ["free from error; in accordance with fact"],
     rusTranslations: ["правильный", "точный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1162,
@@ -11767,10 +11786,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɒs.tjuːm/",
     synonyms: ["attire", "garb"],
-    meaning:
-      ["a set of clothes in a style typical of a particular period or culture"],
+    meaning: [
+      "a set of clothes in a style typical of a particular period or culture",
+    ],
     rusTranslations: ["костюм"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1163,
@@ -11780,7 +11800,7 @@ export const englishList = [
     synonyms: ["cabin", "hut"],
     meaning: ["a small house, typically in the countryside"],
     rusTranslations: ["коттедж", "хижина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1164,
@@ -11790,7 +11810,7 @@ export const englishList = [
     synonyms: ["hack"],
     meaning: ["to expel air from the lungs suddenly with a harsh sound"],
     rusTranslations: ["кашлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1165,
@@ -11800,7 +11820,7 @@ export const englishList = [
     synonyms: ["assembly", "board"],
     meaning: ["an advisory or deliberative body of people"],
     rusTranslations: ["совет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1166,
@@ -11810,7 +11830,7 @@ export const englishList = [
     synonyms: ["advice", "guidance"],
     meaning: ["advice given formally"],
     rusTranslations: ["совет", "консультация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1167,
@@ -11820,7 +11840,7 @@ export const englishList = [
     synonyms: ["bar", "desk"],
     meaning: ["a flat surface on which business is conducted"],
     rusTranslations: ["прилавок", "стол"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1168,
@@ -11830,7 +11850,7 @@ export const englishList = [
     synonyms: ["bravery", "valor"],
     meaning: ["the ability to do something that frightens one"],
     rusTranslations: ["храбрость", "смелость"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1169,
@@ -11838,10 +11858,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈkɔːrt.ʃɪp/",
     synonyms: ["wooing", "romance"],
-    meaning:
-      ["the period during which a couple develops a romantic relationship"],
+    meaning: [
+      "the period during which a couple develops a romantic relationship",
+    ],
     rusTranslations: ["сватовство", "ухаживание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1170,
@@ -11851,7 +11872,7 @@ export const englishList = [
     synonyms: ["layer", "coating"],
     meaning: ["something that covers, conceals, or protects"],
     rusTranslations: ["покрытие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1171,
@@ -11861,7 +11882,7 @@ export const englishList = [
     synonyms: ["collision", "wreck"],
     meaning: ["a violent collision or fall"],
     rusTranslations: ["авария", "столкновение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1172,
@@ -11871,7 +11892,7 @@ export const englishList = [
     synonyms: ["inventive", "imaginative"],
     meaning: ["having the ability to create or invent something new"],
     rusTranslations: ["творческий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1173,
@@ -11881,7 +11902,7 @@ export const englishList = [
     synonyms: ["being", "organism"],
     meaning: ["an animal, as distinct from a human being"],
     rusTranslations: ["существо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1174,
@@ -11891,7 +11912,7 @@ export const englishList = [
     synonyms: ["recognition", "acclaim"],
     meaning: ["acknowledgment of a person's responsibility for something"],
     rusTranslations: ["кредит", "заслуга"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1175,
@@ -11901,7 +11922,7 @@ export const englishList = [
     synonyms: ["offense", "felony"],
     meaning: ["an illegal act punishable by law"],
     rusTranslations: ["преступление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1176,
@@ -11909,9 +11930,11 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˈkʌl.tʃər.əl/",
     synonyms: ["artistic", "civilized"],
-    meaning: ["relating to the ideas, customs, and social behavior of a society"],
+    meaning: [
+      "relating to the ideas, customs, and social behavior of a society",
+    ],
     rusTranslations: ["культурный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1177,
@@ -11921,7 +11944,7 @@ export const englishList = [
     synonyms: ["civilization", "society"],
     meaning: ["the social behavior and norms found in human societies"],
     rusTranslations: ["культура"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1178,
@@ -11931,7 +11954,7 @@ export const englishList = [
     synonyms: ["mug", "goblet"],
     meaning: ["a small bowl-shaped container used for drinking"],
     rusTranslations: ["чашка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1179,
@@ -11941,7 +11964,7 @@ export const englishList = [
     synonyms: ["present", "existing"],
     meaning: ["happening or existing now"],
     rusTranslations: ["текущий", "современный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1180,
@@ -11951,7 +11974,7 @@ export const englishList = [
     synonyms: ["client", "buyer"],
     meaning: ["a person who purchases goods or services"],
     rusTranslations: ["клиент", "покупатель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1181,
@@ -11961,7 +11984,7 @@ export const englishList = [
     synonyms: ["gloom", "dimness"],
     meaning: ["the absence of light; a state of being dark"],
     rusTranslations: ["темнота", "тьма"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1182,
@@ -11971,7 +11994,7 @@ export const englishList = [
     synonyms: ["information", "facts"],
     meaning: ["facts and statistics collected together for analysis"],
     rusTranslations: ["данные"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1183,
@@ -11981,7 +12004,7 @@ export const englishList = [
     synonyms: ["child"],
     meaning: ["a girl or woman in relation to her parents"],
     rusTranslations: ["дочь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1184,
@@ -11991,7 +12014,7 @@ export const englishList = [
     synonyms: ["deceased", "lifeless"],
     meaning: ["no longer alive"],
     rusTranslations: ["мертвый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1185,
@@ -12001,7 +12024,7 @@ export const englishList = [
     synonyms: ["handle", "manage"],
     meaning: ["to take measures concerning; to handle or manage"],
     rusTranslations: ["иметь дело"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1186,
@@ -12011,7 +12034,7 @@ export const englishList = [
     synonyms: ["demise", "end"],
     meaning: ["the permanent end of life"],
     rusTranslations: ["смерть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1187,
@@ -12021,7 +12044,7 @@ export const englishList = [
     synonyms: ["discussion", "argument"],
     meaning: ["a formal discussion on a particular topic"],
     rusTranslations: ["дебаты"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1188,
@@ -12031,7 +12054,7 @@ export const englishList = [
     synonyms: ["ten years"],
     meaning: ["a period of ten years"],
     rusTranslations: ["десятилетие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1189,
@@ -12041,7 +12064,7 @@ export const englishList = [
     synonyms: ["determine", "choose"],
     meaning: ["to come to a resolution or conclusion"],
     rusTranslations: ["решать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1190,
@@ -12051,7 +12074,7 @@ export const englishList = [
     synonyms: ["choice", "conclusion"],
     meaning: ["a conclusion reached after consideration"],
     rusTranslations: ["решение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1191,
@@ -12061,7 +12084,7 @@ export const englishList = [
     synonyms: ["profound", "intense"],
     meaning: ["extending far down from the top or surface"],
     rusTranslations: ["глубокий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1192,
@@ -12071,7 +12094,7 @@ export const englishList = [
     synonyms: ["protection", "guard"],
     meaning: ["the act of defending from or resisting attack"],
     rusTranslations: ["защита"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1193,
@@ -12081,7 +12104,7 @@ export const englishList = [
     synonyms: ["level", "extent"],
     meaning: ["a unit of measurement, such as for angles or temperature"],
     rusTranslations: ["степень"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1194,
@@ -12091,7 +12114,7 @@ export const englishList = [
     synonyms: ["republican", "representative"],
     meaning: ["relating to or supporting democracy"],
     rusTranslations: ["демократический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1195,
@@ -12101,7 +12124,7 @@ export const englishList = [
     synonyms: ["detail", "explain"],
     meaning: ["to give a detailed account or picture of something"],
     rusTranslations: ["описывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1196,
@@ -12109,10 +12132,11 @@ export const englishList = [
     type: "noun",
     transcription: "/dɪˈzaɪn/",
     synonyms: ["plan", "blueprint"],
-    meaning:
-      ["a plan or drawing produced to show the look and function of something"],
+    meaning: [
+      "a plan or drawing produced to show the look and function of something",
+    ],
     rusTranslations: ["дизайн", "проект"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1197,
@@ -12122,7 +12146,7 @@ export const englishList = [
     synonyms: ["in spite of", "regardless of"],
     meaning: ["without being affected by something"],
     rusTranslations: ["несмотря на"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1198,
@@ -12132,7 +12156,7 @@ export const englishList = [
     synonyms: ["particular", "element"],
     meaning: ["an individual feature or item"],
     rusTranslations: ["деталь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1199,
@@ -12142,7 +12166,7 @@ export const englishList = [
     synonyms: ["ascertain", "decide"],
     meaning: ["to establish exactly, typically by research or calculation"],
     rusTranslations: ["определять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1200,
@@ -12152,7 +12176,7 @@ export const englishList = [
     synonyms: ["evolve", "grow"],
     meaning: ["to grow or cause to grow and become more mature"],
     rusTranslations: ["развивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1201,
@@ -12162,7 +12186,7 @@ export const englishList = [
     synonyms: ["growth", "evolution"],
     meaning: ["the process of developing or being developed"],
     rusTranslations: ["развитие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1202,
@@ -12172,7 +12196,7 @@ export const englishList = [
     synonyms: ["pass away", "expire"],
     meaning: ["to cease living"],
     rusTranslations: ["умирать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1203,
@@ -12182,7 +12206,7 @@ export const englishList = [
     synonyms: ["distinction", "variation"],
     meaning: ["a point or way in which people or things are not the same"],
     rusTranslations: ["разница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1204,
@@ -12192,7 +12216,7 @@ export const englishList = [
     synonyms: ["distinct", "diverse"],
     meaning: ["not the same as another or each other"],
     rusTranslations: ["разный", "отличный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1205,
@@ -12202,7 +12226,7 @@ export const englishList = [
     synonyms: ["hard", "challenging"],
     meaning: ["needing much effort or skill to accomplish"],
     rusTranslations: ["трудный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1206,
@@ -12212,7 +12236,7 @@ export const englishList = [
     synonyms: ["supper", "meal"],
     meaning: ["the main meal of the day, eaten in the evening"],
     rusTranslations: ["ужин", "обед"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1207,
@@ -12222,7 +12246,7 @@ export const englishList = [
     synonyms: ["guidance", "instruction"],
     meaning: ["the course along which someone or something moves"],
     rusTranslations: ["направление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1208,
@@ -12232,7 +12256,7 @@ export const englishList = [
     synonyms: ["manager", "administrator"],
     meaning: ["a person who is in charge of an activity or organization"],
     rusTranslations: ["директор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1209,
@@ -12242,7 +12266,7 @@ export const englishList = [
     synonyms: ["find", "uncover"],
     meaning: ["to find something unexpectedly or in the course of search"],
     rusTranslations: ["обнаруживать", "открывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1210,
@@ -12252,7 +12276,7 @@ export const englishList = [
     synonyms: ["talk over", "debate"],
     meaning: ["to talk about something with others in detail"],
     rusTranslations: ["обсуждать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1211,
@@ -12262,7 +12286,7 @@ export const englishList = [
     synonyms: ["conversation", "dialogue"],
     meaning: ["a process of talking about something to exchange ideas"],
     rusTranslations: ["обсуждение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1212,
@@ -12272,7 +12296,7 @@ export const englishList = [
     synonyms: ["illness", "sickness"],
     meaning: ["a disorder of structure or function in a living organism"],
     rusTranslations: ["болезнь"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1213,
@@ -12282,7 +12306,7 @@ export const englishList = [
     synonyms: ["perform", "execute"],
     meaning: ["to perform an action or task"],
     rusTranslations: ["делать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1214,
@@ -12292,7 +12316,7 @@ export const englishList = [
     synonyms: ["surpass", "outdo"],
     meaning: ["to be exceptionally good at something"],
     rusTranslations: ["выделяться", "превосходить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1215,
@@ -12302,7 +12326,7 @@ export const englishList = [
     synonyms: ["outstanding", "superb"],
     meaning: ["extremely good; of the highest quality"],
     rusTranslations: ["отличный", "превосходный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1216,
@@ -12312,7 +12336,7 @@ export const englishList = [
     synonyms: ["apart from", "other than"],
     meaning: ["not including; other than"],
     rusTranslations: ["кроме", "за исключением"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1217,
@@ -12322,7 +12346,7 @@ export const englishList = [
     synonyms: ["exclusion", "anomaly"],
     meaning: ["something that does not follow a rule"],
     rusTranslations: ["исключение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1218,
@@ -12332,7 +12356,7 @@ export const englishList = [
     synonyms: ["surplus", "overflow"],
     meaning: ["an amount that is more than necessary"],
     rusTranslations: ["избыток"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1219,
@@ -12340,10 +12364,11 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪkˈʃeɪndʒ/",
     synonyms: ["swap", "trade"],
-    meaning:
-      ["to give something and receive something of a similar kind in return"],
+    meaning: [
+      "to give something and receive something of a similar kind in return",
+    ],
     rusTranslations: ["обменивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1220,
@@ -12353,7 +12378,7 @@ export const englishList = [
     synonyms: ["stimulate", "inspire"],
     meaning: ["to cause strong feelings of enthusiasm"],
     rusTranslations: ["возбуждать", "волновать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1221,
@@ -12363,7 +12388,7 @@ export const englishList = [
     synonyms: ["thrilling", "stirring"],
     meaning: ["causing great enthusiasm and eagerness"],
     rusTranslations: ["волнующий", "захватывающий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1222,
@@ -12373,7 +12398,7 @@ export const englishList = [
     synonyms: ["omit", "leave out"],
     meaning: ["to deliberately leave something out"],
     rusTranslations: ["исключать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1223,
@@ -12383,7 +12408,7 @@ export const englishList = [
     synonyms: ["sole", "restricted"],
     meaning: ["limited to only a particular group or person"],
     rusTranslations: ["эксклюзивный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1224,
@@ -12391,9 +12416,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪkˈskjuːz/",
     synonyms: ["justification", "apology"],
-    meaning: ["a reason or explanation put forward to defend or justify a fault"],
+    meaning: [
+      "a reason or explanation put forward to defend or justify a fault",
+    ],
     rusTranslations: ["отговорка", "оправдание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1225,
@@ -12403,7 +12430,7 @@ export const englishList = [
     synonyms: ["perform", "carry out"],
     meaning: ["to put a plan or order into effect"],
     rusTranslations: ["выполнять", "осуществлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1226,
@@ -12413,7 +12440,7 @@ export const englishList = [
     synonyms: ["model", "ideal"],
     meaning: ["serving as a desirable model; commendable"],
     rusTranslations: ["образцовый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1227,
@@ -12423,7 +12450,7 @@ export const englishList = [
     synonyms: ["display", "showcase"],
     meaning: ["to show or present something publicly"],
     rusTranslations: ["выставлять", "демонстрировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1228,
@@ -12433,7 +12460,7 @@ export const englishList = [
     synonyms: ["being", "presence"],
     meaning: ["the state or fact of living or having objective reality"],
     rusTranslations: ["существование"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1229,
@@ -12443,7 +12470,7 @@ export const englishList = [
     synonyms: ["departure", "egress"],
     meaning: ["a way out of a place"],
     rusTranslations: ["выход"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1230,
@@ -12453,7 +12480,7 @@ export const englishList = [
     synonyms: ["enlarge", "extend"],
     meaning: ["to increase in size, number, or importance"],
     rusTranslations: ["расширять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1231,
@@ -12463,7 +12490,7 @@ export const englishList = [
     synonyms: ["growth", "extension"],
     meaning: ["the process of increasing in size or volume"],
     rusTranslations: ["расширение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1232,
@@ -12473,7 +12500,7 @@ export const englishList = [
     synonyms: ["anticipation", "outlook"],
     meaning: ["a strong belief that something will happen"],
     rusTranslations: ["ожидание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1233,
@@ -12483,7 +12510,7 @@ export const englishList = [
     synonyms: ["cost", "expenditure"],
     meaning: ["the cost incurred in or required for something"],
     rusTranslations: ["расходы", "затраты"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1234,
@@ -12493,7 +12520,7 @@ export const englishList = [
     synonyms: ["costly", "high-priced"],
     meaning: ["costing a lot of money"],
     rusTranslations: ["дорогой"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1235,
@@ -12503,7 +12530,7 @@ export const englishList = [
     synonyms: ["skill", "knowledge"],
     meaning: ["specialized skill or knowledge in a particular field"],
     rusTranslations: ["экспертиза", "знание"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1236,
@@ -12513,7 +12540,7 @@ export const englishList = [
     synonyms: ["clarification", "description"],
     meaning: ["a statement that makes something clear"],
     rusTranslations: ["объяснение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1237,
@@ -12523,7 +12550,7 @@ export const englishList = [
     synonyms: ["investigate", "examine"],
     meaning: ["to travel through or investigate something"],
     rusTranslations: ["исследовать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1238,
@@ -12533,7 +12560,7 @@ export const englishList = [
     synonyms: ["blast", "detonation"],
     meaning: ["a violent expansion or bursting with noise"],
     rusTranslations: ["взрыв"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1239,
@@ -12543,7 +12570,7 @@ export const englishList = [
     synonyms: ["convey", "communicate"],
     meaning: ["to convey (a thought or feeling) in words or by gestures"],
     rusTranslations: ["выражать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1240,
@@ -12553,7 +12580,7 @@ export const englishList = [
     synonyms: ["utterance", "phrase"],
     meaning: ["the process of making known one’s thoughts or feelings"],
     rusTranslations: ["выражение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1241,
@@ -12563,7 +12590,7 @@ export const englishList = [
     synonyms: ["lengthen", "stretch"],
     meaning: ["to make something longer or larger"],
     rusTranslations: ["расширять", "протягивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1242,
@@ -12573,7 +12600,7 @@ export const englishList = [
     synonyms: ["expansion", "continuation"],
     meaning: ["a part that is added to something to enlarge or prolong it"],
     rusTranslations: ["расширение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1243,
@@ -12583,7 +12610,7 @@ export const englishList = [
     synonyms: ["additional", "supplementary"],
     meaning: ["provided in addition; more than is usual"],
     rusTranslations: ["дополнительный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1244,
@@ -12593,7 +12620,7 @@ export const englishList = [
     synonyms: ["remove", "pull out"],
     meaning: ["to remove or take out, especially by effort or force"],
     rusTranslations: ["извлекать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1245,
@@ -12603,7 +12630,7 @@ export const englishList = [
     synonyms: ["radical", "intense"],
     meaning: ["reaching a high or the highest degree; very great"],
     rusTranslations: ["крайний", "экстремальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1246,
@@ -12613,7 +12640,7 @@ export const englishList = [
     synonyms: ["incredibly", "exceptionally"],
     meaning: ["to a very great degree; very"],
     rusTranslations: ["чрезвычайно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1247,
@@ -12623,7 +12650,7 @@ export const englishList = [
     synonyms: ["renown", "celebrity"],
     meaning: ["the state of being widely known and recognized"],
     rusTranslations: ["слава"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1248,
@@ -12633,7 +12660,7 @@ export const englishList = [
     synonyms: ["renowned", "well-known"],
     meaning: ["known about by many people"],
     rusTranslations: ["знаменитый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1249,
@@ -12641,10 +12668,11 @@ export const englishList = [
     type: "noun",
     transcription: "/fæn/",
     synonyms: ["admirer", "supporter"],
-    meaning:
-      ["a person who is very enthusiastic about a particular sport, art, or celebrity"],
+    meaning: [
+      "a person who is very enthusiastic about a particular sport, art, or celebrity",
+    ],
     rusTranslations: ["фанат"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1250,
@@ -12654,7 +12682,7 @@ export const englishList = [
     synonyms: ["ornate", "elaborate"],
     meaning: ["decorative or designed in a particularly intricate way"],
     rusTranslations: ["изысканный", "шикарный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1251,
@@ -12662,10 +12690,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfæʃ.ən/",
     synonyms: ["style", "trend"],
-    meaning:
-      ["a popular trend, especially in styles of dress and ornament or manners of behavior"],
+    meaning: [
+      "a popular trend, especially in styles of dress and ornament or manners of behavior",
+    ],
     rusTranslations: ["мода"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1252,
@@ -12675,7 +12704,7 @@ export const englishList = [
     synonyms: ["secure", "attach"],
     meaning: ["to fix or attach something securely"],
     rusTranslations: ["закреплять", "привязывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1253,
@@ -12685,7 +12714,7 @@ export const englishList = [
     synonyms: ["obese", "chubby"],
     meaning: ["having a large amount of excess flesh; overweight"],
     rusTranslations: ["толстый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1254,
@@ -12695,7 +12724,7 @@ export const englishList = [
     synonyms: ["defect", "flaw"],
     meaning: ["a mistake or imperfection"],
     rusTranslations: ["вина", "недостаток"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1255,
@@ -12705,7 +12734,7 @@ export const englishList = [
     synonyms: ["preferred", "beloved"],
     meaning: ["preferred before all others of the same kind"],
     rusTranslations: ["любимый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1256,
@@ -12715,7 +12744,7 @@ export const englishList = [
     synonyms: ["characteristic", "trait"],
     meaning: ["a distinctive attribute or aspect of something"],
     rusTranslations: ["особенность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1257,
@@ -12725,7 +12754,7 @@ export const englishList = [
     synonyms: ["charge", "price"],
     meaning: ["a payment made for a service"],
     rusTranslations: ["плата", "гонорар"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1258,
@@ -12735,7 +12764,7 @@ export const englishList = [
     synonyms: ["nourish", "sustain"],
     meaning: ["to give food to someone or something"],
     rusTranslations: ["кормить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1259,
@@ -12743,10 +12772,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfaɪ.bər/",
     synonyms: ["filament", "thread"],
-    meaning:
-      ["a thread or filament from which a vegetable tissue, mineral substance, or textile is formed"],
+    meaning: [
+      "a thread or filament from which a vegetable tissue, mineral substance, or textile is formed",
+    ],
     rusTranslations: ["волокно"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1260,
@@ -12754,9 +12784,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɪk.ʃən/",
     synonyms: ["novel", "story"],
-    meaning: ["literature in the form of prose that describes imaginary events"],
+    meaning: [
+      "literature in the form of prose that describes imaginary events",
+    ],
     rusTranslations: ["художественная литература"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1261,
@@ -12766,7 +12798,7 @@ export const englishList = [
     synonyms: ["intense", "ferocious"],
     meaning: ["showing a violent or intense aggressiveness"],
     rusTranslations: ["яростный", "свирепый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1262,
@@ -12776,7 +12808,7 @@ export const englishList = [
     synonyms: ["document", "record"],
     meaning: ["a collection of documents or data stored together"],
     rusTranslations: ["файл", "папка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1263,
@@ -12786,7 +12818,7 @@ export const englishList = [
     synonyms: ["sift", "strain"],
     meaning: ["to remove impurities or unwanted material from a substance"],
     rusTranslations: ["фильтровать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1264,
@@ -12794,10 +12826,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfaɪ.næns/",
     synonyms: ["funding", "investment"],
-    meaning:
-      ["the management of large amounts of money, especially by governments or large companies"],
+    meaning: [
+      "the management of large amounts of money, especially by governments or large companies",
+    ],
     rusTranslations: ["финансы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1265,
@@ -12807,7 +12840,7 @@ export const englishList = [
     synonyms: ["impression"],
     meaning: ["an impression or mark made on a surface by a finger"],
     rusTranslations: ["отпечаток пальца"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1266,
@@ -12815,10 +12848,11 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈfɪl.tər/",
     synonyms: ["strain", "sieve"],
-    meaning:
-      ["to remove impurities by passing a liquid or gas through a porous material"],
+    meaning: [
+      "to remove impurities by passing a liquid or gas through a porous material",
+    ],
     rusTranslations: ["фильтровать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1267,
@@ -12828,7 +12862,7 @@ export const englishList = [
     synonyms: ["financial", "budgetary"],
     meaning: ["relating to government revenue, especially taxes"],
     rusTranslations: ["финансовый", "бюджетный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1268,
@@ -12838,7 +12872,7 @@ export const englishList = [
     synonyms: ["repair", "mend"],
     meaning: ["to mend or repair something that is broken"],
     rusTranslations: ["чинить", "ремонтировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1269,
@@ -12848,7 +12882,7 @@ export const englishList = [
     synonyms: ["banner", "ensign"],
     meaning: ["a piece of fabric with a distinctive design used as a symbol"],
     rusTranslations: ["флаг"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1270,
@@ -12856,10 +12890,11 @@ export const englishList = [
     type: "noun",
     transcription: "/fleɪm/",
     synonyms: ["fire", "blaze"],
-    meaning:
-      ["a hot, glowing body of ignited gas that is generated by something on fire"],
+    meaning: [
+      "a hot, glowing body of ignited gas that is generated by something on fire",
+    ],
     rusTranslations: ["пламя"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1271,
@@ -12869,7 +12904,7 @@ export const englishList = [
     synonyms: ["glitter", "sparkle"],
     meaning: ["to shine brightly or suddenly"],
     rusTranslations: ["блестеть", "вспыхивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1272,
@@ -12879,7 +12914,7 @@ export const englishList = [
     synonyms: ["even", "level"],
     meaning: ["smooth and even; without raised areas or indentations"],
     rusTranslations: ["ровный", "плоский"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1273,
@@ -12889,7 +12924,7 @@ export const englishList = [
     synonyms: ["supple", "pliant"],
     meaning: ["capable of bending easily without breaking"],
     rusTranslations: ["гибкий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1274,
@@ -12899,7 +12934,7 @@ export const englishList = [
     synonyms: ["journey", "trip"],
     meaning: ["the act of flying, especially in an aircraft"],
     rusTranslations: ["полет"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1275,
@@ -12909,7 +12944,7 @@ export const englishList = [
     synonyms: ["drift", "sail"],
     meaning: ["to rest or move on or near the surface of a liquid"],
     rusTranslations: ["плавать", "носиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1276,
@@ -12919,7 +12954,7 @@ export const englishList = [
     synonyms: ["group", "herd"],
     meaning: ["a large number of birds or animals that travel together"],
     rusTranslations: ["стадо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1277,
@@ -12927,10 +12962,11 @@ export const englishList = [
     type: "noun",
     transcription: "/flʌd/",
     synonyms: ["deluge", "inundation"],
-    meaning:
-      ["an overflowing of a large amount of water beyond its normal confines"],
+    meaning: [
+      "an overflowing of a large amount of water beyond its normal confines",
+    ],
     rusTranslations: ["наводнение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1278,
@@ -12940,7 +12976,7 @@ export const englishList = [
     synonyms: ["stream", "pour"],
     meaning: ["to move along in a steady, continuous stream"],
     rusTranslations: ["течь", "протекать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1279,
@@ -12950,7 +12986,7 @@ export const englishList = [
     synonyms: ["blossom", "bloom"],
     meaning: ["the seed-bearing part of a plant, often colorful and fragrant"],
     rusTranslations: ["цветок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1280,
@@ -12960,7 +12996,7 @@ export const englishList = [
     synonyms: ["influenza"],
     meaning: ["a common viral infection affecting the respiratory system"],
     rusTranslations: ["грипп"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1281,
@@ -12970,7 +13006,7 @@ export const englishList = [
     synonyms: ["liquid", "flowing"],
     meaning: ["able to flow easily; not fixed in shape"],
     rusTranslations: ["жидкий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1282,
@@ -12980,7 +13016,7 @@ export const englishList = [
     synonyms: ["articulate", "eloquent"],
     meaning: ["able to write or speak a language smoothly, easily, or readily"],
     rusTranslations: ["беглый", "свободный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1283,
@@ -12990,7 +13026,7 @@ export const englishList = [
     synonyms: ["people", "family"],
     meaning: ["informal term for people in general or one’s family"],
     rusTranslations: ["люди", "семья"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1284,
@@ -13000,7 +13036,7 @@ export const englishList = [
     synonyms: ["idiot", "simpleton"],
     meaning: ["a person who acts unwisely or imprudently"],
     rusTranslations: ["дурак"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1285,
@@ -13010,7 +13046,7 @@ export const englishList = [
     synonyms: ["silly", "unwise"],
     meaning: ["lacking good sense or judgment"],
     rusTranslations: ["глупый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1286,
@@ -13018,10 +13054,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfʊt.ɪdʒ/",
     synonyms: ["video", "film"],
-    meaning:
-      ["recorded film material, especially that which forms part of a movie"],
+    meaning: [
+      "recorded film material, especially that which forms part of a movie",
+    ],
     rusTranslations: ["материал", "съёмка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1287,
@@ -13031,7 +13068,7 @@ export const englishList = [
     synonyms: ["prohibit", "ban"],
     meaning: ["to order someone not to do something"],
     rusTranslations: ["запрещать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1288,
@@ -13041,7 +13078,7 @@ export const englishList = [
     synonyms: ["vigorous", "assertive"],
     meaning: ["characterized by or full of force; powerful"],
     rusTranslations: ["решительный", "энергичный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1289,
@@ -13049,10 +13086,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɔːr.kæst/",
     synonyms: ["prediction", "projection"],
-    meaning:
-      ["a prediction or estimate of future events, especially coming weather or a financial trend"],
+    meaning: [
+      "a prediction or estimate of future events, especially coming weather or a financial trend",
+    ],
     rusTranslations: ["прогноз"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1290,
@@ -13062,7 +13100,7 @@ export const englishList = [
     synonyms: ["brow"],
     meaning: ["the part of the face above the eyebrows"],
     rusTranslations: ["лоб"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1291,
@@ -13072,7 +13110,7 @@ export const englishList = [
     synonyms: ["outsider", "stranger"],
     meaning: ["a person from another country"],
     rusTranslations: ["иностранец"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1292,
@@ -13082,7 +13120,7 @@ export const englishList = [
     synonyms: ["woodland", "jungle"],
     meaning: ["a large area covered chiefly with trees and undergrowth"],
     rusTranslations: ["лес"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1293,
@@ -13092,7 +13130,7 @@ export const englishList = [
     synonyms: ["fabricate", "create"],
     meaning: ["to form or make, especially by concentrated effort"],
     rusTranslations: ["кузница", "ковать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1294,
@@ -13102,7 +13140,7 @@ export const englishList = [
     synonyms: ["absent-minded", "inattentive"],
     meaning: ["apt or likely not to remember"],
     rusTranslations: ["забывчивый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1295,
@@ -13112,7 +13150,7 @@ export const englishList = [
     synonyms: ["ceremony", "protocol"],
     meaning: ["the rigid observance of rules or conventional requirements"],
     rusTranslations: ["формальность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1296,
@@ -13122,7 +13160,7 @@ export const englishList = [
     synonyms: ["recipe", "expression"],
     meaning: ["a set form of words or symbols for expressing information"],
     rusTranslations: ["формула"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1297,
@@ -13132,7 +13170,7 @@ export const englishList = [
     synonyms: ["devise", "create"],
     meaning: ["to develop or present a strategy in a systematic way"],
     rusTranslations: ["формулировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1298,
@@ -13142,7 +13180,7 @@ export const englishList = [
     synonyms: ["two weeks"],
     meaning: ["a period of two weeks"],
     rusTranslations: ["две недели"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1299,
@@ -13152,7 +13190,7 @@ export const englishList = [
     synonyms: ["wealth", "luck"],
     meaning: ["a large amount of money or assets; luck or chance"],
     rusTranslations: ["состояние", "удача"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1300,
@@ -13162,7 +13200,7 @@ export const englishList = [
     synonyms: ["sending", "transmission"],
     meaning: ["the act of sending something onward to another destination"],
     rusTranslations: ["пересылка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1301,
@@ -13172,7 +13210,7 @@ export const englishList = [
     synonyms: ["nurture", "encourage"],
     meaning: ["to encourage or promote the development of something"],
     rusTranslations: ["способствовать", "воспитывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1302,
@@ -13182,7 +13220,7 @@ export const englishList = [
     synonyms: ["creator", "originator"],
     meaning: ["a person who establishes an institution or settlement"],
     rusTranslations: ["основатель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1303,
@@ -13192,7 +13230,7 @@ export const englishList = [
     synonyms: ["structure", "skeleton"],
     meaning: ["an essential supporting structure underlying a system"],
     rusTranslations: ["рамки", "структура"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1304,
@@ -13200,10 +13238,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfræn.tʃaɪz/",
     synonyms: ["chain", "license"],
-    meaning:
-      ["an authorization granted by a company to sell its products in a particular area"],
+    meaning: [
+      "an authorization granted by a company to sell its products in a particular area",
+    ],
     rusTranslations: ["франшиза"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1305,
@@ -13213,7 +13252,7 @@ export const englishList = [
     synonyms: ["candid", "honest"],
     meaning: ["open, honest, and direct in speech or writing"],
     rusTranslations: ["откровенный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1306,
@@ -13223,7 +13262,7 @@ export const englishList = [
     synonyms: ["liberty", "independence"],
     meaning: ["the power or right to act, speak, or think without hindrance"],
     rusTranslations: ["свобода"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1307,
@@ -13233,7 +13272,7 @@ export const englishList = [
     synonyms: ["occurrence", "rate"],
     meaning: ["the rate at which something occurs over a particular period"],
     rusTranslations: ["частота"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1308,
@@ -13243,7 +13282,7 @@ export const englishList = [
     synonyms: ["amiable", "cordial"],
     meaning: ["kind and pleasant"],
     rusTranslations: ["дружелюбный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1309,
@@ -13253,7 +13292,7 @@ export const englishList = [
     synonyms: ["scare", "alarm"],
     meaning: ["to cause someone to feel afraid"],
     rusTranslations: ["пугать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1310,
@@ -13263,7 +13302,7 @@ export const englishList = [
     synonyms: ["scared", "terrified"],
     meaning: ["feeling fear or anxiety"],
     rusTranslations: ["испуганный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1311,
@@ -13273,7 +13312,7 @@ export const englishList = [
     synonyms: ["edge", "border"],
     meaning: ["the outer, marginal, or extreme part of an area or group"],
     rusTranslations: ["край", "окраина"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1312,
@@ -13283,7 +13322,7 @@ export const englishList = [
     synonyms: ["boundary", "limit"],
     meaning: ["a line or border separating two countries"],
     rusTranslations: ["граница"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1313,
@@ -13291,10 +13330,11 @@ export const englishList = [
     type: "noun",
     transcription: "/frɒst/",
     synonyms: ["hoar", "ice"],
-    meaning:
-      ["a deposit of small white ice crystals formed on the ground or other surfaces"],
+    meaning: [
+      "a deposit of small white ice crystals formed on the ground or other surfaces",
+    ],
     rusTranslations: ["иней", "мороз"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1314,
@@ -13304,7 +13344,7 @@ export const englishList = [
     synonyms: ["thwart", "discourage"],
     meaning: ["to prevent (a plan, attempt, or desire) from progressing"],
     rusTranslations: ["расстраивать", "обескураживать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1315,
@@ -13312,10 +13352,11 @@ export const englishList = [
     type: "noun",
     transcription: "/frʌˈstreɪ.ʃən/",
     synonyms: ["discontent", "exasperation"],
-    meaning:
-      ["the feeling of being upset or annoyed as a result of inability to change or achieve something"],
+    meaning: [
+      "the feeling of being upset or annoyed as a result of inability to change or achieve something",
+    ],
     rusTranslations: ["разочарование"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1316,
@@ -13323,10 +13364,11 @@ export const englishList = [
     type: "noun",
     transcription: "/fjuːl/",
     synonyms: ["energy", "power"],
-    meaning:
-      ["a material such as coal, gas, or oil that is burned to produce heat or power"],
+    meaning: [
+      "a material such as coal, gas, or oil that is burned to produce heat or power",
+    ],
     rusTranslations: ["топливо"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1317,
@@ -13336,7 +13378,7 @@ export const englishList = [
     synonyms: ["accomplish", "achieve"],
     meaning: ["to bring to completion; to satisfy a requirement"],
     rusTranslations: ["выполнять", "осуществлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1318,
@@ -13344,10 +13386,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfʌŋk.ʃən/",
     synonyms: ["role", "operation"],
-    meaning:
-      ["an activity or purpose natural to or intended for a person or thing"],
+    meaning: [
+      "an activity or purpose natural to or intended for a person or thing",
+    ],
     rusTranslations: ["функция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1319,
@@ -13357,7 +13400,7 @@ export const englishList = [
     synonyms: ["basic", "essential"],
     meaning: ["forming a necessary base or core; of central importance"],
     rusTranslations: ["фундаментальный", "основной"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1320,
@@ -13365,10 +13408,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈfɜː.nɪ.tʃər/",
     synonyms: ["fittings", "household items"],
-    meaning:
-      ["the movable articles that are used to make a room suitable for living or working"],
+    meaning: [
+      "the movable articles that are used to make a room suitable for living or working",
+    ],
     rusTranslations: ["мебель"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1321,
@@ -13378,7 +13422,7 @@ export const englishList = [
     synonyms: ["moreover", "additionally"],
     meaning: ["in addition; besides"],
     rusTranslations: ["более того", "к тому же"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1322,
@@ -13388,7 +13432,7 @@ export const englishList = [
     synonyms: ["trash", "rubbish"],
     meaning: ["waste material; refuse"],
     rusTranslations: ["мусор", "отбросы"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1323,
@@ -13398,7 +13442,7 @@ export const englishList = [
     synonyms: ["petrol"],
     meaning: ["a liquid fuel used in internal combustion engines"],
     rusTranslations: ["бензин"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1324,
@@ -13408,7 +13452,7 @@ export const englishList = [
     synonyms: ["collect", "assemble"],
     meaning: ["to come together or bring together"],
     rusTranslations: ["собирать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1325,
@@ -13418,7 +13462,7 @@ export const englishList = [
     synonyms: ["produce", "create"],
     meaning: ["to bring into existence; to produce"],
     rusTranslations: ["генерировать", "порождать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1326,
@@ -13428,7 +13472,7 @@ export const englishList = [
     synonyms: ["cohort", "age group"],
     meaning: ["all the people born and living at about the same time"],
     rusTranslations: ["поколение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1327,
@@ -13438,7 +13482,7 @@ export const englishList = [
     synonyms: ["prodigy", "mastermind"],
     meaning: ["exceptional intellectual or creative power"],
     rusTranslations: ["гений"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1328,
@@ -13448,7 +13492,7 @@ export const englishList = [
     synonyms: ["mild", "tender"],
     meaning: ["mild in temperament or behavior; kind"],
     rusTranslations: ["нежный", "мягкий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1329,
@@ -13458,7 +13502,7 @@ export const englishList = [
     synonyms: ["authentic", "real"],
     meaning: ["truly what something is said to be; authentic"],
     rusTranslations: ["подлинный", "настоящий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1330,
@@ -13468,7 +13512,7 @@ export const englishList = [
     synonyms: ["peek", "glimpse"],
     meaning: ["to take a brief or hurried look"],
     rusTranslations: ["взглянуть мельком"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1331,
@@ -13478,7 +13522,7 @@ export const englishList = [
     synonyms: ["stare", "gaze"],
     meaning: ["to look at someone or something in an angry or fierce way"],
     rusTranslations: ["пялицца", "сверкать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1332,
@@ -13488,7 +13532,7 @@ export const englishList = [
     synonyms: ["peek", "glance"],
     meaning: ["a momentary or partial view"],
     rusTranslations: ["мельком увидеть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1333,
@@ -13498,7 +13542,7 @@ export const englishList = [
     synonyms: ["worldwide", "universal"],
     meaning: ["relating to the whole world; worldwide"],
     rusTranslations: ["глобальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1334,
@@ -13508,7 +13552,7 @@ export const englishList = [
     synonyms: ["world", "sphere"],
     meaning: ["a spherical representation of the earth"],
     rusTranslations: ["глобус"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1335,
@@ -13518,7 +13562,7 @@ export const englishList = [
     synonyms: ["rule", "administer"],
     meaning: ["to control or rule over a state or organization"],
     rusTranslations: ["управлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1336,
@@ -13528,7 +13572,7 @@ export const englishList = [
     synonyms: ["mark", "score"],
     meaning: ["a level or rank; an evaluation of performance"],
     rusTranslations: ["оценка", "класс"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1337,
@@ -13538,7 +13582,7 @@ export const englishList = [
     synonyms: ["award", "give"],
     meaning: ["to agree to give or allow something requested"],
     rusTranslations: ["предоставлять", "даровать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1338,
@@ -13548,7 +13592,7 @@ export const englishList = [
     synonyms: ["chart", "diagram"],
     meaning: ["a diagram showing the relation between variable quantities"],
     rusTranslations: ["график", "диаграмма"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1339,
@@ -13558,7 +13602,7 @@ export const englishList = [
     synonyms: ["understand", "comprehend"],
     meaning: ["to seize and hold firmly; to understand fully"],
     rusTranslations: ["хватать", "понимать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1340,
@@ -13566,10 +13610,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ɡræs/",
     synonyms: ["sod", "turf"],
-    meaning:
-      ["vegetation consisting of typically short plants with long, narrow leaves"],
+    meaning: [
+      "vegetation consisting of typically short plants with long, narrow leaves",
+    ],
     rusTranslations: ["трава"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1341,
@@ -13579,7 +13624,7 @@ export const englishList = [
     synonyms: ["thankful", "appreciative"],
     meaning: ["feeling or showing gratitude"],
     rusTranslations: ["благодарный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1342,
@@ -13589,7 +13634,7 @@ export const englishList = [
     synonyms: ["seriousness", "importance"],
     meaning: ["the force that attracts a body toward the center of the earth"],
     rusTranslations: ["гравитация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1343,
@@ -13599,7 +13644,7 @@ export const englishList = [
     synonyms: ["conservatory"],
     meaning: ["a glass building in which plants are grown"],
     rusTranslations: ["теплица"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1344,
@@ -13609,7 +13654,7 @@ export const englishList = [
     synonyms: ["market", "store"],
     meaning: ["a store that sells food and other household supplies"],
     rusTranslations: ["продуктовый магазин"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1345,
@@ -13619,7 +13664,7 @@ export const englishList = [
     synonyms: ["warranty", "assurance"],
     meaning: ["a formal promise or assurance, typically in writing"],
     rusTranslations: ["гарантия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1346,
@@ -13629,7 +13674,7 @@ export const englishList = [
     synonyms: ["lead", "direct"],
     meaning: ["to show or indicate the way"],
     rusTranslations: ["направлять", "руководить"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1347,
@@ -13637,10 +13682,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhæb.ɪt/",
     synonyms: ["routine", "custom"],
-    meaning:
-      ["a regular tendency or practice, especially one that is hard to give up"],
+    meaning: [
+      "a regular tendency or practice, especially one that is hard to give up",
+    ],
     rusTranslations: ["привычка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1348,
@@ -13650,7 +13696,7 @@ export const englishList = [
     synonyms: ["small amount", "scattering"],
     meaning: ["a small number or amount of something"],
     rusTranslations: ["горсть"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1349,
@@ -13660,7 +13706,7 @@ export const englishList = [
     synonyms: ["grip", "knob"],
     meaning: ["a part by which a thing is held or controlled"],
     rusTranslations: ["ручка"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1350,
@@ -13670,7 +13716,7 @@ export const englishList = [
     synonyms: ["coincidence", "chance"],
     meaning: ["a circumstance that is due entirely to chance"],
     rusTranslations: ["случайность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1351,
@@ -13680,7 +13726,7 @@ export const englishList = [
     synonyms: ["accord", "unity"],
     meaning: ["agreement or concord among people or things"],
     rusTranslations: ["гармония"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1352,
@@ -13690,7 +13736,7 @@ export const englishList = [
     synonyms: ["danger", "risk"],
     meaning: ["a potential source of harm or adverse effect"],
     rusTranslations: ["опасность"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1353,
@@ -13698,9 +13744,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhɛd.laɪn/",
     synonyms: ["title", "caption"],
-    meaning: ["the heading at the top of an article in a newspaper or magazine"],
+    meaning: [
+      "the heading at the top of an article in a newspaper or magazine",
+    ],
     rusTranslations: ["заголовок"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1354,
@@ -13710,7 +13758,7 @@ export const englishList = [
     synonyms: ["well", "robust"],
     meaning: ["in good health; robust"],
     rusTranslations: ["здоровый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1355,
@@ -13720,7 +13768,7 @@ export const englishList = [
     synonyms: ["paradise", "nirvana"],
     meaning: ["a place regarded in various religions as the abode of God"],
     rusTranslations: ["небеса"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1356,
@@ -13728,10 +13776,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈher.ɪ.tɪdʒ/",
     synonyms: ["legacy", "inheritance"],
-    meaning:
-      ["valued objects and qualities such as cultural traditions passed down"],
+    meaning: [
+      "valued objects and qualities such as cultural traditions passed down",
+    ],
     rusTranslations: ["наследие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1357,
@@ -13739,10 +13788,11 @@ export const englishList = [
     type: "verb",
     transcription: "/ˈhɛz.ɪ.teɪt/",
     synonyms: ["pause", "waver"],
-    meaning:
-      ["to pause before saying or doing something, especially due to uncertainty"],
+    meaning: [
+      "to pause before saying or doing something, especially due to uncertainty",
+    ],
     rusTranslations: ["колебаться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1358,
@@ -13752,7 +13802,7 @@ export const englishList = [
     synonyms: ["emphasize", "accentuate"],
     meaning: ["to make something stand out or be more noticeable"],
     rusTranslations: ["выделять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1359,
@@ -13762,7 +13812,7 @@ export const englishList = [
     synonyms: ["funny", "amusing"],
     meaning: ["extremely amusing or comical"],
     rusTranslations: ["уморительный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1360,
@@ -13772,7 +13822,7 @@ export const englishList = [
     synonyms: ["past", "antique"],
     meaning: ["concerning history or past events"],
     rusTranslations: ["исторический"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1361,
@@ -13780,9 +13830,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈhɒl.ɪ.deɪ/",
     synonyms: ["vacation", "break"],
-    meaning: ["an extended period of leisure and recreation, often with travel"],
+    meaning: [
+      "an extended period of leisure and recreation, often with travel",
+    ],
     rusTranslations: ["отпуск", "праздник"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1362,
@@ -13792,7 +13844,7 @@ export const englishList = [
     synonyms: ["truthful", "sincere"],
     meaning: ["free of deceit; sincere and upright"],
     rusTranslations: ["честный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1363,
@@ -13802,7 +13854,7 @@ export const englishList = [
     synonyms: ["sweetener", "nectar"],
     meaning: ["a sweet, sticky substance produced by bees"],
     rusTranslations: ["мёд"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1364,
@@ -13812,7 +13864,7 @@ export const englishList = [
     synonyms: ["esteem", "regard"],
     meaning: ["high respect or great esteem"],
     rusTranslations: ["честь", "уважение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1365,
@@ -13822,7 +13874,7 @@ export const englishList = [
     synonyms: ["optimistic", "confident"],
     meaning: ["feeling or inspiring optimism about a future event"],
     rusTranslations: ["надеющийся", "оптимистичный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1366,
@@ -13830,9 +13882,11 @@ export const englishList = [
     type: "noun",
     transcription: "/həˈraɪ.zən/",
     synonyms: ["skyline", "limit"],
-    meaning: ["the line at which the earth's surface and the sky appear to meet"],
+    meaning: [
+      "the line at which the earth's surface and the sky appear to meet",
+    ],
     rusTranslations: ["горизонт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1367,
@@ -13842,7 +13896,7 @@ export const englishList = [
     synonyms: ["presenter", "master of ceremonies"],
     meaning: ["a person who receives or entertains guests"],
     rusTranslations: ["хозяин", "ведущий"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1368,
@@ -13852,7 +13906,7 @@ export const englishList = [
     synonyms: ["unfriendly", "antagonistic"],
     meaning: ["showing or feeling opposition or dislike"],
     rusTranslations: ["враждебный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1369,
@@ -13862,7 +13916,7 @@ export const englishList = [
     synonyms: ["modest", "unpretentious"],
     meaning: ["having or showing a modest or low view of one's importance"],
     rusTranslations: ["скромный", "смиренный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1370,
@@ -13872,7 +13926,7 @@ export const englishList = [
     synonyms: ["comedy", "amusement"],
     meaning: ["the quality of being amusing or comic"],
     rusTranslations: ["юмор"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1371,
@@ -13882,7 +13936,7 @@ export const englishList = [
     synonyms: ["starving", "famished"],
     meaning: ["feeling the need for food; in need of nourishment"],
     rusTranslations: ["голодный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1372,
@@ -13892,7 +13946,7 @@ export const englishList = [
     synonyms: ["pursue", "chase"],
     meaning: ["to search for and kill (wild animals) for food or sport"],
     rusTranslations: ["охотиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1373,
@@ -13902,7 +13956,7 @@ export const englishList = [
     synonyms: ["rush", "hasten"],
     meaning: ["to move or act with haste; to be in a hurry"],
     rusTranslations: ["торопиться"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1374,
@@ -13912,7 +13966,7 @@ export const englishList = [
     synonyms: ["perfect", "optimal"],
     meaning: ["most suitable or desirable"],
     rusTranslations: ["идеальный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1375,
@@ -13922,7 +13976,7 @@ export const englishList = [
     synonyms: ["recognize", "determine"],
     meaning: ["to establish or indicate who or what someone or something is"],
     rusTranslations: ["идентифицировать", "определять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1376,
@@ -13932,7 +13986,7 @@ export const englishList = [
     synonyms: ["unlawful", "illicit"],
     meaning: ["forbidden by law or statute"],
     rusTranslations: ["незаконный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1377,
@@ -13942,7 +13996,7 @@ export const englishList = [
     synonyms: ["light", "enlighten"],
     meaning: ["to light up or make something clear"],
     rusTranslations: ["освещать", "прояснять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1378,
@@ -13952,7 +14006,7 @@ export const englishList = [
     synonyms: ["mirage", "delusion"],
     meaning: ["a deceptive appearance or impression"],
     rusTranslations: ["иллюзия"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1379,
@@ -13962,7 +14016,7 @@ export const englishList = [
     synonyms: ["demonstrate", "exemplify"],
     meaning: ["to explain or decorate a text or idea with pictures"],
     rusTranslations: ["иллюстрировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1380,
@@ -13972,7 +14026,7 @@ export const englishList = [
     synonyms: ["picture", "icon"],
     meaning: ["a representation or visual likeness of someone or something"],
     rusTranslations: ["образ", "изображение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1381,
@@ -13982,7 +14036,7 @@ export const englishList = [
     synonyms: ["creativity", "invention"],
     meaning: ["the faculty of forming new ideas or images"],
     rusTranslations: ["воображение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1382,
@@ -13992,7 +14046,7 @@ export const englishList = [
     synonyms: ["mimic", "copy"],
     meaning: ["to copy the behavior, style, or appearance of"],
     rusTranslations: ["имитировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1383,
@@ -14002,7 +14056,7 @@ export const englishList = [
     synonyms: ["huge", "enormous"],
     meaning: ["extremely large or great"],
     rusTranslations: ["огромный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1384,
@@ -14012,7 +14066,7 @@ export const englishList = [
     synonyms: ["influence", "effect"],
     meaning: ["the strong effect or influence something has"],
     rusTranslations: ["воздействие", "эффект"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1385,
@@ -14022,7 +14076,7 @@ export const englishList = [
     synonyms: ["execute", "carry out"],
     meaning: ["to put a decision or plan into effect"],
     rusTranslations: ["внедрять", "осуществлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1386,
@@ -14030,10 +14084,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɪm.plɪˈkeɪ.ʃən/",
     synonyms: ["suggestion", "inference"],
-    meaning:
-      ["a conclusion that can be drawn from something, though not explicitly stated"],
+    meaning: [
+      "a conclusion that can be drawn from something, though not explicitly stated",
+    ],
     rusTranslations: ["подразумеваемое", "следствие"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1387,
@@ -14043,7 +14098,7 @@ export const englishList = [
     synonyms: ["suggest", "hint"],
     meaning: ["to indicate or suggest without being explicitly stated"],
     rusTranslations: ["подразумевать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1388,
@@ -14053,7 +14108,7 @@ export const englishList = [
     synonyms: ["bring in", "introduce"],
     meaning: ["to bring goods or services from one country into another"],
     rusTranslations: ["импортировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1389,
@@ -14061,10 +14116,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɪn.əˈveɪ.ʃən/",
     synonyms: ["invention", "novelty"],
-    meaning:
-      ["the introduction of something new; a new method, idea, or product"],
+    meaning: [
+      "the introduction of something new; a new method, idea, or product",
+    ],
     rusTranslations: ["инновация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1390,
@@ -14072,10 +14128,11 @@ export const englishList = [
     type: "verb",
     transcription: "/ɪmˈpres/",
     synonyms: ["influence", "affect"],
-    meaning:
-      ["to have a strong effect on someone in a way that makes them admire or respect you"],
+    meaning: [
+      "to have a strong effect on someone in a way that makes them admire or respect you",
+    ],
     rusTranslations: ["впечатлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1391,
@@ -14083,10 +14140,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ɪmˈpreʃ.ən/",
     synonyms: ["impact", "effect"],
-    meaning:
-      ["an idea, feeling, or opinion about something or someone formed without conscious thought"],
+    meaning: [
+      "an idea, feeling, or opinion about something or someone formed without conscious thought",
+    ],
     rusTranslations: ["впечатление"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1392,
@@ -14096,7 +14154,7 @@ export const englishList = [
     synonyms: ["enhance", "better"],
     meaning: ["to make or become better"],
     rusTranslations: ["улучшать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1393,
@@ -14106,7 +14164,7 @@ export const englishList = [
     synonyms: ["motivation", "encouragement"],
     meaning: ["something that motivates or encourages someone to do something"],
     rusTranslations: ["стимул"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1394,
@@ -14114,10 +14172,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪn.sɪ.dənt/",
     synonyms: ["event", "occurrence"],
-    meaning:
-      ["an event or occurrence, especially one that is unusual or unpleasant"],
+    meaning: [
+      "an event or occurrence, especially one that is unusual or unpleasant",
+    ],
     rusTranslations: ["инцидент", "случай"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1395,
@@ -14127,7 +14186,7 @@ export const englishList = [
     synonyms: ["comprise", "contain"],
     meaning: ["to contain as part of a whole"],
     rusTranslations: ["включать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1396,
@@ -14135,10 +14194,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪn.kʌm/",
     synonyms: ["revenue", "earnings"],
-    meaning:
-      ["money received, especially on a regular basis, for work or through investments"],
+    meaning: [
+      "money received, especially on a regular basis, for work or through investments",
+    ],
     rusTranslations: ["доход"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1397,
@@ -14148,7 +14208,7 @@ export const englishList = [
     synonyms: ["raise", "grow"],
     meaning: ["to become or make greater in size, amount, or degree"],
     rusTranslations: ["увеличивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1398,
@@ -14158,7 +14218,7 @@ export const englishList = [
     synonyms: ["show", "demonstrate"],
     meaning: ["to point out or show something"],
     rusTranslations: ["указывать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1399,
@@ -14166,9 +14226,11 @@ export const englishList = [
     type: "adjective",
     transcription: "/ˌɪn.dɪˈpɛn.dənt/",
     synonyms: ["autonomous", "self-reliant"],
-    meaning: ["free from outside control; not depending on another's authority"],
+    meaning: [
+      "free from outside control; not depending on another's authority",
+    ],
     rusTranslations: ["независимый"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1400,
@@ -14178,7 +14240,7 @@ export const englishList = [
     synonyms: ["unavoidable", "certain"],
     meaning: ["certain to happen; unavoidable"],
     rusTranslations: ["неизбежный"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1401,
@@ -14186,10 +14248,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˌɪn.əˈveɪ.ʃən/",
     synonyms: ["invention", "novelty"],
-    meaning:
-      ["the process of introducing something new; a new idea, method, or product"],
+    meaning: [
+      "the process of introducing something new; a new idea, method, or product",
+    ],
     rusTranslations: ["инновация"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1402,
@@ -14199,7 +14262,7 @@ export const englishList = [
     synonyms: ["ask", "question"],
     meaning: ["to ask for information"],
     rusTranslations: ["расспрашивать", "запрашивать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1403,
@@ -14209,7 +14272,7 @@ export const englishList = [
     synonyms: ["understanding", "awareness"],
     meaning: ["an accurate and deep understanding of something"],
     rusTranslations: ["понимание", "интуиция"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1404,
@@ -14219,7 +14282,7 @@ export const englishList = [
     synonyms: ["examine", "scrutinize"],
     meaning: ["to look at closely in order to assess quality or condition"],
     rusTranslations: ["осматривать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1405,
@@ -14229,7 +14292,7 @@ export const englishList = [
     synonyms: ["motivate", "encourage"],
     meaning: ["to fill someone with the urge or ability to do something"],
     rusTranslations: ["вдохновлять"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1406,
@@ -14239,7 +14302,7 @@ export const englishList = [
     synonyms: ["set up", "fix"],
     meaning: ["to place or fix equipment in position ready for use"],
     rusTranslations: ["устанавливать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1407,
@@ -14249,7 +14312,7 @@ export const englishList = [
     synonyms: ["example", "case"],
     meaning: ["an example or single occurrence of something"],
     rusTranslations: ["пример"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1408,
@@ -14259,7 +14322,7 @@ export const englishList = [
     synonyms: ["moment", "second"],
     meaning: ["a very short period of time; immediately"],
     rusTranslations: ["мгновение"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1409,
@@ -14267,10 +14330,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈɪn.stɪ.tjuːt/",
     synonyms: ["organization", "establishment"],
-    meaning:
-      ["an organization having a particular purpose, especially in education, research, or culture"],
+    meaning: [
+      "an organization having a particular purpose, especially in education, research, or culture",
+    ],
     rusTranslations: ["институт"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1410,
@@ -14280,7 +14344,7 @@ export const englishList = [
     synonyms: ["teach", "educate"],
     meaning: ["to direct or command someone to do something"],
     rusTranslations: ["инструктировать", "обучать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
   {
     id: 1411,
@@ -14290,7 +14354,1007 @@ export const englishList = [
     synonyms: ["unify", "combine"],
     meaning: ["to combine one thing with another so that they become a whole"],
     rusTranslations: ["интегрировать"],
-    vocabulary:["general"]
+    vocabulary: ["general"],
   },
 
+  {
+    id: 1412,
+    word: "cool",
+    type: "adjective",
+    transcription: "/kuːl/",
+    synonyms: ["awesome", "neat"],
+    meaning: ["Impressively excellent or attractive."],
+    rusTranslations: ["классный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1413,
+    word: "lit",
+    type: "adjective",
+    transcription: "/lɪt/",
+    synonyms: ["exciting", "amazing"],
+    meaning: ["Extremely good, exciting, or popular."],
+    rusTranslations: ["огненный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1414,
+    word: "dope",
+    type: "adjective",
+    transcription: "/doʊp/",
+    synonyms: ["awesome", "cool"],
+    meaning: ["Really good; excellent."],
+    rusTranslations: ["крутой"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1415,
+    word: "savage",
+    type: "adjective",
+    transcription: "/ˈsævɪdʒ/",
+    synonyms: ["fierce", "ruthless"],
+    meaning: ["Remarkably tough or uncompromising."],
+    rusTranslations: ["дикий"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1416,
+    word: "bae",
+    type: "noun",
+    transcription: "/beɪ/",
+    synonyms: ["baby", "sweetheart"],
+    meaning: ["Term of endearment for a significant other."],
+    rusTranslations: ["любимчик"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1417,
+    word: "chill",
+    type: "adjective",
+    transcription: "/tʃɪl/",
+    synonyms: ["relaxed", "calm"],
+    meaning: ["Relaxed or easygoing."],
+    rusTranslations: ["расслабленный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1418,
+    word: "fam",
+    type: "noun",
+    transcription: "/fæm/",
+    synonyms: ["family", "clan"],
+    meaning: ["Close friends or family."],
+    rusTranslations: ["братва"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1419,
+    word: "squad",
+    type: "noun",
+    transcription: "/skwɒd/",
+    synonyms: ["team", "crew"],
+    meaning: ["A group of friends or associates."],
+    rusTranslations: ["команда"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1420,
+    word: "hangry",
+    type: "adjective",
+    transcription: "/ˈhæŋɡri/",
+    synonyms: ["irritable", "angry"],
+    meaning: ["Irritable due to hunger."],
+    rusTranslations: ["злой от голода"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1421,
+    word: "salty",
+    type: "adjective",
+    transcription: "/ˈsɔːlti/",
+    synonyms: ["bitter", "resentful"],
+    meaning: ["Bitter or upset about something trivial."],
+    rusTranslations: ["обиженный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1422,
+    word: "woke",
+    type: "adjective",
+    transcription: "/woʊk/",
+    synonyms: ["aware", "enlightened"],
+    meaning: ["Being aware of social issues."],
+    rusTranslations: ["осведомлённый"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1423,
+    word: "stan",
+    type: "noun",
+    transcription: "/stæn/",
+    synonyms: ["fan", "supporter"],
+    meaning: ["An extremely devoted fan."],
+    rusTranslations: ["фанат"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1424,
+    word: "ghost",
+    type: "noun",
+    transcription: "/ɡoʊst/",
+    synonyms: ["disappear", "vanish"],
+    meaning: ["To suddenly cut off communication."],
+    rusTranslations: ["исчезнуть"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1425,
+    word: "flex",
+    type: "verb",
+    transcription: "/flɛks/",
+    synonyms: ["show off", "brag"],
+    meaning: ["To show off or boast."],
+    rusTranslations: ["хвастаться"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1426,
+    word: "drip",
+    type: "noun",
+    transcription: "/drɪp/",
+    synonyms: ["style", "swag"],
+    meaning: ["Stylish or impressive fashion sense."],
+    rusTranslations: ["стиль"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1427,
+    word: "boujee",
+    type: "adjective",
+    transcription: "/buːˈʒiː/",
+    synonyms: ["fancy", "luxurious"],
+    meaning: ["Luxurious in lifestyle despite humble origins."],
+    rusTranslations: ["элитный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1428,
+    word: "swole",
+    type: "adjective",
+    transcription: "/swoʊl/",
+    synonyms: ["muscular", "buff"],
+    meaning: ["Extremely muscular."],
+    rusTranslations: ["накачанный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1429,
+    word: "yeet",
+    type: "verb",
+    transcription: "/jiːt/",
+    synonyms: ["throw", "toss"],
+    meaning: ["To throw something with force."],
+    rusTranslations: ["бросать"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1430,
+    word: "cap",
+    type: "noun",
+    transcription: "/kæp/",
+    synonyms: ["lie", "falsehood"],
+    meaning: ["A lie or false statement."],
+    rusTranslations: ["вранье"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1431,
+    word: "suss",
+    type: "verb",
+    transcription: "/sʌs/",
+    synonyms: ["detect", "figure out"],
+    meaning: ["To figure something out or investigate."],
+    rusTranslations: ["выяснить"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1432,
+    word: "slay",
+    type: "verb",
+    transcription: "/sleɪ/",
+    synonyms: ["dominate", "kill"],
+    meaning: ["To perform exceptionally well."],
+    rusTranslations: ["блистать"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1433,
+    word: "fire",
+    type: "adjective",
+    transcription: "/ˈfaɪər/",
+    synonyms: ["awesome", "hot"],
+    meaning: ["Extremely good or exciting."],
+    rusTranslations: ["огненный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1434,
+    word: "goat",
+    type: "noun",
+    transcription: "/ɡoʊt/",
+    synonyms: ["legend", "icon"],
+    meaning: ["Greatest Of All Time."],
+    rusTranslations: ["легенда"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1435,
+    word: "hype",
+    type: "noun",
+    transcription: "/haɪp/",
+    synonyms: ["excitement", "buzz"],
+    meaning: ["Intense excitement or publicity."],
+    rusTranslations: ["ажиотаж"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1436,
+    word: "mood",
+    type: "noun",
+    transcription: "/muːd/",
+    synonyms: ["vibe", "feeling"],
+    meaning: ["A relatable feeling or vibe."],
+    rusTranslations: ["настроение"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1437,
+    word: "cringe",
+    type: "adjective",
+    transcription: "/krɪndʒ/",
+    synonyms: ["embarrassing", "awkward"],
+    meaning: ["Causing embarrassment or discomfort."],
+    rusTranslations: ["неловко"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1438,
+    word: "thirsty",
+    type: "adjective",
+    transcription: "/ˈθɜːrsti/",
+    synonyms: ["desperate", "eager"],
+    meaning: ["Desperate, especially for attention."],
+    rusTranslations: ["отчаянный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1439,
+    word: "finesse",
+    type: "noun",
+    transcription: "/fɪˈnɛs/",
+    synonyms: ["skill", "tact"],
+    meaning: ["Delicate and skillful handling."],
+    rusTranslations: ["ловкость"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1440,
+    word: "gucci",
+    type: "adjective",
+    transcription: "/ˈɡuːtʃi/",
+    synonyms: ["good", "great"],
+    meaning: ["Good, cool, or going well."],
+    rusTranslations: ["хорошо"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1441,
+    word: "shook",
+    type: "adjective",
+    transcription: "/ʃʊk/",
+    synonyms: ["stunned", "shocked"],
+    meaning: ["Surprised or shocked."],
+    rusTranslations: ["шокирован"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1442,
+    word: "vibe",
+    type: "noun",
+    transcription: "/vaɪb/",
+    synonyms: ["atmosphere", "energy"],
+    meaning: ["The prevailing atmosphere or mood."],
+    rusTranslations: ["вибрация"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1443,
+    word: "lowkey",
+    type: "adjective",
+    transcription: "/ˈloʊˌkiː/",
+    synonyms: ["subtle", "understated"],
+    meaning: ["Not intended to attract attention."],
+    rusTranslations: ["неявно"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1444,
+    word: "highkey",
+    type: "adjective",
+    transcription: "/ˈhaɪˌkiː/",
+    synonyms: ["obvious", "open"],
+    meaning: ["Clearly or obviously."],
+    rusTranslations: ["открыто"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1445,
+    word: "clapback",
+    type: "noun",
+    transcription: "/ˈklæpˌbæk/",
+    synonyms: ["retort", "reply"],
+    meaning: ["A quick, sharp response to criticism."],
+    rusTranslations: ["ответ"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1446,
+    word: "shade",
+    type: "noun",
+    transcription: "/ʃeɪd/",
+    synonyms: ["insult", "snub"],
+    meaning: ["Subtle, sneering expression of contempt."],
+    rusTranslations: ["укол"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1447,
+    word: "bomb",
+    type: "adjective",
+    transcription: "/bɒm/",
+    synonyms: ["awesome", "terrific"],
+    meaning: ["Really good or impressive."],
+    rusTranslations: ["супер"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1448,
+    word: "banger",
+    type: "noun",
+    transcription: "/ˈbæŋɡər/",
+    synonyms: ["hit", "smash"],
+    meaning: ["A great song or hit."],
+    rusTranslations: ["хит"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1449,
+    word: "skrrt",
+    type: "interjection",
+    transcription: "/skrɜːt/",
+    synonyms: ["zoom", "swerve"],
+    meaning: ["Used to mimic the sound of a car tire screeching."],
+    rusTranslations: ["скрррт"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1450,
+    word: "booty",
+    type: "noun",
+    transcription: "/ˈbuːti/",
+    synonyms: ["butt", "rump"],
+    meaning: ["Attractive or desirable, often referring to the buttocks."],
+    rusTranslations: ["попа"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1451,
+    word: "janky",
+    type: "adjective",
+    transcription: "/ˈdʒæŋki/",
+    synonyms: ["shoddy", "poor"],
+    meaning: ["Of very poor quality."],
+    rusTranslations: ["дерганый"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1452,
+    word: "sus",
+    type: "adjective",
+    transcription: "/sʌs/",
+    synonyms: ["suspicious", "doubtful"],
+    meaning: ["Suspicious or questionable."],
+    rusTranslations: ["подозрительный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1453,
+    word: "bounce",
+    type: "verb",
+    transcription: "/baʊns/",
+    synonyms: ["leave", "depart"],
+    meaning: ["To leave abruptly."],
+    rusTranslations: ["уходить"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1454,
+    word: "brick",
+    type: "noun",
+    transcription: "/brɪk/",
+    synonyms: ["block", "slab"],
+    meaning: ["A large amount of money."],
+    rusTranslations: ["кирпич"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1455,
+    word: "cheugy",
+    type: "adjective",
+    transcription: "/ˈtʃuːɡi/",
+    synonyms: ["outdated", "uncool"],
+    meaning: ["Unfashionable or trying too hard."],
+    rusTranslations: ["неактуальный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1456,
+    word: "deadass",
+    type: "adverb",
+    transcription: "/ˈdɛdæs/",
+    synonyms: ["seriously", "really"],
+    meaning: ["Seriously or genuinely."],
+    rusTranslations: ["серьёзно"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1457,
+    word: "gassed",
+    type: "adjective",
+    transcription: "/ɡæst/",
+    synonyms: ["excited", "energized"],
+    meaning: ["Extremely excited or hyped."],
+    rusTranslations: ["взволнованный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1458,
+    word: "slaps",
+    type: "verb",
+    transcription: "/slæps/",
+    synonyms: ["rocks", "hits"],
+    meaning: ["Used to describe something that is very good (usually music)."],
+    rusTranslations: ["зажигает"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1459,
+    word: "snatched",
+    type: "adjective",
+    transcription: "/snætʃt/",
+    synonyms: ["flawless", "perfect"],
+    meaning: ["Looking very fashionable or well put together."],
+    rusTranslations: ["безупречный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1460,
+    word: "tea",
+    type: "noun",
+    transcription: "/tiː/",
+    synonyms: ["gossip", "news"],
+    meaning: ["Gossip or personal information."],
+    rusTranslations: ["сплетни"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1461,
+    word: "extra",
+    type: "adjective",
+    transcription: "/ˈɛkstrə/",
+    synonyms: ["over the top", "excessive"],
+    meaning: ["Overly dramatic or excessive."],
+    rusTranslations: ["чрезмерный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1462,
+    word: "litty",
+    type: "adjective",
+    transcription: "/ˈlɪti/",
+    synonyms: ["lit", "exciting"],
+    meaning: ["Extremely fun or exciting."],
+    rusTranslations: ["классный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1463,
+    word: "main",
+    type: "noun",
+    transcription: "/meɪn/",
+    synonyms: ["favorite", "primary"],
+    meaning: ["Your primary interest or favorite person."],
+    rusTranslations: ["главный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1464,
+    word: "noob",
+    type: "noun",
+    transcription: "/nuːb/",
+    synonyms: ["novice", "beginner"],
+    meaning: ["A newcomer or inexperienced person."],
+    rusTranslations: ["новичок"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1465,
+    word: "op",
+    type: "adjective",
+    transcription: "/ɒp/",
+    synonyms: ["overpowered", "strong"],
+    meaning: ["Extremely effective or dominant."],
+    rusTranslations: ["супер"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1466,
+    word: "pog",
+    type: "adjective",
+    transcription: "/pɒɡ/",
+    synonyms: ["amazing", "cool"],
+    meaning: ["Used to describe something exciting (from gaming slang)."],
+    rusTranslations: ["крутой"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1467,
+    word: "rekt",
+    type: "adjective",
+    transcription: "/rɛkt/",
+    synonyms: ["destroyed", "wrecked"],
+    meaning: ["Completely destroyed or defeated."],
+    rusTranslations: ["разрушенный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1468,
+    word: "simp",
+    type: "noun",
+    transcription: "/sɪmp/",
+    synonyms: ["pushover", "sucker"],
+    meaning: ["A person who is overly submissive in a relationship."],
+    rusTranslations: ["подхалим"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1469,
+    word: "tight",
+    type: "adjective",
+    transcription: "/taɪt/",
+    synonyms: ["cool", "excellent"],
+    meaning: ["Very good or impressive."],
+    rusTranslations: ["отличный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1470,
+    word: "thicc",
+    type: "adjective",
+    transcription: "/θɪk/",
+    synonyms: ["curvy", "voluptuous"],
+    meaning: ["Attractively curvy."],
+    rusTranslations: ["пухленький"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1471,
+    word: "turnt",
+    type: "adjective",
+    transcription: "/tɜːrnt/",
+    synonyms: ["excited", "hyped"],
+    meaning: ["Extremely excited or energized."],
+    rusTranslations: ["подъёмный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1472,
+    word: "whip",
+    type: "noun",
+    transcription: "/wɪp/",
+    synonyms: ["car", "ride"],
+    meaning: ["A car, especially a nice one."],
+    rusTranslations: ["тачка"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1473,
+    word: "zonked",
+    type: "adjective",
+    transcription: "/zɒŋkt/",
+    synonyms: ["exhausted", "wiped"],
+    meaning: ["Extremely tired or intoxicated."],
+    rusTranslations: ["выбитый"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1474,
+    word: "finna",
+    type: "adverb",
+    transcription: "/ˈfɪnə/",
+    synonyms: ["fixing to", "about to"],
+    meaning: ["About to do something."],
+    rusTranslations: ["собираться"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1475,
+    word: "clout",
+    type: "noun",
+    transcription: "/klaʊt/",
+    synonyms: ["influence", "power"],
+    meaning: ["Influence or social currency."],
+    rusTranslations: ["влияние"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1476,
+    word: "sketchy",
+    type: "adjective",
+    transcription: "/ˈskɛtʃi/",
+    synonyms: ["suspicious", "iffy"],
+    meaning: ["Seemingly untrustworthy or questionable."],
+    rusTranslations: ["сомнительный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1477,
+    word: "cray",
+    type: "adjective",
+    transcription: "/kreɪ/",
+    synonyms: ["crazy", "insane"],
+    meaning: ["Extremely crazy or wild."],
+    rusTranslations: ["безумный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1478,
+    word: "legit",
+    type: "adjective",
+    transcription: "/ˈlɛdʒɪt/",
+    synonyms: ["genuine", "real"],
+    meaning: ["Genuine or authentic."],
+    rusTranslations: ["настоящий"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1479,
+    word: "jacked",
+    type: "adjective",
+    transcription: "/dʒækt/",
+    synonyms: ["muscular", "built"],
+    meaning: ["Extremely muscular or ripped."],
+    rusTranslations: ["накачанный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1480,
+    word: "beast",
+    type: "noun",
+    transcription: "/biːst/",
+    synonyms: ["monster", "powerhouse"],
+    meaning: ["Someone or something extremely impressive."],
+    rusTranslations: ["зверь"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1481,
+    word: "moolah",
+    type: "noun",
+    transcription: "/ˈmuːlə/",
+    synonyms: ["money", "cash"],
+    meaning: ["Money, especially a large amount."],
+    rusTranslations: ["деньги"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1482,
+    word: "cheddar",
+    type: "noun",
+    transcription: "/ˈtʃɛdər/",
+    synonyms: ["cash", "dough"],
+    meaning: ["Money."],
+    rusTranslations: ["бабки"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1483,
+    word: "bread",
+    type: "noun",
+    transcription: "/brɛd/",
+    synonyms: ["money", "dough"],
+    meaning: ["Money."],
+    rusTranslations: ["капуста"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1484,
+    word: "dough",
+    type: "noun",
+    transcription: "/doʊ/",
+    synonyms: ["cash", "money"],
+    meaning: ["Money."],
+    rusTranslations: ["туса"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1485,
+    word: "smack",
+    type: "noun",
+    transcription: "/smæk/",
+    synonyms: ["cash", "bucks"],
+    meaning: ["A slang term for money."],
+    rusTranslations: ["бабки"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1486,
+    word: "buck",
+    type: "noun",
+    transcription: "/bʌk/",
+    synonyms: ["dollar", "cash"],
+    meaning: ["A dollar."],
+    rusTranslations: ["бакс"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1487,
+    word: "loot",
+    type: "noun",
+    transcription: "/luːt/",
+    synonyms: ["cash", "treasure"],
+    meaning: ["Money or valuables."],
+    rusTranslations: ["добыча"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1488,
+    word: "green",
+    type: "noun",
+    transcription: "/ɡriːn/",
+    synonyms: ["cash", "money"],
+    meaning: ["Money, especially paper currency."],
+    rusTranslations: ["зелень"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1489,
+    word: "chips",
+    type: "noun",
+    transcription: "/tʃɪps/",
+    synonyms: ["money", "cash"],
+    meaning: ["Money (often used in gambling contexts)."],
+    rusTranslations: ["фишки"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1490,
+    word: "jack",
+    type: "noun",
+    transcription: "/dʒæk/",
+    synonyms: ["dollar", "buck"],
+    meaning: ["Money; or in the phrase 'you don't know jack'."],
+    rusTranslations: ["нищо"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1491,
+    word: "jiggy",
+    type: "adjective",
+    transcription: "/ˈdʒɪɡi/",
+    synonyms: ["stylish", "cool"],
+    meaning: ["Having a stylish or cool vibe."],
+    rusTranslations: ["стильный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1492,
+    word: "litaf",
+    type: "adjective",
+    transcription: "/lɪˈtæf/",
+    synonyms: ["lit", "exciting"],
+    meaning: ["Extremely fun or exciting."],
+    rusTranslations: ["огненный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1493,
+    word: "ratchet",
+    type: "adjective",
+    transcription: "/ˈrætʃɪt/",
+    synonyms: ["unrefined", "trashy"],
+    meaning: ["Unrefined or low-class."],
+    rusTranslations: ["отстойный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1494,
+    word: "crunk",
+    type: "adjective",
+    transcription: "/krʌŋk/",
+    synonyms: ["hyped", "energized"],
+    meaning: ["Excited or high on energy."],
+    rusTranslations: ["подбитый"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1495,
+    word: "onfleek",
+    type: "adjective",
+    transcription: "/ɒnˈfliːk/",
+    synonyms: ["perfect", "flawless"],
+    meaning: ["Perfectly executed or styled."],
+    rusTranslations: ["безупречный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1496,
+    word: "wokeaf",
+    type: "adjective",
+    transcription: "/woʊkˈæf/",
+    synonyms: ["very woke", "aware"],
+    meaning: ["Extremely socially aware."],
+    rusTranslations: ["суперосведомлённый"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1497,
+    word: "bromance",
+    type: "noun",
+    transcription: "/ˈbroʊmæns/",
+    synonyms: ["bond", "friendship"],
+    meaning: ["A close but non-sexual relationship between men."],
+    rusTranslations: ["братство"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1498,
+    word: "fomo",
+    type: "noun",
+    transcription: "/ˈfoʊmoʊ/",
+    synonyms: ["anxiety", "fear"],
+    meaning: ["Fear of missing out."],
+    rusTranslations: ["страх упущенного"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1499,
+    word: "YOLO",
+    type: "noun",
+    transcription: "/ˈjoʊloʊ/",
+    synonyms: ["carpe diem", "seize the day"],
+    meaning: ["You Only Live Once."],
+    rusTranslations: ["живем один раз"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1500,
+    word: "chillax",
+    type: "verb",
+    transcription: "/tʃɪˈlæks/",
+    synonyms: ["relax", "unwind"],
+    meaning: ["To relax completely."],
+    rusTranslations: ["расслабиться"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1501,
+    word: "bust",
+    type: "adjective",
+    transcription: "/bʌst/",
+    synonyms: ["lame", "uncool"],
+    meaning: ["Not good or disappointing."],
+    rusTranslations: ["отстойный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1502,
+    word: "dab",
+    type: "noun",
+    transcription: "/dæb/",
+    synonyms: ["gesture", "move"],
+    meaning: ["A dance move involving a quick motion of the head."],
+    rusTranslations: ["данс"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1503,
+    word: "flexin",
+    type: "verb",
+    transcription: "/ˈflɛksɪn/",
+    synonyms: ["showing off", "bragging"],
+    meaning: ["The act of showing off."],
+    rusTranslations: ["хвастаться"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1504,
+    word: "ship",
+    type: "verb",
+    transcription: "/ʃɪp/",
+    synonyms: ["support", "endorse"],
+    meaning: ["To support a romantic pairing."],
+    rusTranslations: ["сопереживать"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1505,
+    word: "twerk",
+    type: "verb",
+    transcription: "/twɜːrk/",
+    synonyms: ["dance", "shake"],
+    meaning: ["To dance in a sexually provocative manner."],
+    rusTranslations: ["танцевать"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1506,
+    word: "swag",
+    type: "noun",
+    transcription: "/swæɡ/",
+    synonyms: ["style", "confidence"],
+    meaning: ["A cool or confident style."],
+    rusTranslations: ["шик"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1507,
+    word: "trill",
+    type: "adjective",
+    transcription: "/trɪl/",
+    synonyms: ["real", "authentic"],
+    meaning: ["True and genuine."],
+    rusTranslations: ["настоящий"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1508,
+    word: "hundo",
+    type: "noun",
+    transcription: "/ˈhʌndoʊ/",
+    synonyms: ["hundred", "C-note"],
+    meaning: ["A hundred dollars."],
+    rusTranslations: ["сотня"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1509,
+    word: "buckwild",
+    type: "adjective",
+    transcription: "/bʌkwʌɪld/",
+    synonyms: ["crazy", "wild"],
+    meaning: ["Extremely wild or out of control."],
+    rusTranslations: ["дикой"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1510,
+    word: "bussin",
+    type: "adjective",
+    transcription: "/ˈbʌsɪn/",
+    synonyms: ["delicious", "amazing"],
+    meaning: ["Really good or tasty (usually food)."],
+    rusTranslations: ["вкусный"],
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1511,
+    word: "smol",
+    type: "adjective",
+    transcription: "/smɒl/",
+    synonyms: ["small", "cute"],
+    meaning: ["Adorably small."],
+    rusTranslations: ["милашка"],
+    vocabulary: ["slang"],
+  },
 ];
