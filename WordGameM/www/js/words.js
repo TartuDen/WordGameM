@@ -9,7 +9,7 @@ export const englishList = [
     synonyms: ["earth", "globe", "planet", "sphere"],
     meaning: ["the earth, together with all of its countries and peoples."],
     rusTranslations: ["мир"],
-    vocabulary:["general","slang"]
+    vocabulary:["general"]
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const englishList = [
     synonyms: ["joyful", "cheerful", "content", "delighted"],
     meaning: ["feeling or showing pleasure or contentment"],
     rusTranslations: ["счастливый"],
-    vocabulary:["general","slang"]
+    vocabulary:["general"]
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const englishList = [
       "a great interest and pleasure in something",
     ],
     rusTranslations: ["любовь"],
-    vocabulary:["general","slang"]
+    vocabulary:["general"]
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const englishList = [
       "a written or printed work consisting of pages glued or sewn together along one side and bound in covers",
     ],
     rusTranslations: ["книга"],
-    vocabulary:["general","slang"]
+    vocabulary:["general"]
   },
   {
     id: 5,
