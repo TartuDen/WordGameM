@@ -15357,4 +15357,1004 @@ export const englishList = [
     rusTranslations: ["милашка"],
     vocabulary: ["slang"],
   },
+  {
+    id: 1512,
+    word: "cray-cray",
+    type: "adjective",
+    transcription: "/kreɪ-ˈkreɪ/",
+    synonyms: ["crazy", "insane"],
+    meaning: ["Extremely crazy or out of control."],
+    rusTranslations: ["сумасшедший"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1513,
+    word: "bop",
+    type: "noun",
+    transcription: "/bɒp/",
+    synonyms: ["hit", "jam"],
+    meaning: ["A really good song or track."],
+    rusTranslations: ["хит"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1514,
+    word: "fuego",
+    type: "adjective",
+    transcription: "/ˈfweɪɡoʊ/",
+    synonyms: ["hot", "fire"],
+    meaning: ["Really good or awesome; literally means 'fire' in Spanish."],
+    rusTranslations: ["огненный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1515,
+    word: "smashin'",
+    type: "adjective",
+    transcription: "/ˈsmæʃɪn/",
+    synonyms: ["awesome", "amazing"],
+    meaning: ["Extremely good."],
+    rusTranslations: ["классный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1516,
+    word: "fresh",
+    type: "adjective",
+    transcription: "/frɛʃ/",
+    synonyms: ["cool", "stylish"],
+    meaning: ["Very attractive or impressive."],
+    rusTranslations: ["свежий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1517,
+    word: "phat",
+    type: "adjective",
+    transcription: "/fæt/",
+    synonyms: ["cool", "awesome"],
+    meaning: ["Excellent or stylish."],
+    rusTranslations: ["классный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1518,
+    word: "badass",
+    type: "adjective",
+    transcription: "/ˈbædæs/",
+    synonyms: ["tough", "cool"],
+    meaning: ["Impressively tough or uncompromising."],
+    rusTranslations: ["крутой"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1519,
+    word: "raw",
+    type: "adjective",
+    transcription: "/rɔː/",
+    synonyms: ["authentic", "uncut"],
+    meaning: ["Genuine or unfiltered, sometimes used to describe someone impressive."],
+    rusTranslations: ["настоящий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1520,
+    word: "firecracker",
+    type: "noun",
+    transcription: "/ˈfaɪərkˌrækər/",
+    synonyms: ["dynamite", "bomb"],
+    meaning: ["A person or thing that is exciting or full of energy."],
+    rusTranslations: ["огненный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1521,
+    word: "ace",
+    type: "adjective",
+    transcription: "/eɪs/",
+    synonyms: ["top-notch", "excellent"],
+    meaning: ["Extremely good; excellent."],
+    rusTranslations: ["отличный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1522,
+    word: "boss",
+    type: "adjective",
+    transcription: "/bɒs/",
+    synonyms: ["awesome", "cool"],
+    meaning: ["Very impressive or excellent."],
+    rusTranslations: ["крутой"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1523,
+    word: "sick",
+    type: "adjective",
+    transcription: "/sɪk/",
+    synonyms: ["awesome", "amazing"],
+    meaning: ["Really awesome or impressive."],
+    rusTranslations: ["клёвый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1524,
+    word: "funky",
+    type: "adjective",
+    transcription: "/ˈfʌŋki/",
+    synonyms: ["cool", "groovy"],
+    meaning: ["Stylish or hip."],
+    rusTranslations: ["зажигательный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1525,
+    word: "swank",
+    type: "adjective",
+    transcription: "/swæŋk/",
+    synonyms: ["stylish", "chic"],
+    meaning: ["Fashionably elegant or sophisticated."],
+    rusTranslations: ["элитный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1526,
+    word: "rad",
+    type: "adjective",
+    transcription: "/ræd/",
+    synonyms: ["cool", "awesome"],
+    meaning: ["Short for radical; very cool."],
+    rusTranslations: ["клёвый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1527,
+    word: "bombdiggity",
+    type: "noun",
+    transcription: "/ˈbɒmˌdɪɡɪti/",
+    synonyms: ["awesome", "excellent"],
+    meaning: ["The absolute best; amazing."],
+    rusTranslations: ["супер"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1528,
+    word: "phresh",
+    type: "adjective",
+    transcription: "/frɛʃ/",
+    synonyms: ["fresh", "cool"],
+    meaning: ["Very cool or trendy."],
+    rusTranslations: ["свежий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1529,
+    word: "baller",
+    type: "noun",
+    transcription: "/ˈbɔːlər/",
+    synonyms: ["rich", "stylish"],
+    meaning: ["Someone who is impressively successful or stylish, often in sports."],
+    rusTranslations: ["богач"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1530,
+    word: "glo-up",
+    type: "noun",
+    transcription: "/ˈɡloʊʌp/",
+    synonyms: ["transformation", "evolution"],
+    meaning: ["A significant transformation, usually for the better."],
+    rusTranslations: ["преображение"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1531,
+    word: "nifty",
+    type: "adjective",
+    transcription: "/ˈnɪfti/",
+    synonyms: ["cool", "useful"],
+    meaning: ["Particularly good or effective."],
+    rusTranslations: ["удобный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1532,
+    word: "wicked",
+    type: "adjective",
+    transcription: "/ˈwɪkɪd/",
+    synonyms: ["awesome", "cool"],
+    meaning: ["Extremely good; very impressive."],
+    rusTranslations: ["отпадный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1533,
+    word: "juiced",
+    type: "adjective",
+    transcription: "/dʒuːst/",
+    synonyms: ["excited", "pumped"],
+    meaning: ["Really excited or energized."],
+    rusTranslations: ["на взводе"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1534,
+    word: "stoked",
+    type: "adjective",
+    transcription: "/stoʊkt/",
+    synonyms: ["excited", "thrilled"],
+    meaning: ["Very excited or enthusiastic."],
+    rusTranslations: ["в восторге"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1535,
+    word: "hypebeast",
+    type: "noun",
+    transcription: "/ˈhaɪpˌbiːst/",
+    synonyms: ["trendsetter", "fashionista"],
+    meaning: ["A person who follows trends obsessively."],
+    rusTranslations: ["фанат моды"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1536,
+    word: "beat",
+    type: "adjective",
+    transcription: "/biːt/",
+    synonyms: ["exhausted", "worn-out"],
+    meaning: ["Extremely tired."],
+    rusTranslations: ["вымотанный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1537,
+    word: "dank",
+    type: "adjective",
+    transcription: "/dæŋk/",
+    synonyms: ["high quality", "cool"],
+    meaning: ["Excellent, especially in reference to memes or music."],
+    rusTranslations: ["крутой"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1538,
+    word: "whack",
+    type: "adjective",
+    transcription: "/hwæk/",
+    synonyms: ["terrible", "rubbish"],
+    meaning: ["Very poor or of bad quality."],
+    rusTranslations: ["отстойный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1539,
+    word: "groovy",
+    type: "adjective",
+    transcription: "/ˈɡruːvi/",
+    synonyms: ["cool", "hip"],
+    meaning: ["Very pleasing or cool (retro style)."],
+    rusTranslations: ["классный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1540,
+    word: "peep",
+    type: "verb",
+    transcription: "/piːp/",
+    synonyms: ["look", "glance"],
+    meaning: ["To take a quick look."],
+    rusTranslations: ["зырнуть"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1541,
+    word: "crib",
+    type: "noun",
+    transcription: "/krɪb/",
+    synonyms: ["house", "pad"],
+    meaning: ["A place where someone lives."],
+    rusTranslations: ["хата"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1542,
+    word: "trashy",
+    type: "adjective",
+    transcription: "/ˈtræʃi/",
+    synonyms: ["lousy", "garbage"],
+    meaning: ["Of very poor quality."],
+    rusTranslations: ["дерганый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1543,
+    word: "jive",
+    type: "verb",
+    transcription: "/dʒaɪv/",
+    synonyms: ["talk", "nonsense"],
+    meaning: ["To talk nonsense or act insincerely."],
+    rusTranslations: ["болтовня"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1544,
+    word: "wig",
+    type: "noun",
+    transcription: "/wɪɡ/",
+    synonyms: ["shock", "astonishment"],
+    meaning: ["Used to express being greatly surprised."],
+    rusTranslations: ["шок"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1545,
+    word: "sauce",
+    type: "noun",
+    transcription: "/sɔːs/",
+    synonyms: ["style", "flair"],
+    meaning: ["Extra style or swagger."],
+    rusTranslations: ["шик"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1546,
+    word: "troll",
+    type: "verb",
+    transcription: "/troʊl/",
+    synonyms: ["tease", "mock"],
+    meaning: ["To deliberately provoke or annoy someone online."],
+    rusTranslations: ["троллить"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1547,
+    word: "whiz",
+    type: "noun",
+    transcription: "/wɪz/",
+    synonyms: ["genius", "prodigy"],
+    meaning: ["A person who is very talented or skilled."],
+    rusTranslations: ["умница"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1548,
+    word: "scrub",
+    type: "noun",
+    transcription: "/skrʌb/",
+    synonyms: ["loser", "novice"],
+    meaning: ["A person who is not very good at something."],
+    rusTranslations: ["неудачник"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1549,
+    word: "crunked",
+    type: "adjective",
+    transcription: "/krʌŋkt/",
+    synonyms: ["excited", "amped"],
+    meaning: ["Extremely excited or intoxicated."],
+    rusTranslations: ["подбитый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1550,
+    word: "dabbin'",
+    type: "verb",
+    transcription: "/ˈdæbɪn/",
+    synonyms: ["dabbing", "gesturing"],
+    meaning: ["Performing the dab dance move."],
+    rusTranslations: ["показывать даб"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1551,
+    word: "ripped",
+    type: "adjective",
+    transcription: "/rɪpt/",
+    synonyms: ["muscular", "buff"],
+    meaning: ["Having well-defined muscles."],
+    rusTranslations: ["накачанный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1552,
+    word: "stacked",
+    type: "adjective",
+    transcription: "/stækd/",
+    synonyms: ["well-built", "muscular"],
+    meaning: ["Having a well-defined, muscular build."],
+    rusTranslations: ["накачанный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1553,
+    word: "grind",
+    type: "verb",
+    transcription: "/ɡraɪnd/",
+    synonyms: ["work", "hustle"],
+    meaning: ["To work hard, often in a relentless manner."],
+    rusTranslations: ["трудиться"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1554,
+    word: "bossed up",
+    type: "adjective",
+    transcription: "/bɒst ʌp/",
+    synonyms: ["successful", "in control"],
+    meaning: ["In a state of being successful or in charge."],
+    rusTranslations: ["управлять"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1555,
+    word: "stank",
+    type: "adjective",
+    transcription: "/stæŋk/",
+    synonyms: ["smelly", "funky"],
+    meaning: ["Smelled very bad."],
+    rusTranslations: ["вонючий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1556,
+    word: "faded",
+    type: "adjective",
+    transcription: "/ˈfeɪdɪd/",
+    synonyms: ["drunk", "intoxicated"],
+    meaning: ["Extremely intoxicated."],
+    rusTranslations: ["под кайфом"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1557,
+    word: "trippy",
+    type: "adjective",
+    transcription: "/ˈtrɪpi/",
+    synonyms: ["psychedelic", "mind-bending"],
+    meaning: ["Having a surreal, hallucinogenic quality."],
+    rusTranslations: ["странный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1558,
+    word: "funkadelic",
+    type: "adjective",
+    transcription: "/ˌfʌŋkəˈdɛlɪk/",
+    synonyms: ["groovy", "cool"],
+    meaning: ["Funky and psychedelic."],
+    rusTranslations: ["фанковый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1559,
+    word: "mashup",
+    type: "noun",
+    transcription: "/ˈmæʃʌp/",
+    synonyms: ["blend", "mix"],
+    meaning: ["A blend of two or more songs or styles."],
+    rusTranslations: ["микс"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1560,
+    word: "wavy",
+    type: "adjective",
+    transcription: "/ˈweɪvi/",
+    synonyms: ["cool", "stylish"],
+    meaning: ["Trendy or fashionable."],
+    rusTranslations: ["стильный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1561,
+    word: "freshie",
+    type: "noun",
+    transcription: "/ˈfrɛʃi/",
+    synonyms: ["rookie", "newbie"],
+    meaning: ["A new or inexperienced person."],
+    rusTranslations: ["новичок"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1562,
+    word: "savage mode",
+    type: "noun",
+    transcription: "/ˈsævɪdʒ moʊd/",
+    synonyms: ["unstoppable", "ferocious"],
+    meaning: ["A state of being ruthlessly efficient."],
+    rusTranslations: ["безжалостный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1563,
+    word: "crisp",
+    type: "adjective",
+    transcription: "/krɪsp/",
+    synonyms: ["fresh", "cool"],
+    meaning: ["Very clean and sharp in appearance."],
+    rusTranslations: ["чёткий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1564,
+    word: "mad",
+    type: "adjective",
+    transcription: "/mæd/",
+    synonyms: ["very", "extremely"],
+    meaning: ["Used as an intensifier, e.g., 'mad cool'."],
+    rusTranslations: ["очень"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1565,
+    word: "buckaroo",
+    type: "noun",
+    transcription: "/ˈbʌkəruː/",
+    synonyms: ["cowboy", "rancher"],
+    meaning: ["A cowboy, often used in a playful context."],
+    rusTranslations: ["ковбой"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1566,
+    word: "gassed up",
+    type: "adjective",
+    transcription: "/ɡæst ʌp/",
+    synonyms: ["pumped", "excited"],
+    meaning: ["Extremely excited or hyped."],
+    rusTranslations: ["на подъеме"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1567,
+    word: "bling",
+    type: "noun",
+    transcription: "/blɪŋ/",
+    synonyms: ["jewelry", "flash"],
+    meaning: ["Expensive, ostentatious jewelry."],
+    rusTranslations: ["блеск"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1568,
+    word: "sizzlin'",
+    type: "adjective",
+    transcription: "/ˈsɪzlɪn/",
+    synonyms: ["hot", "steamy"],
+    meaning: ["Extremely attractive or exciting."],
+    rusTranslations: ["жгучий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1569,
+    word: "chopped",
+    type: "adjective",
+    transcription: "/tʃɒpt/",
+    synonyms: ["cut", "edited"],
+    meaning: ["Refers to something that has been mixed or edited, often in music."],
+    rusTranslations: ["смонтированный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1570,
+    word: "cheeky",
+    type: "adjective",
+    transcription: "/ˈtʃiːki/",
+    synonyms: ["impudent", "bold"],
+    meaning: ["Playfully disrespectful or impertinent."],
+    rusTranslations: ["наглый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1571,
+    word: "grody",
+    type: "adjective",
+    transcription: "/ˈɡroʊdi/",
+    synonyms: ["disgusting", "gross"],
+    meaning: ["Disgusting or repulsive."],
+    rusTranslations: ["отвратительный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1572,
+    word: "chump",
+    type: "noun",
+    transcription: "/tʃʌmp/",
+    synonyms: ["fool", "dupe"],
+    meaning: ["A foolish or easily deceived person."],
+    rusTranslations: ["лох"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1573,
+    word: "dawg",
+    type: "noun",
+    transcription: "/dɔːɡ/",
+    synonyms: ["friend", "homie"],
+    meaning: ["A term for a friend or buddy."],
+    rusTranslations: ["братан"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1574,
+    word: "ghosted",
+    type: "verb",
+    transcription: "/ˈɡoʊstɪd/",
+    synonyms: ["ignored", "vanished"],
+    meaning: ["To suddenly stop all communication with someone."],
+    rusTranslations: ["игнорировать"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1575,
+    word: "kicks",
+    type: "noun",
+    transcription: "/kɪks/",
+    synonyms: ["shoes", "sneakers"],
+    meaning: ["Cool or stylish shoes."],
+    rusTranslations: ["кроссовки"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1576,
+    word: "swervin'",
+    type: "verb",
+    transcription: "/ˈswɜːrvɪn/",
+    synonyms: ["swerve", "veer"],
+    meaning: ["To deviate or change direction quickly."],
+    rusTranslations: ["уклоняться"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1577,
+    word: "snap",
+    type: "verb",
+    transcription: "/snæp/",
+    synonyms: ["react", "respond"],
+    meaning: ["To react quickly or sharply."],
+    rusTranslations: ["резко ответить"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1578,
+    word: "wildin'",
+    type: "verb",
+    transcription: "/ˈwaɪldɪn/",
+    synonyms: ["acting crazy", "go wild"],
+    meaning: ["Acting in a wild or unpredictable manner."],
+    rusTranslations: ["выходить из себя"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1579,
+    word: "jelly",
+    type: "adjective",
+    transcription: "/ˈdʒɛli/",
+    synonyms: ["envious", "jealous"],
+    meaning: ["Short for 'jellyfish', meaning jealous."],
+    rusTranslations: ["завидовать"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1580,
+    word: "buzzin'",
+    type: "adjective",
+    transcription: "/ˈbʌzɪn/",
+    synonyms: ["excited", "pumped"],
+    meaning: ["Very excited or high on energy."],
+    rusTranslations: ["на взлёте"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1581,
+    word: "nuke",
+    type: "verb",
+    transcription: "/njuːk/",
+    synonyms: ["obliterate", "destroy"],
+    meaning: ["To completely destroy or overwhelm."],
+    rusTranslations: ["уничтожить"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1582,
+    word: "dime",
+    type: "noun",
+    transcription: "/daɪm/",
+    synonyms: ["perfect", "gorgeous"],
+    meaning: ["A person considered to be a perfect 10."],
+    rusTranslations: ["идеал"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1583,
+    word: "bucks",
+    type: "noun",
+    transcription: "/bʌks/",
+    synonyms: ["dollars", "cash"],
+    meaning: ["Money."],
+    rusTranslations: ["деньги"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1584,
+    word: "paper",
+    type: "noun",
+    transcription: "/ˈpeɪpər/",
+    synonyms: ["money", "cash"],
+    meaning: ["Money, usually in paper form."],
+    rusTranslations: ["бабки"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1585,
+    word: "scrilla",
+    type: "noun",
+    transcription: "/ˈskrɪlə/",
+    synonyms: ["money", "cash"],
+    meaning: ["A slang term for money."],
+    rusTranslations: ["капуста"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1586,
+    word: "fetti",
+    type: "noun",
+    transcription: "/ˈfɛti/",
+    synonyms: ["money", "cash"],
+    meaning: ["Slang for money, derived from confetti."],
+    rusTranslations: ["бабки"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1587,
+    word: "guap",
+    type: "noun",
+    transcription: "/ɡwɑp/",
+    synonyms: ["money", "cash"],
+    meaning: ["A large amount of money."],
+    rusTranslations: ["капуста"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1588,
+    word: "stacks",
+    type: "noun",
+    transcription: "/stæks/",
+    synonyms: ["money", "cash"],
+    meaning: ["A large amount of money."],
+    rusTranslations: ["стопки"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1589,
+    word: "racks",
+    type: "noun",
+    transcription: "/ræks/",
+    synonyms: ["money", "cash"],
+    meaning: ["A slang term for large amounts of money."],
+    rusTranslations: ["капуста"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1590,
+    word: "bones",
+    type: "noun",
+    transcription: "/boʊnz/",
+    synonyms: ["money", "cash"],
+    meaning: ["Slang for dollars or money."],
+    rusTranslations: ["деньги"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1591,
+    word: "change",
+    type: "noun",
+    transcription: "/tʃeɪndʒ/",
+    synonyms: ["money", "coins"],
+    meaning: ["Small amounts of money."],
+    rusTranslations: ["сдача"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1592,
+    word: "spondulix",
+    type: "noun",
+    transcription: "/ˈspɒndʒʊlɪks/",
+    synonyms: ["money", "cash"],
+    meaning: ["Old slang term for money."],
+    rusTranslations: ["денежки"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1593,
+    word: "dosh",
+    type: "noun",
+    transcription: "/dɒʃ/",
+    synonyms: ["money", "cash"],
+    meaning: ["Slang for money."],
+    rusTranslations: ["бабки"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1594,
+    word: "greenbacks",
+    type: "noun",
+    transcription: "/ˈɡriːnˌbæks/",
+    synonyms: ["dollars", "cash"],
+    meaning: ["Paper money in the United States."],
+    rusTranslations: ["деньги"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1595,
+    word: "benjamins",
+    type: "noun",
+    transcription: "/bɛnˈdʒæmɪnz/",
+    synonyms: ["money", "cash"],
+    meaning: ["Slang for one hundred-dollar bills."],
+    rusTranslations: ["ста баксов"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1596,
+    word: "clutch",
+    type: "adjective",
+    transcription: "/klʌtʃ/",
+    synonyms: ["timely", "critical"],
+    meaning: ["Very important or skillful when needed."],
+    rusTranslations: ["точный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1597,
+    word: "freakin'",
+    type: "adjective",
+    transcription: "/ˈfriːkɪn/",
+    synonyms: ["really", "extremely"],
+    meaning: ["Used as an intensifier to express extreme quality."],
+    rusTranslations: ["чертовски"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1598,
+    word: "whizkid",
+    type: "noun",
+    transcription: "/ˈwɪzkɪd/",
+    synonyms: ["prodigy", "genius"],
+    meaning: ["A person, especially a child, who is exceptionally talented."],
+    rusTranslations: ["одарённый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1599,
+    word: "clapped",
+    type: "adjective",
+    transcription: "/klæpt/",
+    synonyms: ["worn out", "tired"],
+    meaning: ["Extremely tired or exhausted."],
+    rusTranslations: ["измученный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1600,
+    word: "zoned",
+    type: "adjective",
+    transcription: "/zoʊnd/",
+    synonyms: ["absent", "spaced out"],
+    meaning: ["Being in a state of inattention or distraction."],
+    rusTranslations: ["отключенный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1601,
+    word: "flossy",
+    type: "adjective",
+    transcription: "/ˈflɒsi/",
+    synonyms: ["flashy", "showy"],
+    meaning: ["Very ostentatious or flashy."],
+    rusTranslations: ["вычурный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1602,
+    word: "snazzy",
+    type: "adjective",
+    transcription: "/ˈsnæzi/",
+    synonyms: ["stylish", "cool"],
+    meaning: ["Attractive and stylish."],
+    rusTranslations: ["модный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1603,
+    word: "bombed",
+    type: "adjective",
+    transcription: "/bɒmd/",
+    synonyms: ["intoxicated", "drunk"],
+    meaning: ["Very intoxicated."],
+    rusTranslations: ["подпитый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1604,
+    word: "chillaxed",
+    type: "adjective",
+    transcription: "/tʃɪlˈlæksd/",
+    synonyms: ["relaxed", "calm"],
+    meaning: ["Completely relaxed."],
+    rusTranslations: ["расслабленный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1605,
+    word: "wired",
+    type: "adjective",
+    transcription: "/waɪrd/",
+    synonyms: ["energetic", "hyper"],
+    meaning: ["Full of nervous energy."],
+    rusTranslations: ["на взводе"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1606,
+    word: "crunkin'",
+    type: "adjective",
+    transcription: "/ˈkrʌŋkɪn/",
+    synonyms: ["hyped", "amped"],
+    meaning: ["Very excited or intoxicated."],
+    rusTranslations: ["подбитый"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1607,
+    word: "jacked up",
+    type: "adjective",
+    transcription: "/dʒækt ʌp/",
+    synonyms: ["excited", "pumped"],
+    meaning: ["Extremely excited or agitated."],
+    rusTranslations: ["на взводе"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1608,
+    word: "off the chain",
+    type: "adjective",
+    transcription: "/ɒf ðə tʃeɪn/",
+    synonyms: ["amazing", "incredible"],
+    meaning: ["Extremely good or exciting."],
+    rusTranslations: ["невероятный"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1609,
+    word: "on point",
+    type: "adjective",
+    transcription: "/ɒn pɔɪnt/",
+    synonyms: ["perfect", "precise"],
+    meaning: ["Exactly right or perfectly executed."],
+    rusTranslations: ["точно"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1610,
+    word: "savage AF",
+    type: "adjective",
+    transcription: "/ˈsævɪdʒ eɪɛf/",
+    synonyms: ["extremely savage"],
+    meaning: ["Extremely tough or impressive."],
+    rusTranslations: ["чертовски дикий"],
+    vocabulary: ["slang"]
+  },
+  {
+    id: 1611,
+    word: "tight-knit",
+    type: "adjective",
+    transcription: "/ˌtaɪtˈnɪt/",
+    synonyms: ["close", "united"],
+    meaning: ["Very close or well connected."],
+    rusTranslations: ["сплочённый"],
+    vocabulary: ["slang"]
+  }
 ];
