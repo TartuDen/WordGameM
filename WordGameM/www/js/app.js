@@ -38,9 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Tap on the word to pronounce it.
   document.getElementById("word").addEventListener("click", pronounceWord);
 
-  // ===== Remove swipe detection code =====
-  // (Swiping functionality has been removed in favor of arrow navigation.)
-
   // ===== Add arrow button event listeners =====
   document.getElementById("nextArrow").addEventListener("click", () => {
     animatePageTurn("forward", loadNextWord);
@@ -157,11 +154,24 @@ function loadPreviousWord() {
 }
 
 /**
- * Returns a random word from englishWords.
+ * Returns a random word from englishWords filtered by the current user's vocabulary.
  */
 function getRandomWord() {
-  const randIndex = Math.floor(Math.random() * englishWords.length);
-  return englishWords[randIndex];
+  const currentUserStr = localStorage.getItem("currentUser");
+  let availableWords = englishWords;
+  if (currentUserStr) {
+    const user = JSON.parse(currentUserStr);
+    if (user.vocabulary && user.vocabulary.length > 0) {
+      availableWords = englishWords.filter(word => {
+        return word.vocabulary.some(v => user.vocabulary.includes(v));
+      });
+    }
+  }
+  if (availableWords.length === 0) {
+    availableWords = englishWords;
+  }
+  const randIndex = Math.floor(Math.random() * availableWords.length);
+  return availableWords[randIndex];
 }
 
 /**

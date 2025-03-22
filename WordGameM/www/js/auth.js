@@ -1,6 +1,7 @@
 // WordGameM/www/js/auth.js
 
 import { userDataList } from "./mockUser.js";
+import { englishList } from "./words.js"; // Import word list for dynamic vocabulary checkboxes
 import { displayUserInfo, showWord } from "./app.js"; // So we can call them after login
 
 let userList = [];
@@ -8,6 +9,9 @@ let selectedUserId = null; // which user we are editing (if any)
 let selectedAvatar = "";  // holds the chosen avatar filename
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Generate vocabulary checkboxes dynamically based on words.js
+  populateVocabCheckboxes();
+
   // 1) Load profiles from localStorage
   loadUserProfilesFromStorage();
 
@@ -40,6 +44,46 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+/**
+ * Populates the vocabulary checkboxes dynamically.
+ * It collects all unique vocabulary types from englishList.
+ */
+function populateVocabCheckboxes() {
+  const vocabContainer = document.getElementById("vocab-checkboxes");
+  vocabContainer.innerHTML = ""; // Clear existing content
+
+  const title = document.createElement("p");
+  title.textContent = "Select vocabularies:";
+  vocabContainer.appendChild(title);
+
+  // Collect unique vocabulary types from englishList
+  const uniqueVocabs = new Set();
+  englishList.forEach(word => {
+    if (word.vocabulary && Array.isArray(word.vocabulary)) {
+      word.vocabulary.forEach(v => uniqueVocabs.add(v));
+    }
+  });
+
+  // For each unique vocabulary, create a checkbox with a label.
+  uniqueVocabs.forEach(vocab => {
+    const label = document.createElement("label");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.name = "vocabType";
+    checkbox.value = vocab;
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(" " + capitalize(vocab)));
+    vocabContainer.appendChild(label);
+  });
+}
+
+/**
+ * Capitalizes the first letter of a string.
+ */
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
 /**
  * SELECT an existing profile from the dropdown,
@@ -109,7 +153,7 @@ function onSelectProfile() {
 function onCreateOrUpdateProfile() {
   const newUserName = document.getElementById("newUserName").value.trim();
 
-  // gather selected vocab checkboxes
+  // Gather selected vocab checkboxes
   const checkboxes = document.querySelectorAll('input[name="vocabType"]');
   const selectedVocab = [];
   checkboxes.forEach((box) => {
@@ -250,7 +294,7 @@ function populateExistingProfiles() {
   userList.forEach((usr) => {
     const option = document.createElement("option");
     option.value = usr.user_id;
-    option.textContent = `${usr.user_name} (vocab: ${usr.vocabulary.join(",")})`;
+    option.textContent = `${usr.user_name} (vocab: ${usr.vocabulary.join(", ")})`;
     selectEl.appendChild(option);
   });
 }

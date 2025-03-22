@@ -65,30 +65,8 @@
           </div>
         </div>
 
-        <!-- Multiple checkboxes for vocabulary -->
-        <div class="vocab-checkboxes">
-          <p>Select vocabularies:</p>
-          <label>
-            <input type="checkbox" name="vocabType" value="general" />
-            General
-          </label>
-          <label>
-            <input type="checkbox" name="vocabType" value="gaming" />
-            Gaming
-          </label>
-          <label>
-            <input type="checkbox" name="vocabType" value="technical" />
-            Technical
-          </label>
-          <label>
-            <input type="checkbox" name="vocabType" value="law" />
-            Law
-          </label>
-          <label>
-            <input type="checkbox" name="vocabType" value="slang" />
-            Slang
-          </label>
-        </div>
+        <!-- Dynamic vocabulary checkboxes -->
+        <div id="vocab-checkboxes" class="vocab-checkboxes"></div>
 
         <!-- 3) CREATE/UPDATE => Saves changes and logs in -->
         <button id="createOrUpdateProfileBtn">Create/Update</button>

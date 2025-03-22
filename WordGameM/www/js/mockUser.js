@@ -5,7 +5,7 @@ export const userDataList = [
     user_id: 1,
     user_name: "Den",
     user_reg_data: "05.10.2022",
-    vocabulary: ["general", "gaming"],
+    vocabulary: ["general"],
   },
   {
     user_id: 2,
