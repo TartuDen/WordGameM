@@ -1,5 +1,3 @@
-// WordGameM/www/js/mockUser.js
-
 export const userDataList = [
   {
     user_id: 1,
@@ -20,7 +18,7 @@ export const userProgressList = [
     user_id: 1,
     guessed_words: [
       {
-        word_id: 1, //word's id,
+        word_id: 1,
         guess_correctly: 3,
         guessed_wrong: 1,
       },
@@ -54,7 +52,6 @@ export class PlayedWords {
   }
 
   addWord(word) {
-    // If the user has navigated back, trim the "future" history.
     if (this.currentIndex < this.words.length - 1) {
       this.words = this.words.slice(0, this.currentIndex + 1);
     }
@@ -63,8 +60,6 @@ export class PlayedWords {
   }
 
   nextWord() {
-    // If there is already a “next” word (from a previous backward navigation),
-    // move the pointer forward.
     if (this.currentIndex < this.words.length - 1) {
       this.currentIndex++;
       return this.words[this.currentIndex];

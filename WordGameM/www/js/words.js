@@ -15365,7 +15365,7 @@ export const englishList = [
     synonyms: ["crazy", "insane"],
     meaning: ["Extremely crazy or out of control."],
     rusTranslations: ["сумасшедший"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1513,
@@ -15375,7 +15375,7 @@ export const englishList = [
     synonyms: ["hit", "jam"],
     meaning: ["A really good song or track."],
     rusTranslations: ["хит"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1514,
@@ -15385,7 +15385,7 @@ export const englishList = [
     synonyms: ["hot", "fire"],
     meaning: ["Really good or awesome; literally means 'fire' in Spanish."],
     rusTranslations: ["огненный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1515,
@@ -15395,7 +15395,7 @@ export const englishList = [
     synonyms: ["awesome", "amazing"],
     meaning: ["Extremely good."],
     rusTranslations: ["классный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1516,
@@ -15405,7 +15405,7 @@ export const englishList = [
     synonyms: ["cool", "stylish"],
     meaning: ["Very attractive or impressive."],
     rusTranslations: ["свежий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1517,
@@ -15415,7 +15415,7 @@ export const englishList = [
     synonyms: ["cool", "awesome"],
     meaning: ["Excellent or stylish."],
     rusTranslations: ["классный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1518,
@@ -15425,7 +15425,7 @@ export const englishList = [
     synonyms: ["tough", "cool"],
     meaning: ["Impressively tough or uncompromising."],
     rusTranslations: ["крутой"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1519,
@@ -15433,9 +15433,11 @@ export const englishList = [
     type: "adjective",
     transcription: "/rɔː/",
     synonyms: ["authentic", "uncut"],
-    meaning: ["Genuine or unfiltered, sometimes used to describe someone impressive."],
+    meaning: [
+      "Genuine or unfiltered, sometimes used to describe someone impressive.",
+    ],
     rusTranslations: ["настоящий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1520,
@@ -15445,7 +15447,7 @@ export const englishList = [
     synonyms: ["dynamite", "bomb"],
     meaning: ["A person or thing that is exciting or full of energy."],
     rusTranslations: ["огненный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1521,
@@ -15455,7 +15457,7 @@ export const englishList = [
     synonyms: ["top-notch", "excellent"],
     meaning: ["Extremely good; excellent."],
     rusTranslations: ["отличный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1522,
@@ -15465,7 +15467,7 @@ export const englishList = [
     synonyms: ["awesome", "cool"],
     meaning: ["Very impressive or excellent."],
     rusTranslations: ["крутой"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1523,
@@ -15475,7 +15477,7 @@ export const englishList = [
     synonyms: ["awesome", "amazing"],
     meaning: ["Really awesome or impressive."],
     rusTranslations: ["клёвый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1524,
@@ -15485,7 +15487,7 @@ export const englishList = [
     synonyms: ["cool", "groovy"],
     meaning: ["Stylish or hip."],
     rusTranslations: ["зажигательный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1525,
@@ -15495,7 +15497,7 @@ export const englishList = [
     synonyms: ["stylish", "chic"],
     meaning: ["Fashionably elegant or sophisticated."],
     rusTranslations: ["элитный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1526,
@@ -15505,7 +15507,7 @@ export const englishList = [
     synonyms: ["cool", "awesome"],
     meaning: ["Short for radical; very cool."],
     rusTranslations: ["клёвый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1527,
@@ -15515,7 +15517,7 @@ export const englishList = [
     synonyms: ["awesome", "excellent"],
     meaning: ["The absolute best; amazing."],
     rusTranslations: ["супер"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1528,
@@ -15525,7 +15527,7 @@ export const englishList = [
     synonyms: ["fresh", "cool"],
     meaning: ["Very cool or trendy."],
     rusTranslations: ["свежий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1529,
@@ -15533,9 +15535,11 @@ export const englishList = [
     type: "noun",
     transcription: "/ˈbɔːlər/",
     synonyms: ["rich", "stylish"],
-    meaning: ["Someone who is impressively successful or stylish, often in sports."],
+    meaning: [
+      "Someone who is impressively successful or stylish, often in sports.",
+    ],
     rusTranslations: ["богач"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1530,
@@ -15545,7 +15549,7 @@ export const englishList = [
     synonyms: ["transformation", "evolution"],
     meaning: ["A significant transformation, usually for the better."],
     rusTranslations: ["преображение"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1531,
@@ -15555,7 +15559,7 @@ export const englishList = [
     synonyms: ["cool", "useful"],
     meaning: ["Particularly good or effective."],
     rusTranslations: ["удобный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1532,
@@ -15565,7 +15569,7 @@ export const englishList = [
     synonyms: ["awesome", "cool"],
     meaning: ["Extremely good; very impressive."],
     rusTranslations: ["отпадный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1533,
@@ -15575,7 +15579,7 @@ export const englishList = [
     synonyms: ["excited", "pumped"],
     meaning: ["Really excited or energized."],
     rusTranslations: ["на взводе"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1534,
@@ -15585,7 +15589,7 @@ export const englishList = [
     synonyms: ["excited", "thrilled"],
     meaning: ["Very excited or enthusiastic."],
     rusTranslations: ["в восторге"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1535,
@@ -15595,7 +15599,7 @@ export const englishList = [
     synonyms: ["trendsetter", "fashionista"],
     meaning: ["A person who follows trends obsessively."],
     rusTranslations: ["фанат моды"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1536,
@@ -15605,7 +15609,7 @@ export const englishList = [
     synonyms: ["exhausted", "worn-out"],
     meaning: ["Extremely tired."],
     rusTranslations: ["вымотанный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1537,
@@ -15615,7 +15619,7 @@ export const englishList = [
     synonyms: ["high quality", "cool"],
     meaning: ["Excellent, especially in reference to memes or music."],
     rusTranslations: ["крутой"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1538,
@@ -15625,7 +15629,7 @@ export const englishList = [
     synonyms: ["terrible", "rubbish"],
     meaning: ["Very poor or of bad quality."],
     rusTranslations: ["отстойный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1539,
@@ -15635,7 +15639,7 @@ export const englishList = [
     synonyms: ["cool", "hip"],
     meaning: ["Very pleasing or cool (retro style)."],
     rusTranslations: ["классный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1540,
@@ -15645,7 +15649,7 @@ export const englishList = [
     synonyms: ["look", "glance"],
     meaning: ["To take a quick look."],
     rusTranslations: ["зырнуть"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1541,
@@ -15655,7 +15659,7 @@ export const englishList = [
     synonyms: ["house", "pad"],
     meaning: ["A place where someone lives."],
     rusTranslations: ["хата"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1542,
@@ -15665,7 +15669,7 @@ export const englishList = [
     synonyms: ["lousy", "garbage"],
     meaning: ["Of very poor quality."],
     rusTranslations: ["дерганый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1543,
@@ -15675,7 +15679,7 @@ export const englishList = [
     synonyms: ["talk", "nonsense"],
     meaning: ["To talk nonsense or act insincerely."],
     rusTranslations: ["болтовня"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1544,
@@ -15685,7 +15689,7 @@ export const englishList = [
     synonyms: ["shock", "astonishment"],
     meaning: ["Used to express being greatly surprised."],
     rusTranslations: ["шок"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1545,
@@ -15695,7 +15699,7 @@ export const englishList = [
     synonyms: ["style", "flair"],
     meaning: ["Extra style or swagger."],
     rusTranslations: ["шик"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1546,
@@ -15705,7 +15709,7 @@ export const englishList = [
     synonyms: ["tease", "mock"],
     meaning: ["To deliberately provoke or annoy someone online."],
     rusTranslations: ["троллить"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1547,
@@ -15715,7 +15719,7 @@ export const englishList = [
     synonyms: ["genius", "prodigy"],
     meaning: ["A person who is very talented or skilled."],
     rusTranslations: ["умница"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1548,
@@ -15725,7 +15729,7 @@ export const englishList = [
     synonyms: ["loser", "novice"],
     meaning: ["A person who is not very good at something."],
     rusTranslations: ["неудачник"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1549,
@@ -15735,7 +15739,7 @@ export const englishList = [
     synonyms: ["excited", "amped"],
     meaning: ["Extremely excited or intoxicated."],
     rusTranslations: ["подбитый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1550,
@@ -15745,7 +15749,7 @@ export const englishList = [
     synonyms: ["dabbing", "gesturing"],
     meaning: ["Performing the dab dance move."],
     rusTranslations: ["показывать даб"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1551,
@@ -15755,7 +15759,7 @@ export const englishList = [
     synonyms: ["muscular", "buff"],
     meaning: ["Having well-defined muscles."],
     rusTranslations: ["накачанный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1552,
@@ -15765,7 +15769,7 @@ export const englishList = [
     synonyms: ["well-built", "muscular"],
     meaning: ["Having a well-defined, muscular build."],
     rusTranslations: ["накачанный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1553,
@@ -15775,7 +15779,7 @@ export const englishList = [
     synonyms: ["work", "hustle"],
     meaning: ["To work hard, often in a relentless manner."],
     rusTranslations: ["трудиться"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1554,
@@ -15785,7 +15789,7 @@ export const englishList = [
     synonyms: ["successful", "in control"],
     meaning: ["In a state of being successful or in charge."],
     rusTranslations: ["управлять"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1555,
@@ -15795,7 +15799,7 @@ export const englishList = [
     synonyms: ["smelly", "funky"],
     meaning: ["Smelled very bad."],
     rusTranslations: ["вонючий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1556,
@@ -15805,7 +15809,7 @@ export const englishList = [
     synonyms: ["drunk", "intoxicated"],
     meaning: ["Extremely intoxicated."],
     rusTranslations: ["под кайфом"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1557,
@@ -15815,7 +15819,7 @@ export const englishList = [
     synonyms: ["psychedelic", "mind-bending"],
     meaning: ["Having a surreal, hallucinogenic quality."],
     rusTranslations: ["странный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1558,
@@ -15825,7 +15829,7 @@ export const englishList = [
     synonyms: ["groovy", "cool"],
     meaning: ["Funky and psychedelic."],
     rusTranslations: ["фанковый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1559,
@@ -15835,7 +15839,7 @@ export const englishList = [
     synonyms: ["blend", "mix"],
     meaning: ["A blend of two or more songs or styles."],
     rusTranslations: ["микс"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1560,
@@ -15845,7 +15849,7 @@ export const englishList = [
     synonyms: ["cool", "stylish"],
     meaning: ["Trendy or fashionable."],
     rusTranslations: ["стильный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1561,
@@ -15855,7 +15859,7 @@ export const englishList = [
     synonyms: ["rookie", "newbie"],
     meaning: ["A new or inexperienced person."],
     rusTranslations: ["новичок"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1562,
@@ -15865,7 +15869,7 @@ export const englishList = [
     synonyms: ["unstoppable", "ferocious"],
     meaning: ["A state of being ruthlessly efficient."],
     rusTranslations: ["безжалостный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1563,
@@ -15875,7 +15879,7 @@ export const englishList = [
     synonyms: ["fresh", "cool"],
     meaning: ["Very clean and sharp in appearance."],
     rusTranslations: ["чёткий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1564,
@@ -15885,7 +15889,7 @@ export const englishList = [
     synonyms: ["very", "extremely"],
     meaning: ["Used as an intensifier, e.g., 'mad cool'."],
     rusTranslations: ["очень"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1565,
@@ -15895,7 +15899,7 @@ export const englishList = [
     synonyms: ["cowboy", "rancher"],
     meaning: ["A cowboy, often used in a playful context."],
     rusTranslations: ["ковбой"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1566,
@@ -15905,7 +15909,7 @@ export const englishList = [
     synonyms: ["pumped", "excited"],
     meaning: ["Extremely excited or hyped."],
     rusTranslations: ["на подъеме"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1567,
@@ -15915,7 +15919,7 @@ export const englishList = [
     synonyms: ["jewelry", "flash"],
     meaning: ["Expensive, ostentatious jewelry."],
     rusTranslations: ["блеск"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1568,
@@ -15925,7 +15929,7 @@ export const englishList = [
     synonyms: ["hot", "steamy"],
     meaning: ["Extremely attractive or exciting."],
     rusTranslations: ["жгучий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1569,
@@ -15933,9 +15937,11 @@ export const englishList = [
     type: "adjective",
     transcription: "/tʃɒpt/",
     synonyms: ["cut", "edited"],
-    meaning: ["Refers to something that has been mixed or edited, often in music."],
+    meaning: [
+      "Refers to something that has been mixed or edited, often in music.",
+    ],
     rusTranslations: ["смонтированный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1570,
@@ -15945,7 +15951,7 @@ export const englishList = [
     synonyms: ["impudent", "bold"],
     meaning: ["Playfully disrespectful or impertinent."],
     rusTranslations: ["наглый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1571,
@@ -15955,7 +15961,7 @@ export const englishList = [
     synonyms: ["disgusting", "gross"],
     meaning: ["Disgusting or repulsive."],
     rusTranslations: ["отвратительный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1572,
@@ -15965,7 +15971,7 @@ export const englishList = [
     synonyms: ["fool", "dupe"],
     meaning: ["A foolish or easily deceived person."],
     rusTranslations: ["лох"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1573,
@@ -15975,7 +15981,7 @@ export const englishList = [
     synonyms: ["friend", "homie"],
     meaning: ["A term for a friend or buddy."],
     rusTranslations: ["братан"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1574,
@@ -15985,7 +15991,7 @@ export const englishList = [
     synonyms: ["ignored", "vanished"],
     meaning: ["To suddenly stop all communication with someone."],
     rusTranslations: ["игнорировать"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1575,
@@ -15995,7 +16001,7 @@ export const englishList = [
     synonyms: ["shoes", "sneakers"],
     meaning: ["Cool or stylish shoes."],
     rusTranslations: ["кроссовки"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1576,
@@ -16005,7 +16011,7 @@ export const englishList = [
     synonyms: ["swerve", "veer"],
     meaning: ["To deviate or change direction quickly."],
     rusTranslations: ["уклоняться"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1577,
@@ -16015,7 +16021,7 @@ export const englishList = [
     synonyms: ["react", "respond"],
     meaning: ["To react quickly or sharply."],
     rusTranslations: ["резко ответить"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1578,
@@ -16025,7 +16031,7 @@ export const englishList = [
     synonyms: ["acting crazy", "go wild"],
     meaning: ["Acting in a wild or unpredictable manner."],
     rusTranslations: ["выходить из себя"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1579,
@@ -16035,7 +16041,7 @@ export const englishList = [
     synonyms: ["envious", "jealous"],
     meaning: ["Short for 'jellyfish', meaning jealous."],
     rusTranslations: ["завидовать"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1580,
@@ -16045,7 +16051,7 @@ export const englishList = [
     synonyms: ["excited", "pumped"],
     meaning: ["Very excited or high on energy."],
     rusTranslations: ["на взлёте"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1581,
@@ -16055,7 +16061,7 @@ export const englishList = [
     synonyms: ["obliterate", "destroy"],
     meaning: ["To completely destroy or overwhelm."],
     rusTranslations: ["уничтожить"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1582,
@@ -16065,7 +16071,7 @@ export const englishList = [
     synonyms: ["perfect", "gorgeous"],
     meaning: ["A person considered to be a perfect 10."],
     rusTranslations: ["идеал"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1583,
@@ -16075,7 +16081,7 @@ export const englishList = [
     synonyms: ["dollars", "cash"],
     meaning: ["Money."],
     rusTranslations: ["деньги"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1584,
@@ -16085,7 +16091,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["Money, usually in paper form."],
     rusTranslations: ["бабки"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1585,
@@ -16095,7 +16101,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["A slang term for money."],
     rusTranslations: ["капуста"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1586,
@@ -16105,7 +16111,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["Slang for money, derived from confetti."],
     rusTranslations: ["бабки"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1587,
@@ -16115,7 +16121,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["A large amount of money."],
     rusTranslations: ["капуста"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1588,
@@ -16125,7 +16131,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["A large amount of money."],
     rusTranslations: ["стопки"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1589,
@@ -16135,7 +16141,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["A slang term for large amounts of money."],
     rusTranslations: ["капуста"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1590,
@@ -16145,7 +16151,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["Slang for dollars or money."],
     rusTranslations: ["деньги"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1591,
@@ -16155,7 +16161,7 @@ export const englishList = [
     synonyms: ["money", "coins"],
     meaning: ["Small amounts of money."],
     rusTranslations: ["сдача"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1592,
@@ -16165,7 +16171,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["Old slang term for money."],
     rusTranslations: ["денежки"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1593,
@@ -16175,7 +16181,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["Slang for money."],
     rusTranslations: ["бабки"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1594,
@@ -16185,7 +16191,7 @@ export const englishList = [
     synonyms: ["dollars", "cash"],
     meaning: ["Paper money in the United States."],
     rusTranslations: ["деньги"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1595,
@@ -16195,7 +16201,7 @@ export const englishList = [
     synonyms: ["money", "cash"],
     meaning: ["Slang for one hundred-dollar bills."],
     rusTranslations: ["ста баксов"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1596,
@@ -16205,7 +16211,7 @@ export const englishList = [
     synonyms: ["timely", "critical"],
     meaning: ["Very important or skillful when needed."],
     rusTranslations: ["точный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1597,
@@ -16215,7 +16221,7 @@ export const englishList = [
     synonyms: ["really", "extremely"],
     meaning: ["Used as an intensifier to express extreme quality."],
     rusTranslations: ["чертовски"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1598,
@@ -16225,7 +16231,7 @@ export const englishList = [
     synonyms: ["prodigy", "genius"],
     meaning: ["A person, especially a child, who is exceptionally talented."],
     rusTranslations: ["одарённый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1599,
@@ -16235,7 +16241,7 @@ export const englishList = [
     synonyms: ["worn out", "tired"],
     meaning: ["Extremely tired or exhausted."],
     rusTranslations: ["измученный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1600,
@@ -16245,7 +16251,7 @@ export const englishList = [
     synonyms: ["absent", "spaced out"],
     meaning: ["Being in a state of inattention or distraction."],
     rusTranslations: ["отключенный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1601,
@@ -16255,7 +16261,7 @@ export const englishList = [
     synonyms: ["flashy", "showy"],
     meaning: ["Very ostentatious or flashy."],
     rusTranslations: ["вычурный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1602,
@@ -16265,7 +16271,7 @@ export const englishList = [
     synonyms: ["stylish", "cool"],
     meaning: ["Attractive and stylish."],
     rusTranslations: ["модный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1603,
@@ -16275,7 +16281,7 @@ export const englishList = [
     synonyms: ["intoxicated", "drunk"],
     meaning: ["Very intoxicated."],
     rusTranslations: ["подпитый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1604,
@@ -16285,7 +16291,7 @@ export const englishList = [
     synonyms: ["relaxed", "calm"],
     meaning: ["Completely relaxed."],
     rusTranslations: ["расслабленный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1605,
@@ -16295,7 +16301,7 @@ export const englishList = [
     synonyms: ["energetic", "hyper"],
     meaning: ["Full of nervous energy."],
     rusTranslations: ["на взводе"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1606,
@@ -16305,7 +16311,7 @@ export const englishList = [
     synonyms: ["hyped", "amped"],
     meaning: ["Very excited or intoxicated."],
     rusTranslations: ["подбитый"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1607,
@@ -16315,7 +16321,7 @@ export const englishList = [
     synonyms: ["excited", "pumped"],
     meaning: ["Extremely excited or agitated."],
     rusTranslations: ["на взводе"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1608,
@@ -16325,7 +16331,7 @@ export const englishList = [
     synonyms: ["amazing", "incredible"],
     meaning: ["Extremely good or exciting."],
     rusTranslations: ["невероятный"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1609,
@@ -16335,7 +16341,7 @@ export const englishList = [
     synonyms: ["perfect", "precise"],
     meaning: ["Exactly right or perfectly executed."],
     rusTranslations: ["точно"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1610,
@@ -16345,7 +16351,7 @@ export const englishList = [
     synonyms: ["extremely savage"],
     meaning: ["Extremely tough or impressive."],
     rusTranslations: ["чертовски дикий"],
-    vocabulary: ["slang"]
+    vocabulary: ["slang"],
   },
   {
     id: 1611,
@@ -16355,6 +16361,248 @@ export const englishList = [
     synonyms: ["close", "united"],
     meaning: ["Very close or well connected."],
     rusTranslations: ["сплочённый"],
-    vocabulary: ["slang"]
-  }
+    vocabulary: ["slang"],
+  },
+  {
+    id: 1612,
+    word: "I like to read books.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Я люблю писать книги.", "Я не люблю читать книги."],
+    rusTranslations: ["Я люблю читать книги."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1613,
+    word: "The weather is very nice today.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: [
+      "Сегодня погода очень плохая.",
+      "Сегодня погода не очень хорошая.",
+    ],
+    rusTranslations: ["Сегодня очень хорошая погода."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1614,
+    word: "She is my best friend.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Она моя единственная подруга.", "Она мой лучший друг."],
+    rusTranslations: ["Она моя лучшая подруга."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1615,
+    word: "We are going to the park.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Мы идем в музей.", "Мы идем в сад."],
+    rusTranslations: ["Мы идем в парк."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1616,
+    word: "He plays football every weekend.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: [
+      "Он играет в баскетбол каждые выходные.",
+      "Он играет в футбол по будням.",
+    ],
+    rusTranslations: ["Он играет в футбол каждые выходные."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1617,
+    word: "They live in a small town.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Они живут в большом городе.", "Они живут в маленькой деревне."],
+    rusTranslations: ["Они живут в маленьком городе."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1618,
+    word: "I have a red bicycle.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["У меня есть синий велосипед.", "У меня есть красный скейтборд."],
+    rusTranslations: ["У меня есть красный велосипед."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1619,
+    word: "My sister loves music.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Моя сестра ненавидит музыку.", "Моя сестра любит танцы."],
+    rusTranslations: ["Моя сестра любит музыку."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1620,
+    word: "We ate dinner at a restaurant.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Мы позавтракали в ресторане.", "Мы поужинали в кафе."],
+    rusTranslations: ["Мы поужинали в ресторане."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1621,
+    word: "I am learning English.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Я учу испанский.", "Я изучаю французский."],
+    rusTranslations: ["Я учу английский."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1622,
+    word: "The dog is very friendly.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Собака очень агрессивная.", "Собака очень холодная."],
+    rusTranslations: ["Собака очень дружелюбная."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1623,
+    word: "He is reading a newspaper.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Он пишет газету.", "Он читает журнал."],
+    rusTranslations: ["Он читает газету."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1624,
+    word: "She works in an office.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Она работает в банке.", "Она работает в школе."],
+    rusTranslations: ["Она работает в офисе."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1625,
+    word: "I enjoy walking in the morning.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Мне не нравится гулять утром.", "Мне нравится бегать утром."],
+    rusTranslations: ["Мне нравится гулять утром."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1626,
+    word: "We watched a movie last night.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: [
+      "Мы смотрели сериал прошлой ночью.",
+      "Мы слушали фильм прошлой ночью.",
+    ],
+    rusTranslations: ["Мы смотрели фильм прошлой ночью."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1627,
+    word: "The children are playing outside.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Дети спят на улице.", "Дети играют внутри."],
+    rusTranslations: ["Дети играют на улице."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1628,
+    word: "My mother is cooking dinner.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Моя мама готовит завтрак.", "Моя мама заказывает ужин."],
+    rusTranslations: ["Моя мама готовит ужин."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1629,
+    word: "I need to buy some bread.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Мне нужно купить молоко.", "Мне нужно купить торт."],
+    rusTranslations: ["Мне нужно купить хлеб."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1630,
+    word: "The car is parked in front of the house.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Машина стоит за домом.", "Машина припаркована возле магазина."],
+    rusTranslations: ["Машина припаркована перед домом."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1631,
+    word: "She likes to swim in the sea.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: [
+      "Ей нравится плавать в бассейне.",
+      "Ей нравится плавать в озере.",
+    ],
+    rusTranslations: ["Ей нравится плавать в море."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1632,
+    word: "I am writing a letter.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Я читаю письмо.", "Я отправляю письмо."],
+    rusTranslations: ["Я пишу письмо."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1633,
+    word: "They are watching television.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Они слушают телевизор.", "Они читают телевизор."],
+    rusTranslations: ["Они смотрят телевизор."],
+    vocabulary: ["sentence"],
+  },
+  {
+    id: 1634,
+    word: "He enjoys playing the guitar.",
+    type: "sentence",
+    transcription: "",
+    synonyms: [],
+    meaning: ["Он любит играть на пианино.", "Он любит петь на гитаре."],
+    rusTranslations: ["Он любит играть на гитаре."],
+    vocabulary: ["sentence"],
+  },
 ];

@@ -1,54 +1,37 @@
-// WordGameM/www/js/app.js
-
 import { englishList } from "./words.js";
-import { userProgressList, PlayedWords } from "./mockUser.js"; // Import the new PlayedWords
+import { userProgressList, PlayedWords } from "./mockUser.js";
 
 let userProgressInMemory = [];
-
-// Initialize the session history for played words.
 let sessionHistory = new PlayedWords();
 let currentWord = null;
 
 document.addEventListener("DOMContentLoaded", () => {
-  // If a user is already logged in, show the game page.
   const currentUserStr = localStorage.getItem("currentUser");
   if (currentUserStr) {
     document.getElementById("profilePage").classList.add("hidden");
     document.getElementById("gamePage").classList.remove("hidden");
-
     displayUserInfo();
     showWord();
   }
 
-  // Set up switch profile functionality.
   document
     .getElementById("switchProfileIcon")
     .addEventListener("click", showProfilePage);
-
-  // Toggle meaning.
   document.getElementById("showMeaningBtn").addEventListener("click", () => {
     document.getElementById("meaning").classList.toggle("hidden");
   });
-
-  // Toggle synonyms.
   document.getElementById("showSynonymsBtn").addEventListener("click", () => {
     document.getElementById("synonyms").classList.toggle("hidden");
   });
-
-  // Tap on the word to pronounce it.
   document.getElementById("word").addEventListener("click", pronounceWord);
-
-  // ===== Add arrow button event listeners =====
   document.getElementById("nextArrow").addEventListener("click", () => {
     animatePageTurn("forward", loadNextWord);
   });
-
   document.getElementById("prevArrow").addEventListener("click", () => {
     animatePageTurn("back", loadPreviousWord);
   });
 });
 
-// Load user progress from localStorage or seed with the mock.
 function loadUserProgress() {
   const data = localStorage.getItem("userProgressList");
   if (data) {
@@ -65,35 +48,27 @@ loadUserProgress();
 
 const englishWords = englishList;
 
-/**
- * Renders a given word in the word card.
- */
 function displayWord(word) {
   currentWord = word;
   document.getElementById("word").textContent = word.word;
   document.getElementById("transcription").textContent = word.transcription;
   
-  // Hide meaning by default.
   const meaningEl = document.getElementById("meaning");
   meaningEl.textContent = word.meaning.join("; ");
   meaningEl.classList.add("hidden");
 
-  // Hide synonyms by default.
   const synonymsEl = document.getElementById("synonyms");
   synonymsEl.textContent = word.synonyms
     ? "Synonyms: " + word.synonyms.join(", ")
     : "No synonyms available.";
   synonymsEl.classList.add("hidden");
 
-  // Generate multiple-choice options.
   generateOptions(word);
 
-  // Determine if this word is coming from history (i.e. revisited).
   const isFromHistory = (sessionHistory.currentIndex < sessionHistory.words.length - 1);
   const currentUserStr = localStorage.getItem("currentUser");
   if (currentUserStr) {
     const currentUser = JSON.parse(currentUserStr);
-    // Always re-load the latest progress from storage
     userProgressInMemory = JSON.parse(localStorage.getItem("userProgressList")) || [];
     const matchingProgress = userProgressInMemory.find(
       (up) => parseInt(up.user_id) === parseInt(currentUser.user_id)
@@ -107,25 +82,16 @@ function displayWord(word) {
         guessedCorrectly = true;
       }
     }
-    // If revisited and guessed correctly, disable guessing.
     if (isFromHistory && guessedCorrectly) {
       disableOptions();
     }
   }
 }
 
-/**
- * Called externally (and by arrow clicks) to show a new word.
- * It loads the next word into the session history.
- */
 export function showWord() {
   loadNextWord();
 }
 
-/**
- * Loads the next word. If the current word is the latest in the history,
- * a new random word is generated and added.
- */
 function loadNextWord() {
   let newWord;
   if (sessionHistory.currentIndex === sessionHistory.words.length - 1) {
@@ -141,9 +107,6 @@ function loadNextWord() {
   displayWord(newWord);
 }
 
-/**
- * Loads the previous word from session history.
- */
 function loadPreviousWord() {
   const prevWord = sessionHistory.prevWord();
   if (prevWord) {
@@ -153,9 +116,6 @@ function loadPreviousWord() {
   }
 }
 
-/**
- * Returns a random word from englishWords filtered by the current user's vocabulary.
- */
 function getRandomWord() {
   const currentUserStr = localStorage.getItem("currentUser");
   let availableWords = englishWords;
@@ -174,78 +134,113 @@ function getRandomWord() {
   return availableWords[randIndex];
 }
 
-/**
- * Animate the page turn.
- * @param {string} direction - "forward" for next word, "back" for previous word.
- * @param {Function} callback - Function to update the word content.
- */
 function animatePageTurn(direction, callback) {
   const wordCard = document.getElementById("wordCard");
   const animationClass = direction === "forward" ? "page-turn-forward" : "page-turn-back";
   wordCard.classList.add(animationClass);
 
-  // After half the animation duration, update the word.
   setTimeout(() => {
     callback();
-  }, 300); // half of 600ms
+  }, 300);
 
-  // Remove the animation class after the animation completes.
   setTimeout(() => {
     wordCard.classList.remove(animationClass);
   }, 600);
 }
 
-/**
- * Generates multiple-choice options for a given word.
- * Each button gets a data attribute indicating if it is correct.
- */
+/* ========= UPDATED generateOptions FUNCTION =========
+   For words with "sentence" vocabulary, wrong options are taken from
+   the same word object's meaning property.
+======================================================== */
 function generateOptions(wordObj) {
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
 
-  const correctOption = {
-    translations: wordObj.rusTranslations,
-    isCorrect: true,
-  };
+  // Check if the word is of type "sentence" (or has "sentence" in its vocabulary)
+  if (wordObj.vocabulary && wordObj.vocabulary.includes("sentence")) {
+    const correctOption = {
+      translations: wordObj.rusTranslations,
+      isCorrect: true,
+    };
 
-  // Get 2 random “wrong” options.
-  const wrongWordObjects = getRandomWrongWords(wordObj.type, wordObj.id, 2);
-  const wrongOptions = wrongWordObjects.map((w) => ({
-    translations: w.rusTranslations,
-    isCorrect: false,
-  }));
+    // Use the meanings array as the source of wrong options,
+    // but filter out any option that exactly matches a correct translation.
+    let wrongVariants = Array.isArray(wordObj.meaning) ? wordObj.meaning.slice() : [];
+    wrongVariants = wrongVariants.filter(variant => !wordObj.rusTranslations.includes(variant));
 
-  let allOptions = [correctOption, ...wrongOptions];
-  shuffleArray(allOptions);
+    const desiredCount = 2;
+    shuffleArray(wrongVariants);
+    const wrongOptions = wrongVariants.slice(0, desiredCount).map(variant => ({
+      translations: [variant],
+      isCorrect: false,
+    }));
 
-  allOptions.forEach((option) => {
-    const btn = document.createElement("button");
-    btn.textContent = option.translations.join("\n");
-    btn.classList.add("option-btn");
-    // Mark whether this button is the correct answer.
-    btn.setAttribute("data-correct", option.isCorrect);
+    let allOptions = [correctOption, ...wrongOptions];
+    shuffleArray(allOptions);
 
-    btn.addEventListener("click", () => {
-      if (option.isCorrect) {
-        showToast("Correct!");
-        updateUserProgress(true, wordObj.id);
-        setTimeout(() => {
-          hideToast();
-          animatePageTurn("forward", loadNextWord);
-        }, 1000);
-      } else {
-        alert("Incorrect. Try again!");
-        updateUserProgress(false, wordObj.id);
-      }
+    allOptions.forEach((option) => {
+      const btn = document.createElement("button");
+      btn.textContent = option.translations.join("\n");
+      btn.classList.add("option-btn");
+      btn.setAttribute("data-correct", option.isCorrect);
+
+      btn.addEventListener("click", () => {
+        if (option.isCorrect) {
+          showToast("Correct!");
+          updateUserProgress(true, wordObj.id);
+          setTimeout(() => {
+            hideToast();
+            animatePageTurn("forward", loadNextWord);
+          }, 1000);
+        } else {
+          alert("Incorrect. Try again!");
+          updateUserProgress(false, wordObj.id);
+        }
+      });
+
+      optionsContainer.appendChild(btn);
     });
+  } else {
+    // For non-sentence words, use the existing logic.
+    const correctOption = {
+      translations: wordObj.rusTranslations,
+      isCorrect: true,
+    };
 
-    optionsContainer.appendChild(btn);
-  });
+    const wrongWordObjects = getRandomWrongWords(wordObj.type, wordObj.id, 2);
+    const wrongOptions = wrongWordObjects.map((w) => ({
+      translations: w.rusTranslations,
+      isCorrect: false,
+    }));
+
+    let allOptions = [correctOption, ...wrongOptions];
+    shuffleArray(allOptions);
+
+    allOptions.forEach((option) => {
+      const btn = document.createElement("button");
+      btn.textContent = option.translations.join("\n");
+      btn.classList.add("option-btn");
+      btn.setAttribute("data-correct", option.isCorrect);
+
+      btn.addEventListener("click", () => {
+        if (option.isCorrect) {
+          showToast("Correct!");
+          updateUserProgress(true, wordObj.id);
+          setTimeout(() => {
+            hideToast();
+            animatePageTurn("forward", loadNextWord);
+          }, 1000);
+        } else {
+          alert("Incorrect. Try again!");
+          updateUserProgress(false, wordObj.id);
+        }
+      });
+
+      optionsContainer.appendChild(btn);
+    });
+  }
 }
 
-/**
- * Returns a few wrong word options from the same type.
- */
 function getRandomWrongWords(type, excludeId, count) {
   const candidates = englishWords.filter(
     (word) => word.type === type && word.id !== excludeId
@@ -261,9 +256,6 @@ function shuffleArray(arr) {
   }
 }
 
-/**
- * Uses the Web Speech API to pronounce the current word when tapped.
- */
 function pronounceWord() {
   if (!currentWord || !currentWord.word) return;
 
@@ -295,18 +287,12 @@ function showProfilePage() {
   document.getElementById("profilePage").classList.remove("hidden");
 }
 
-/**
- * Updates the user’s progress (correct and incorrect counts) and
- * re-renders the stats.
- */
 function updateUserProgress(isCorrect, wordId) {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
   const user = JSON.parse(currentUserStr);
 
-  // Reload latest progress
   userProgressInMemory = JSON.parse(localStorage.getItem("userProgressList")) || [];
-
   let progressObj = userProgressInMemory.find(
     (up) => parseInt(up.user_id) === parseInt(user.user_id)
   );
@@ -343,9 +329,6 @@ function updateUserProgress(isCorrect, wordId) {
   displayUserInfo();
 }
 
-/**
- * Disables the answer options and highlights the correct one in green.
- */
 function disableOptions() {
   const optionsContainer = document.getElementById("options");
   const buttons = optionsContainer.querySelectorAll("button");
@@ -357,9 +340,6 @@ function disableOptions() {
   });
 }
 
-/**
- * Displays user info and stats.
- */
 export function displayUserInfo() {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
@@ -374,7 +354,6 @@ export function displayUserInfo() {
     userAvatarEl.style.display = "none";
   }
 
-  // Always re-load the latest progress from storage
   userProgressInMemory = JSON.parse(localStorage.getItem("userProgressList")) || [];
   const matchingProgress = userProgressInMemory.find(
     (up) => parseInt(up.user_id) === parseInt(user.user_id)
@@ -395,9 +374,6 @@ export function displayUserInfo() {
   document.getElementById("userStats").textContent = `${totalAttempts}/${correctPercent}%`;
 }
 
-/*===================================================
-  Toast functions for displaying brief messages.
-=====================================================*/
 function showToast(message) {
   const toast = document.getElementById("resultToast");
   const toastMessage = document.getElementById("toastMessage");

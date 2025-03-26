@@ -2,45 +2,29 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- Helps with mobile scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My English App</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
-    <!-- Your consolidated CSS file -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <!-- =======================================
-         PROFILE PAGE (User Auth/Selection)
-    ======================================== -->
     <div id="profilePage" class="profile-page">
       <h2>Select or Create Profile</h2>
-
-      <!-- Existing Profiles Section -->
       <div class="existing-profile-section">
         <label for="existingProfilesSelect">Choose existing profile:</label>
         <select id="existingProfilesSelect">
           <option value="">--No profiles--</option>
         </select>
-
-        <!-- 1) SELECT => Prefills form with user data -->
         <button id="selectProfileBtn">Select</button>
-
-        <!-- 2) DELETE => Remove selected user from storage -->
         <button id="deleteProfileBtn">Delete Selected Profile</button>
       </div>
-
       <hr />
-
-      <!-- Create/Update Profile Section -->
       <div class="create-profile-section">
         <label for="newUserName">Profile name:</label>
         <input type="text" id="newUserName" placeholder="Your name..." />
-
-        <!-- Avatar Selection Section for Kids -->
         <div class="avatar-selection">
           <p>Select your avatar:</p>
           <div class="avatar-options">
@@ -64,73 +48,42 @@
             />
           </div>
         </div>
-
-        <!-- Dynamic vocabulary checkboxes -->
         <div id="vocab-checkboxes" class="vocab-checkboxes"></div>
-
-        <!-- 3) CREATE/UPDATE => Saves changes and logs in -->
         <button id="createOrUpdateProfileBtn">Create/Update</button>
       </div>
     </div>
-
-    <!-- =======================================
-         MAIN GAME PAGE
-    ======================================== -->
     <div id="gamePage" class="hidden">
-      <!-- USER INFO CARD (minimized profile card) -->
       <div id="userInfo" class="user-info">
         <div class="user-info-card kids-style">
-          <!-- Switch Profile Emoji in top right corner -->
           <span id="switchProfileIcon" title="Switch Profile">🔄</span>
           <div class="profile-header">
             <img id="userAvatar" src="" alt="Avatar" class="user-avatar" />
             <h2 id="userNameDisplay"></h2>
           </div>
-          <!-- Compact stats: total attempts / correct percentage -->
           <div id="userStats" class="user-stats"></div>
         </div>
       </div>
-
-      <!-- WORD CARD: The main game content -->
       <div class="word-card" id="wordCard">
-        <!-- Left Arrow for Previous Word -->
-        <button id="prevArrow" class="arrow-button left-arrow" title="Previous Word">
-          ◀
-        </button>
-
-        <!-- Tapping on the word itself will pronounce it -->
+        <button id="prevArrow" class="arrow-button left-arrow" title="Previous Word">◀</button>
         <h1 id="word" title="Tap to hear pronunciation"></h1>
         <p id="transcription"></p>
-
-        <!-- Emoji buttons for meaning and synonyms -->
         <div class="emoji-buttons">
           <button id="showMeaningBtn" class="emoji-btn" title="Show Meaning">📖</button>
           <button id="showSynonymsBtn" class="emoji-btn" title="Show Synonyms">💬</button>
         </div>
-
         <div id="meaning" class="hidden"></div>
         <div id="synonyms" class="hidden"></div>
         <div id="options" class="options"></div>
-
-        <!-- Right Arrow for Next Word -->
-        <button id="nextArrow" class="arrow-button right-arrow" title="Next Word">
-          ▶
-        </button>
+        <button id="nextArrow" class="arrow-button right-arrow" title="Next Word">▶</button>
       </div>
-
-      <!-- Toast container -->
       <div id="resultToast" class="toast hidden">
         <div class="toast-content">
           <p id="toastMessage"></p>
         </div>
       </div>
     </div>
-
-    <!-- (Optional) Cordova script if you're using Cordova -->
     <script src="js/index.js"></script>
-    <!-- Auth logic script -->
     <script type="module" src="js/auth.js"></script>
-    <!-- Main app game logic script -->
     <script type="module" src="js/app.js"></script>
   </body>
 </html>
