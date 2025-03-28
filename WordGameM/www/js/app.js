@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       animatePageTurn("back", loadPreviousWord);
     });
 
-  // Listen for "Save Categories"
+  // Listen for "Save Categories" if you have categories in the game page
   const saveCategoryBtn = document.getElementById("saveCategoryBtn");
   if (saveCategoryBtn) {
     saveCategoryBtn.addEventListener("click", onSaveCategories);
@@ -84,7 +84,7 @@ function displayWord(word) {
 
   generateOptions(word);
 
-  // If we are going backward in history & the word was guessed right before, disable buttons
+  // If we are going backward in history & the word was guessed correct before, disable
   const isFromHistory = sessionHistory.currentIndex < sessionHistory.words.length - 1;
   const currentUserStr = localStorage.getItem("currentUser");
   if (currentUserStr) {
@@ -129,7 +129,6 @@ function loadNextWord() {
   }
 }
 
-/** Move backward in session history (if available). */
 function loadPreviousWord() {
   const prevWord = sessionHistory.prevWord();
   if (prevWord) {
@@ -139,7 +138,6 @@ function loadPreviousWord() {
   }
 }
 
-/** Filters words by user’s categories or uses the full list as fallback. */
 function getRandomWord() {
   const currentUserStr = localStorage.getItem("currentUser");
   let availableWords = englishWords;
@@ -161,7 +159,6 @@ function getRandomWord() {
   return availableWords[randIndex];
 }
 
-/** Simple page-turn animation. */
 function animatePageTurn(direction, callback) {
   const wordCard = document.getElementById("wordCard");
   const animationClass =
@@ -177,12 +174,15 @@ function animatePageTurn(direction, callback) {
   }, 600);
 }
 
-/** Generate multiple-choice “rusTranslations” for each word. */
+/** 
+ * UPDATED: We now show a styled toast for both "correct" & "wrong" instead of alert(), 
+ * and color the correct button green immediately.
+ */
 function generateOptions(wordObj) {
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
 
-  // For “sentence” words, pick wrong options from meaning
+  // For "sentence" words: use meaning-based distractors
   if (wordObj.vocabulary && wordObj.vocabulary.includes("sentence")) {
     const correctOption = {
       translations: wordObj.rusTranslations,
@@ -213,14 +213,17 @@ function generateOptions(wordObj) {
 
       btn.addEventListener("click", () => {
         if (option.isCorrect) {
-          showToast("Correct!");
+          // Immediately color correct button
+          btn.style.backgroundColor = "green";
+          showToast("Correct!", false); // false => success color
           updateUserProgress(true, wordObj.id);
           setTimeout(() => {
             hideToast();
             animatePageTurn("forward", loadNextWord);
           }, 1000);
         } else {
-          alert("Incorrect. Try again!");
+          // Show "Wrong!" toast in red
+          showToast("Wrong! Try again!", true); // true => error color
           updateUserProgress(false, wordObj.id);
         }
       });
@@ -228,7 +231,7 @@ function generateOptions(wordObj) {
       optionsContainer.appendChild(btn);
     });
   } else {
-    // For normal words, pick random words of the same “type” as distractors
+    // For normal words: random words of the same type
     const correctOption = {
       translations: wordObj.rusTranslations,
       isCorrect: true,
@@ -251,14 +254,15 @@ function generateOptions(wordObj) {
 
       btn.addEventListener("click", () => {
         if (option.isCorrect) {
-          showToast("Correct!");
+          btn.style.backgroundColor = "green";
+          showToast("Correct!", false);
           updateUserProgress(true, wordObj.id);
           setTimeout(() => {
             hideToast();
             animatePageTurn("forward", loadNextWord);
           }, 1000);
         } else {
-          alert("Incorrect. Try again!");
+          showToast("Wrong! Try again!", true);
           updateUserProgress(false, wordObj.id);
         }
       });
@@ -268,7 +272,6 @@ function generateOptions(wordObj) {
   }
 }
 
-/** Grab N random words of the same type (exclude current word). */
 function getRandomWrongWords(type, excludeId, count) {
   const candidates = englishWords.filter(
     (w) => w.type === type && w.id !== excludeId
@@ -277,7 +280,6 @@ function getRandomWrongWords(type, excludeId, count) {
   return candidates.slice(0, count);
 }
 
-/** Shuffle array in-place. */
 function shuffleArray(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -285,7 +287,6 @@ function shuffleArray(arr) {
   }
 }
 
-/** Text-to-speech for the current word. */
 function pronounceWord() {
   if (!currentWord || !currentWord.word) return;
 
@@ -297,22 +298,19 @@ function pronounceWord() {
   }
 }
 
-/** Return to profile page to pick a different user. */
 function showProfilePage() {
   document.getElementById("gamePage").classList.add("hidden");
   document.getElementById("profilePage").classList.remove("hidden");
 }
 
 /** 
- * The critical fix: parseInt on user_id & word_id 
- * so that correct guesses increment properly.
+ * CRITICAL: parseInt for IDs so "correct" increments actually work.
  */
 function updateUserProgress(isCorrect, wordId) {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
   const user = JSON.parse(currentUserStr);
 
-  // Reload progress in memory
   let storedProgress = localStorage.getItem("userProgressList");
   if (storedProgress) {
     userProgressInMemory = JSON.parse(storedProgress);
@@ -321,7 +319,6 @@ function updateUserProgress(isCorrect, wordId) {
     localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
   }
 
-  // Find or create progress object for user
   let progressObj = userProgressInMemory.find(
     (up) => parseInt(up.user_id) === parseInt(user.user_id)
   );
@@ -333,7 +330,6 @@ function updateUserProgress(isCorrect, wordId) {
     userProgressInMemory.push(progressObj);
   }
 
-  // Find or create guessedWord object for this word
   let guessedWord = progressObj.guessed_words.find(
     (gw) => parseInt(gw.word_id) === parseInt(wordId)
   );
@@ -346,40 +342,37 @@ function updateUserProgress(isCorrect, wordId) {
     progressObj.guessed_words.push(guessedWord);
   }
 
-  // Increment correct/wrong
   if (isCorrect) {
     guessedWord.guess_correctly++;
   } else {
     guessedWord.guessed_wrong++;
   }
 
-  // Save back
   localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
-
-  // Update user info (stats)
   displayUserInfo();
 }
 
-/** Disable the multiple-choice buttons if the user already got it correct. */
+/** Disable answer buttons if user previously guessed correctly. */
 function disableOptions() {
   const optionsContainer = document.getElementById("options");
   const buttons = optionsContainer.querySelectorAll("button");
   buttons.forEach((btn) => {
     btn.disabled = true;
     if (btn.getAttribute("data-correct") === "true") {
-      // Show correct button in green
       btn.style.backgroundColor = "green";
     }
   });
 }
 
-/** Render user’s name, avatar, stats, categories, etc. */
+/** 
+ * Renders user info in the top card (name, avatar, stats, categories).
+ * parseInt ensures we find the user's progress.
+ */
 export function displayUserInfo() {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
   const user = JSON.parse(currentUserStr);
 
-  // Basic info
   document.getElementById("userNameDisplay").textContent = user.user_name;
   const userAvatarEl = document.getElementById("userAvatar");
   if (user.avatar) {
@@ -389,7 +382,6 @@ export function displayUserInfo() {
     userAvatarEl.style.display = "none";
   }
 
-  // Load userProgress from localStorage
   let storedProgress = localStorage.getItem("userProgressList");
   if (storedProgress) {
     userProgressInMemory = JSON.parse(storedProgress);
@@ -397,7 +389,6 @@ export function displayUserInfo() {
     userProgressInMemory = userProgressList;
   }
 
-  // Calculate total correct/wrong
   const matchingProgress = userProgressInMemory.find(
     (up) => parseInt(up.user_id) === parseInt(user.user_id)
   );
@@ -417,17 +408,16 @@ export function displayUserInfo() {
 
   document.getElementById("userStats").textContent = `${totalAttempts}/${correctPercent}%`;
 
-  // Also show category checkboxes inside game page
+  // If you render categories in the game page, refresh them here:
   renderGamePageCategories(user);
 }
 
-/** Build checkboxes for all categories in game page. */
+/** Build checkboxes for categories in the game page. */
 function renderGamePageCategories(user) {
   const container = document.getElementById("inlineVocabCheckboxes");
   const saveBtn = document.getElementById("saveCategoryBtn");
   if (!container || !saveBtn) return;
 
-  // Collect all unique categories from englishList
   const uniqueVocabs = new Set();
   englishWords.forEach((word) => {
     if (Array.isArray(word.vocabulary)) {
@@ -436,7 +426,7 @@ function renderGamePageCategories(user) {
   });
 
   container.innerHTML = "";
-  saveBtn.classList.add("hidden"); // hide until user changes something
+  saveBtn.classList.add("hidden");
 
   uniqueVocabs.forEach((vocab) => {
     const label = document.createElement("label");
@@ -446,7 +436,6 @@ function renderGamePageCategories(user) {
     checkbox.checked = user.vocabulary && user.vocabulary.includes(vocab);
 
     checkbox.addEventListener("change", () => {
-      // If user toggles anything, show "Save" button
       saveBtn.classList.remove("hidden");
     });
 
@@ -456,7 +445,7 @@ function renderGamePageCategories(user) {
   });
 }
 
-/** Handle “Save Categories” in the game page. */
+/** Called when user clicks “Save Categories.” */
 function onSaveCategories() {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
@@ -472,11 +461,9 @@ function onSaveCategories() {
     }
   });
   user.vocabulary = newVocab;
-
-  // Update currentUser in localStorage
   localStorage.setItem("currentUser", JSON.stringify(user));
 
-  // Also update userList so changes persist beyond session
+  // Also update userList in localStorage
   let userListStr = localStorage.getItem("userList");
   if (userListStr) {
     const userList = JSON.parse(userListStr);
@@ -487,37 +474,47 @@ function onSaveCategories() {
     }
   }
 
-  // Hide "Save" button again
   document.getElementById("saveCategoryBtn").classList.add("hidden");
-
-  // Recalculate stats, etc.
   displayUserInfo();
-
-  // Optionally reset session history so new categories show up right away:
-  // sessionHistory = new PlayedWords();
 
   showToast("Categories saved!");
   setTimeout(() => {
     hideToast();
-    // Reload next word or do showWord() if you want a fresh pick
+    // Optionally reset session:
+    // sessionHistory = new PlayedWords();
     showWord();
   }, 800);
 }
 
-/** Show a floating toast message. */
-function showToast(message) {
+/** 
+ * UPDATED: showToast now supports a second param for "error" style. 
+ * We color the toast content green for success or red for error.
+ */
+function showToast(message, isError = false) {
   const toast = document.getElementById("resultToast");
   const toastMessage = document.getElementById("toastMessage");
+  const toastContent = toast.querySelector(".toast-content");
+
   toastMessage.textContent = message;
+
+  if (isError) {
+    toastContent.style.backgroundColor = "#FF5C5C"; // Red-ish
+  } else {
+    toastContent.style.backgroundColor = "#1CB841"; // Same green as "Correct!"
+  }
+
   toast.classList.remove("hidden");
   toast.classList.add("show");
 }
 
-/** Hide toast after short delay. */
+/** Hide the toast, restore its original style. */
 function hideToast() {
   const toast = document.getElementById("resultToast");
+  const toastContent = toast.querySelector(".toast-content");
+
   toast.classList.remove("show");
   setTimeout(() => {
     toast.classList.add("hidden");
+    toastContent.style.backgroundColor = "";
   }, 300);
 }
