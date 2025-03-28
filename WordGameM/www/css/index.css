@@ -1,3 +1,6 @@
+/* WordGameM\www\css\index.css */
+
+/* Basic reset */
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
@@ -12,13 +15,13 @@ body {
   background-image: linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
   font-size: 16px;
   margin: 0;
-  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
-           env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  padding: env(safe-area-inset);
   text-transform: uppercase;
   width: 100%;
   height: 100vh;
 }
 
+/* Profile Page Container */
 .profile-page {
   max-width: 400px;
   margin: 40px auto;
@@ -94,15 +97,6 @@ button {
   border-radius: 4px;
   border: none;
   margin-top: 5px;
-}
-
-#selectProfileBtn {
-  background-color: #00B3FF;
-  color: #fff;
-  margin-left: 10px;
-}
-#selectProfileBtn:hover {
-  background-color: #008CDA;
 }
 
 #createOrUpdateProfileBtn {
@@ -185,6 +179,7 @@ button {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* The big English word */
 #word {
   font-size: 2rem;
   color: #FF5733;
@@ -199,10 +194,10 @@ button {
   margin-bottom: 10px;
 }
 
+/* Buttons for meaning & synonyms */
 .emoji-buttons {
   margin-bottom: 10px;
 }
-
 .emoji-btn {
   font-size: 1.5rem;
   padding: 10px;
@@ -229,7 +224,6 @@ button {
 .options {
   margin-top: 20px;
 }
-
 .option-btn {
   background-color: #FF5C5C;
   color: #fff;
@@ -247,6 +241,7 @@ button {
   background-color: #ff4444;
 }
 
+/* Toast (correct feedback) */
 .toast {
   position: fixed;
   bottom: 20px;
@@ -272,21 +267,37 @@ button {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width: 768px) {
-  .word-card {
-    max-width: 600px;
-  }
-  .toast-content {
-    font-size: 1.2rem;
-  }
+/* Category checkboxes inside user info (inline style) */
+.inlineVocabCheckboxes {
+  margin-top: 10px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
-@media screen and (prefers-color-scheme: dark) {
-  body {
-    background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
-  }
+.inlineVocabCheckboxes label {
+  display: flex;
+  align-items: center;
+  text-transform: none; 
 }
 
+.inlineVocabCheckboxes input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Save button for categories */
+#saveCategoryBtn {
+  margin-top: 10px;
+  background-color: #FFB300;
+  color: #fff;
+}
+#saveCategoryBtn:hover {
+  background-color: #FF9500;
+}
+
+/* Page-turn arrow buttons */
 .arrow-button {
   position: absolute;
   top: 35%;
@@ -301,19 +312,17 @@ button {
   z-index: 10;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-
 .left-arrow {
   left: 5px;
 }
-
 .right-arrow {
   right: 5px;
 }
 
+/* Page-turn animations */
 .page-turn-forward {
   animation: pageTurnForward 0.6s ease;
 }
-
 @keyframes pageTurnForward {
   0% {
     transform: perspective(400px) rotateY(0deg);
@@ -329,7 +338,6 @@ button {
 .page-turn-back {
   animation: pageTurnBack 0.6s ease;
 }
-
 @keyframes pageTurnBack {
   0% {
     transform: perspective(400px) rotateY(0deg);
@@ -339,5 +347,20 @@ button {
   }
   100% {
     transform: perspective(400px) rotateY(0deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .word-card {
+    max-width: 600px;
+  }
+  .toast-content {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
   }
 }
