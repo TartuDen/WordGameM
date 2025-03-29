@@ -1,4 +1,4 @@
-/* WordGameM\www\css\index.css */
+/* WordGameM\www\css\lightTheme.css */
 
 /* Basic reset & universal styling */
 * {
@@ -402,20 +402,98 @@ button:active {
   }
 }
 
-@media screen and (prefers-color-scheme: dark) {
-  body {
-    background: linear-gradient(135deg, #434343 0%, #000000 100%);
-  }
-  .profile-page,
-  .user-info-card,
-  .word-card {
-    background-color: #333 !important;
-    color: #fff;
-  }
-  .option-btn {
-    background-color: #34495e;
-  }
-  #saveCategoryBtn {
-    background-color: #4f4f4f;
-  }
+
+/* Example slider styling (put in both theme CSS or a shared CSS) */
+.theme-section {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.theme-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.theme-slider-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.theme-slider {
+  width: 50px;
+  height: 24px;
+  -webkit-appearance: none;
+  background-color: #ccc;
+  outline: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.theme-slider:checked {
+  background-color: #999;
+}
+
+.theme-slider::-webkit-slider-thumb {
+  /* This won't work if we use <input type="checkbox">. 
+     If you want a custom slider, you'd do <input type="range"> or more advanced CSS. 
+     But let's keep it simple for a checkbox approach. 
+  */
+}
+
+.theme-emoji {
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+
+/* Put in BOTH lightTheme.css & darkTheme.css for consistent styling */
+
+.range-theme-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#lightIcon,
+#darkIcon {
+  font-size: 1.6rem;
+}
+
+.theme-range {
+  width: 60px;
+  height: 4px;
+  background: #ccc;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none; /* remove default styling */
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.theme-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: #ff66b3; /* or your accent color */
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.theme-range::-moz-range-thumb {
+  /* For Firefox */
+  width: 24px;
+  height: 24px;
+  background-color: #ff66b3;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }

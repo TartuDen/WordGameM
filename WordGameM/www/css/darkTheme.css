@@ -1,0 +1,507 @@
+/* WordGameM\www\css\darkTheme.css*/
+
+/* Basic reset & universal styling */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif; /* Clean, modern, easy-to-read */
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+  
+    /* Dark gradient background (gray-to-darker gray) */
+    background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+    margin: 0;
+    padding: env(safe-area-inset);
+    text-transform: uppercase; /* If you still want uppercase app-wide; remove if not */
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    overflow-x: hidden; /* prevent horizontal scroll on small devices */
+    color: #ddd; /* Lighter text on dark background */
+  }
+  
+  /* --- PROFILE PAGE CONTAINER --- */
+  .profile-page {
+    max-width: 400px;
+    margin: 40px auto;
+    /* Dark container for the profile page */
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 12px; 
+    text-align: center;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .profile-page h2 {
+    margin-top: 0;
+    font-weight: 600; 
+    font-size: 1.8rem;
+    color: #eee; 
+    text-transform: uppercase; 
+  }
+  
+  .existing-profile-section,
+  .create-profile-section {
+    margin-bottom: 20px;
+    text-transform: none; /* so labels remain more readable */
+  }
+  
+  .existing-profile-section label,
+  .create-profile-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #bbb; 
+    text-transform: none;
+  }
+  
+  .vocab-checkboxes {
+    margin: 10px 0;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .vocab-checkboxes label {
+    display: block;
+    margin-bottom: 4px;
+    text-transform: none;
+    color: #bbb;
+  }
+  
+  /* --- INPUT FIELDS & BUTTONS --- */
+  #existingProfilesSelect,
+  #newUserName {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #4f4f4f; 
+    background-color: #2a2a2a;
+    color: #ddd;
+  }
+  
+  button {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    text-transform: uppercase; 
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Profile page action buttons */
+  #createOrUpdateProfileBtn {
+    background-color: #3e8e7e; /* Teal accent */
+    color: #fff;
+  }
+  #createOrUpdateProfileBtn:hover {
+    background-color: #2f6f63;
+  }
+  
+  #deleteProfileBtn {
+    background-color: #555;
+    color: #fff;
+  }
+  #deleteProfileBtn:hover {
+    background-color: #333;
+  }
+  
+  /* --- AVATAR SELECTION --- */
+  .avatar-selection {
+    margin: 10px 0;
+    text-align: center;
+    color: #ccc;
+  }
+  
+  .avatar-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .avatar-option {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: transform 0.2s ease;
+  }
+  .avatar-option:hover {
+    transform: scale(1.07);
+  }
+  .avatar-option.selected {
+    border-color: #3e8e7e; /* same teal accent as buttons */
+  }
+  
+  /* --- GAME PAGE --- */
+  #gamePage {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* USER INFO CARD */
+  .user-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .user-info-card {
+    background: #333; 
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    position: relative;
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  #switchProfileIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #3e8e7e; 
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .user-stats {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    text-align: right;
+    color: #ccc;
+  }
+  
+  /* WORD CARD */
+  .word-card {
+    background: #2a2a2a; 
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  #word {
+    font-size: 2.2rem;
+    color: #3e8e7e; /* teal accent for the main word */
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  #transcription {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 10px;
+    text-transform: none;
+  }
+  
+  .emoji-buttons {
+    margin-bottom: 10px;
+  }
+  
+  /* Emoji buttons for meaning & synonyms */
+  .emoji-btn {
+    font-size: 1.5rem;
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    color: #ddd;
+  }
+  .emoji-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  #meaning {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #synonyms {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    margin-top: 20px;
+  }
+  
+  /* Option (multiple-choice) buttons */
+  .option-btn {
+    background-color: #3e8e7e;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    white-space: pre-line;
+    width: 70%;
+    min-height: 50px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  .option-btn:hover {
+    background-color: #2f6f63;
+  }
+  
+  /* Toast for correct/wrong feedback */
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s, bottom 0.3s;
+  }
+  .toast.show {
+    opacity: 1;
+    pointer-events: auto;
+    bottom: 40px;
+  }
+  
+  .toast-content {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #3e8e7e; /* You can change color in JS if you want success/error feedback */
+  }
+  
+  /* Inline checkboxes (for categories in game page) */
+  .inlineVocabCheckboxes {
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    color: #ccc;
+  }
+  
+  .inlineVocabCheckboxes label {
+    display: flex;
+    align-items: center;
+    text-transform: none;
+  }
+  
+  .inlineVocabCheckboxes input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Save categories button in user card */
+  #saveCategoryBtn {
+    margin-top: 10px;
+    background-color: #3e8e7e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  #saveCategoryBtn:hover {
+    background-color: #2f6f63;
+  }
+  
+  /* Arrow buttons for page-turn effect */
+  .arrow-button {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    font-size: 2rem;
+    color: #3e8e7e;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  .arrow-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-50%) scale(1.1);
+  }
+  .left-arrow {
+    left: 5px;
+  }
+  .right-arrow {
+    right: 5px;
+  }
+  
+  /* Page-turn animations */
+  .page-turn-forward {
+    animation: pageTurnForward 0.6s ease;
+  }
+  @keyframes pageTurnForward {
+    0% {
+      transform: perspective(400px) rotateY(0deg);
+    }
+    50% {
+      transform: perspective(400px) rotateY(-90deg);
+    }
+    100% {
+      transform: perspective(400px) rotateY(0deg);
+    }
+  }
+  
+  .page-turn-back {
+    animation: pageTurnBack 0.6s ease;
+  }
+  @keyframes pageTurnBack {
+    0% {
+      transform: perspective(400px) rotateY(0deg);
+    }
+    50% {
+      transform: perspective(400px) rotateY(90deg);
+    }
+    100% {
+      transform: perspective(400px) rotateY(0deg);
+    }
+  }
+  
+  /* Responsive & optional dark mode (already dark):
+     You could unify if you want the same style or override. */
+  @media screen and (min-width: 768px) {
+    .word-card {
+      max-width: 600px;
+    }
+    .toast-content {
+      font-size: 1.2rem;
+    }
+  }
+  /* Example slider styling (put in both theme CSS or a shared CSS) */
+.theme-section {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .theme-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .theme-slider-wrap {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .theme-slider {
+    width: 50px;
+    height: 24px;
+    -webkit-appearance: none;
+    background-color: #ccc;
+    outline: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .theme-slider:checked {
+    background-color: #999;
+  }
+  
+  .theme-slider::-webkit-slider-thumb {
+    /* This won't work if we use <input type="checkbox">. 
+       If you want a custom slider, you'd do <input type="range"> or more advanced CSS. 
+       But let's keep it simple for a checkbox approach. 
+    */
+  }
+  
+  .theme-emoji {
+    font-size: 1.2rem;
+    user-select: none;
+  }
+  /* Put in BOTH lightTheme.css & darkTheme.css for consistent styling */
+
+.range-theme-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #lightIcon,
+  #darkIcon {
+    font-size: 1.6rem;
+  }
+  
+  .theme-range {
+    width: 60px;
+    height: 4px;
+    background: #ccc;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none; /* remove default styling */
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .theme-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    background-color: #ff66b3; /* or your accent color */
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .theme-range::-moz-range-thumb {
+    /* For Firefox */
+    width: 24px;
+    height: 24px;
+    background-color: #ff66b3;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  
