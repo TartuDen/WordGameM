@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Firebase local cache
+.firebase/
+
+# Firebase Hosting default 404 (generated)
+WordGameM/www/404.html

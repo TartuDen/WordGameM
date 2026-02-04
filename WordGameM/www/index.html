@@ -48,6 +48,14 @@
       </div>
       <hr />
 
+      <!-- Google Sign-In -->
+      <div class="auth-section">
+        <button id="googleSignInBtn">Sign in with Google</button>
+        <button id="googleSignOutBtn" class="hidden">Sign out</button>
+        <p id="googleUserLabel" class="hidden"></p>
+      </div>
+      <hr />
+
       <!-- Existing profiles (auto-login on change) -->
       <div class="existing-profile-section">
         <label for="existingProfilesSelect">Pick your profile:</label>
@@ -104,6 +112,7 @@
             <h2 id="userNameDisplay"></h2>
           </div>
           <div id="userStats" class="user-stats"></div>
+          <div id="syncStatus" class="sync-status hidden"></div>
 
           <!-- Category Checkboxes displayed for existing user -->
           <div id="inlineVocabCheckboxes" class="inlineVocabCheckboxes"></div>

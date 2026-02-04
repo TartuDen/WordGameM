@@ -1,13 +1,19 @@
 // WordGameM\www\js\app.js
 
-import { englishList } from "./words.js";
+import { loadWords } from "./wordsRepository.js";
 import { userProgressList, PlayedWords } from "./mockUser.js";
+import { getCurrentUser } from "./firebaseAuth.js";
+import { saveUserProfile, upsertCloudProgress } from "./cloudRepository.js";
+import { setSyncStatus } from "./syncStatus.js";
 
 let userProgressInMemory = [];
 let sessionHistory = new PlayedWords();
 let currentWord = null;
+let englishWords = [];
+let wordsLoaded = false;
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  await ensureWordsLoaded();
   const currentUserStr = localStorage.getItem("currentUser");
   if (currentUserStr) {
     document.getElementById("profilePage").classList.add("hidden");
@@ -64,7 +70,24 @@ function loadUserProgress() {
 }
 loadUserProgress();
 
-const englishWords = englishList;
+export async function ensureWordsLoaded() {
+  if (wordsLoaded) return;
+  englishWords = await loadWords();
+  wordsLoaded = true;
+}
+
+export function getWordsSnapshot() {
+  return englishWords;
+}
+
+export function getUserProgressList() {
+  return userProgressInMemory;
+}
+
+export function setUserProgressList(list) {
+  userProgressInMemory = Array.isArray(list) ? list : [];
+  localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
+}
 
 /** Displays a given word in the UI. */
 function displayWord(word) {
@@ -90,7 +113,7 @@ function displayWord(word) {
   if (currentUserStr) {
     const currentUser = JSON.parse(currentUserStr);
     const progressObj = userProgressInMemory.find(
-      (up) => parseInt(up.user_id) === parseInt(currentUser.user_id)
+      (up) => String(up.user_id) === String(currentUser.user_id)
     );
     let guessedCorrectly = false;
     if (progressObj && progressObj.guessed_words) {
@@ -320,11 +343,11 @@ function updateUserProgress(isCorrect, wordId) {
   }
 
   let progressObj = userProgressInMemory.find(
-    (up) => parseInt(up.user_id) === parseInt(user.user_id)
+    (up) => String(up.user_id) === String(user.user_id)
   );
   if (!progressObj) {
     progressObj = {
-      user_id: parseInt(user.user_id),
+      user_id: user.user_id,
       guessed_words: [],
     };
     userProgressInMemory.push(progressObj);
@@ -349,6 +372,17 @@ function updateUserProgress(isCorrect, wordId) {
   }
 
   localStorage.setItem("userProgressList", JSON.stringify(userProgressInMemory));
+  const firebaseUser = getCurrentUser();
+  if (firebaseUser && firebaseUser.uid) {
+    setSyncStatus("Syncing...", "warn", 0);
+    upsertCloudProgress(firebaseUser.uid, wordId, isCorrect)
+      .then(() => {
+        setSyncStatus("Synced", "ok", 1200);
+      })
+      .catch(() => {
+        setSyncStatus("Offline", "error", 2000);
+      });
+  }
   displayUserInfo();
 }
 
@@ -390,7 +424,7 @@ export function displayUserInfo() {
   }
 
   const matchingProgress = userProgressInMemory.find(
-    (up) => parseInt(up.user_id) === parseInt(user.user_id)
+    (up) => String(up.user_id) === String(user.user_id)
   );
 
   let totalCorrect = 0;
@@ -467,11 +501,21 @@ function onSaveCategories() {
   let userListStr = localStorage.getItem("userList");
   if (userListStr) {
     const userList = JSON.parse(userListStr);
-    const idx = userList.findIndex((u) => parseInt(u.user_id) === parseInt(user.user_id));
+    const idx = userList.findIndex((u) => String(u.user_id) === String(user.user_id));
     if (idx !== -1) {
       userList[idx].vocabulary = newVocab;
       localStorage.setItem("userList", JSON.stringify(userList));
     }
+  }
+
+  const firebaseUser = getCurrentUser();
+  if (firebaseUser && firebaseUser.uid) {
+    saveUserProfile(firebaseUser.uid, {
+      user_name: user.user_name,
+      vocabulary: newVocab,
+    }).catch(() => {
+      // Best-effort sync.
+    });
   }
 
   document.getElementById("saveCategoryBtn").classList.add("hidden");

@@ -98,6 +98,35 @@
   button:active {
     transform: scale(0.95);
   }
+
+  /* Google auth section */
+  .auth-section {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #googleSignInBtn {
+    background-color: #4285f4;
+    color: #fff;
+  }
+  #googleSignInBtn:hover {
+    background-color: #357ae8;
+  }
+
+  #googleSignOutBtn {
+    background-color: #555;
+    color: #fff;
+  }
+  #googleSignOutBtn:hover {
+    background-color: #333;
+  }
+
+  #googleUserLabel {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #ddd;
+    text-transform: none;
+  }
   
   /* Profile page action buttons */
   #createOrUpdateProfileBtn {
@@ -201,6 +230,23 @@
     font-size: 0.9rem;
     text-align: right;
     color: #ccc;
+  }
+
+  .sync-status {
+    margin-top: 6px;
+    font-size: 0.8rem;
+    text-align: right;
+    text-transform: none;
+    color: #bbb;
+  }
+  .sync-status[data-tone="ok"] {
+    color: #1cb841;
+  }
+  .sync-status[data-tone="warn"] {
+    color: #f0932b;
+  }
+  .sync-status[data-tone="error"] {
+    color: #ff5c5c;
   }
   
   /* WORD CARD */
