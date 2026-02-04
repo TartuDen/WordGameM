@@ -6,54 +6,107 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-1: #c9f2ff;
+  --bg-2: #ffe4b8;
+  --ink-1: #1e2a2f;
+  --ink-2: #46545f;
+  --accent-1: #ff7a59;
+  --accent-2: #26b3a7;
+  --card: rgba(255, 252, 240, 0.92);
+  --card-border: rgba(255, 165, 91, 0.35);
+}
+
 body {
-  /* Fun, thick letters for kids/teens */
-  font-family: 'Fredoka One', sans-serif;
+  font-family: "Baloo 2", sans-serif;
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
   -webkit-user-select: none;
-
-  /* Summery pastel gradient: teal to soft yellow */
-  background: linear-gradient(135deg, #AFF1DA 0%, #F9EA8F 100%);
+  background:
+    radial-gradient(circle at 10% 15%, rgba(255, 255, 255, 0.75), transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(255, 214, 165, 0.75), transparent 45%),
+    linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 100%);
   margin: 0;
   padding: env(safe-area-inset);
-  text-transform: uppercase;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 16px;
-  overflow-x: hidden; /* prevent horizontal scroll on small devices */
+  overflow-x: hidden;
+  color: var(--ink-1);
 }
 
 /* --- PROFILE PAGE CONTAINER --- */
 .profile-page {
-  max-width: 400px;
-  margin: 40px auto;
-  background-color: #FFEFC2; /* matching user info card for a unified look */
-  padding: 20px;
-  border-radius: 16px; /* friendlier corners */
+  max-width: 560px;
+  margin: 24px auto;
+  background-color: var(--card);
+  padding: 22px 22px 26px;
+  border-radius: 22px;
   text-align: center;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 30px rgba(20, 20, 20, 0.15);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(6px);
+  animation: floatIn 520ms ease;
 }
 
-.profile-page h2 {
-  margin-top: 0;
-  font-weight: 400;
-  font-size: 1.8rem;
-  color: #F0932B; /* warm orange for headings */
+.profile-hero h1 {
+  margin: 0 0 6px;
+  font-family: "Kalam", cursive;
+  font-size: 2.4rem;
+  letter-spacing: 0.5px;
+  color: var(--accent-1);
+}
+
+.subtitle {
+  margin: 0 0 14px;
+  font-size: 1rem;
+  color: var(--ink-2);
+  text-transform: none;
+}
+
+.hero-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #fff3e0;
+  border: 1px solid rgba(255, 122, 89, 0.25);
+  font-size: 0.75rem;
+  text-transform: none;
+  color: var(--ink-2);
 }
 
 .existing-profile-section,
 .create-profile-section {
   margin-bottom: 20px;
   text-transform: none; /* easier to read */
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 122, 89, 0.18);
+  border-radius: 16px;
+  padding: 12px;
 }
 
 .existing-profile-section label,
 .create-profile-section label {
   display: block;
   margin-bottom: 5px;
-  color: #444;
+  color: var(--ink-2);
   text-transform: none;
+}
+
+.section-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-2);
+  margin: 0 0 6px;
 }
 
 .vocab-checkboxes {
@@ -76,9 +129,9 @@ body {
   font-size: 1rem;
   margin-bottom: 10px;
   border-radius: 8px;
-  border: 2px solid #FF9F43;
-  background-color: #fff7e5;
-  color: #333;
+  border: 2px solid rgba(255, 122, 89, 0.4);
+  background-color: #fffdf6;
+  color: var(--ink-1);
 }
 
 button {
@@ -88,7 +141,8 @@ button {
   border-radius: 8px;
   border: none;
   margin-top: 5px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 12px rgba(19, 19, 19, 0.1);
 }
 
 button:active {
@@ -99,11 +153,45 @@ button:active {
 .auth-section {
   text-align: center;
   margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(38, 179, 167, 0.2);
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.category-hint {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--ink-2);
+  text-transform: none;
+}
+
+.theme-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+.theme-btn {
+  background: #fff;
+  border: 1px solid rgba(38, 179, 167, 0.25);
+  color: var(--ink-1);
+  box-shadow: none;
+  padding: 10px 12px;
+  text-transform: none;
+}
+
+.theme-btn.active {
+  background: linear-gradient(135deg, #26b3a7, #6de5d8);
+  color: #fff;
+  border-color: transparent;
 }
 
 #googleSignInBtn {
   background-color: #4285f4;
   color: #fff;
+  width: 100%;
 }
 #googleSignInBtn:hover {
   background-color: #357ae8;
@@ -112,6 +200,7 @@ button:active {
 #googleSignOutBtn {
   background-color: #6c757d;
   color: #fff;
+  width: 100%;
 }
 #googleSignOutBtn:hover {
   background-color: #5a6268;
@@ -120,21 +209,28 @@ button:active {
 #googleUserLabel {
   margin-top: 8px;
   font-size: 0.9rem;
-  color: #333;
+  color: var(--ink-2);
   text-transform: none;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 122, 89, 0.35), transparent);
+  margin: 14px 0;
 }
 
 /* Profile page action buttons */
 #createOrUpdateProfileBtn {
-  background-color: #FF9F43; /* bright orange */
+  background: linear-gradient(135deg, #ff7a59, #ffb15a);
   color: #fff;
 }
 #createOrUpdateProfileBtn:hover {
-  background-color: #FF7728;
+  background: linear-gradient(135deg, #ff6a43, #ffa94b);
 }
 
 #deleteProfileBtn {
-  background-color: #6C757D;
+  background-color: #6c757d;
   color: #fff;
 }
 #deleteProfileBtn:hover {
@@ -323,27 +419,27 @@ button:active {
 /* Toast for correct/wrong feedback */
 .toast {
   position: fixed;
-  bottom: 20px;
+  top: 12px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s, bottom 0.3s;
+  transition: opacity 0.25s, top 0.25s;
 }
 .toast.show {
   opacity: 1;
-  pointer-events: auto;
-  bottom: 40px;
+  top: 20px;
 }
 
 .toast-content {
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 6px 14px;
+  border-radius: 999px;
   text-align: center;
-  font-size: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+  min-width: 120px;
 }
 
 /* Inline checkboxes (for categories in game page) */
@@ -448,6 +544,17 @@ button:active {
   }
 }
 
+@keyframes floatIn {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 /* Example slider styling (put in both theme CSS or a shared CSS) */
 .theme-section {
@@ -456,6 +563,10 @@ button:active {
   align-items: center;
   gap: 10px;
   justify-content: center;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(38, 179, 167, 0.2);
 }
 
 .theme-label {
@@ -509,6 +620,8 @@ button:active {
 #lightIcon,
 #darkIcon {
   font-size: 1.6rem;
+  color: var(--ink-2);
+  text-transform: none;
 }
 
 .theme-range {
@@ -526,7 +639,7 @@ button:active {
   -webkit-appearance: none;
   width: 24px;
   height: 24px;
-  background-color: #ff66b3; /* or your accent color */
+  background-color: var(--accent-1);
   border-radius: 50%;
   border: 2px solid #fff;
   cursor: pointer;
@@ -537,7 +650,7 @@ button:active {
   /* For Firefox */
   width: 24px;
   height: 24px;
-  background-color: #ff66b3;
+  background-color: var(--accent-1);
   border-radius: 50%;
   border: 2px solid #fff;
   cursor: pointer;

@@ -51,11 +51,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       animatePageTurn("back", loadPreviousWord);
     });
 
-  // Listen for "Save Categories" if you have categories in the game page
-  const saveCategoryBtn = document.getElementById("saveCategoryBtn");
-  if (saveCategoryBtn) {
-    saveCategoryBtn.addEventListener("click", onSaveCategories);
-  }
 });
 
 /** Load userProgress from localStorage or fallback. */
@@ -449,45 +444,34 @@ export function displayUserInfo() {
 /** Build checkboxes for categories in the game page. */
 function renderGamePageCategories(user) {
   const container = document.getElementById("inlineVocabCheckboxes");
-  const saveBtn = document.getElementById("saveCategoryBtn");
-  if (!container || !saveBtn) return;
-
+  if (!container) return;
   const uniqueVocabs = new Set();
   englishWords.forEach((word) => {
     if (Array.isArray(word.vocabulary)) {
       word.vocabulary.forEach((v) => uniqueVocabs.add(v));
     }
   });
-
   container.innerHTML = "";
-  saveBtn.classList.add("hidden");
-
   uniqueVocabs.forEach((vocab) => {
     const label = document.createElement("label");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.value = vocab;
     checkbox.checked = user.vocabulary && user.vocabulary.includes(vocab);
-
     checkbox.addEventListener("change", () => {
-      saveBtn.classList.remove("hidden");
+      applyCategorySelection();
     });
-
     label.appendChild(checkbox);
     label.appendChild(document.createTextNode(" " + vocab));
     container.appendChild(label);
   });
 }
-
-/** Called when user clicks “Save Categories.” */
-function onSaveCategories() {
+function applyCategorySelection() {
   const currentUserStr = localStorage.getItem("currentUser");
   if (!currentUserStr) return;
   const user = JSON.parse(currentUserStr);
-
   const container = document.getElementById("inlineVocabCheckboxes");
   const checkboxes = container.querySelectorAll("input[type='checkbox']");
-
   const newVocab = [];
   checkboxes.forEach((cb) => {
     if (cb.checked) {
@@ -496,7 +480,6 @@ function onSaveCategories() {
   });
   user.vocabulary = newVocab;
   localStorage.setItem("currentUser", JSON.stringify(user));
-
   // Also update userList in localStorage
   let userListStr = localStorage.getItem("userList");
   if (userListStr) {
@@ -507,7 +490,6 @@ function onSaveCategories() {
       localStorage.setItem("userList", JSON.stringify(userList));
     }
   }
-
   const firebaseUser = getCurrentUser();
   if (firebaseUser && firebaseUser.uid) {
     saveUserProfile(firebaseUser.uid, {
@@ -517,23 +499,14 @@ function onSaveCategories() {
       // Best-effort sync.
     });
   }
-
-  document.getElementById("saveCategoryBtn").classList.add("hidden");
   displayUserInfo();
-
-  showToast("Categories saved!");
+  showToast("Categories updated!");
   setTimeout(() => {
     hideToast();
-    // Optionally reset session:
-    // sessionHistory = new PlayedWords();
     showWord();
-  }, 800);
+  }, 600);
 }
 
-/** 
- * UPDATED: showToast now supports a second param for "error" style. 
- * We color the toast content green for success or red for error.
- */
 function showToast(message, isError = false) {
   const toast = document.getElementById("resultToast");
   const toastMessage = document.getElementById("toastMessage");
@@ -562,3 +535,5 @@ function hideToast() {
     toastContent.style.backgroundColor = "";
   }, 300);
 }
+
+

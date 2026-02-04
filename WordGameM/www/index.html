@@ -5,6 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My English App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!--
       Dynamically choose which CSS file to load (light or dark)
@@ -27,77 +33,36 @@
   <body>
     <!-- 1) Profile Page -->
     <div id="profilePage" class="profile-page">
-      <h2>Pick or Create Your Hero</h2>
+      <div class="profile-hero">
+        <h1>WordGameM</h1>
+        <p class="subtitle">Learn faster with short, playful daily sessions.</p>
+        <div class="hero-badges">
+          <span class="badge">Audio</span>
+          <span class="badge">Progress Sync</span>
+          <span class="badge">Quick Rounds</span>
+        </div>
+      </div>
 
-      <!-- THEME TOGGLE (NEW SLIDER RANGE) -->
+      <!-- THEME TOGGLE -->
       <div class="theme-section">
-        <label class="theme-label">Theme:</label>
-        <div class="range-theme-wrap">
-          <span id="lightIcon">🌞</span>
-          <input 
-            type="range" 
-            id="themeRange" 
-            min="0" 
-            max="1" 
-            step="1" 
-            value="0" 
-            class="theme-range"
-          />
-          <span id="darkIcon">🌑</span>
+        <p class="section-title">Theme</p>
+        <div class="theme-toggle">
+          <button id="themeLightBtn" class="theme-btn" data-theme="light">Light</button>
+          <button id="themeDarkBtn" class="theme-btn" data-theme="dark">Dark</button>
         </div>
       </div>
       <hr />
 
       <!-- Google Sign-In -->
       <div class="auth-section">
+        <p class="section-title">Sign in to save your progress</p>
         <button id="googleSignInBtn">Sign in with Google</button>
         <button id="googleSignOutBtn" class="hidden">Sign out</button>
         <p id="googleUserLabel" class="hidden"></p>
       </div>
       <hr />
-
-      <!-- Existing profiles (auto-login on change) -->
-      <div class="existing-profile-section">
-        <label for="existingProfilesSelect">Pick your profile:</label>
-        <select id="existingProfilesSelect">
-          <option value="">--No profiles--</option>
-        </select>
-        <button id="deleteProfileBtn">Delete Selected</button>
-      </div>
-      <hr />
-
-      <!-- Create/Update new profile -->
-      <div class="create-profile-section">
-        <label for="newUserName">Your Name:</label>
-        <input type="text" id="newUserName" placeholder="Your name..." />
-
-        <div class="avatar-selection">
-          <p>Pick your avatar:</p>
-          <div class="avatar-options">
-            <img
-              src="img/avatars/avatar1.png"
-              class="avatar-option"
-              data-avatar="avatar1.png"
-              alt="Avatar 1"
-            />
-            <img
-              src="img/avatars/avatar2.png"
-              class="avatar-option"
-              data-avatar="avatar2.png"
-              alt="Avatar 2"
-            />
-            <img
-              src="img/avatars/avatar3.png"
-              class="avatar-option"
-              data-avatar="avatar3.png"
-              alt="Avatar 3"
-            />
-          </div>
-        </div>
-
-        <div id="vocab-checkboxes" class="vocab-checkboxes"></div>
-
-        <button id="createOrUpdateProfileBtn">Save & Play</button>
+      <div class="category-hint">
+        <p>After sign-in, you will pick your categories.</p>
       </div>
     </div>
 
@@ -116,7 +81,6 @@
 
           <!-- Category Checkboxes displayed for existing user -->
           <div id="inlineVocabCheckboxes" class="inlineVocabCheckboxes"></div>
-          <button id="saveCategoryBtn" class="hidden">Save Categories</button>
         </div>
       </div>
 

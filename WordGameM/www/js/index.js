@@ -4,29 +4,23 @@ document.addEventListener("DOMContentLoaded", onDomLoaded);
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDomLoaded() {
-  // 1) We dynamically load lightTheme.css or darkTheme.css in index.html
-  //    using an inline script that checks localStorage at page start.
-  
-  // 2) Find the theme range slider
-  const themeRange = document.getElementById("themeRange");
-  if (themeRange) {
-    // Check the stored theme or default to "light"
-    const storedTheme = localStorage.getItem("selectedTheme") || "light";
-    
-    // If we had "dark" last time, slider goes to value=1
-    // If "light", slider goes to 0
-    themeRange.value = (storedTheme === "dark") ? "1" : "0";
+  const storedTheme = localStorage.getItem("selectedTheme") || "light";
+  const lightBtn = document.getElementById("themeLightBtn");
+  const darkBtn = document.getElementById("themeDarkBtn");
 
-    // On user changing the slider, store the new theme and reload
-    themeRange.addEventListener("change", () => {
-      const sliderValue = themeRange.value;
-      const newTheme = (sliderValue === "1") ? "dark" : "light";
+  if (lightBtn && darkBtn) {
+    if (storedTheme === "dark") {
+      darkBtn.classList.add("active");
+    } else {
+      lightBtn.classList.add("active");
+    }
 
-      // Save to localStorage so the inline script picks the right stylesheet
-      localStorage.setItem("selectedTheme", newTheme);
-
-      // Reload the page to apply the new theme
-      location.reload();
+    [lightBtn, darkBtn].forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const newTheme = btn.getAttribute("data-theme") || "light";
+        localStorage.setItem("selectedTheme", newTheme);
+        location.reload();
+      });
     });
   }
 
