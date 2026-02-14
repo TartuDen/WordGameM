@@ -422,6 +422,15 @@
   .option-btn:hover {
     background-color: #2f6f63;
   }
+  .option-btn.option-wrong {
+    color: #ff6b6b;
+  }
+  .option-btn.option-correct {
+    color: #6fe28f;
+  }
+  .option-btn.option-shake {
+    animation: optionShake 0.22s ease;
+  }
   
   /* Toast for correct/wrong feedback */
   .toast {
@@ -562,6 +571,24 @@
     to {
       transform: translateY(0);
       opacity: 1;
+    }
+  }
+
+  @keyframes optionShake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-4px);
+    }
+    50% {
+      transform: translateX(4px);
+    }
+    75% {
+      transform: translateX(-3px);
+    }
+    100% {
+      transform: translateX(0);
     }
   }
   /* Example slider styling (put in both theme CSS or a shared CSS) */

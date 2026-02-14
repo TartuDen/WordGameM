@@ -11,6 +11,10 @@ let sessionHistory = new PlayedWords();
 let currentWord = null;
 let englishWords = [];
 let wordsLoaded = false;
+const sessionOptionStates = new Map();
+const sessionWordOptions = new Map();
+const SWIPE_MIN_DISTANCE = 60;
+const SWIPE_MAX_VERTICAL_DRIFT = 50;
 
 document.addEventListener("DOMContentLoaded", async () => {
   await ensureWordsLoaded();
@@ -39,18 +43,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   document
     .getElementById("word")
     .addEventListener("click", pronounceWord);
-
-  document
-    .getElementById("nextArrow")
-    .addEventListener("click", () => {
-      animatePageTurn("forward", loadNextWord);
-    });
-  document
-    .getElementById("prevArrow")
-    .addEventListener("click", () => {
-      animatePageTurn("back", loadPreviousWord);
-    });
-
+  setupSwipeBackNavigation();
 });
 
 /** Load userProgress from localStorage or fallback. */
@@ -101,28 +94,6 @@ function displayWord(word) {
   synonymsEl.classList.add("hidden");
 
   generateOptions(word);
-
-  // If we are going backward in history & the word was guessed correct before, disable
-  const isFromHistory = sessionHistory.currentIndex < sessionHistory.words.length - 1;
-  const currentUserStr = localStorage.getItem("currentUser");
-  if (currentUserStr) {
-    const currentUser = JSON.parse(currentUserStr);
-    const progressObj = userProgressInMemory.find(
-      (up) => String(up.user_id) === String(currentUser.user_id)
-    );
-    let guessedCorrectly = false;
-    if (progressObj && progressObj.guessed_words) {
-      const gw = progressObj.guessed_words.find(
-        (g) => parseInt(g.word_id) === parseInt(word.id)
-      );
-      if (gw && gw.guess_correctly > 0) {
-        guessedCorrectly = true;
-      }
-    }
-    if (isFromHistory && guessedCorrectly) {
-      disableOptions();
-    }
-  }
 }
 
 /** Move forward in session history or pick a new random word. */
@@ -151,8 +122,6 @@ function loadPreviousWord() {
   const prevWord = sessionHistory.prevWord();
   if (prevWord) {
     displayWord(prevWord);
-  } else {
-    showToast("No previous words.");
   }
 }
 
@@ -199,7 +168,22 @@ function animatePageTurn(direction, callback) {
 function generateOptions(wordObj) {
   const optionsContainer = document.getElementById("options");
   optionsContainer.innerHTML = "";
+  const wordKey = String(wordObj.id);
+  let allOptions = sessionWordOptions.get(wordKey);
 
+  if (!allOptions) {
+    allOptions = buildOptionsForWord(wordObj);
+    sessionWordOptions.set(wordKey, allOptions);
+  }
+
+  allOptions.forEach((option) => {
+    const btn = buildOptionButton(option, wordObj.id);
+    optionsContainer.appendChild(btn);
+  });
+  applySessionOptionState(wordObj.id);
+}
+
+function buildOptionsForWord(wordObj) {
   // For "sentence" words: use meaning-based distractors
   if (wordObj.vocabulary && wordObj.vocabulary.includes("sentence")) {
     const correctOption = {
@@ -220,74 +204,60 @@ function generateOptions(wordObj) {
       isCorrect: false,
     }));
 
-    let allOptions = [correctOption, ...wrongOptions];
+    const allOptions = [correctOption, ...wrongOptions];
     shuffleArray(allOptions);
-
-    allOptions.forEach((option) => {
-      const btn = document.createElement("button");
-      btn.textContent = option.translations.join("\n");
-      btn.classList.add("option-btn");
-      btn.setAttribute("data-correct", option.isCorrect);
-
-      btn.addEventListener("click", () => {
-        if (option.isCorrect) {
-          // Immediately color correct button
-          btn.style.backgroundColor = "green";
-          showToast("Correct!", false); // false => success color
-          updateUserProgress(true, wordObj.id);
-          setTimeout(() => {
-            hideToast();
-            animatePageTurn("forward", loadNextWord);
-          }, 1000);
-        } else {
-          // Show "Wrong!" toast in red
-          showToast("Wrong! Try again!", true); // true => error color
-          updateUserProgress(false, wordObj.id);
-        }
-      });
-
-      optionsContainer.appendChild(btn);
-    });
-  } else {
-    // For normal words: random words of the same type
-    const correctOption = {
-      translations: wordObj.rusTranslations,
-      isCorrect: true,
-    };
-
-    const wrongWordObjects = getRandomWrongWords(wordObj.type, wordObj.id, 2);
-    const wrongOptions = wrongWordObjects.map((w) => ({
-      translations: w.rusTranslations,
-      isCorrect: false,
-    }));
-
-    let allOptions = [correctOption, ...wrongOptions];
-    shuffleArray(allOptions);
-
-    allOptions.forEach((option) => {
-      const btn = document.createElement("button");
-      btn.textContent = option.translations.join("\n");
-      btn.classList.add("option-btn");
-      btn.setAttribute("data-correct", option.isCorrect);
-
-      btn.addEventListener("click", () => {
-        if (option.isCorrect) {
-          btn.style.backgroundColor = "green";
-          showToast("Correct!", false);
-          updateUserProgress(true, wordObj.id);
-          setTimeout(() => {
-            hideToast();
-            animatePageTurn("forward", loadNextWord);
-          }, 1000);
-        } else {
-          showToast("Wrong! Try again!", true);
-          updateUserProgress(false, wordObj.id);
-        }
-      });
-
-      optionsContainer.appendChild(btn);
-    });
+    return allOptions;
   }
+
+  // For normal words: random words of the same type
+  const correctOption = {
+    translations: wordObj.rusTranslations,
+    isCorrect: true,
+  };
+  const wrongWordObjects = getRandomWrongWords(wordObj.type, wordObj.id, 2);
+  const wrongOptions = wrongWordObjects.map((w) => ({
+    translations: w.rusTranslations,
+    isCorrect: false,
+  }));
+  const allOptions = [correctOption, ...wrongOptions];
+  shuffleArray(allOptions);
+  return allOptions;
+}
+
+function buildOptionButton(option, wordId) {
+  const btn = document.createElement("button");
+  const optionKey = getOptionKey(option.translations);
+  btn.textContent = option.translations.join("\n");
+  btn.classList.add("option-btn");
+  btn.setAttribute("data-correct", option.isCorrect);
+  btn.setAttribute("data-option-key", optionKey);
+
+  btn.addEventListener("click", () => {
+    const wordState = getOrCreateWordState(wordId);
+    if (wordState.solved) return;
+
+    if (option.isCorrect) {
+      wordState.solved = true;
+      wordState.optionResults[optionKey] = "correct";
+      btn.classList.remove("option-wrong", "option-shake");
+      btn.classList.add("option-correct");
+      updateUserProgress(true, wordId);
+      disableOptions();
+      setTimeout(() => {
+        animatePageTurn("forward", loadNextWord);
+      }, 450);
+    } else {
+      wordState.optionResults[optionKey] = "wrong";
+      btn.classList.remove("option-correct");
+      btn.classList.add("option-wrong", "option-shake");
+      updateUserProgress(false, wordId);
+      setTimeout(() => {
+        btn.classList.remove("option-shake");
+      }, 220);
+    }
+  });
+
+  return btn;
 }
 
 function getRandomWrongWords(type, excludeId, count) {
@@ -319,6 +289,91 @@ function pronounceWord() {
 function showProfilePage() {
   document.getElementById("gamePage").classList.add("hidden");
   document.getElementById("profilePage").classList.remove("hidden");
+}
+
+function getOptionKey(translations) {
+  return (translations || []).join("||");
+}
+
+function getOrCreateWordState(wordId) {
+  const key = String(wordId);
+  if (!sessionOptionStates.has(key)) {
+    sessionOptionStates.set(key, {
+      solved: false,
+      optionResults: {},
+    });
+  }
+  return sessionOptionStates.get(key);
+}
+
+function applySessionOptionState(wordId) {
+  const state = sessionOptionStates.get(String(wordId));
+  if (!state) return;
+
+  const optionsContainer = document.getElementById("options");
+  const buttons = optionsContainer.querySelectorAll("button");
+  buttons.forEach((btn) => {
+    const optionKey = btn.getAttribute("data-option-key");
+    const result = state.optionResults[optionKey];
+    if (result === "wrong") {
+      btn.classList.add("option-wrong");
+      btn.classList.remove("option-correct");
+    } else if (result === "correct") {
+      btn.classList.add("option-correct");
+      btn.classList.remove("option-wrong");
+    }
+  });
+
+  if (state.solved) {
+    disableOptions();
+  }
+}
+
+function setupSwipeBackNavigation() {
+  const card = document.getElementById("wordCard");
+  if (!card) return;
+
+  let startX = 0;
+  let startY = 0;
+
+  const handleSwipeEnd = (endX, endY) => {
+    const deltaX = endX - startX;
+    const deltaY = endY - startY;
+    const isLeftSwipe = deltaX <= -SWIPE_MIN_DISTANCE;
+    const isMostlyHorizontal = Math.abs(deltaY) <= SWIPE_MAX_VERTICAL_DRIFT;
+    if (isLeftSwipe && isMostlyHorizontal) {
+      animatePageTurn("back", loadPreviousWord);
+    }
+  };
+
+  if ("PointerEvent" in window) {
+    card.addEventListener("pointerdown", (event) => {
+      startX = event.clientX;
+      startY = event.clientY;
+    });
+    card.addEventListener("pointerup", (event) => {
+      handleSwipeEnd(event.clientX, event.clientY);
+    });
+    return;
+  }
+
+  card.addEventListener(
+    "touchstart",
+    (event) => {
+      const touch = event.changedTouches[0];
+      startX = touch.clientX;
+      startY = touch.clientY;
+    },
+    { passive: true }
+  );
+  card.addEventListener(
+    "touchend",
+    (event) => {
+      const touch = event.changedTouches[0];
+      handleSwipeEnd(touch.clientX, touch.clientY);
+    },
+    { passive: true }
+  );
 }
 
 /** 
@@ -388,7 +443,7 @@ function disableOptions() {
   buttons.forEach((btn) => {
     btn.disabled = true;
     if (btn.getAttribute("data-correct") === "true") {
-      btn.style.backgroundColor = "green";
+      btn.classList.add("option-correct");
     }
   });
 }

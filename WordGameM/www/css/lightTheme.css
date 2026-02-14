@@ -415,6 +415,15 @@ hr {
 .option-btn:hover {
   background-color: #17A085;
 }
+.option-btn.option-wrong {
+  color: #e53935;
+}
+.option-btn.option-correct {
+  color: #1b8f3a;
+}
+.option-btn.option-shake {
+  animation: optionShake 0.22s ease;
+}
 
 /* Toast for correct/wrong feedback */
 .toast {
@@ -552,6 +561,24 @@ hr {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes optionShake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
