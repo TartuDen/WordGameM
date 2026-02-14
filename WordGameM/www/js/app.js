@@ -29,9 +29,17 @@ document.addEventListener("DOMContentLoaded", async () => {
   document
     .getElementById("switchProfileIcon")
     .addEventListener("click", () => {
-      signOutUser().catch(() => {
-        setSyncStatus("Sign-out failed", "error", 1500);
-      });
+      const firebaseUser = getCurrentUser();
+      if (firebaseUser) {
+        signOutUser().catch(() => {
+          setSyncStatus("Sign-out failed", "error", 1500);
+        });
+        return;
+      }
+
+      localStorage.removeItem("currentUser");
+      document.getElementById("gamePage").classList.add("hidden");
+      document.getElementById("profilePage").classList.remove("hidden");
     });
 
   document

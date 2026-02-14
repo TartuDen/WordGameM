@@ -16,6 +16,24 @@ import { setSyncStatus } from "./syncStatus.js";
 /** DOM Ready **/
 document.addEventListener("DOMContentLoaded", async () => {
   await ensureWordsLoaded();
+  const isCordovaRuntime =
+    Boolean(window.cordova) ||
+    window.location.protocol === "file:" ||
+    window.location.href.includes("/android_asset/");
+  const offlineBtn = document.getElementById("continueOfflineBtn");
+
+  if (isCordovaRuntime) {
+    const signInBtn = document.getElementById("googleSignInBtn");
+    const sectionTitle = document.querySelector(".auth-section .section-title");
+    if (signInBtn) signInBtn.classList.add("hidden");
+    if (sectionTitle) sectionTitle.textContent = "Mobile build: continue in offline mode";
+    if (offlineBtn) {
+      offlineBtn.classList.remove("hidden");
+      offlineBtn.addEventListener("click", startOfflineSession);
+    }
+    return;
+  }
+
   await initAuth(handleAuthState);
 
   const googleSignInBtn = document.getElementById("googleSignInBtn");
@@ -34,7 +52,36 @@ document.addEventListener("DOMContentLoaded", async () => {
       signOutUser();
     });
   }
+  if (offlineBtn) {
+    offlineBtn.addEventListener("click", startOfflineSession);
+  }
 });
+
+function startOfflineSession() {
+  const existing = localStorage.getItem("currentUser");
+  const offlineUser = existing
+    ? JSON.parse(existing)
+    : {
+        user_id: "offline-local",
+        user_name: "Offline Player",
+        user_reg_data: new Date().toLocaleDateString(),
+        vocabulary: [],
+        avatar: "",
+      };
+
+  localStorage.setItem("currentUser", JSON.stringify(offlineUser));
+  if (!localStorage.getItem("userProgressList")) {
+    localStorage.setItem(
+      "userProgressList",
+      JSON.stringify([{ user_id: offlineUser.user_id, guessed_words: [] }])
+    );
+  }
+
+  document.getElementById("profilePage").classList.add("hidden");
+  document.getElementById("gamePage").classList.remove("hidden");
+  displayUserInfo();
+  showWord();
+}
 
 async function handleAuthState(user) {
   const signInBtn = document.getElementById("googleSignInBtn");

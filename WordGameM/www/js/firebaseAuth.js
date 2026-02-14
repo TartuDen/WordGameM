@@ -7,7 +7,6 @@ import {
   onAuthStateChanged,
   setPersistence,
   signInWithPopup,
-  signInWithRedirect,
   signOut,
 } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
 import { auth } from "./firebaseClient.js";
@@ -37,12 +36,7 @@ export async function initAuth(onUserChanged) {
 
 export async function signInWithGoogle() {
   const provider = new GoogleAuthProvider();
-  try {
-    return await signInWithPopup(auth, provider);
-  } catch (err) {
-    console.warn("Popup sign-in failed, falling back to redirect:", err?.message || err);
-    return signInWithRedirect(auth, provider);
-  }
+  return signInWithPopup(auth, provider);
 }
 
 export function signOutUser() {
