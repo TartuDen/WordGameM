@@ -4,27 +4,45 @@ document.addEventListener("DOMContentLoaded", onDomLoaded);
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDomLoaded() {
-  const storedTheme = localStorage.getItem("selectedTheme") || "light";
-  const lightBtn = document.getElementById("themeLightBtn");
-  const darkBtn = document.getElementById("themeDarkBtn");
+  const storedPalette = localStorage.getItem("selectedPalette") || "teal";
+  const paletteButtons = Array.from(document.querySelectorAll(".palette-btn"));
 
-  if (lightBtn && darkBtn) {
-    if (storedTheme === "dark") {
-      darkBtn.classList.add("active");
-    } else {
-      lightBtn.classList.add("active");
-    }
+  applyStyle("clean");
+  applyPalette(storedPalette, paletteButtons);
 
-    [lightBtn, darkBtn].forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const newTheme = btn.getAttribute("data-theme") || "light";
-        localStorage.setItem("selectedTheme", newTheme);
-        location.reload();
-      });
+  paletteButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const newPalette = btn.getAttribute("data-palette") || "teal";
+      localStorage.setItem("selectedPalette", newPalette);
+      applyPalette(newPalette, paletteButtons);
     });
-  }
+  });
 
   // ... any other DOMContentLoaded logic you need ...
+}
+
+function applyStyle(styleName) {
+  document.body.classList.remove("style-playful", "style-clean", "style-bold");
+  document.body.classList.add(`style-${styleName}`);
+}
+
+function applyPalette(paletteName, buttons) {
+  const allowedPalettes = ["teal", "sunset", "aurora", "lime"];
+  const resolvedPalette = allowedPalettes.includes(paletteName)
+    ? paletteName
+    : "teal";
+  document.body.classList.remove(
+    "palette-teal",
+    "palette-sunset",
+    "palette-aurora",
+    "palette-lime"
+  );
+  document.body.classList.add(`palette-${resolvedPalette}`);
+
+  buttons.forEach((btn) => {
+    const buttonPalette = btn.getAttribute("data-palette");
+    btn.classList.toggle("active", buttonPalette === resolvedPalette);
+  });
 }
 
 function onDeviceReady() {

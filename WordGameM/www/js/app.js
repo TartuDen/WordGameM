@@ -2,7 +2,7 @@
 
 import { loadWords } from "./wordsRepository.js";
 import { userProgressList, PlayedWords } from "./mockUser.js";
-import { getCurrentUser } from "./firebaseAuth.js";
+import { getCurrentUser, signOutUser } from "./firebaseAuth.js";
 import { saveUserProfile, upsertCloudProgress } from "./cloudRepository.js";
 import { setSyncStatus } from "./syncStatus.js";
 
@@ -28,7 +28,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document
     .getElementById("switchProfileIcon")
-    .addEventListener("click", showProfilePage);
+    .addEventListener("click", () => {
+      signOutUser().catch(() => {
+        setSyncStatus("Sign-out failed", "error", 1500);
+      });
+    });
 
   document
     .getElementById("showMeaningBtn")
@@ -284,11 +288,6 @@ function pronounceWord() {
   } else {
     alert("Text-to-speech is not supported on this device.");
   }
-}
-
-function showProfilePage() {
-  document.getElementById("gamePage").classList.add("hidden");
-  document.getElementById("profilePage").classList.remove("hidden");
 }
 
 function getOptionKey(translations) {

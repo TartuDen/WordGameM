@@ -15,10 +15,19 @@
   --accent-2: #26b3a7;
   --card: rgba(255, 252, 240, 0.92);
   --card-border: rgba(255, 165, 91, 0.35);
+  --ui-font-body: "Baloo 2", sans-serif;
+  --ui-font-display: "Kalam", cursive;
+  --ui-radius-card: 18px;
+  --ui-radius-button: 10px;
+  --ui-shadow-card: 0 10px 24px rgba(20, 20, 20, 0.14);
+  --ui-shadow-button: 0 6px 12px rgba(19, 19, 19, 0.1);
+  --ui-button-transform: none;
+  --ui-word-transform: uppercase;
+  --ui-word-spacing: 0.02em;
 }
 
 body {
-  font-family: "Baloo 2", sans-serif;
+  font-family: var(--ui-font-body);
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
   -webkit-user-select: none;
@@ -35,15 +44,48 @@ body {
   color: var(--ink-1);
 }
 
+body.style-playful {
+  --ui-font-body: "Baloo 2", sans-serif;
+  --ui-font-display: "Kalam", cursive;
+  --ui-radius-card: 18px;
+  --ui-radius-button: 10px;
+  --ui-shadow-card: 0 10px 24px rgba(20, 20, 20, 0.14);
+  --ui-button-transform: none;
+  --ui-word-transform: uppercase;
+  --ui-word-spacing: 0.02em;
+}
+
+body.style-clean {
+  --ui-font-body: "Manrope", sans-serif;
+  --ui-font-display: "Manrope", sans-serif;
+  --ui-radius-card: 12px;
+  --ui-radius-button: 8px;
+  --ui-shadow-card: 0 10px 24px rgba(19, 41, 63, 0.11);
+  --ui-button-transform: none;
+  --ui-word-transform: none;
+  --ui-word-spacing: 0;
+}
+
+body.style-bold {
+  --ui-font-body: "Baloo 2", sans-serif;
+  --ui-font-display: "Bungee", cursive;
+  --ui-radius-card: 22px;
+  --ui-radius-button: 14px;
+  --ui-shadow-card: 0 14px 30px rgba(19, 19, 19, 0.2);
+  --ui-button-transform: uppercase;
+  --ui-word-transform: uppercase;
+  --ui-word-spacing: 0.05em;
+}
+
 /* --- PROFILE PAGE CONTAINER --- */
 .profile-page {
   max-width: 560px;
   margin: 24px auto;
   background-color: var(--card);
   padding: 22px 22px 26px;
-  border-radius: 22px;
+  border-radius: var(--ui-radius-card);
   text-align: center;
-  box-shadow: 0 12px 30px rgba(20, 20, 20, 0.15);
+  box-shadow: var(--ui-shadow-card);
   border: 1px solid var(--card-border);
   backdrop-filter: blur(6px);
   animation: floatIn 520ms ease;
@@ -51,7 +93,7 @@ body {
 
 .profile-hero h1 {
   margin: 0 0 6px;
-  font-family: "Kalam", cursive;
+  font-family: var(--ui-font-display);
   font-size: 2.4rem;
   letter-spacing: 0.5px;
   color: var(--accent-1);
@@ -138,11 +180,12 @@ button {
   cursor: pointer;
   font-size: 1rem;
   padding: 12px 20px;
-  border-radius: 8px;
+  border-radius: var(--ui-radius-button);
   border: none;
   margin-top: 5px;
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 6px 12px rgba(19, 19, 19, 0.1);
+  box-shadow: var(--ui-shadow-button);
+  text-transform: var(--ui-button-transform);
 }
 
 button:active {
@@ -183,6 +226,48 @@ button:active {
 }
 
 .theme-btn.active {
+  background: linear-gradient(135deg, #26b3a7, #6de5d8);
+  color: #fff;
+  border-color: transparent;
+}
+
+.header-style-control {
+  margin: 12px auto 2px;
+  width: min(100%, 390px);
+  text-align: left;
+}
+
+.header-style-control.compact {
+  margin: 0 28px 8px 0;
+}
+
+.header-style-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin: 0 0 6px;
+}
+
+.style-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.palette-btn {
+  background: #fff;
+  border: 1px solid rgba(38, 179, 167, 0.25);
+  color: var(--ink-1);
+  box-shadow: none;
+  margin-top: 0;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  text-transform: none;
+}
+
+.palette-btn.active {
   background: linear-gradient(135deg, #26b3a7, #6de5d8);
   color: #fff;
   border-color: transparent;
@@ -285,10 +370,10 @@ hr {
 .user-info-card {
   background: #FFEFC2;
   padding: 10px;
-  border-radius: 16px;
+  border-radius: var(--ui-radius-card);
   max-width: 400px;
   width: 90%;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--ui-shadow-card);
   text-align: left;
   position: relative;
   font-size: 0.95rem;
@@ -342,19 +427,21 @@ hr {
 .word-card {
   background: #FFFDA3; /* bright pastel yellow */
   padding: 20px;
-  border-radius: 16px;
+  border-radius: var(--ui-radius-card);
   max-width: 400px;
   margin: 30px auto;
   text-align: center;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--ui-shadow-card);
 }
 
 #word {
+  font-family: var(--ui-font-display);
   font-size: 2.2rem;
   color: #16A085; /* teal text for the main word */
   margin-bottom: 10px;
   cursor: pointer;
-  text-transform: uppercase;
+  text-transform: var(--ui-word-transform);
+  letter-spacing: var(--ui-word-spacing);
 }
 
 #transcription {
@@ -403,7 +490,7 @@ hr {
   color: #fff;
   font-size: 1.2rem;
   border: none;
-  border-radius: 8px;
+  border-radius: var(--ui-radius-button);
   margin: 5px;
   padding: 15px 20px;
   cursor: pointer;

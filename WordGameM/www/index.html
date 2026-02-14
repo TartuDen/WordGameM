@@ -8,27 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Kalam:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Bungee&family=Kalam:wght@400;700&family=Manrope:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!--
-      Dynamically choose which CSS file to load (light or dark)
-      based on localStorage. This inline script runs before rendering.
-    -->
-    <script>
-      (function() {
-        var storedTheme = localStorage.getItem('selectedTheme') || 'light';
-        var cssFile = (storedTheme === 'dark') 
-          ? 'css/darkTheme.css'
-          : 'css/lightTheme.css';
-
-        var linkEl = document.createElement('link');
-        linkEl.rel = 'stylesheet';
-        linkEl.href = cssFile;
-        document.head.appendChild(linkEl);
-      })();
-    </script>
+    <link rel="stylesheet" href="css/darkTheme.css" />
   </head>
   <body>
     <!-- 1) Profile Page -->
@@ -41,16 +25,17 @@
           <span class="badge">Progress Sync</span>
           <span class="badge">Quick Rounds</span>
         </div>
-      </div>
-
-      <!-- THEME TOGGLE -->
-      <div class="theme-section">
-        <p class="section-title">Theme</p>
-        <div class="theme-toggle">
-          <button id="themeLightBtn" class="theme-btn" data-theme="light">Light</button>
-          <button id="themeDarkBtn" class="theme-btn" data-theme="dark">Dark</button>
+        <div class="header-style-control">
+          <p class="header-style-label">Palette</p>
+          <div class="style-toggle">
+            <button class="palette-btn" data-palette="teal">Teal</button>
+            <button class="palette-btn" data-palette="sunset">Sunset</button>
+            <button class="palette-btn" data-palette="aurora">Aurora</button>
+            <button class="palette-btn" data-palette="lime">Lime</button>
+          </div>
         </div>
       </div>
+
       <hr />
 
       <!-- Google Sign-In -->
@@ -71,7 +56,16 @@
       <!-- User Info Card -->
       <div id="userInfo" class="user-info">
         <div class="user-info-card kids-style">
-          <span id="switchProfileIcon" title="Switch Profile">🔄</span>
+          <span id="switchProfileIcon" title="Sign out">🔄</span>
+          <div class="header-style-control compact">
+            <p class="header-style-label">Palette</p>
+            <div class="style-toggle">
+              <button class="palette-btn" data-palette="teal">Teal</button>
+              <button class="palette-btn" data-palette="sunset">Sunset</button>
+              <button class="palette-btn" data-palette="aurora">Aurora</button>
+              <button class="palette-btn" data-palette="lime">Lime</button>
+            </div>
+          </div>
           <div class="profile-header">
             <img id="userAvatar" src="" alt="Avatar" class="user-avatar" />
             <h2 id="userNameDisplay"></h2>
@@ -115,4 +109,3 @@
     <script type="module" src="js/app.js"></script>
   </body>
 </html>
-
